@@ -207,7 +207,7 @@ export default function PracticePreview() {
                           <span>Tekrar dene!</span>
                         </div>
                         <div className="text-base text-slate-600">
-                          Doğru cevap: {question.num1 × question.num2}
+                          Doğru cevap: {question.num1 * question.num2}
                         </div>
                       </div>
                     )}
