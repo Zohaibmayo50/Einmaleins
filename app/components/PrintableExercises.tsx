@@ -148,7 +148,7 @@ export default function PrintableExercises() {
                 <div class="question">
                   <div class="question-number">Soru ${i + 1}</div>
                   <div class="equation">${q.num1} × ${q.num2} = </div>
-                  <div class="answer-line">${includeAnswers ? q.answer : ''}</div>
+                  <div class="answer-line"></div>
                 </div>
               `).join('')}
             </div>
