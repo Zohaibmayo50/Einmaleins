@@ -170,26 +170,49 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
         </div>
       </section>
 
-      {/* Number Context & Meaning */}
-      <section className="section-container bg-white">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
-            {number} Sayısı Çarpmada Ne Anlama Gelir?
-          </h2>
-          
-          <p className="text-lg text-slate-700 leading-relaxed mb-6">
-            {getNumberMeaning()}
-          </p>
-          
-          <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-6 border-2 border-blue-100">
-            <div className="flex items-start gap-4">
-              <span className="text-4xl">💡</span>
-              <div>
-                <h3 className="text-xl font-semibold text-slate-900 mb-2">Basit Açıklama</h3>
-                <p className="text-slate-700 leading-relaxed">
-                  {number} × 4 gördüğünüzde şunu düşünün: "4 grubum var ve her grupta {number} öğe var." 
-                  Yani {number} × 4 = {number} + {number} + {number} + {number} = {number * 4}.
-                </p>
+      {/* Number Context & Meaning + Table Combined */}
+      <section className="section-container bg-white py-12">
+        <div className="max-w-6xl mx-auto">
+          <div className="grid lg:grid-cols-2 gap-8 items-start">
+            {/* Left: Explanation */}
+            <div>
+              <h2 className="text-3xl font-bold text-slate-900 mb-4">
+                {number} Sayısı Çarpmada Ne Anlama Gelir?
+              </h2>
+              
+              <p className="text-base text-slate-700 leading-relaxed mb-6">
+                {getNumberMeaning()}
+              </p>
+              
+              <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-5 border-2 border-blue-100">
+                <div className="flex items-start gap-3">
+                  <span className="text-3xl">💡</span>
+                  <div>
+                    <h3 className="text-lg font-semibold text-slate-900 mb-2">Basit Açıklama</h3>
+                    <p className="text-sm text-slate-700 leading-relaxed">
+                      {number} × 4 gördüğünüzde şunu düşünün: "4 grubum var ve her grupta {number} öğe var." 
+                      Yani {number} × 4 = {number} + {number} + {number} + {number} = {number * 4}.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Right: Multiplication Table */}
+            <div className="lg:sticky lg:top-8">
+              <h2 className="text-2xl font-bold text-slate-900 mb-4 text-center lg:text-left">
+                {number} Çarpım Tablosu
+              </h2>
+              
+              <div className={`bg-gradient-to-br ${colors[colorIndex]} rounded-2xl p-6 text-white shadow-xl`}>
+                <div className="space-y-2">
+                  {[...Array(10)].map((_, i) => (
+                    <div key={i} className="flex justify-between items-center bg-white/20 backdrop-blur-sm rounded-lg px-5 py-2.5 hover:bg-white/30 transition-colors">
+                      <span className="font-medium text-base">{number} × {i + 1}</span>
+                      <span className="font-bold text-lg">= {number * (i + 1)}</span>
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
           </div>
@@ -233,34 +256,6 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
                 </p>
               </div>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* The Multiplication Table */}
-      <section className="section-container bg-gradient-to-br from-slate-50 to-gray-100">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
-            {number} Çarpım Tablosu
-          </h2>
-          
-          <p className="text-lg text-slate-700 mb-8 text-center leading-relaxed">
-            İşte {number} için tam çarpım tablosu, {number} × 1'den {number} × 10'a kadar.
-          </p>
-          
-          <div className={`bg-gradient-to-br ${colors[colorIndex]} rounded-2xl p-8 text-white shadow-xl max-w-md mx-auto`}>
-            <div className="text-center mb-6">
-              <div className="text-3xl font-bold">{number} Çarpım Tablosu</div>
-            </div>
-            
-            <div className="space-y-3">
-              {[...Array(10)].map((_, i) => (
-                <div key={i} className="flex justify-between items-center bg-white/20 backdrop-blur-sm rounded-lg px-6 py-3 text-lg hover:bg-white/30 transition-colors">
-                  <span className="font-medium">{number} × {i + 1}</span>
-                  <span className="font-bold text-xl">= {number * (i + 1)}</span>
-                </div>
-              ))}
-            </div>
           </div>
         </div>
       </section>
