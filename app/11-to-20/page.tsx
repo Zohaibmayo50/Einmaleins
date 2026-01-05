@@ -1,25 +1,14 @@
+import RangePage from '../components/RangePage'
+
 export default function MultiplicationTable11to20() {
   return (
-    <main className="min-h-screen bg-gray-50">
-      <div className="section-container">
-        <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
-            11'den 20'ye Çarpım Tablosu
-          </h1>
-          
-          <p className="text-lg text-slate-700 mb-8">
-            Bu sayfa, 11'den 20'ye kadar olan çarpım tablosunu detaylı bir şekilde 
-            öğrenmeniz için tasarlanmıştır.
-          </p>
-          
-          <div className="bg-purple-50 border-l-4 border-purple-500 p-6 rounded-r-lg">
-            <p className="text-slate-700">
-              <strong>Not:</strong> Bu sayfa yapım aşamasındadır. Yakında detaylı 
-              çarpım tablosu içeriği eklenecektir.
-            </p>
-          </div>
-        </div>
-      </div>
-    </main>
+    <RangePage
+      rangeStart={11}
+      rangeEnd={20}
+      nextRangeUrl="/21-to-30"
+      prevRangeUrl="/1-to-10"
+      difficultyLevel="intermediate"
+      difficultyColor="from-yellow-50 to-orange-50"
+    />
   )
 }

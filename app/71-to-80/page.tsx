@@ -1,25 +1,14 @@
+import RangePage from '../components/RangePage'
+
 export default function MultiplicationTable71to80() {
   return (
-    <main className="min-h-screen bg-gray-50">
-      <div className="section-container">
-        <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
-            71'den 80'e Çarpım Tablosu
-          </h1>
-          
-          <p className="text-lg text-slate-700 mb-8">
-            Bu sayfa, 71'den 80'e kadar olan çarpım tablosunu detaylı bir şekilde 
-            öğrenmeniz için tasarlanmıştır.
-          </p>
-          
-          <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 rounded-r-lg">
-            <p className="text-slate-700">
-              <strong>Not:</strong> Bu sayfa yapım aşamasındadır. Yakında detaylı 
-              çarpım tablosu içeriği eklenecektir.
-            </p>
-          </div>
-        </div>
-      </div>
-    </main>
+    <RangePage
+      rangeStart={71}
+      rangeEnd={80}
+      nextRangeUrl="/81-to-90"
+      prevRangeUrl="/61-to-70"
+      difficultyLevel="advanced"
+      difficultyColor="from-cyan-50 to-teal-50"
+    />
   )
 }
