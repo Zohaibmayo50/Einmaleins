@@ -2,6 +2,8 @@
 
 import Link from 'next/link'
 import Footer from './Footer'
+import PracticePreview from './PracticePreview'
+import PrintableExercises from './PrintableExercises'
 
 interface NumberPageProps {
   number: number
@@ -258,6 +260,12 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
           </div>
         </div>
       </section>
+
+      {/* Practice Section */}
+      <PracticePreview rangeStart={number} rangeEnd={number} />
+
+      {/* Printable Worksheets */}
+      <PrintableExercises rangeStart={number} rangeEnd={number} />
 
       {/* How to Practice */}
       <section className="section-container bg-white">
