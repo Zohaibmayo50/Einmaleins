@@ -149,22 +149,22 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
       {/* Hero Section */}
       <section className="section-container bg-gradient-to-br from-blue-50 to-indigo-100 relative overflow-hidden">
         <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-10 left-10 text-9xl font-bold text-indigo-600">{number}</div>
-          <div className="absolute bottom-10 right-10 text-9xl font-bold text-blue-600">×</div>
+          <div className="absolute top-5 sm:top-10 left-5 sm:left-10 text-6xl sm:text-9xl font-bold text-indigo-600">{number}</div>
+          <div className="absolute bottom-5 sm:bottom-10 right-5 sm:right-10 text-6xl sm:text-9xl font-bold text-blue-600">×</div>
         </div>
         
         <div className="max-w-4xl mx-auto text-center relative z-10">
-          <div className="inline-block bg-white/80 backdrop-blur-sm rounded-2xl px-8 py-4 mb-6 shadow-lg">
-            <span className="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">
+          <div className="inline-block bg-white/80 backdrop-blur-sm rounded-2xl px-6 sm:px-8 py-3 sm:py-4 mb-4 sm:mb-6 shadow-lg">
+            <span className="text-5xl sm:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">
               {number}
             </span>
           </div>
           
-          <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-slate-900 mb-4 sm:mb-6 px-4">
             {number} Çarpım Tablosu
           </h1>
           
-          <p className="text-lg md:text-xl text-slate-700 leading-relaxed max-w-3xl mx-auto">
+          <p className="text-base sm:text-lg md:text-xl text-slate-700 leading-relaxed max-w-3xl mx-auto px-4">
             Bu sayfa, {number} çarpım tablosunu öğrenmenize ve anlamanıza yardımcı olacaktır. 
             {number}'in çarpmada nasıl davrandığını keşfedecek, desenlerini görecek ve 
             ustalaşmak için pratik yollar öğreneceksiniz. {number} çarpım tablosu, her öğrencinin 
@@ -174,26 +174,26 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
       </section>
 
       {/* Number Context & Meaning + Table Combined */}
-      <section className="section-container bg-white py-12">
-        <div className="max-w-6xl mx-auto">
-          <div className="grid lg:grid-cols-2 gap-8 items-start">
+      <section className="section-container bg-white py-8 sm:py-12">
+        <div className="max-w-6xl mx-auto px-4">
+          <div className="grid lg:grid-cols-2 gap-6 sm:gap-8 items-start">
             {/* Left: Explanation */}
-            <div className="space-y-6">
+            <div className="space-y-5 sm:space-y-6">
               <div>
-                <h2 className="text-3xl font-bold text-slate-900 mb-4">
+                <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-3 sm:mb-4">
                   {number} Sayısı Çarpmada Ne Anlama Gelir?
                 </h2>
                 
-                <p className="text-base text-slate-700 leading-relaxed mb-6">
+                <p className="text-sm sm:text-base text-slate-700 leading-relaxed mb-4 sm:mb-6">
                   {getNumberMeaning()}
                 </p>
                 
-                <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-5 border-2 border-blue-100">
-                  <div className="flex items-start gap-3">
-                    <span className="text-3xl">💡</span>
+                <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-4 sm:p-5 border-2 border-blue-100">
+                  <div className="flex items-start gap-2 sm:gap-3">
+                    <span className="text-2xl sm:text-3xl">💡</span>
                     <div>
-                      <h3 className="text-lg font-semibold text-slate-900 mb-2">Basit Açıklama</h3>
-                      <p className="text-sm text-slate-700 leading-relaxed">
+                      <h3 className="text-base sm:text-lg font-semibold text-slate-900 mb-1 sm:mb-2">Basit Açıklama</h3>
+                      <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
                         {number} × 4 gördüğünüzde şunu düşünün: "4 grubum var ve her grupta {number} öğe var." 
                         Yani {number} × 4 = {number} + {number} + {number} + {number} = {number * 4}.
                       </p>
@@ -203,11 +203,11 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
               </div>
 
               <div>
-                <h2 className="text-3xl font-bold text-slate-900 mb-4">
+                <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-3 sm:mb-4">
                   {number} Çarpım Tablosunu Öğrenmek Neden Önemlidir
                 </h2>
                 
-                <p className="text-base text-slate-700 leading-relaxed">
+                <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
                   {getWhyImportant()}
                 </p>
               </div>
@@ -215,16 +215,16 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
 
             {/* Right: Multiplication Table */}
             <div className="lg:sticky lg:top-8">
-              <h2 className="text-2xl font-bold text-slate-900 mb-4 text-center lg:text-left">
+              <h2 className="text-xl sm:text-2xl font-bold text-slate-900 mb-3 sm:mb-4 text-center lg:text-left">
                 {number} Çarpım Tablosu
               </h2>
               
-              <div className={`bg-gradient-to-br ${colors[colorIndex]} rounded-2xl p-6 text-white shadow-xl`}>
-                <div className="space-y-2">
+              <div className={`bg-gradient-to-br ${colors[colorIndex]} rounded-2xl p-4 sm:p-6 text-white shadow-xl`}>
+                <div className="space-y-1.5 sm:space-y-2">
                   {[...Array(10)].map((_, i) => (
-                    <div key={i} className="flex justify-between items-center bg-white/20 backdrop-blur-sm rounded-lg px-5 py-2.5 hover:bg-white/30 transition-colors">
-                      <span className="font-medium text-base">{number} × {i + 1}</span>
-                      <span className="font-bold text-lg">= {number * (i + 1)}</span>
+                    <div key={i} className="flex justify-between items-center bg-white/20 backdrop-blur-sm rounded-lg px-3 sm:px-5 py-2 sm:py-2.5 hover:bg-white/30 transition-colors">
+                      <span className="font-medium text-sm sm:text-base">{number} × {i + 1}</span>
+                      <span className="font-bold text-base sm:text-lg">= {number * (i + 1)}</span>
                     </div>
                   ))}
                 </div>
@@ -235,25 +235,25 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
       </section>
 
       {/* Patterns & Observations */}
-      <section className="section-container bg-white py-12">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-bold text-slate-900 mb-4">
+      <section className="section-container bg-white py-8 sm:py-12">
+        <div className="max-w-6xl mx-auto px-4">
+          <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-3 sm:mb-4">
             {number} Çarpım Tablosundaki Desenler
           </h2>
           
-          <p className="text-base text-slate-700 mb-6 leading-relaxed">
+          <p className="text-sm sm:text-base text-slate-700 mb-4 sm:mb-6 leading-relaxed">
             Desenleri anlamak öğrenmeyi daha kolay ve eğlenceli hale getirir. {number} çarpım tablosu, 
             salt ezberleme yapmadan hatırlamanıza yardımcı olabilecek güzel desenlere sahiptir.
           </p>
           
-          <div className="grid md:grid-cols-3 gap-4">
+          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-3 sm:gap-4">
             {getPatterns().map((pattern, index) => (
-              <div key={index} className="bg-gradient-to-br from-amber-50 to-orange-50 rounded-xl p-4 border-2 border-amber-100">
-                <h3 className="text-lg font-semibold text-slate-900 mb-2 flex items-center gap-2">
-                  <span className="text-xl">{index === 0 ? '🔄' : index === 1 ? '📊' : '✨'}</span>
+              <div key={index} className="bg-gradient-to-br from-amber-50 to-orange-50 rounded-xl p-3 sm:p-4 border-2 border-amber-100">
+                <h3 className="text-base sm:text-lg font-semibold text-slate-900 mb-1.5 sm:mb-2 flex items-center gap-2">
+                  <span className="text-lg sm:text-xl">{index === 0 ? '🔄' : index === 1 ? '📊' : '✨'}</span>
                   {pattern.title}
                 </h3>
-                <p className="text-sm text-slate-700 leading-relaxed">
+                <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
                   {pattern.description}
                 </p>
               </div>
@@ -273,23 +273,23 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
 
       {/* How to Practice */}
       <section className="section-container bg-white">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-slate-900 mb-4 sm:mb-6">
             {number} Çarpım Tablosu Nasıl Pratik Yapılır
           </h2>
           
-          <p className="text-lg text-slate-700 mb-8 leading-relaxed">
+          <p className="text-base sm:text-lg text-slate-700 mb-6 sm:mb-8 leading-relaxed">
             Çarpım tablolarını öğrenmek doğru stratejilerle tutarlı pratik gerektirir. 
             İşte özellikle {number} çarpım tablosunda ustalaşmak için kanıtlanmış yöntemler:
           </p>
           
-          <div className="grid gap-4">
+          <div className="grid gap-3 sm:gap-4">
             {getPracticeStrategies().map((strategy, index) => (
-              <div key={index} className="flex items-start gap-4 bg-gradient-to-br from-green-50 to-teal-50 rounded-xl p-5 border-2 border-green-100">
-                <div className="flex-shrink-0 w-8 h-8 rounded-full bg-green-500 text-white flex items-center justify-center font-bold">
+              <div key={index} className="flex items-start gap-3 sm:gap-4 bg-gradient-to-br from-green-50 to-teal-50 rounded-xl p-4 sm:p-5 border-2 border-green-100">
+                <div className="flex-shrink-0 w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-green-500 text-white flex items-center justify-center font-bold text-sm sm:text-base">
                   {index + 1}
                 </div>
-                <p className="text-slate-700 leading-relaxed pt-1">
+                <p className="text-sm sm:text-base text-slate-700 leading-relaxed pt-0.5 sm:pt-1">
                   {strategy}
                 </p>
               </div>
@@ -300,26 +300,26 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
 
       {/* Common Mistakes */}
       <section className="section-container bg-gradient-to-br from-slate-50 to-gray-100">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-slate-900 mb-4 sm:mb-6">
             {number} Tablosunu Öğrenirken Yapılan Yaygın Hatalar
           </h2>
           
-          <p className="text-lg text-slate-700 mb-8 leading-relaxed">
+          <p className="text-base sm:text-lg text-slate-700 mb-6 sm:mb-8 leading-relaxed">
             Birçok öğrenci bu tabloyu öğrenirken benzer hatalar yapar. Bu yaygın hataların 
             farkında olmak, onlardan kaçınmanıza ve daha verimli öğrenmenize yardımcı olacaktır.
           </p>
           
-          <div className="space-y-6">
+          <div className="space-y-4 sm:space-y-6">
             {getCommonMistakes().map((item, index) => (
-              <div key={index} className="bg-white rounded-xl p-6 border-l-4 border-red-500 shadow-md">
-                <div className="flex items-start gap-4">
-                  <span className="text-3xl">⚠️</span>
+              <div key={index} className="bg-white rounded-xl p-4 sm:p-6 border-l-4 border-red-500 shadow-md">
+                <div className="flex items-start gap-3 sm:gap-4">
+                  <span className="text-2xl sm:text-3xl">⚠️</span>
                   <div>
-                    <h3 className="text-lg font-semibold text-slate-900 mb-2">
+                    <h3 className="text-base sm:text-lg font-semibold text-slate-900 mb-1.5 sm:mb-2">
                       {item.mistake}
                     </h3>
-                    <p className="text-slate-700 leading-relaxed">
+                    <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
                       <span className="font-semibold text-green-600">Çözüm:</span> {item.solution}
                     </p>
                   </div>
@@ -332,30 +332,30 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
 
       {/* Related Multiplication Tables */}
       <section className="section-container bg-white">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-slate-900 mb-4 sm:mb-6">
             İlgili Çarpım Tabloları
           </h2>
           
-          <p className="text-lg text-slate-700 mb-8 leading-relaxed">
+          <p className="text-base sm:text-lg text-slate-700 mb-6 sm:mb-8 leading-relaxed">
             {number} çarpım tablosu daha büyük bir öğrenme sisteminin parçasıdır. 
             Aynı aralıktaki diğer tabloları keşfedebilir veya bir sonraki mantıksal sayıya geçebilirsiniz.
           </p>
           
-          <div className="grid md:grid-cols-2 gap-6">
+          <div className="grid sm:grid-cols-2 gap-4 sm:gap-6">
             {number > 1 && (
               <Link
                 href={`/number/${number - 1}`}
-                className="block bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-6 border-2 border-blue-200 hover:border-blue-400 hover:shadow-lg transition-all group"
+                className="block bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-4 sm:p-6 border-2 border-blue-200 hover:border-blue-400 hover:shadow-lg transition-all group"
               >
                 <div className="flex items-center justify-between">
                   <div>
-                    <div className="text-sm text-slate-600 mb-1">← Önceki Sayı</div>
-                    <div className="text-2xl font-bold text-slate-900">
+                    <div className="text-xs sm:text-sm text-slate-600 mb-1">← Önceki Sayı</div>
+                    <div className="text-lg sm:text-2xl font-bold text-slate-900">
                       {number - 1} Çarpım Tablosu
                     </div>
                   </div>
-                  <svg className="w-6 h-6 text-blue-600 group-hover:-translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 sm:w-6 sm:h-6 text-blue-600 group-hover:-translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
                   </svg>
                 </div>
@@ -365,16 +365,16 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
             {number < 100 && (
               <Link
                 href={`/number/${number + 1}`}
-                className="block bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl p-6 border-2 border-purple-200 hover:border-purple-400 hover:shadow-lg transition-all group"
+                className="block bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl p-4 sm:p-6 border-2 border-purple-200 hover:border-purple-400 hover:shadow-lg transition-all group"
               >
                 <div className="flex items-center justify-between">
                   <div>
-                    <div className="text-sm text-slate-600 mb-1">Sonraki Sayı →</div>
-                    <div className="text-2xl font-bold text-slate-900">
+                    <div className="text-xs sm:text-sm text-slate-600 mb-1">Sonraki Sayı →</div>
+                    <div className="text-lg sm:text-2xl font-bold text-slate-900">
                       {number + 1} Çarpım Tablosu
                     </div>
                   </div>
-                  <svg className="w-6 h-6 text-purple-600 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 sm:w-6 sm:h-6 text-purple-600 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                   </svg>
                 </div>
@@ -383,19 +383,19 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
             
             <Link
               href={`/${rangeStart}-to-${rangeEnd}`}
-              className="block bg-gradient-to-br from-green-50 to-teal-50 rounded-xl p-6 border-2 border-green-200 hover:border-green-400 hover:shadow-lg transition-all group md:col-span-2"
+              className="block bg-gradient-to-br from-green-50 to-teal-50 rounded-xl p-4 sm:p-6 border-2 border-green-200 hover:border-green-400 hover:shadow-lg transition-all group sm:col-span-2"
             >
               <div className="flex items-center justify-between">
                 <div>
-                  <div className="text-sm text-slate-600 mb-1">↑ Üst Aralık</div>
-                  <div className="text-2xl font-bold text-slate-900">
+                  <div className="text-xs sm:text-sm text-slate-600 mb-1">↑ Üst Aralık</div>
+                  <div className="text-lg sm:text-2xl font-bold text-slate-900">
                     {rangeStart}'den {rangeEnd}'a Çarpım Tabloları
                   </div>
-                  <p className="text-slate-600 mt-2">
+                  <p className="text-xs sm:text-sm text-slate-600 mt-1 sm:mt-2">
                     Bu aralıktaki tüm çarpım tablolarını pratik araçları ve oyunlarla keşfedin
                   </p>
                 </div>
-                <svg className="w-6 h-6 text-green-600 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-5 h-5 sm:w-6 sm:h-6 text-green-600 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 11l5-5m0 0l5 5m-5-5v12" />
                 </svg>
               </div>

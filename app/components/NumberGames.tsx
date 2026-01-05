@@ -246,75 +246,75 @@ export default function NumberGames({ number }: NumberGamesProps) {
         </div>
 
         {/* Game Tabs */}
-        <div className="flex flex-wrap gap-3 justify-center mb-8">
+        <div className="flex flex-wrap gap-2 sm:gap-3 justify-center mb-8">
           <button
             onClick={() => setActiveGame('balloon')}
-            className={`px-6 py-3 rounded-xl font-semibold transition-all ${
+            className={`px-4 sm:px-6 py-2 sm:py-3 rounded-xl text-sm sm:text-base font-semibold transition-all ${
               activeGame === 'balloon'
                 ? 'bg-gradient-to-r from-pink-500 to-rose-500 text-white shadow-lg scale-105'
                 : 'bg-white text-slate-700 hover:bg-slate-50'
             }`}
           >
-            🎈 Balon Patlatma
+            🎈 <span className="hidden sm:inline">Balon Patlatma</span><span className="sm:hidden">Balon</span>
           </button>
           <button
             onClick={() => setActiveGame('race')}
-            className={`px-6 py-3 rounded-xl font-semibold transition-all ${
+            className={`px-4 sm:px-6 py-2 sm:py-3 rounded-xl text-sm sm:text-base font-semibold transition-all ${
               activeGame === 'race'
                 ? 'bg-gradient-to-r from-blue-500 to-cyan-500 text-white shadow-lg scale-105'
                 : 'bg-white text-slate-700 hover:bg-slate-50'
             }`}
           >
-            🏎️ Yarış Oyunu
+            🏎️ <span className="hidden sm:inline">Yarış Oyunu</span><span className="sm:hidden">Yarış</span>
           </button>
           <button
             onClick={() => setActiveGame('memory')}
-            className={`px-6 py-3 rounded-xl font-semibold transition-all ${
+            className={`px-4 sm:px-6 py-2 sm:py-3 rounded-xl text-sm sm:text-base font-semibold transition-all ${
               activeGame === 'memory'
                 ? 'bg-gradient-to-r from-purple-500 to-indigo-500 text-white shadow-lg scale-105'
                 : 'bg-white text-slate-700 hover:bg-slate-50'
             }`}
           >
-            🧠 Hafıza Oyunu
+            🧠 <span className="hidden sm:inline">Hafıza Oyunu</span><span className="sm:hidden">Hafıza</span>
           </button>
         </div>
 
         {/* Balloon Pop Game */}
         {activeGame === 'balloon' && (
-          <div className="bg-gradient-to-b from-sky-100 to-sky-300 rounded-2xl p-8 shadow-xl min-h-[600px] relative overflow-hidden">
-            <div className="absolute top-4 left-4 right-4 flex justify-between items-center z-10">
-              <div className="bg-white/90 backdrop-blur-sm px-4 py-2 rounded-lg font-bold text-lg">
+          <div className="bg-gradient-to-b from-sky-100 to-sky-300 rounded-2xl p-4 sm:p-8 shadow-xl min-h-[400px] sm:min-h-[600px] relative overflow-hidden">
+            <div className="absolute top-2 sm:top-4 left-2 sm:left-4 right-2 sm:right-4 flex justify-between items-center z-10">
+              <div className="bg-white/90 backdrop-blur-sm px-2 sm:px-4 py-1 sm:py-2 rounded-lg font-bold text-sm sm:text-lg">
                 Skor: <span className="text-pink-600">{bpScore}</span>
               </div>
-              <div className="bg-white/90 backdrop-blur-sm px-4 py-2 rounded-lg font-bold text-lg">
+              <div className="bg-white/90 backdrop-blur-sm px-2 sm:px-4 py-1 sm:py-2 rounded-lg font-bold text-sm sm:text-lg">
                 Kaçan: <span className={bpMissed >= 3 ? 'text-red-600' : 'text-orange-600'}>{bpMissed}/5</span>
               </div>
             </div>
 
             {!bpGameActive ? (
-              <div className="flex flex-col items-center justify-center h-[500px]">
-                <div className="text-8xl mb-6 animate-bounce">🎈</div>
-                <h3 className="text-2xl font-bold mb-4">Balon Patlatma Oyunu</h3>
-                <p className="text-slate-700 mb-6 text-center max-w-md">
+              <div className="flex flex-col items-center justify-center h-[350px] sm:h-[500px]">
+                <div className="text-6xl sm:text-8xl mb-4 sm:mb-6 animate-bounce">🎈</div>
+                <h3 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 px-4">Balon Patlatma Oyunu</h3>
+                <p className="text-sm sm:text-base text-slate-700 mb-4 sm:mb-6 text-center max-w-md px-4">
                   Doğru cevabı içeren balonları patlatın! Yanlış balonlara dokunmayın ve doğru balonları kaçırmayın!
                 </p>
                 <button
                   onClick={startBalloonGame}
-                  className="bg-gradient-to-r from-pink-500 to-rose-500 text-white px-8 py-4 rounded-xl font-bold text-lg hover:scale-105 transition-transform shadow-lg"
+                  className="bg-gradient-to-r from-pink-500 to-rose-500 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-xl font-bold text-base sm:text-lg hover:scale-105 transition-transform shadow-lg"
                 >
                   Oyunu Başlat 🎈
                 </button>
                 {bpScore > 0 && (
-                  <div className="mt-6 text-lg">
+                  <div className="mt-4 sm:mt-6 text-base sm:text-lg">
                     Son Skor: <span className="font-bold text-pink-600">{bpScore}</span>
                   </div>
                 )}
               </div>
             ) : (
-              <div className="relative h-[500px] mt-12">
+              <div className="relative h-[350px] sm:h-[500px] mt-8 sm:mt-12">
                 {/* Clouds decoration */}
-                <div className="absolute top-10 left-10 text-6xl opacity-60 animate-float">☁️</div>
-                <div className="absolute top-20 right-20 text-5xl opacity-60 animate-float-delayed">☁️</div>
+                <div className="absolute top-10 left-5 sm:left-10 text-4xl sm:text-6xl opacity-60 animate-float">☁️</div>
+                <div className="absolute top-20 right-5 sm:right-20 text-3xl sm:text-5xl opacity-60 animate-float-delayed">☁️</div>
                 
                 {/* Balloons */}
                 {balloons.map(balloon => (
@@ -329,10 +329,10 @@ export default function NumberGames({ number }: NumberGamesProps) {
                     }}
                   >
                     <div className="relative">
-                      <div className={`text-6xl ${balloon.isCorrect ? 'animate-float' : ''}`}>
+                      <div className={`text-4xl sm:text-6xl ${balloon.isCorrect ? 'animate-float' : ''}`}>
                         🎈
                       </div>
-                      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white/90 rounded-full px-3 py-1 font-bold text-sm whitespace-nowrap">
+                      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white/90 rounded-full px-2 sm:px-3 py-0.5 sm:py-1 font-bold text-xs sm:text-sm whitespace-nowrap">
                         {number}×{balloon.multiplier}={balloon.answer}
                       </div>
                     </div>
@@ -348,7 +348,7 @@ export default function NumberGames({ number }: NumberGamesProps) {
                       bottom: `${popAnimation.y}%`,
                     }}
                   >
-                    <div className="text-4xl">💥</div>
+                    <div className="text-3xl sm:text-4xl">💥</div>
                   </div>
                 )}
               </div>
@@ -365,21 +365,21 @@ export default function NumberGames({ number }: NumberGamesProps) {
             </div>
 
             {!raceGameActive || raceCar.position >= 90 ? (
-              <div className="text-center py-12">
-                <div className="text-8xl mb-6">🏁</div>
+              <div className="text-center py-8 sm:py-12">
+                <div className="text-6xl sm:text-8xl mb-4 sm:mb-6">🏁</div>
                 {raceCar.position >= 90 ? (
                   <>
-                    <h3 className="text-3xl font-bold text-green-600 mb-4">🎉 Tebrikler! Kazandınız!</h3>
-                    <div className="text-2xl mb-6">
+                    <h3 className="text-2xl sm:text-3xl font-bold text-green-600 mb-3 sm:mb-4 px-4">🎉 Tebrikler! Kazandınız!</h3>
+                    <div className="text-xl sm:text-2xl mb-4 sm:mb-6">
                       Toplam Skor: <span className="font-bold text-blue-600">{raceScore}</span>
                     </div>
                   </>
                 ) : (
-                  <h3 className="text-2xl font-bold mb-4">Yarışa Hazır mısınız?</h3>
+                  <h3 className="text-xl sm:text-2xl font-bold mb-4 px-4">Yarışa Hazır mısınız?</h3>
                 )}
                 <button
                   onClick={startRaceGame}
-                  className="bg-gradient-to-r from-blue-500 to-cyan-500 text-white px-8 py-4 rounded-xl font-bold text-lg hover:scale-105 transition-transform"
+                  className="bg-gradient-to-r from-blue-500 to-cyan-500 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-xl font-bold text-base sm:text-lg hover:scale-105 transition-transform"
                 >
                   {raceCar.position >= 90 ? 'Tekrar Oyna' : 'Yarışı Başlat'} 🏎️
                 </button>
@@ -387,46 +387,46 @@ export default function NumberGames({ number }: NumberGamesProps) {
             ) : (
               <div>
                 {/* Race Track */}
-                <div className="bg-gradient-to-r from-gray-600 to-gray-700 rounded-xl p-6 mb-6 relative overflow-hidden">
+                <div className="bg-gradient-to-r from-gray-600 to-gray-700 rounded-xl p-3 sm:p-6 mb-4 sm:mb-6 relative overflow-hidden">
                   {/* Track lines */}
                   <div className="absolute inset-0 flex items-center">
-                    <div className="w-full h-1 border-t-4 border-dashed border-white/30"></div>
+                    <div className="w-full h-1 border-t-2 sm:border-t-4 border-dashed border-white/30"></div>
                   </div>
                   
                   {/* Car */}
                   <div 
-                    className={`text-6xl transition-all duration-300 ${wrongAnimation ? 'animate-bounce' : ''}`}
+                    className={`text-4xl sm:text-6xl transition-all duration-300 ${wrongAnimation ? 'animate-bounce' : ''}`}
                     style={{ marginLeft: `${raceCar.position}%` }}
                   >
                     🏎️
                   </div>
                   
                   {/* Finish line */}
-                  <div className="absolute right-4 top-0 bottom-0 flex items-center">
-                    <div className="text-6xl">🏁</div>
+                  <div className="absolute right-2 sm:right-4 top-0 bottom-0 flex items-center">
+                    <div className="text-4xl sm:text-6xl">🏁</div>
                   </div>
                 </div>
 
                 {/* Progress bar */}
-                <div className="bg-gray-200 rounded-full h-4 mb-6">
+                <div className="bg-gray-200 rounded-full h-3 sm:h-4 mb-4 sm:mb-6">
                   <div 
-                    className="bg-gradient-to-r from-blue-500 to-cyan-500 h-4 rounded-full transition-all duration-300"
+                    className="bg-gradient-to-r from-blue-500 to-cyan-500 h-3 sm:h-4 rounded-full transition-all duration-300"
                     style={{ width: `${raceCar.position}%` }}
                   ></div>
                 </div>
 
                 {/* Question */}
-                <div className="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl p-6 mb-6">
-                  <div className="text-3xl font-bold text-center mb-6">
+                <div className="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl p-4 sm:p-6 mb-4 sm:mb-6">
+                  <div className="text-2xl sm:text-3xl font-bold text-center mb-4 sm:mb-6">
                     {number} × {raceCar.question.multiplier} = ?
                   </div>
                   
-                  <div className="grid grid-cols-2 gap-4">
+                  <div className="grid grid-cols-2 gap-3 sm:gap-4">
                     {raceCar.options.map((option, idx) => (
                       <button
                         key={idx}
                         onClick={() => checkRaceAnswer(option)}
-                        className="bg-white hover:bg-blue-100 text-2xl font-bold py-6 rounded-xl border-2 border-blue-200 hover:border-blue-400 transition-all hover:scale-105"
+                        className="bg-white hover:bg-blue-100 text-xl sm:text-2xl font-bold py-4 sm:py-6 rounded-xl border-2 border-blue-200 hover:border-blue-400 transition-all hover:scale-105"
                       >
                         {option}
                       </button>
@@ -434,7 +434,7 @@ export default function NumberGames({ number }: NumberGamesProps) {
                   </div>
                 </div>
 
-                <div className="text-center text-lg font-semibold">
+                <div className="text-center text-base sm:text-lg font-semibold">
                   Skor: <span className="text-blue-600">{raceScore}</span>
                 </div>
               </div>
@@ -451,36 +451,36 @@ export default function NumberGames({ number }: NumberGamesProps) {
             </div>
 
             {cards.length === 0 ? (
-              <div className="text-center py-12">
-                <div className="text-8xl mb-6">🃏</div>
-                <h3 className="text-2xl font-bold mb-4">Kartları Eşleştir</h3>
-                <p className="text-slate-600 mb-6">Çarpma işlemlerini sonuçlarıyla eşleştirin!</p>
+              <div className="text-center py-8 sm:py-12">
+                <div className="text-6xl sm:text-8xl mb-4 sm:mb-6">🃏</div>
+                <h3 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 px-4">Kartları Eşleştir</h3>
+                <p className="text-sm sm:text-base text-slate-600 mb-4 sm:mb-6 px-4">Çarpma işlemlerini sonuçlarıyla eşleştirin!</p>
                 <button
                   onClick={initMemoryGame}
-                  className="bg-gradient-to-r from-purple-500 to-indigo-500 text-white px-8 py-4 rounded-xl font-bold text-lg hover:scale-105 transition-transform"
+                  className="bg-gradient-to-r from-purple-500 to-indigo-500 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-xl font-bold text-base sm:text-lg hover:scale-105 transition-transform"
                 >
                   Oyunu Başlat 🧠
                 </button>
               </div>
             ) : (
               <div>
-                <div className="flex justify-center gap-6 mb-6">
-                  <div className="text-lg font-semibold">
+                <div className="flex justify-center gap-4 sm:gap-6 mb-4 sm:mb-6">
+                  <div className="text-base sm:text-lg font-semibold">
                     Eşleşen: <span className="text-green-600">{memoryScore}/6</span>
                   </div>
-                  <div className="text-lg font-semibold">
+                  <div className="text-base sm:text-lg font-semibold">
                     Hamle: <span className="text-purple-600">{memoryMoves}</span>
                   </div>
                 </div>
 
-                <div className="grid grid-cols-4 gap-4 max-w-2xl mx-auto">
+                <div className="grid grid-cols-3 sm:grid-cols-4 gap-2 sm:gap-4 max-w-2xl mx-auto">
                   {cards.map((card, idx) => (
                     <button
                       key={card.id}
                       onClick={() => flipCard(idx)}
-                      className={`aspect-square rounded-xl font-bold text-xl transition-all duration-300 ${
+                      className={`aspect-square rounded-xl font-bold text-base sm:text-xl transition-all duration-300 ${
                         card.isMatched
-                          ? 'bg-green-100 border-4 border-green-400 scale-95'
+                          ? 'bg-green-100 border-2 sm:border-4 border-green-400 scale-95'
                           : card.isFlipped
                           ? 'bg-gradient-to-br from-purple-400 to-indigo-400 text-white'
                           : 'bg-gradient-to-br from-purple-100 to-indigo-100 hover:scale-105'
@@ -488,23 +488,23 @@ export default function NumberGames({ number }: NumberGamesProps) {
                       disabled={card.isMatched}
                     >
                       {card.isFlipped || card.isMatched ? (
-                        <span className="text-lg">{card.content}</span>
+                        <span className="text-sm sm:text-lg">{card.content}</span>
                       ) : (
-                        <span className="text-4xl">❓</span>
+                        <span className="text-3xl sm:text-4xl">❓</span>
                       )}
                     </button>
                   ))}
                 </div>
 
                 {memoryScore === 6 && (
-                  <div className="text-center mt-8">
-                    <h3 className="text-3xl font-bold text-green-600 mb-4">🎉 Tebrikler!</h3>
-                    <p className="text-xl mb-4">
+                  <div className="text-center mt-6 sm:mt-8">
+                    <h3 className="text-2xl sm:text-3xl font-bold text-green-600 mb-3 sm:mb-4">🎉 Tebrikler!</h3>
+                    <p className="text-lg sm:text-xl mb-3 sm:mb-4">
                       {memoryMoves} hamlede tamamladınız!
                     </p>
                     <button
                       onClick={initMemoryGame}
-                      className="bg-gradient-to-r from-purple-500 to-indigo-500 text-white px-6 py-3 rounded-xl font-bold hover:scale-105 transition-transform"
+                      className="bg-gradient-to-r from-purple-500 to-indigo-500 text-white px-5 sm:px-6 py-2.5 sm:py-3 rounded-xl font-bold text-base sm:text-lg hover:scale-105 transition-transform"
                     >
                       Tekrar Oyna
                     </button>
