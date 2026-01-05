@@ -166,12 +166,17 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
 
   // Number-specific content
   const getNumberMeaning = () => {
-    const meanings: { [key: number]: string } = {
+    const meanings: { [key: number]: string} = {
       1: "1 ile çarpmak, matematikte özel bir durumdur. Herhangi bir sayıyı 1 ile çarptığınızda, sonuç her zaman aynı sayıdır. Buna çarpmanın özdeşlik özelliği denir. Bunu 'bir şeyden kaç grubum var?' diye sormak gibi düşünün. Sadece 1 grubunuz olduğunda, tam olarak başladığınız şeye sahipsiniz.",
       2: "2 ile çarpmak, bir sayıyı ikiye katlamak demektir. Bir şeyi 2 ile çarptığınızda, onu kendi üzerine ekliyorsunuz. Bu, en pratik çarpma işlemlerinden biridir çünkü gerçek hayatta sıklıkla şeyleri ikiye katlamaya ihtiyaç duyarız—ayakkabı çiftlerini saymak, bisiklet tekerlekleri ya da bir şeyi iki kişi arasında eşit olarak bölmek gibi.",
       3: "3 ile çarpmak, bir sayıyı üç kez almak demektir. Bunu aynı sayıyı kendine üç kez eklemek olarak düşünebilirsiniz. Bu tablo, üçgenler, üçlüler ve üçerli gelen her şeyi anlamak için gereklidir.",
       4: "4 ile çarpmak, iki kez ikiye katlamak gibidir. 4 = 2 × 2 olduğundan, bir sayıyı ikiye katlayabilir ve sonra sonucu tekrar ikiye katlayabilirsiniz. Bu, 2'leri zaten biliyorsanız 4 çarpım tablosunu öğrenmeyi kolaylaştırır. 4 sayısı geometride (karelerin 4 kenarı vardır) ve zamanı ölçmede (bir saatte 4 çeyrek) sıklıkla görülür.",
       5: "5 ile çarpmak, matematikteki en güzel desenlerden birini oluşturur. 5'in tüm katları 0 veya 5 ile biter, bu da bu tabloyu çok öngörülebilir yapar. Bu, para saymak (5 kuruş, 5 lira) ve saati söylemek (5 dakikalık aralıklar) için son derece kullanışlıdır.",
+      6: "6 ile çarpmak, bir sayının altı grubunu almak demektir. 6, ilk 'gerçek' çarpım tablosudur çünkü 2 veya 3'ün basit katları değildir. Ancak, 6 = 2 × 3 olduğundan, bir sayıyı 2 ile çarpıp sonra 3 ile çarparak (veya tersi) 6 ile çarpma yapabilirsiniz. 6 sayısı doğada (arı peteği hücreleri) ve günlük hayatta (yumurta paketleri, zar yüzleri) sıkça görülür.",
+      7: "7 ile çarpmak, genellikle öğrencilerin en zorlandığı tablolardan biridir çünkü 7 asal sayıdır ve diğer basit çarpım tablolarından türetilemiyor. Ancak, 7'nin tüm katlarında güzel desenler vardır ve pratikle öğrenilebilir. 7, haftanın günleri, dünya kıtaları ve birçok kültürel referansta önemli bir sayıdır.",
+      8: "8 ile çarpmak, üç kez ikiye katlamak gibidir (8 = 2 × 2 × 2). Bir sayıyı ikiye katlayın, sonucu tekrar ikiye katlayın, ve bir kez daha ikiye katlayın—8 ile çarpmış olursunuz. Bu tablo, 2 ve 4 tablolarını iyi biliyorsanız daha kolay öğrenilir. 8, geometride (sekizgen) ve müzikte (oktav) önemli bir sayıdır.",
+      9: "9 ile çarpmak, matematikteki en büyüleyici desenlerden birine sahiptir. 9'un tüm katlarının basamakları toplandığında sonuç her zaman 9'a bölünebilir. Ayrıca, 9 × n'in onlar basamağı her zaman n-1'dir. Bu tablo, parmak hilesi ile de öğrenilebilir. 9, 10'dan sadece 1 eksik olduğu için, 10 tablosunu kullanarak da hesaplanabilir.",
+      10: "10 ile çarpmak, en kolay çarpım tablolarından biridir. Herhangi bir sayıyı 10 ile çarptığınızda, sadece sonuna bir sıfır eklersiniz. Bu, ondalık sistemimizin temelini oluşturur. 10 ile çarpmayı öğrenmek, öğrencilere yer değeri kavramını ve büyük sayılarla çalışmayı öğretir. 10 tablosu, tüm diğer çarpım tablolarını anlamak için bir referans noktasıdır.",
     }
     return meanings[number] || `${number} ile çarpmak, ${number} sayısını tekrar tekrar ekleme demektir. Her çarptığınızda, ${number}'lik grupları sayıyorsunuz.`
   }
@@ -183,6 +188,11 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
       3: "3'ün çarpım tablosu, kolay ve zorlu tablolar arasındaki boşluğu kapatır. Öğrencilerin basit ikiye katlamanın ötesine geçmesini ve yeni örüntüleri tanımaya başlamasını gerektirir. Bu tablo, üçerli sayma, üçgen şekilleri anlama ve zamanla çalışma (günde üç dönem) gibi gerçek dünya bağlamlarında sürekli görülür. 3 çarpım tablosunu öğrenen öğrenciler, soyut saymayı yapabileceklerini gösterirler.",
       4: "4 çarpım tablosunu öğrenmek, öğrencilerin çift sayıları ve geometrik düşünmeyi anlamalarını güçlendirir. 4, 2'nin iki katı olduğundan, öğrenciler 2 çarpım tablosunu bir basamak taşı olarak kullanabilirler, bu da matematiksel verimliliği öğretir. Bu tablo, kareleri, alan hesaplamalarını ve çeyrek bölmeleri anlamak için gereklidir. Ayrıca sandalye ayaklarını veya araba tekerleklerini saymak gibi günlük durumlarda sıkça kullanılır.",
       5: "5'in çarpım tablosu, en pratik ve örüntü açısından zengin tablolardan biridir. Öğrenciler bunu severler çünkü her cevap 0 veya 5 ile biter, bu da onu son derece öngörülebilir yapar. Bu tablo doğrudan parayla (beşerli sayma), saati söylemekle (5 dakikalık aralıklar) ve ölçüm sistemleriyle bağlantılıdır. 5 çarpım tablosunu öğrenmek öğrencilere güven verir ve matematiğin güzel, tutarlı örüntüleri olduğunu gösterir.",
+      6: "6 çarpım tablosunu öğrenmek, öğrencilerin daha karmaşık çarpma işlemlerine geçmesini sağlar. 6'nın hem 2'nin hem de 3'ün katı olması, öğrencilere çarpmanın çarpanlara ayrılma özelliğini gösterir. Bu tablo, günlük hayatta sürekli görülür—yumurta kutularını saymak, zar oyunları, altılı paketler. 6 tablosunu öğrenmek, öğrencilere daha büyük sayılarla çalışma güveni verir.",
+      7: "7 çarpım tablosu, öğrencilerin ezber becerilerini ve desen tanıma yeteneklerini gerçekten test eder. 7 asal bir sayı olduğundan, diğer tablolardan kolayca türetilemiyor, bu da onu zor ama ödüllendirici bir öğrenme deneyimi yapıyor. 7 tablosunu öğrenmek, öğrencilere zorlukların üstesinden gelme ve yeni stratejiler geliştirme fırsatı verir. Haftanın günlerini saymaktan takvim hesaplamalarına kadar birçok yerde kullanılır.",
+      8: "8 çarpım tablosunu öğrenmek, öğrencilerin ikiye katlama stratejilerini pekiştirmesine yardımcı olur. 8 = 2 × 2 × 2 olduğundan, öğrenciler 2 ve 4 tablolarını kullanarak 8 tablosunu öğrenebilirler. Bu tablo, alan hesaplamalarında (8 kenarlı şekiller), müzik teorisinde (oktavlar) ve bilgisayar biliminde (8 bit = 1 byte) önemlidir. 8 tablosunu öğrenmek, matematiksel düşünme becerilerini geliştirir.",
+      9: "9 çarpım tablosu, en büyüleyici matematiksel desenlerden birine sahiptir. Basamak toplama kuralı ve parmak hilesi, öğrencilere matematiğin sihirli yönünü gösterir. 9 tablosunu öğrenmek sadece ezberleme değil, desen tanımayı ve matematiksel ilişkileri anlamayı öğretir. Bu tablo, zihinden hesaplama becerilerini geliştirmek ve matematiksel güven oluşturmak için mükemmeldir.",
+      10: "10 çarpım tablosu, yer değeri kavramını öğretmek için temeldir. Öğrenciler 10 ile çarpmayı öğrendiklerinde, ondalık sistemimizin nasıl çalıştığını anlamaya başlarlar. Bu tablo, para hesaplamaları, ölçüm birimleri arası dönüşümler ve büyük sayılarla çalışma için hayati önem taşır. 10 tablosunu öğrenmek, tüm diğer çarpım tablolarını anlamak için sağlam bir temel oluşturur ve zihinsel matematik becerilerini büyük ölçüde geliştirir.",
     }
     return importance[number] || `${number} çarpım tablosunu öğrenmek, öğrencilerin bu önemli sayıyla akıcılık geliştirmelerine yardımcı olur. Matematik ve günlük hayatta sıkça görülür, bu da güçlü hesaplama becerileri oluşturmak için gerekli kılar.`
   }
@@ -214,6 +224,31 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
         { title: "Değişen Desen", description: "Sonuçlar 5 (tek) ve 0 (çift) ile bitme arasında değişir: 5, 10, 15, 20, 25, 30..." },
         { title: "10'lar Tablosunun Yarısı", description: "Her sonuç 10 çarpım tablosunun tam yarısıdır: 5×4=20, 10×4=40'ın yarısıdır." },
       ],
+      6: [
+        { title: "Hep Çift Sayılar", description: "6'nın tüm katları çifttir. Sonuçlar 6, 12, 18, 24, 30... şeklinde ilerler ve hepsi 2'ye bölünebilir." },
+        { title: "3 Tablosunun İki Katı", description: "Her cevap 3 çarpım tablosunun tam iki katıdır: 6×4=24, 3×4=12'nin iki katıdır." },
+        { title: "Birler Basamağı Deseni", description: "Birler basamağı şu deseni takip eder: 6, 2, 8, 4, 0 ve tekrarlanır. Bu desen 6 çarpım tablosunu tanımlamanıza yardımcı olur." },
+      ],
+      7: [
+        { title: "Basamaklar Toplamı Deseni", description: "7'nin katlarının basamaklarını topladığınızda ilginç bir desen ortaya çıkar: 7, 14(1+4=5), 21(2+1=3), 28(2+8=10)..." },
+        { title: "Birler Basamağı Tekrarı", description: "Birler basamağı şu sırayı takip eder: 7, 4, 1, 8, 5, 2, 9, 6, 3, 0 ve tekrarlanır." },
+        { title: "Asal Sayı Özelliği", description: "7 asal bir sayıdır, bu yüzden diğer tablolarla basit ilişkileri yoktur. Ancak 7×8=56 gibi özel çiftleri ezberlemek yardımcı olur." },
+      ],
+      8: [
+        { title: "Hep Çift ve 4'e Bölünebilir", description: "8'in tüm katları hem çift hem de 4'e bölünebilir: 8, 16, 24, 32, 40, 48..." },
+        { title: "4 Tablosunun İki Katı", description: "Her cevap 4 çarpım tablosunun tam iki katıdır: 8×5=40, 4×5=20'nin iki katıdır." },
+        { title: "Birler Basamağı Deseni", description: "Birler basamağı şu deseni takip eder: 8, 6, 4, 2, 0 ve tekrarlanır. Hep çift sayılarla azalan bir desen." },
+      ],
+      9: [
+        { title: "Basamaklar Toplamı Her Zaman 9", description: "9'un katlarının basamaklarını toplayın: 18(1+8=9), 27(2+7=9), 36(3+6=9), 45(4+5=9). Bu sihirli desen hep geçerlidir!" },
+        { title: "Onlar Basamağı Deseni", description: "9×n yaparsanız, onlar basamağı n-1'dir: 9×3=27 (onlar:2), 9×6=54 (onlar:5), 9×9=81 (onlar:8)." },
+        { title: "10'dan 1 Eksik", description: "9×n = (10×n) - n formülü çok kullanışlıdır: 9×6 = 60-6 = 54, 9×8 = 80-8 = 72." },
+      ],
+      10: [
+        { title: "Sonuna Sıfır Ekle", description: "Herhangi bir sayıyı 10 ile çarptığınızda, sadece sonuna bir sıfır eklersiniz: 7×10=70, 23×10=230." },
+        { title: "Hep 0 ile Biter", description: "10'un tüm katları 0 ile biter: 10, 20, 30, 40, 50... Bu desen asla değişmez." },
+        { title: "Yer Değeri Sistemi", description: "10 ile çarpmak, her basamağı bir sola kaydırır. Bu, ondalık sistemimizin temelidir: 25×10=250." },
+      ],
     }
     return patterns[number] || []
   }
@@ -239,6 +274,30 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
       5: [
         { mistake: "Sırayı karıştırmak (20'den önce 25)", solution: "Desen tutarlıdır: 5, 10, 15, 20, 25. Her biri 5 artar." },
         { mistake: "5×tek sayının her zaman 5 ile bittiğini düşünmek", solution: "Aslında 5×çift 0 ile, 5×tek 5 ile biter." },
+      ],
+      6: [
+        { mistake: "6×7=42 ile 6×8=48'i karıştırmak", solution: "Bu zor bir çift! Hatırlayın: 6×7=42 ('yedi altı' kafiyesi), ardından 6 ekleyin: 48." },
+        { mistake: "6×9=54 ile 6×8=48'i karıştırmak", solution: "6 tablosunu kullanın: 6×8=48, sonra +6=54. Veya 6×9'u 60-6=54 olarak hesaplayın." },
+        { mistake: "3 çarpım tablosu ile karıştırmak", solution: "6 çarpım tablosu her zaman 3 çarpım tablosunun iki katıdır. 3×4=12, yani 6×4=24." },
+      ],
+      7: [
+        { mistake: "7×8=56 ile 7×6=42'yi karıştırmak", solution: "Bu en zor ikili! Ezber ipucu: '5-6-7-8' (56=7×8). Veya 7×7=49'dan +7=56." },
+        { mistake: "7×9=63 ile 7×8=56'yı karıştırmak", solution: "Desen: 7×8=56, sonra +7=63. Veya basamak toplama: 63 (6+3=9), 56 (5+6=11)." },
+        { mistake: "7 tablosunu tamamen atlamak", solution: "7 zor görünse de, pratikle öğrenilebilir. Küçük adımlarla başlayın: 7×1, 7×2, 7×5, 7×10 kolayları ezberleyin." },
+      ],
+      8: [
+        { mistake: "8×7=56 ile 8×8=64'ü karıştırmak", solution: "8×8=64'ü ezberlemenin kolay yolu: '8 sekiz 64' ya da '8²=64'." },
+        { mistake: "8×9=72 ile 8×8=64'ü karıştırmak", solution: "8×8=64'den başlayın, sonra +8=72. Veya 80-8=72 (10×8 eksi 8)." },
+        { mistake: "4 çarpım tablosu ile karıştırmak", solution: "8 her zaman 4'ün iki katıdır. 4×6=24, yani 8×6=48. İki katına çıkararak kontrol edin." },
+      ],
+      9: [
+        { mistake: "9×8=72 ile 9×7=63'ü karıştırmak", solution: "Parmak hilesini kullanın veya basamak toplamı: 72 (7+2=9), 63 (6+3=9). 72>63'ü hatırlayın." },
+        { mistake: "Parmak hilesini yanlış uygulamak", solution: "Doğru sıra: Sol parmaklar 1-5, sağ parmaklar 6-10. Katladığınız parmağın solundakiler onlar, sağındakiler birler." },
+        { mistake: "9×9=81 ile 9×8=72'yi karıştırmak", solution: "9×9=81 özeldir: '9 dokuz 81' veya '9²=81'. Basamak toplamı: 81 (8+1=9), 72 (7+2=9)." },
+      ],
+      10: [
+        { mistake: "Sıfırı unutmak", solution: "En kolay hatırlatma: 10 ile çarptığınızda SADECE sonuna bir sıfır ekleyin. 6×10=60, 25×10=250." },
+        { mistake: "Çok fazla sıfır eklemek", solution: "10 ile çarpma SADECE bir sıfır ekler. 100 (iki sıfır), 1000 (üç sıfır) değil, sadece 10 (bir sıfır)." },
       ],
     }
     return mistakes[number] || []
@@ -275,6 +334,41 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
         "Bir saate bakın ve 5 dakikalık aralıklarla sayın",
         "Parayla pratik yapın: beşlik madeni paraları sayın (5 kuruş)",
         "Unutmayın: çift çarpanlar 0 ile, tek çarpanlar 5 ile biter",
+      ],
+      6: [
+        "3 çarpım tablosunu ezberleyin, sonra her cevabı ikiye katlayarak 6'ları bulun",
+        "Yumurta kutusu stratejisi: 6'şar 6'şar sayın (6, 12, 18, 24...)",
+        "Zor çiftlere odaklanın: 6×7=42, 6×8=48, 6×9=54'ü ayrı çalışın",
+        "Birler basamağı desenini ezberleyin: 6, 2, 8, 4, 0 ve tekrar",
+        "6 hem 2'nin hem 3'ün katı olduğu için bu iki tabloyu kullanarak kontrol edin",
+      ],
+      7: [
+        "En zor ikiliyi ezberleyin: 7×8=56 ('beş altı, yedi sekiz' kafiyesi)",
+        "Haftanın günleriyle bağlantı kurun: 7 gün, 14 gün (2 hafta), 21 gün (3 hafta)",
+        "7×7=49'u özel olarak ezberleyin (7²=49), diğerlerini bundan hesaplayın",
+        "Parmak hilesi: Sol elden 7 parmak say, kalanlar birler, sayılanlar onlar",
+        "Günde sadece 3-4 gerçek pratik yapın. 7 sabır ister!",
+      ],
+      8: [
+        "4 çarpım tablosunu ezberleyin, sonra her cevabı ikiye katlayarak 8'leri bulun",
+        "8×8=64'ü özel olarak ezberleyin ('sekiz sekiz altmış dört')",
+        "Sekizerli sayın: 8, 16, 24, 32, 40, 48, 56, 64, 72, 80",
+        "İkiye katlama zinciri: Sayıyı ikiye katlayın (×2), sonra tekrar (×4), sonra tekrar (×8)",
+        "Birler basamağı her zaman çift ve azalan: 8, 6, 4, 2, 0 ve tekrar",
+      ],
+      9: [
+        "Parmak hilesini öğrenin: 10 parmağınızı kullanarak 9 çarpım tablosunu gösterin",
+        "Basamak toplama kuralını kullanın: cevabın basamaklarını toplayın, her zaman 9 olur",
+        "10'dan çıkarma: 9×6 = 60-6 = 54, 9×8 = 80-8 = 72",
+        "9×9=81'i özel olarak ezberleyin (9²=81)",
+        "Onlar deseni: 9×n'de onlar basamağı her zaman n-1'dir",
+      ],
+      10: [
+        "En kolay kural: Sadece sonuna bir sıfır ekleyin!",
+        "10'arli sayın: 10, 20, 30, 40, 50, 60, 70, 80, 90, 100",
+        "Yer değeri ilişkisini anlayın: 10 ile çarpmak bir basamak sola kaydırır",
+        "Büyük sayılarla pratik yapın: 23×10=230, 47×10=470",
+        "Bu tabloyu diğer tabloları kontrol etmek için kullanın (örn: 9×6 = 60-6)",
       ],
     }
     return strategies[number] || [
