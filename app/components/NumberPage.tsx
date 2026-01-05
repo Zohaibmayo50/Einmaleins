@@ -122,7 +122,7 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
         ctx.fillStyle = '#ffffff'
         ctx.font = 'bold 36px Arial'
         ctx.textAlign = 'center'
-        ctx.fillText(\`${number} Çarpım Tablosu\`, 300, 60)
+        ctx.fillText(number + ' Çarpım Tablosu', 300, 60)
 
         // Table items
         ctx.font = '24px Arial'
@@ -138,11 +138,11 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
           ctx.fillStyle = '#ffffff'
           ctx.textAlign = 'left'
           ctx.font = '22px Arial'
-          ctx.fillText(\`${number} × \${i}\`, 50, y)
+          ctx.fillText(number + ' × ' + i, 50, y)
           
           ctx.textAlign = 'right'
           ctx.font = 'bold 26px Arial'
-          ctx.fillText(\`= \${number * i}\`, 550, y)
+          ctx.fillText('= ' + (number * i), 550, y)
           
           y += 60
         }
@@ -153,7 +153,7 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
             const url = URL.createObjectURL(blob)
             const link = document.createElement('a')
             link.href = url
-            link.download = \`${number}-carpim-tablosu.png\`
+            link.download = number + '-carpim-tablosu.png'
             link.click()
             URL.revokeObjectURL(url)
           }
