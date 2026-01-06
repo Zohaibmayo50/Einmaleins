@@ -36,6 +36,16 @@ const schemaData = {
   ]
 }
 
+
+export const metadata = {
+  title: '11-20 Çarpım Tablosu - İki Basamaklı Çarpma',
+  description: '11'den 20'ye kadar çarpım tablolarını öğrenin. İki basamaklı sayıların çarpımı için interaktif alıştırmalar.',
+  keywords: '11-20 çarpım tablosu, çarpım tablosu, çarpma işlemi, matematik öğrenme',
+  alternates: {
+    canonical: '/11-20',
+  },
+}
+
 export default function MultiplicationTable11to20() {
   return (
     <>

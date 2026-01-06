@@ -6,6 +6,9 @@ export const metadata = {
   title: '46 Çarpım Tablosu - Eğlenceli Oyunlar ve Pratik Egzersizleri',
   description: '46 çarpım tablosunu eğlenceli oyunlar ve interaktif alıştırmalarla öğrenin. Çocuklar için görsel yardımcılar, pratik ipuçları ve kolay ezber teknikleri.',
   keywords: '46 çarpım tablosu, kırk altı çarpım tablosu, 46 ile çarpma, çarpım tablosu öğrenme, matematik oyunları',
+  alternates: {
+    canonical: '/sayi/46',
+  },
 }
 
 export default function Number46Page() {

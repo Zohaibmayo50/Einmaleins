@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   title: '98 Çarpım Tablosu - Kolay Öğrenme Yöntemleri',
   description: '98 çarpım tablosunu öğrenmek için eğlenceli ve etkili yöntemler. Görsel araçlar ve pratik ipuçlarıyla 98 tablosunda ustalaşın.',
   keywords: '98 çarpım tablosu, 98 tablosu, çarpım tablosu 98, matematik, çarpma işlemi',
+  alternates: {
+    canonical: '/sayi/98',
+  },
 }
 
 export default function Number98Page() {

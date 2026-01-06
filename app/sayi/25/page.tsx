@@ -76,6 +76,9 @@ export const metadata = {
   title: '25 Çarpım Tablosu - Eğlenceli Oyunlar ve Pratik Egzersizleri',
   description: '25 çarpım tablosunu eğlenceli oyunlar ve interaktif alıştırmalarla öğrenin. Çocuklar için görsel yardımcılar, pratik ipuçları ve kolay ezber teknikleri.',
   keywords: '25 çarpım tablosu, yirmi beş çarpım tablosu, 25 ile çarpma, çarpım tablosu öğrenme, matematik oyunları',
+  alternates: {
+    canonical: '/sayi/25',
+  },
 }
 
 export default function Number25Page() {

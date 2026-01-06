@@ -36,6 +36,16 @@ const schemaData = {
   ]
 }
 
+
+export const metadata = {
+  title: '91-100 Çarpım Tablosu - Uzman Seviye',
+  description: '91'den 100'e kadar çarpım tablolarını öğrenin. Uzman seviye çarpma becerileri.',
+  keywords: '91-100 çarpım tablosu, çarpım tablosu, çarpma işlemi, matematik öğrenme',
+  alternates: {
+    canonical: '/91-100',
+  },
+}
+
 export default function MultiplicationTable91to100() {
   return (
     <>

@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   title: '93 Çarpım Tablosu - Kolay Öğrenme Yöntemleri',
   description: '93 çarpım tablosunu öğrenmek için eğlenceli ve etkili yöntemler. Görsel araçlar ve pratik ipuçlarıyla 93 tablosunda ustalaşın.',
   keywords: '93 çarpım tablosu, 93 tablosu, çarpım tablosu 93, matematik, çarpma işlemi',
+  alternates: {
+    canonical: '/sayi/93',
+  },
 }
 
 export default function Number93Page() {

@@ -6,6 +6,9 @@ export const metadata = {
   title: '84 Çarpım Tablosu - Eğlenceli Oyunlar ve Pratik Egzersizleri',
   description: '84 çarpım tablosunu eğlenceli oyunlar ve interaktif alıştırmalarla öğrenin. Çocuklar için mükemmel!',
   keywords: '84 çarpım tablosu, seksen dört çarpım tablosu, matematik oyunları, çarpım tablosu öğrenme',
+  alternates: {
+    canonical: '/sayi/84',
+  },
 }
 
 export default function Number84Page() {

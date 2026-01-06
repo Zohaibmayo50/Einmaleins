@@ -36,6 +36,16 @@ const schemaData = {
   ]
 }
 
+
+export const metadata = {
+  title: '21-30 Çarpım Tablosu - Orta Seviye Çarpma',
+  description: '21'den 30'a kadar çarpım tablolarını öğrenin. Orta seviye çarpma becerileri için eğitim kaynakları.',
+  keywords: '21-30 çarpım tablosu, çarpım tablosu, çarpma işlemi, matematik öğrenme',
+  alternates: {
+    canonical: '/21-30',
+  },
+}
+
 export default function MultiplicationTable21to30() {
   return (
     <>

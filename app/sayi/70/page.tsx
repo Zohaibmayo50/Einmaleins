@@ -6,6 +6,9 @@ export const metadata = {
   title: '70 Çarpım Tablosu - Eğlenceli Oyunlar ve Pratik Egzersizleri',
   description: '70 çarpım tablosunu eğlenceli oyunlar ve interaktif alıştırmalarla öğrenin. Çocuklar için mükemmel!',
   keywords: '70 çarpım tablosu, yetmiş çarpım tablosu, matematik oyunları, çarpım tablosu öğrenme',
+  alternates: {
+    canonical: '/sayi/70',
+  },
 }
 
 export default function Number70Page() {

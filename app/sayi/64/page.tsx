@@ -6,6 +6,9 @@ export const metadata = {
   title: '64 Çarpım Tablosu - Eğlenceli Oyunlar ve Pratik Egzersizleri',
   description: '64 çarpım tablosunu eğlenceli oyunlar ve interaktif alıştırmalarla öğrenin. Çocuklar için mükemmel!',
   keywords: '64 çarpım tablosu, altmış dört çarpım tablosu, matematik oyunları, çarpım tablosu öğrenme',
+  alternates: {
+    canonical: '/sayi/64',
+  },
 }
 
 export default function Number64Page() {

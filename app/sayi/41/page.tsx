@@ -6,6 +6,9 @@ export const metadata = {
   title: '41 Çarpım Tablosu - Eğlenceli Oyunlar ve Pratik Egzersizleri',
   description: '41 çarpım tablosunu eğlenceli oyunlar ve interaktif alıştırmalarla öğrenin. Çocuklar için görsel yardımcılar, pratik ipuçları ve kolay ezber teknikleri.',
   keywords: '41 çarpım tablosu, kırk bir çarpım tablosu, 41 ile çarpma, çarpım tablosu öğrenme, matematik oyunları',
+  alternates: {
+    canonical: '/sayi/41',
+  },
 }
 
 export default function Number41Page() {

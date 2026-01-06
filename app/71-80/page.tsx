@@ -36,6 +36,16 @@ const schemaData = {
   ]
 }
 
+
+export const metadata = {
+  title: '71-80 Çarpım Tablosu - İleri Seviye',
+  description: '71'den 80'e kadar çarpım tablolarını öğrenin. İleri seviye çarpma becerileri.',
+  keywords: '71-80 çarpım tablosu, çarpım tablosu, çarpma işlemi, matematik öğrenme',
+  alternates: {
+    canonical: '/71-80',
+  },
+}
+
 export default function MultiplicationTable71to80() {
   return (
     <>

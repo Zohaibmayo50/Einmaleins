@@ -6,6 +6,9 @@ export const metadata = {
   title: '89 Çarpım Tablosu - Eğlenceli Oyunlar ve Pratik Egzersizleri',
   description: '89 çarpım tablosunu eğlenceli oyunlar ve interaktif alıştırmalarla öğrenin. Çocuklar için mükemmel!',
   keywords: '89 çarpım tablosu, seksen dokuz çarpım tablosu, matematik oyunları, çarpım tablosu öğrenme',
+  alternates: {
+    canonical: '/sayi/89',
+  },
 }
 
 export default function Number89Page() {

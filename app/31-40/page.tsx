@@ -36,6 +36,16 @@ const schemaData = {
   ]
 }
 
+
+export const metadata = {
+  title: '31-40 Çarpım Tablosu - İleri Seviye Çarpma',
+  description: '31'den 40'a kadar çarpım tablolarını öğrenin. İleri seviye çarpma becerileri geliştirin.',
+  keywords: '31-40 çarpım tablosu, çarpım tablosu, çarpma işlemi, matematik öğrenme',
+  alternates: {
+    canonical: '/31-40',
+  },
+}
+
 export default function MultiplicationTable31to40() {
   return (
     <>

@@ -76,6 +76,9 @@ export const metadata = {
   title: '21 Çarpım Tablosu - Eğlenceli Oyunlar ve Pratik Egzersizleri',
   description: '21 çarpım tablosunu eğlenceli oyunlar ve interaktif alıştırmalarla öğrenin. Çocuklar için görsel yardımcılar, pratik ipuçları ve kolay ezber teknikleri.',
   keywords: '21 çarpım tablosu, yirmi bir çarpım tablosu, 21 ile çarpma, çarpım tablosu öğrenme, matematik oyunları',
+  alternates: {
+    canonical: '/sayi/21',
+  },
 }
 
 export default function Number21Page() {

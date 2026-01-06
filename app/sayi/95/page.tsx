@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   title: '95 Çarpım Tablosu - Kolay Öğrenme Yöntemleri',
   description: '95 çarpım tablosunu öğrenmek için eğlenceli ve etkili yöntemler. Görsel araçlar ve pratik ipuçlarıyla 95 tablosunda ustalaşın.',
   keywords: '95 çarpım tablosu, 95 tablosu, çarpım tablosu 95, matematik, çarpma işlemi',
+  alternates: {
+    canonical: '/sayi/95',
+  },
 }
 
 export default function Number95Page() {

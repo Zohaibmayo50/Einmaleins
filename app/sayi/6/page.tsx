@@ -76,6 +76,9 @@ export const metadata = {
   title: '6 Çarpım Tablosu - Eğlenceli Oyunlar ve Pratik Egzersizleri',
   description: '6 çarpım tablosunu eğlenceli oyunlar, interaktif alıştırmalar ve yazdırılabilir çalışma kağıtları ile öğrenin. Ücretsiz pratik araçları keşfedin.',
   keywords: '6 çarpım tablosu, altı çarpım tablosu, matematik oyunları, çarpma alıştırmaları',
+  alternates: {
+    canonical: '/sayi/6',
+  },
 }
 
 export default function Number6Page() {

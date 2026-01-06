@@ -6,6 +6,9 @@ export const metadata = {
   title: '53 Çarpım Tablosu - Eğlenceli Oyunlar ve Pratik Egzersizleri',
   description: '53 çarpım tablosunu eğlenceli oyunlar ve interaktif alıştırmalarla öğrenin. Çocuklar için mükemmel!',
   keywords: '53 çarpım tablosu, elli üç çarpım tablosu, matematik oyunları, çarpım tablosu öğrenme',
+  alternates: {
+    canonical: '/sayi/53',
+  },
 }
 
 export default function Number53Page() {

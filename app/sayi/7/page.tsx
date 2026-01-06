@@ -76,6 +76,9 @@ export const metadata = {
   title: '7 Çarpım Tablosu - Eğlenceli Oyunlar ve Pratik Egzersizleri',
   description: '7 çarpım tablosunu eğlenceli oyunlar, interaktif alıştırmalar ve yazdırılabilir çalışma kağıtları ile öğrenin. Ücretsiz pratik araçları keşfedin.',
   keywords: '7 çarpım tablosu, yedi çarpım tablosu, matematik oyunları, çarpma alıştırmaları',
+  alternates: {
+    canonical: '/sayi/7',
+  },
 }
 
 export default function Number7Page() {
