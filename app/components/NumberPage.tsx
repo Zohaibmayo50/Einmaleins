@@ -237,6 +237,16 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
       68: "68 ile çarpmak, 4×17 ilişkisini veya 2×34 ilişkisini kullanır. 17 tablosunu dörde katlamak veya 34 tablosunu ikiye katlamak işe yarar. 68'i 70-2 veya 60+8 olarak düşünmek hesaplamayı kolaylaştırır. Çift sayı olduğu için tüm katları da çifttir. 68, hem 4'e hem 17'ye bölünebilir.",
       69: "69 ile çarpmak, 3×23 ilişkisini kullanır. 23 tablosunu üçe katlamak veya 3 tablosunu 23 ile çarpmak işe yarar. 69'u 70-1 olarak düşünmek en kolay stratejidir: bir sayıyı 70 ile çarpıp kendisini çıkarın. 69=3×23 olduğundan, hem 3'e hem 23'e bölünebilir. Bu tablo, 70'e yakın hesaplamalar için kullanışlıdır.",
       70: "70 ile çarpmak, 7×10 ilişkisini kullanır ve çok kullanışlıdır. Bir sayıyı 70 ile çarpmak için, onu 7 ile çarpıp sonuna sıfır ekleyebilirsiniz. 70, bir insanın ortalama yaşam süresi (çoğu ülkede 70-80 arası) ile ilişkilendirilir. 70=2×35=5×14 gibi alternatif çarpan ilişkileri vardır. Bu tablo, 7 tablosunu pekiştirir.",
+      71: "71 ile çarpmak, asal sayı özellikleri nedeniyle zihinsel matematik stratejilerini geliştirir. 71'i 70+1 olarak düşünmek en pratik yöntemdir: bir sayıyı 70 ile çarpıp kendisini ekleyin. 71 asal bir sayıdır ve sadece 1 ve 71 ile bölünebilir. 71 tablosunu öğrenmek, büyük asal sayılarla hızlı hesaplama yapma becerisini geliştirir.",
+      72: "72 ile çarpmak, en çok yönlü tablolardan biridir. 72=8×9=6×12=4×18=3×24=2×36 olduğundan, birçok farklı yoldan hesaplanabilir. 72, bir gündeki saat sayısının 3 katıdır (72 saat = 3 gün). Çok sayıda böleni olması, kesir hesaplamalarında son derece kullanışlıdır. 72, 12'nin 6 katıdır (6 düzine).",
+      73: "73 ile çarpmak, asal sayı özellikleri ve zihinsel hesaplama stratejilerini geliştirir. 73'ü 70+3 veya 75-2 olarak düşünmek en pratik yöntemlerdir. 73 asal bir sayıdır ve sadece 1 ve 73 ile bölünebilir. 73, ayrıca 21. asal sayıdır ve matematiksel olarak ilginç özelliklere sahiptir.",
+      74: "74 ile çarpmak, 2×37 ilişkisini kullanır. 37 tablosunu biliyorsanız, her sonucu ikiye katlayarak 74 tablosunu bulabilirsiniz. 74''ü 70+4 veya 75-1 olarak düşünmek hesaplamayı kolaylaştırır. Çift sayı olduğu için tüm katları da çifttir. 74, hem 2'ye hem 37'ye bölünebilir.",
+      75: "75 ile çarpmak, 3×25=5×15 ilişkilerini kullanır. 75, 100'ün dörtte üçüdür (75%=3/4). 75=3×5×5 olarak da ifade edilebilir. 75'i 70+5 veya 80-5 olarak düşünmek zihinsel hesaplamayı kolaylaştırır. 5'in deseni (5 veya 0 ile biter) hesaplamayı kolaylaştırır. Yüzde hesaplamalarında (75%=¾) sıkça kullanılır.",
+      76: "76 ile çarpmak, 4×19 ilişkisini veya 2×38 ilişkisini kullanır. 19 tablosunu dörde katlamak veya 38 tablosunu ikiye katlamak işe yarar. 76'yı 75+1 veya 80-4 olarak düşünmek hesaplamayı kolaylaştırır. Çift sayı olduğu için tüm katları da çifttir. 76, hem 4'e hem 19'a bölünebilir.",
+      77: "77 ile çarpmak, 7×11 ilişkisini kullanır. Her iki tablo da bilinen tablolarsa, 77 ile çarpma kolaydır. 77, repdigit benzeri desen gösterir (7'lerin tekrarı). 77'yi 80-3 veya 75+2 olarak düşünmek hesaplamayı kolaylaştırır. 77=7×11 olduğundan, hem 7'ye hem 11'e bölünebilir.",
+      78: "78 ile çarpmak, 2×39=3×26=6×13 ilişkilerini kullanır. Birden fazla yoldan hesaplanabilir. 78'i 80-2 veya 75+3 olarak düşünmek zihinsel hesaplamayı kolaylaştırır. Çift sayı olduğu için tüm katları da çifttir. 78, hem 2'ye, 3'e, 6'ya, 13'e, 26'ya, 39'a bölünebilir.",
+      79: "79 ile çarpmak, asal sayı özellikleri nedeniyle özel stratejiler gerektirir. 79'u 80-1 olarak düşünmek en kolay stratejidir: bir sayıyı 80 ile çarpıp kendisini çıkarın. 79 asal bir sayıdır ve sadece 1 ve 79 ile bölünebilir. 79 tablosunu öğrenmek, 80'e yakın hesaplamalar için mükemmel bir temel oluşturur.",
+      80: "80 ile çarpmak, 8×10 ilişkisini kullanır ve çok kullanışlıdır. Bir sayıyı 80 ile çarpmak için, onu 8 ile çarpıp sonuna sıfır ekleyebilirsiniz. 80=2×40=4×20=5×16 gibi alternatif çarpan ilişkileri vardır. 80, ortalama insan yaşam süresinin üst limiti (çoğu ülkede 70-80) ile ilişkilendirilir. Bu tablo, 8 tablosunu pekiştirir.",
     }
     return meanings[number] || `${number} ile çarpmak, ${number} sayısını tekrar tekrar ekleme demektir. Her çarptığınızda, ${number}'lik grupları sayıyorsunuz.`
   }
@@ -313,6 +323,16 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
       68: "68 çarpım tablosu, 4 ve 17 tablolarını birleştirerek matematiksel bağlantıları güçlendirir. 4×17=2×34 ilişkileri, çoklu strateji kullanmayı öğretir. 70-2 yaklaşımı, yuvarlak sayılara yaklaştırma becerisini geliştirir. Bu tablo, çift sayı özellikleri ve 70'e yakın hesaplamalar için temel oluşturur.",
       69: "69 çarpım tablosu, 3 ve 23 tablolarını birleştirerek her ikisini de pekiştirir. 70-1 stratejisi, yuvarlak sayıları kullanarak hızlı hesaplama yapmayı öğretir. 3×23 ilişkisi, hem küçük hem büyük çarpan stratejilerini birleştirir. Bu tablo, 70'e yakın hesaplamalarda yetkinlik sağlar.",
       70: "70 çarpım tablosu, 7 tablosunu pekiştirmek için mükemmeldir. 7×10 ilişkisi, onluk sistemi ve 7 tablosunu birleştirir. Yaşam süresi bağlamında (ortalama 70-80 yaş) sosyal öneme sahiptir. 2×35=5×14 alternatifleri, çoklu strateji kullanmayı öğretir. Bu tablo, pratik hesaplama ve zaman yönetimi için çok kullanışlıdır.",
+      71: "71 çarpım tablosu, asal sayı stratejilerini en üst seviyeye çıkarır. 70+1 yaklaşımı, tamamlayıcı sayılar kullanmada ustalaşmayı sağlar. Asal sayı olduğu için, zihinsel esneklik ve yaratıcı problem çözme gerektirir. Bu tablo, büyük asal sayılarla hızlı hesaplama yapma becerisini geliştirir ve matematiksel düşünmeyi derinleştirir.",
+      72: "72 çarpım tablosu, en çok yönlü tablolardan biridir. Birçok böleni olması (1,2,3,4,6,8,9,12,18,24,36,72), kesirler ve oranlar için idealdir. 8×9=6×12 ilişkileri, çoklu çarpan stratejilerini öğretir. Zaman hesaplamalarında (72 saat=3 gün) pratik öneme sahiptir. Bu tablo, matematiksel esneklik ve çoklu strateji kullanmayı mükemmelleştirir.",
+      73: "73 çarpım tablosu, asal sayı stratejilerini ileri düzeye taşır. 70+3 yaklaşımı, zihinsel hesaplama becerilerini geliştirir. 21. asal sayı olması, matematiksel merak uyandırır. Asal özellikler nedeniyle, alternatif çözüm yöntemleri ve yaratıcı düşünme gerektirir. Bu tablo, ileri düzey zihinsel matematik becerileri kazandırır.",
+      74: "74 çarpım tablosu, 37 tablosunu pekiştirmeye yardımcı olur. 74=2×37 ilişkisi, ikiye katlama ve asal sayı stratejilerini birleştirir. 75-1 yaklaşımı, yuvarlak sayılara yaklaştırma stratejisini öğretir. Bu tablo, çift sayı özellikleri ve 75'e yakın hesaplamalar için temel oluşturur.",
+      75: "75 çarpım tablosu, yüzde hesaplamalarının (75%=3/4) temelini oluşturur. 3×25=5×15 ilişkileri, çoklu strateji kullanmayı öğretir. Üçte üç kavramı (¾) ile doğrudan bağlantılıdır. 5'in deseni (5 veya 0 ile biter) hesaplamayı kolaylaştırır. Bu tablo, pratik matematik ve yüzde hesaplamaları için son derece önemlidir.",
+      76: "76 çarpım tablosu, 4 ve 19 tablolarını birleştirerek matematiksel bağlantıları güçlendirir. 4×19=2×38 ilişkileri, çoklu çarpma stratejilerini öğretir. 75+1 veya 80-4 yaklaşımları, esneklik sağlar. Bu tablo, çift sayı özellikleri ve 80'e yakın hesaplamalar için hazırlık yapar.",
+      77: "77 çarpım tablosu, 7 ve 11 tablolarını birleştirerek her ikisini de pekiştirir. 7×11=77 ilişkisi, repdigit benzeri desen oluşturur. Her iki tablo da orta zorlukta olduğundan, 77 tablosu bunları pekiştirmek için mükemmeldir. Hem 7'ye hem 11'e bölünebilir olması, kesirler için kullanışlıdır.",
+      78: "78 çarpım tablosu, çoklu çarpanlara ayırma becerilerini geliştirir. 78=2×39=3×26=6×13 ilişkileri, matematiksel esneklik sağlar. 80-2 yaklaşımı, yuvarlak sayılardan çıkarma stratejisini öğretir. Çok sayıda böleni olması, çeşitli hesaplama yöntemleri sunar. Bu tablo, çoklu strateji kullanmayı mükemmelleştirir.",
+      79: "79 çarpım tablosu, asal sayı stratejilerini en üst seviyeye çıkarır. 80-1 yaklaşımı, yuvarlak sayıları kullanarak hızlı hesaplama yapmayı mükemmelleştirir. Asal özellikler nedeniyle, zihinsel esneklik ve yaratıcı çözüm yöntemleri gerektirir. Bu tablo, 80'e yakın hesaplamalarda yetkinlik kazandırır ve ileri düzey matematik becerileri geliştirir.",
+      80: "80 çarpım tablosu, 8 tablosunu pekiştirmek için mükemmeldir. 8×10 ilişkisi, onluk sistemi ve 8 tablosunu birleştirir. 2×40=4×20=5×16 alternatifleri, çoklu strateji kullanmayı öğretir. Yaşam süresi bağlamında (üst limit 80 yaş) sosyal öneme sahiptir. Bu tablo, pratik hesaplama ve büyük sayılarla çalışma becerisini önemli ölçüde geliştirir.",
     }
     return importance[number] || `${number} çarpım tablosunu öğrenmek, öğrencilerin bu önemli sayıyla akıcılık geliştirmelerine yardımcı olur. Matematik ve günlük hayatta sıkça görülür, bu da güçlü hesaplama becerileri oluşturmak için gerekli kılar.`
   }
@@ -669,6 +689,56 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
         { title: "Hep 0 ile Biter", description: "70'in tüm katları 0 ile biter: 70, 140, 210, 280, 350, 420, 490, 560, 630, 700." },
         { title: "Çoklu Çarpan İlişkileri", description: "70=2×35=5×14=7×10. Birçok yoldan hesaplanabilir!" },
       ],
+      71: [
+        { title: "70+1 Stratejisi", description: "71=70+1. 71×n = (70×n) + n. Örnek: 71×7 = 490 + 7 = 497. Çok pratik!" },
+        { title: "Asal Sayı Özellikleri", description: "71 asal olduğundan sadece 1 ve 71 ile bölünebilir. Birler basamağı: 1, 2, 3, 4, 5, 6, 7, 8, 9, 0." },
+        { title: "75-4 Alternatifi", description: "71=75-4. Örnek: 71×5 = 375-20 = 355. 75 ile çarpmak daha kolay olduğunda kullanışlı." },
+      ],
+      72: [
+        { title: "8×9 İlişkisi", description: "72=8×9. Hem 8 hem 9 tablolarını kullanabilirsiniz: 72×5 = 9×5×8 = 45×8 = 360." },
+        { title: "6×12 veya 3×24", description: "72=6×12=3×24=4×18. Birden fazla yoldan hesaplanabilir: 72×4 = 12×24 = 288." },
+        { title: "Çok Sayıda Bölen", description: "72'nin 12 böleni var: 1,2,3,4,6,8,9,12,18,24,36,72. Kesirler için çok kullanışlı!" },
+      ],
+      73: [
+        { title: "70+3 veya 75-2", description: "73=70+3 veya 75-2. Örnek: 73×6 = 420+18 = 438 veya 450-12 = 438." },
+        { title: "Asal Sayı Deseni", description: "73 asal olduğundan özel stratejiler gerekir. 21. asal sayıdır. Birler basamağı: 3, 6, 9, 2, 5, 8, 1, 4, 7, 0." },
+        { title: "80-7 Stratejisi", description: "Büyük sayılarla: 73×8 = 640-56 = 584. 80'den çıkarma alternatif yöntemdir." },
+      ],
+      74: [
+        { title: "2×37 İlişkisi", description: "74=2×37. 37 tablosunu ikiye katlayın: 37×7=259, yani 74×7=518." },
+        { title: "75-1 veya 70+4", description: "74×n = (75×n) - n veya (70×n) + (4×n). Örnek: 74×5 = 375-5 = 370." },
+        { title: "Hep Çift Sayılar", description: "74'ün tüm katları çifttir: 74, 148, 222, 296, 370, 444, 518, 592, 666, 740." },
+      ],
+      75: [
+        { title: "3×25 veya 5×15", description: "75=3×25=5×15. Örnek: 75×4 = 25×12 = 300 veya 15×20 = 300." },
+        { title: "25, 50, 75, 00 Deseni", description: "75'in tüm katları 25, 50, 75 veya 00 ile biter. Çok düzenli ve tahmin edilebilir." },
+        { title: "Yüzde İlişkisi", description: "75 = 100×¾. Yani 75% = 3/4. Bu ilişki yüzde hesaplamalarında çok kullanışlı." },
+      ],
+      76: [
+        { title: "4×19 İlişkisi", description: "76=4×19. 19 tablosunu dörde katlayın: 19×7=133, yani 76×7=532." },
+        { title: "2×38 veya 80-4", description: "76=2×38 veya 80-4. Örnek: 76×6 = 480 - 24 = 456." },
+        { title: "Hep Çift ve 4'e Bölünebilir", description: "76'nın tüm katları hem çift hem de 4'e, 19'a bölünebilir: 76, 152, 228, 304, 380..." },
+      ],
+      77: [
+        { title: "7×11 İlişkisi", description: "77=7×11. Hem 7 hem 11 tablolarını kullanabilirsiniz: 77×5 = 11×5×7 = 55×7 = 385." },
+        { title: "Repdigit Benzeri Desen", description: "77×1=77, 77×2=154. 7 ve 11'in çarpımı olarak özel desen gösterir." },
+        { title: "80-3 Stratejisi", description: "77=80-3. Örnek: 77×6 = 480 - 18 = 462. Yuvarlak sayılardan çıkarma." },
+      ],
+      78: [
+        { title: "6×13 İlişkisi", description: "78=6×13=2×39=3×26. Birden fazla yoldan hesaplanabilir: 78×5 = 13×30 = 390." },
+        { title: "80-2 Stratejisi", description: "78=80-2. 78×n = (80×n) - (2×n). Örnek: 78×7 = 560 - 14 = 546." },
+        { title: "Hem 2'ye Hem 3'e Bölünebilir", description: "78'in tüm katları hem 2'ye hem 3'e bölünebilir. Basamaklar toplamı 3'ün katıdır." },
+      ],
+      79: [
+        { title: "80-1 Stratejisi", description: "79=80-1. 79×n = (80×n) - n. Örnek: 79×7 = 560 - 7 = 553. MÜKEMMELDİR!" },
+        { title: "Asal Sayı Benzersizliği", description: "79 asal olduğundan özel desenler vardır. Birler basamağı: 9, 8, 7, 6, 5, 4, 3, 2, 1, 0." },
+        { title: "75+4 Alternatifi", description: "79=75+4. Örnek: 79×8 = 600 + 32 = 632. 75 tablosunu biliyorsanız kullanışlı." },
+      ],
+      80: [
+        { title: "8×10 İlişkisi", description: "80=8×10. Bir sayıyı 80 ile çarpmak: 8 ile çarp, sonuna 0 ekle. 7×80: 7×8=56, sonuna 0: 560." },
+        { title: "Hep 0 ile Biter", description: "80'in tüm katları 0 ile biter: 80, 160, 240, 320, 400, 480, 560, 640, 720, 800." },
+        { title: "Çoklu Çarpan İlişkileri", description: "80=2×40=4×20=5×16=8×10. Çok sayıda yolla hesaplanabilir!" },
+      ],
     }
     return patterns[number] || []
   }
@@ -960,6 +1030,46 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
       70: [
         { mistake: "70×7=480 sanmak (490 yerine)", solution: "70×7=490, 480 değil. 7×7=49, sonuna 0 ekle: 490. Veya 10×7=70, ×7=490." },
         { mistake: "Sıfırı unutmak", solution: "70'in tüm katları 0 ile bitmeli: 70, 140, 210, 280, 350, 420, 490... 70×9=630, 63 değil!" },
+      ],
+      71: [
+        { mistake: "71×5=350 sanmak (355 yerine)", solution: "71×5=355, 350 değil. 70×5=350, artı 5: 355. Her zaman o ekstra 1'i eklemeyi unutmayın." },
+        { mistake: "71×9=630 ile 71×9=639'u karıştırmak", solution: "71×9=639 doğrudur (70×9=630, artı 9). 630 aslında 70×9." },
+      ],
+      72: [
+        { mistake: "72×5=350 sanmak (360 yerine)", solution: "72×5=360, 350 değil. 8×5=40, 9×5=45, 40×9=360. Veya 70×5=350, artı 2×5=10: 360." },
+        { mistake: "72×9=638 ile 72×9=648'i karıştırmak", solution: "72×9=648 doğrudur (8×9=72, ×9 veya 80×9=720, eksi 72). 638 başka bir sonuçtur." },
+      ],
+      73: [
+        { mistake: "73×5=355 sanmak (365 yerine)", solution: "73×5=365, 355 değil. 70×5=350, artı 3×5=15: 365. Ayrıca 365=bir yıldaki gün sayısı!" },
+        { mistake: "73×9=647 ile 73×9=657'yi karıştırmak", solution: "73×9=657 doğrudur (70×9=630, artı 3×9=27). 647 başka bir sonuçtur." },
+      ],
+      74: [
+        { mistake: "74×5=360 sanmak (370 yerine)", solution: "74×5=370, 360 değil. 37×5=185, ×2=370. Veya 75×5=375, eksi 5: 370." },
+        { mistake: "74×9=656 ile 74×9=666'yı karıştırmak", solution: "74×9=666 doğrudur (37×9=333, ×2 veya 75×9=675, eksi 9). 666 repdigit sayı. 656 başka bir sonuçtur." },
+      ],
+      75: [
+        { mistake: "75×5=370 sanmak (375 yerine)", solution: "75×5=375, 370 değil. 15×5=75, ×5=375. Veya 25×5=125, ×3=375." },
+        { mistake: "75×9=665 ile 75×9=675'i karıştırmak", solution: "75×9=675 doğrudur (25×9=225, ×3 veya 80×9=720, eksi 5×9=45). 675=3³×5². 665 başka bir sonuçtur." },
+      ],
+      76: [
+        { mistake: "76×5=370 sanmak (380 yerine)", solution: "76×5=380, 370 değil. 19×5=95, ×4=380. Veya 80×5=400, eksi 4×5=20: 380." },
+        { mistake: "76×9=674 ile 76×9=684'ü karıştırmak", solution: "76×9=684 doğrudur (19×9=171, ×4 veya 80×9=720, eksi 4×9=36). 684 başka bir sonuçtur." },
+      ],
+      77: [
+        { mistake: "77×5=380 sanmak (385 yerine)", solution: "77×5=385, 380 değil. 7×5=35, 11×5=55, 35×11=385. Veya 80×5=400, eksi 3×5=15: 385." },
+        { mistake: "77×9=683 ile 77×9=693'ü karıştırmak", solution: "77×9=693 doğrudur (7×9=63, ×11 veya 80×9=720, eksi 3×9=27). 693=7×9×11. 683 başka bir sonuçtur." },
+      ],
+      78: [
+        { mistake: "78×5=380 sanmak (390 yerine)", solution: "78×5=390, 380 değil. 13×5=65, 6×5=30, 65×6=390. Veya 80×5=400, eksi 2×5=10: 390." },
+        { mistake: "78×9=692 ile 78×9=702'yi karıştırmak", solution: "78×9=702 doğrudur (13×9=117, ×6 veya 80×9=720, eksi 2×9=18). 702 başka bir sonuçtur." },
+      ],
+      79: [
+        { mistake: "79×5=390 sanmak (395 yerine)", solution: "79×5=395, 390 değil. 80×5=400, eksi 5: 395. Çok basit!" },
+        { mistake: "79×9=701 ile 79×9=711'i karıştırmak", solution: "79×9=711 doğrudur (80×9=720, eksi 9). 711 başka bir sonuçtur." },
+      ],
+      80: [
+        { mistake: "80×7=550 sanmak (560 yerine)", solution: "80×7=560, 550 değil. 8×7=56, sonuna 0 ekle: 560. Veya 10×7=70, ×8=560." },
+        { mistake: "Sıfırı unutmak", solution: "80'in tüm katları 0 ile bitmeli: 80, 160, 240, 320, 400, 480, 560... 80×9=720, 72 değil!" },
       ],
     }
     return mistakes[number] || []
@@ -1451,6 +1561,76 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
         "70'erli sayın: 70, 140, 210, 280, 350, 420, 490, 560, 630, 700",
         "7 tablosunu pekiştirir: Her sonuç 7'nin 10 katı",
         "Çoklu yöntemler: 70=7×10=5×14=2×35",
+      ],
+      71: [
+        "70+1 stratejisi MÜKEMMEL: 71×n = 70n + n",
+        "Örnek: 71×7 = 490 + 7 = 497. Çok kolay!",
+        "71'erli sayın: 71, 142, 213, 284, 355, 426, 497, 568, 639, 710",
+        "En zor katları pratik edin: 71×7=497, 71×8=568",
+        "Asal sayı: Yaratıcı hesaplama stratejileri gerektirir",
+      ],
+      72: [
+        "8×9 ilişkisi: Her iki tabloyu da pekiştirir",
+        "Örnek: 72×5 = 9×5×8 = 45×8 = 360",
+        "72'şerli sayın: 72, 144, 216, 288, 360, 432, 504, 576, 648, 720",
+        "Çoklu yöntemler: 72=8×9=6×12=4×18=3×24",
+        "Zaman: 72 saat = 3 gün. Pratik uygulama",
+      ],
+      73: [
+        "70+3 stratejisi: 73×n = 70n + 3n",
+        "Örnek: 73×5 = 350 + 15 = 365 (yıldaki gün sayısı!)",
+        "73'erli sayın: 73, 146, 219, 292, 365, 438, 511, 584, 657, 730",
+        "En zor katları pratik edin: 73×7=511, 73×8=584",
+        "Asal sayı: 21. asal sayı, matematiksel merak",
+      ],
+      74: [
+        "75-1 stratejisi: 74×n = 75n - n",
+        "Örnek: 74×5 = 375 - 5 = 370",
+        "74'erli sayın: 74, 148, 222, 296, 370, 444, 518, 592, 666, 740",
+        "2×37 ilişkisi: 37 tablosunu ikiye katlayın",
+        "En zor katları pratik edin: 74×7=518, 74×9=666",
+      ],
+      75: [
+        "3×25 veya 5×15 ilişkileri: Çoklu yöntemler",
+        "Örnek: 75×4 = 25×12 = 300",
+        "75'erli sayın: 75, 150, 225, 300, 375, 450, 525, 600, 675, 750",
+        "Yüzde: 75% = 3/4, önemli kesir ilişkisi",
+        "En zor katları pratik edin: 75×7=525, 75×9=675",
+      ],
+      76: [
+        "80-4 stratejisi: 76×n = 80n - 4n",
+        "Örnek: 76×6 = 480 - 24 = 456",
+        "76'şarlı sayın: 76, 152, 228, 304, 380, 456, 532, 608, 684, 760",
+        "4×19 ilişkisi: 19 tablosunu dörde katlayın",
+        "En zor katları pratik edin: 76×7=532, 76×9=684",
+      ],
+      77: [
+        "7×11 ilişkisi: Her iki tabloyu da pekiştirir",
+        "Örnek: 77×5 = 11×5×7 = 55×7 = 385",
+        "77'şerli sayın: 77, 154, 231, 308, 385, 462, 539, 616, 693, 770",
+        "Repdigit benzeri: 77 (7×11), özel desen",
+        "En zor katları pratik edin: 77×7=539, 77×9=693",
+      ],
+      78: [
+        "80-2 stratejisi: 78×n = 80n - 2n",
+        "Örnek: 78×7 = 560 - 14 = 546",
+        "78'erli sayın: 78, 156, 234, 312, 390, 468, 546, 624, 702, 780",
+        "6×13 ilişkisi: Her iki tabloyu da kullanabilirsiniz",
+        "En zor katları pratik edin: 78×7=546, 78×9=702",
+      ],
+      79: [
+        "80-1 stratejisi SÜPER KOLAY: 79×n = 80n - n",
+        "Örnek: 79×7 = 560 - 7 = 553. MÜKEMMELDİR!",
+        "79'arlı sayın: 79, 158, 237, 316, 395, 474, 553, 632, 711, 790",
+        "En zor katları pratik edin: 79×7=553, 79×8=632",
+        "Asal sayı: 80'e 1 eksik, kolay hesaplama",
+      ],
+      80: [
+        "8×10 stratejisi: 8 ile çarp, sonuna 0 ekle",
+        "Örnek: 7×80: 7×8=56, sonuna 0 ekle: 560",
+        "80'erli sayın: 80, 160, 240, 320, 400, 480, 560, 640, 720, 800",
+        "8 tablosunu pekiştirir: Her sonuç 8'in 10 katı",
+        "Çoklu yöntemler: 80=8×10=4×20=5×16=2×40",
       ],
     }
     return strategies[number] || [
