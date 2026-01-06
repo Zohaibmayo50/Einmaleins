@@ -217,6 +217,16 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
       48: "48 ile çarpmak, çok sayıda çarpan ilişkisine sahiptir. 48=6×8=4×12=3×16=2×24 olduğundan, birden fazla yoldan hesaplanabilir. 48, 12'nin 4 katı olduğu için düzine hesaplamalarında kullanışlıdır (4 düzine). 48 saat = 2 gün, zaman hesaplamalarında sıkça karşılaşılır.",
       49: "49 ile çarpmak, 7'nin karesidir (49=7×7=7²). Bu özel ilişki, 7 tablosunu mükemmel bilmeyi gerektirir. 49'u 50-1 olarak düşünmek zihinsel hesaplamayı çok kolaylaştırır. 49, kare sayı olduğu için geometri ve alan hesaplamalarında önemlidir. 49 aynı zamanda 7×7 satranç tahtası değil, ama matematik desenleri için önemli.",
       50: "50 ile çarpmak, 5×10 ilişkisini kullanır ve en kolay tablolardan biridir. Bir sayıyı 50 ile çarpmak için, onu 5 ile çarpıp sonuna sıfır ekleyebilirsiniz. Veya 100'ün yarısı olarak düşünebilirsiniz. 50, yarım yüzyıl, yarım saat (30 dakika değil, 50 birimlik sistemlerde), ve yüzde hesaplamalarında (50%=1/2) sıkça kullanılır.",
+      51: "51 ile çarpmak, 50+1 stratejisini kullanır. Bir sayıyı 51 ile çarpmak için, onu 50 ile çarpıp kendisini ekleyin. 51=3×17 ilişkisi alternatif bir yöntem sunar. 51, iskambil destesindeki kart sayısıdır (Joker hariç 52, ama bazı oyunlarda 51). 51 tablosunu öğrenmek, 50'ye yakın sayılarla hesaplama becerisini geliştirir.",
+      52: "52 ile çarpmak, 4×13 ilişkisini kullanır. Bir yıldaki hafta sayısı (52 hafta) ve standart iskambil destesindeki kart sayısıdır (52 kart). 52=2×26 olduğundan, 26 tablosunu ikiye katlamak da işe yarar. 52'yi 50+2 olarak düşünmek zihinsel hesaplamayı kolaylaştırır. Bu tablo, zaman ve takvim hesaplamalarında çok kullanışlıdır.",
+      53: "53 ile çarpmak, asal sayı özellikleri nedeniyle zihinsel matematik stratejilerini geliştirir. 53'ü 50+3 veya 55-2 olarak düşünmek en pratik yöntemlerdir. 53 asal bir sayıdır ve sadece 1 ve 53 ile bölünebilir. 53 tablosunu öğrenmek, büyük asal sayılarla çalışma yeteneğini artırır ve matematiksel düşünmeyi derinleştirir.",
+      54: "54 ile çarpmak, en çok yönlü tablolardan biridir. 54=6×9=2×27=3×18 olduğundan, birçok farklı yoldan hesaplanabilir. 54, 1'den 10'a kadar olan sayıların toplamının 3 katıdır (1+2+...+10=55'e yakın). 6 ve 9 tablolarını birleştirdiği için, her ikisini de pekiştirir. Çok sayıda böleni olması, kesir hesaplamalarında kullanışlıdır.",
+      55: "55 ile çarpmak, 5×11 ilişkisini kullanır. Her iki tablo da bilinen tablolarsa, 55 ile çarpma kolaydır. 55=50+5 stratejisi de çok pratiktir. 55, 1'den 10'a kadar olan sayıların toplamıdır (1+2+3+...+10=55), bu özel matematik ilişkisi onu ilginç kılar. 5'in deseni (5 veya 0 ile biter) hesaplamayı kolaylaştırır.",
+      56: "56 ile çarpmak, 7×8 ilişkisini kullanır. Bu iki zor tabloyu birleştirdiği için, her ikisini de pekiştirir. 56=4×14=2×28 alternatifleri farklı stratejiler sunar. 56, 1 haftada 8 saatlik iş günü baz alındığında, 7 günlük toplam saat sayısıdır (7×8). 56'yı 60-4 olarak düşünmek de zihinsel hesaplamayı kolaylaştırır.",
+      57: "57 ile çarpmak, 3×19 ilişkisini kullanır. 19 tablosunu üçe katlamak veya 3 tablosunu 19 ile çarpmak işe yarar. 57'yi 60-3 veya 55+2 olarak düşünmek hesaplamayı kolaylaştırır. 57=3×19 olduğundan, hem 3'e hem 19'a bölünebilir. 57 tablosunu öğrenmek, orta düzey büyük sayılarla çalışma becerisini geliştirir.",
+      58: "58 ile çarpmak, 29'un iki katıdır (58=2×29). 29 tablosunu biliyorsanız, her sonucu ikiye katlayarak 58 tablosunu bulabilirsiniz. 58'i 60-2 veya 50+8 olarak düşünmek hesaplamayı kolaylaştırır. 58, çift sayı olduğu için tüm katları da çifttir. Bu tablo, ikiye katlama ve yuvarlak sayılara yaklaştırma stratejilerini pekiştirir.",
+      59: "59 ile çarpmak, asal sayı özellikleri ve 60'a yakınlık nedeniyle özel stratejiler gerektirir. 59'u 60-1 olarak düşünmek en etkili yöntemdir: bir sayıyı 60 ile çarpıp kendisini çıkarın. 59 asal bir sayıdır ve sadece 1 ve 59 ile bölünebilir. 59 tablosu, 60'a yakınlık nedeniyle dakika ve zaman hesaplamalarında (59 dakika) bağlam sağlar.",
+      60: "60 ile çarpmak, 6×10 ilişkisini kullanır ve çok kullanışlıdır. Bir sayıyı 60 ile çarpmak için, onu 6 ile çarpıp sonuna sıfır ekleyebilirsiniz. 60, bir saatteki dakika sayısı, bir dakikadaki saniye sayısı ve bir dairenin 360°'sinin altıda biridir. 60=2×30=3×20=4×15=5×12 gibi çok sayıda çarpan ilişkisi vardır. Bu tablo, zaman hesaplamaları için kritiktir.",
     }
     return meanings[number] || `${number} ile çarpmak, ${number} sayısını tekrar tekrar ekleme demektir. Her çarptığınızda, ${number}'lik grupları sayıyorsunuz.`
   }
@@ -273,6 +283,16 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
       48: "48 çarpım tablosu, en çok yönlü tablolardan biridir. Birçok böleni olması (1,2,3,4,6,8,12,16,24,48), kesirler ve oranlar için ideal yapar. Düzine sisteminde (4 düzine) ve zaman hesaplamalarında (48 saat=2 gün) kullanılır. Çoklu çarpan ilişkileri, matematiksel bağlantıları anlamayı derinleştirir.",
       49: "49 çarpım tablosu, kare sayıları (7²) anlamak için kritiktir. 7 tablosunu mükemmel bilmeyi gerektirir ve pekiştirir. 50-1 stratejisi, yuvarlak sayıları kullanarak hızlı hesaplama yapmayı öğretir. Geometri ve alan hesaplamalarında, kare özellikler nedeniyle önemlidir.",
       50: "50 çarpım tablosu, yüzde hesaplamalarının (50%=1/2) temelini oluşturur. 5×10 ilişkisi, onluk sistemi ve çarpmayı birleştirir. Yarım kavramı (½) ile doğrudan bağlantılıdır. Para sistemlerinde (50 kuruş, 50 lira), zaman ölçümlerinde ve günlük matematikte sürekli kullanılır. Bu tablo, pratik hesaplama becerilerini önemli ölçüde geliştirir.",
+      51: "51 çarpım tablosu, 50'ye yakın sayılarla çalışma becerisini geliştirir. 50+1 stratejisi, tamamlayıcı sayılar kullanmayı pekiştirir. 3×17 ilişkisi, çarpanlara ayırma becerilerini güçlendirir. İskambil oyunları bağlamında (52 kart) pratik öneme sahiptir. Bu tablo, yuvarlak sayılardan küçük sapmalarla hesaplama yapmayı öğretir.",
+      52: "52 çarpım tablosu, zaman ve takvim hesaplamaları için kritiktir. Bir yıldaki hafta sayısı (52 hafta) nedeniyle, yıllık planlama ve hesaplamalarda sürekli kullanılır. 4×13 ilişkisi, hem 4 hem 13 tablolarını pekiştirir. İskambil destesi (52 kart) matematiksel düşünmeye bağlam sağlar. Bu tablo, pratik yaşam matematiği için çok önemlidir.",
+      53: "53 çarpım tablosu, asal sayı stratejilerini ileri düzeye taşır. 50+3 yaklaşımı, zihinsel esneklik ve alternatif hesaplama yöntemleri geliştirir. Asal özellikler nedeniyle, yarat��cı problem çözme gerektirir. Bu tablo, büyük asal sayılarla çalışma becerisini artırır ve matematiksel düşünmenin derinliğini genişletir.",
+      54: "54 çarpım tablosu, çoklu çarpanlara ayırma becerilerini mükemmelleştirir. 54=6×9=2×27=3×18 ilişkileri, matematiksel bağlantıları görmeyi öğretir. 6 ve 9 tablolarını birleştirdiği için, her ikisini de güçlendirir. Çok sayıda böleni olması (1,2,3,6,9,18,27,54), kesirler ve oranlar için idealdir. Bu tablo, esnek matematiksel düşünmeyi teşvik eder.",
+      55: "55 çarpım tablosu, 5 ve 11 tablolarını birleştirerek matematiksel ilişkileri pekiştirir. Triangular number (üçgensel sayı) özelliği (1+2+...+10=55), matematiksel desenleri anlamayı derinleştirir. 5×11 ilişkisi, her iki tabloyu da güçlendirir. Bu tablo, sayı desenleri ve toplam formülleri için temel oluşturur.",
+      56: "56 çarpım tablosu, 7 ve 8 tablolarını birleştirerek her ikisini de pekiştirir. 7×8=56, en zor çarpım çiftlerinden biridir ve bu tabloyu öğrenmek onu güçlendirir. 4×14=2×28 alternatifleri, çoklu strateji kullanmayı öğretir. İş hesaplamalarında (7 günlük hafta × 8 saatlik gün) pratik öneme sahiptir. Bu tablo, zor çarpımları ustalaşmayı sağlar.",
+      57: "57 çarpım tablosu, 3 ve 19 tablolarını birleştirerek matematiksel bağlantıları güçlendirir. 60-3 stratejisi, yuvarlak sayılardan çıkarma becerisini mükemmelleştirir. 3×19 ilişkisi, hem asal hem asal olmayan sayı stratejilerini birleştirir. Bu tablo, orta düzey büyük sayılarla zihinsel hesaplama yapmayı geliştirir.",
+      58: "58 çarpım tablosu, 29 tablosunu pekiştirmeye yardımcı olur. 58=2×29 ilişkisi, ikiye katlama ve asal sayı stratejilerini birleştirir. 60-2 yaklaşımı, yuvarlak sayılara yaklaştırma stratejisini öğretir. Bu tablo, çift sayı özellikleri ve 60'a yakın hesaplamalar için temel oluşturur.",
+      59: "59 çarpım tablosu, asal sayı stratejilerini en üst seviyeye çıkarır. 60-1 yaklaşımı, yuvarlak sayıları kullanarak hızlı hesaplama yapmayı mükemmelleştirir. Asal özellikler nedeniyle, zihinsel esneklik ve yaratıcı çözüm yöntemleri gerektirir. Zaman bağlamında (59 dakika, 59 saniye) pratik öneme sahiptir. Bu tablo, ileri düzey zihinsel matematik becerileri kazandırır.",
+      60: "60 çarpım tablosu, zaman hesaplamalarının (60 dakika=1 saat, 60 saniye=1 dakika) temelini oluşturur. 6×10 ilişkisi, onluk sistemi ve çarpmayı birleştirir. Çok sayıda böleni olması (1,2,3,4,5,6,10,12,15,20,30,60), kesirler ve oranlar için idealdir. Açı ölçümlerinde (360°÷6=60°) geometrik öneme sahiptir. Bu tablo, günlük yaşamda en çok kullanılan tablolardan biridir.",
     }
     return importance[number] || `${number} çarpım tablosunu öğrenmek, öğrencilerin bu önemli sayıyla akıcılık geliştirmelerine yardımcı olur. Matematik ve günlük hayatta sıkça görülür, bu da güçlü hesaplama becerileri oluşturmak için gerekli kılar.`
   }
@@ -529,6 +549,56 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
         { title: "Hep 0 veya 50 ile Biter", description: "50'nin tüm katları 0 veya 50 ile biter: 50, 100, 150, 200, 250, 300, 350, 400..." },
         { title: "100'ün Yarısı", description: "50×n = (100×n)÷2. Örnek: 50×7 = 700÷2 = 350. Yüzde hesaplamalarında kullanışlı." },
       ],
+      51: [
+        { title: "50+1 Stratejisi", description: "51=50+1. 51×n = (50×n) + n. Örnek: 51×7 = 350 + 7 = 357. Çok pratik!" },
+        { title: "3×17 İlişkisi", description: "51=3×17. 17 tablosunu üçe katlayın: 17×6=102, yani 51×6=306." },
+        { title: "55-4 Alternatifi", description: "51=55-4. Örnek: 51×5 = 275-20 = 255. 55 ile çarpmak daha kolay olduğunda kullanışlı." },
+      ],
+      52: [
+        { title: "4×13 İlişkisi", description: "52=4×13. 13 tablosunu dörde katlayın: 13×7=91, yani 52×7=364." },
+        { title: "50+2 veya 2×26", description: "52×n = (50×n) + (2×n) veya 26 tablosunu ikiye katlayın. Örnek: 52×5 = 250+10 = 260." },
+        { title: "Hafta Sayısı Deseni", description: "52 hafta = 1 yıl. 52, 104 (2 yıl), 156 (3 yıl)... Takvim hesaplamalarında kullanışlı." },
+      ],
+      53: [
+        { title: "50+3 veya 55-2", description: "53=50+3 veya 55-2. Örnek: 53×6 = 300+18 = 318 veya 330-12 = 318." },
+        { title: "Asal Sayı Deseni", description: "53 asal olduğundan özel stratejiler gerekir. Birler basamağı: 3, 6, 9, 2, 5, 8, 1, 4, 7, 0." },
+        { title: "60-7 Stratejisi", description: "Büyük sayılarla: 53×8 = 480-56 = 424. 60'tan çıkarma alternatif yöntemdir." },
+      ],
+      54: [
+        { title: "6×9 İlişkisi", description: "54=6×9. Hem 6 hem 9 tablolarını kullanabilirsiniz: 54×5 = 9×5×6 = 45×6 = 270." },
+        { title: "2×27 veya 3×18", description: "54=2×27=3×18. Birden fazla yolla hesaplanabilir: 54×4 = 27×8 = 216." },
+        { title: "9'a Bölünebilir", description: "54'ün tüm katları 9'a bölünebilir. Basamaklar toplamı 9'un katıdır: 108 (1+0+8=9)." },
+      ],
+      55: [
+        { title: "5×11 İlişkisi", description: "55=5×11. Hem 5 hem 11 tablolarını kullanabilirsiniz: 55×4 = 11×4×5 = 44×5 = 220." },
+        { title: "5 veya 0 ile Biter", description: "55'in tüm katları 5 veya 0 ile biter: 55, 110, 165, 220, 275, 330, 385, 440..." },
+        { title: "Üçgensel Sayı", description: "55 = 1+2+3+4+5+6+7+8+9+10. Bu özel toplam özelliği 55'i matematiksel olarak ilginç kılar." },
+      ],
+      56: [
+        { title: "7×8 İlişkisi", description: "56=7×8. En zor çarpım çiftlerinden biri! Hem 7 hem 8 tablolarını pekiştirir." },
+        { title: "4×14 veya 2×28", description: "56=4×14=2×28. Birden fazla yoldan hesaplanabilir: 56×5 = 14×20 = 280." },
+        { title: "Hep Çift ve 7'ye Bölünebilir", description: "56'nın tüm katları hem çift hem de 4'e, 7'ye, 8'e bölünebilir: 56, 112, 168, 224..." },
+      ],
+      57: [
+        { title: "3×19 İlişkisi", description: "57=3×19. 19 tablosunu üçe katlayın: 19×7=133, yani 57×7=399." },
+        { title: "60-3 Stratejisi", description: "57=60-3. 57×n = (60×n) - (3×n). Örnek: 57×6 = 360 - 18 = 342. Çok kolay!" },
+        { title: "3'e Bölünebilir", description: "57'nin tüm katları 3'e ve 19'a bölünebilir. Basamaklar toplamı 3'ün katıdır." },
+      ],
+      58: [
+        { title: "29'un İki Katı", description: "58=2×29. 29 tablosunu ikiye katlayın: 29×7=203, yani 58×7=406." },
+        { title: "60-2 Stratejisi", description: "58=60-2. 58×n = (60×n) - (2×n). Örnek: 58×6 = 360 - 12 = 348." },
+        { title: "Hep Çift Sayılar", description: "58'in tüm katları çifttir: 58, 116, 174, 232, 290, 348, 406, 464, 522, 580." },
+      ],
+      59: [
+        { title: "60-1 Stratejisi", description: "59=60-1. 59×n = (60×n) - n. Örnek: 59×7 = 420 - 7 = 413. MÜKEMMELDİR!" },
+        { title: "Asal Sayı Benzersizliği", description: "59 asal olduğundan özel desenler vardır. Birler basamağı: 9, 8, 7, 6, 5, 4, 3, 2, 1, 0." },
+        { title: "55+4 Alternatifi", description: "59=55+4. Örnek: 59×8 = 440 + 32 = 472. 55 tablosunu biliyorsanız kullanışlı." },
+      ],
+      60: [
+        { title: "6×10 İlişkisi", description: "60=6×10. Bir sayıyı 60 ile çarpmak: 6 ile çarp, sonuna 0 ekle. 7×60: 7×6=42, sonuna 0: 420." },
+        { title: "Hep 0 ile Biter", description: "60'ın tüm katları 0 ile biter: 60, 120, 180, 240, 300, 360, 420, 480, 540, 600." },
+        { title: "Çoklu Çarpan İlişkileri", description: "60=2×30=3×20=4×15=5×12=6×10. Çok sayıda yolla hesaplanabilir!" },
+      ],
     }
     return patterns[number] || []
   }
@@ -740,6 +810,46 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
       50: [
         { mistake: "50×7=340 sanmak (350 yerine)", solution: "50×7=350, 340 değil. 5×7=35, sonuna 0 ekle: 350. Veya 100×7=700, ÷2=350." },
         { mistake: "Sıfırı unutmak", solution: "50'nin tüm tek katları 50 ile, çift katları 0 ile biter: 50, 100, 150, 200, 250... 50×8=400, 40 değil!" },
+      ],
+      51: [
+        { mistake: "51×5=250 sanmak (255 yerine)", solution: "51×5=255, 250 değil. 50×5=250, artı 5: 255. Her zaman o ekstra 1'i eklemeyi unutmayın." },
+        { mistake: "51×9=450 ile 51×9=459'u karıştırmak", solution: "51×9=459 doğrudur (50×9=450, artı 9). 450 aslında 50×9." },
+      ],
+      52: [
+        { mistake: "52×5=250 sanmak (260 yerine)", solution: "52×5=260, 250 değil. 13×5=65, ×4=260. Veya 50×5=250, artı 2×5=10: 260." },
+        { mistake: "52×9=458 ile 52×9=468'i karıştırmak", solution: "52×9=468 doğrudur (13×9=117, ×4 veya 50×9=450, artı 18). 458 başka bir sonuçtur." },
+      ],
+      53: [
+        { mistake: "53×5=255 sanmak (265 yerine)", solution: "53×5=265, 255 değil. 50×5=250, artı 3×5=15: 265. 255 aslında 51×5." },
+        { mistake: "53×9=467 ile 53×9=477'yi karıştırmak", solution: "53×9=477 doğrudur (50×9=450, artı 3×9=27). 467 başka bir sonuçtur." },
+      ],
+      54: [
+        { mistake: "54×5=260 sanmak (270 yerine)", solution: "54×5=270, 260 değil. 6×5=30, 9×5=45, 30×9=270. Veya 50×5=250, artı 4×5=20: 270." },
+        { mistake: "54×9=476 ile 54×9=486'yı karıştırmak", solution: "54×9=486 doğrudur (6×9=54, ×9 veya 60×9=540, eksi 6×9=54). 476 başka bir sonuçtur." },
+      ],
+      55: [
+        { mistake: "55×5=270 sanmak (275 yerine)", solution: "55×5=275, 270 değil. 11×5=55, ×5=275. Veya 50×5=250, artı 5×5=25: 275." },
+        { mistake: "55×9=485 ile 55×9=495'i karıştırmak", solution: "55×9=495 doğrudur (11×9=99, ×5 veya 60×9=540, eksi 5×9=45). 485 başka bir sonuçtur." },
+      ],
+      56: [
+        { mistake: "56×5=270 sanmak (280 yerine)", solution: "56×5=280, 270 değil. 7×5=35, 8×5=40, 35×8=280. Veya 60×5=300, eksi 4×5=20: 280." },
+        { mistake: "56×9=494 ile 56×9=504'ü karıştırmak", solution: "56×9=504 doğrudur (7×9=63, ×8 veya 60×9=540, eksi 4×9=36). 494 başka bir sonuçtur." },
+      ],
+      57: [
+        { mistake: "57×5=280 sanmak (285 yerine)", solution: "57×5=285, 280 değil. 60×5=300, eksi 3×5=15: 285. 280 aslında 56×5." },
+        { mistake: "57×9=503 ile 57×9=513'ü karıştırmak", solution: "57×9=513 doğrudur (60×9=540, eksi 3×9=27). 503 başka bir sonuçtur." },
+      ],
+      58: [
+        { mistake: "58×5=280 sanmak (290 yerine)", solution: "58×5=290, 280 değil. 29×5=145, ×2=290. Veya 60×5=300, eksi 2×5=10: 290." },
+        { mistake: "58×9=512 ile 58×9=522'yi karıştırmak", solution: "58×9=522 doğrudur (29×9=261, ×2 veya 60×9=540, eksi 2×9=18). 512 başka bir sonuçtur." },
+      ],
+      59: [
+        { mistake: "59×5=290 sanmak (295 yerine)", solution: "59×5=295, 290 değil. 60×5=300, eksi 5: 295. Çok basit!" },
+        { mistake: "59×9=521 ile 59×9=531'i karıştırmak", solution: "59×9=531 doğrudur (60×9=540, eksi 9). 531 ayrıca 9×59. 521 başka bir sonuçtur." },
+      ],
+      60: [
+        { mistake: "60×7=410 sanmak (420 yerine)", solution: "60×7=420, 410 değil. 6×7=42, sonuna 0 ekle: 420. Veya 10×7=70, ×6=420." },
+        { mistake: "Sıfırı unutmak", solution: "60'ın tüm katları 0 ile bitmeli: 60, 120, 180, 240, 300, 360, 420... 60×9=540, 54 değil!" },
       ],
     }
     return mistakes[number] || []
@@ -1091,6 +1201,76 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
         "100'ün yarısı: 50×7 = 350 (700÷2)",
         "50'şerli sayın: 50, 100, 150, 200, 250, 300, 350, 400, 450, 500",
         "Yüzde: 50% = 1/2, en önemli yüzde ilişkisi",
+      ],
+      51: [
+        "50+1 stratejisi MÜKEMMEL: 51×n = 50n + n",
+        "Örnek: 51×7 = 350 + 7 = 357. Çok kolay!",
+        "51'erli sayın: 51, 102, 153, 204, 255, 306, 357, 408, 459, 510",
+        "3×17 ilişkisi: 17 tablosunu üçe katlayın",
+        "En zor katları pratik edin: 51×7=357, 51×8=408",
+      ],
+      52: [
+        "4×13 ilişkisi: 13 tablosunu dörde katlayın",
+        "Örnek: 13×7=91, ×4=364, yani 52×7=364",
+        "52'şerli sayın: 52, 104, 156, 208, 260, 312, 364, 416, 468, 520",
+        "Takvim: 52 hafta = 1 yıl. Yıllık hesaplamalar için",
+        "İskambil: 52 kart ile oyun ve olasılık problemleri",
+      ],
+      53: [
+        "50+3 stratejisi: 53×n = 50n + 3n",
+        "Örnek: 53×6 = 300 + 18 = 318",
+        "53'erli sayın: 53, 106, 159, 212, 265, 318, 371, 424, 477, 530",
+        "En zor katları pratik edin: 53×7=371, 53×8=424",
+        "Asal sayı: Yaratıcı hesaplama stratejileri gerektirir",
+      ],
+      54: [
+        "6×9 ilişkisi: Her iki tabloyu da kullanabilirsiniz",
+        "Örnek: 54×5 = 9×5×6 = 45×6 = 270",
+        "54'erli sayın: 54, 108, 162, 216, 270, 324, 378, 432, 486, 540",
+        "Çoklu yöntemler: 54=6×9=2×27=3×18",
+        "En zor katları pratik edin: 54×7=378, 54×8=432",
+      ],
+      55: [
+        "5×11 ilişkisi: Her iki tabloyu da pekiştirir",
+        "Örnek: 55×4 = 11×4×5 = 44×5 = 220",
+        "55'erli sayın: 55, 110, 165, 220, 275, 330, 385, 440, 495, 550",
+        "Üçgensel sayı: 55 = 1+2+3+...+10, özel matematik özelliği",
+        "En zor katları pratik edin: 55×7=385, 55×9=495",
+      ],
+      56: [
+        "7×8 ilişkisi: EN ZOR çarpım! Her ikisini de pekiştirir",
+        "Örnek: 56×5 = 7×5×8 = 35×8 = 280",
+        "56'şarlı sayın: 56, 112, 168, 224, 280, 336, 392, 448, 504, 560",
+        "Alternatif: 56=4×14=2×28. Daha kolay olan yolu seçin",
+        "En zor katları pratik edin: 56×7=392, 56×9=504",
+      ],
+      57: [
+        "60-3 stratejisi MÜKEMMEL: 57×n = 60n - 3n",
+        "Örnek: 57×7 = 420 - 21 = 399. Çok kolay!",
+        "57'şerli sayın: 57, 114, 171, 228, 285, 342, 399, 456, 513, 570",
+        "3×19 ilişkisi: 19 tablosunu üçe katlayın",
+        "En zor katları pratik edin: 57×7=399, 57×8=456",
+      ],
+      58: [
+        "60-2 stratejisi: 58×n = 60n - 2n",
+        "Örnek: 58×6 = 360 - 12 = 348",
+        "58'erli sayın: 58, 116, 174, 232, 290, 348, 406, 464, 522, 580",
+        "29'un iki katı: 29 tablosunu ikiye katlayın",
+        "En zor katları pratik edin: 58×7=406, 58×9=522",
+      ],
+      59: [
+        "60-1 stratejisi SÜPER KOLAY: 59×n = 60n - n",
+        "Örnek: 59×7 = 420 - 7 = 413. MÜKEMMELDİR!",
+        "59'arlı sayın: 59, 118, 177, 236, 295, 354, 413, 472, 531, 590",
+        "Zaman: 59 dakika, 59 saniye - 60'a 1 eksik",
+        "En zor katları pratik edin: 59×7=413, 59×8=472",
+      ],
+      60: [
+        "6×10 stratejisi: 6 ile çarp, sonuna 0 ekle",
+        "Örnek: 7×60: 7×6=42, sonuna 0 ekle: 420",
+        "60'arlı sayın: 60, 120, 180, 240, 300, 360, 420, 480, 540, 600",
+        "Zaman: 60 dakika=1 saat, 60 saniye=1 dakika",
+        "Çoklu yöntemler: 60=6×10=5×12=4×15=3×20=2×30",
       ],
     }
     return strategies[number] || [
