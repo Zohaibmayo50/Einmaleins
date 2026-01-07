@@ -183,7 +183,7 @@ export default function PrintableExercises({ rangeStart: defaultRangeStart = 1, 
   }
 
   return (
-    <section className="section-container bg-gradient-to-br from-purple-50 to-pink-50 border-t border-gray-200">
+    <section id="pdf-exercises" className="section-container bg-gradient-to-br from-purple-50 to-pink-50 border-t border-gray-200">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-slate-900 mb-4 text-center">
           📄 Yazdırılabilir Alıştırmalar

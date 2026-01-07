@@ -101,13 +101,13 @@ export default function Header() {
             </div>
 
             <Link 
-              href="/#practice" 
+              href="/#pdf-exercises" 
               className="px-4 py-2 text-slate-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-all duration-200 font-medium"
             >
               PDF Alıştırmalar
             </Link>
             <Link 
-              href="/#practice" 
+              href="/#games" 
               className="px-4 py-2 text-slate-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-all duration-200 font-medium"
             >
               İnteraktif Oyunlar
@@ -206,14 +206,14 @@ export default function Header() {
           {/* Other Links */}
           <div className="py-2 border-t border-slate-200">
             <Link 
-              href="/#practice" 
+              href="/#pdf-exercises" 
               onClick={closeMobileMenu}
               className="block px-4 py-3 text-slate-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-all font-medium"
             >
               📄 PDF Alıştırmalar
             </Link>
             <Link 
-              href="/#practice" 
+              href="/#games" 
               onClick={closeMobileMenu}
               className="block px-4 py-3 text-slate-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-all font-medium"
             >

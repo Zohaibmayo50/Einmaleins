@@ -111,27 +111,27 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4 text-emerald-400">Pratik & Oyunlar</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/#practice" className="text-slate-400 hover:text-white transition-colors">
+                <Link href="/#pdf-exercises" className="text-slate-400 hover:text-white transition-colors">
                   📄 PDF Alıştırmalar
                 </Link>
               </li>
               <li>
-                <Link href="/#practice" className="text-slate-400 hover:text-white transition-colors">
+                <Link href="/#games" className="text-slate-400 hover:text-white transition-colors">
                   ⚡ Hız Oyunu
                 </Link>
               </li>
               <li>
-                <Link href="/#practice" className="text-slate-400 hover:text-white transition-colors">
+                <Link href="/#games" className="text-slate-400 hover:text-white transition-colors">
                   🦸 Kahraman Oyunu
                 </Link>
               </li>
               <li>
-                <Link href="/#practice" className="text-slate-400 hover:text-white transition-colors">
+                <Link href="/#games" className="text-slate-400 hover:text-white transition-colors">
                   🧠 Hafıza Oyunu
                 </Link>
               </li>
               <li>
-                <Link href="/#practice" className="text-slate-400 hover:text-white transition-colors">
+                <Link href="/#games" className="text-slate-400 hover:text-white transition-colors">
                   🚀 Uzay Oyunu
                 </Link>
               </li>
