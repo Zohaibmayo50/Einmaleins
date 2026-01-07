@@ -104,6 +104,7 @@ const nextConfig = {
       { source: '/98-ler-carpim-tablosu-oyunlar-alistirmalar/', destination: '/sayi/98', permanent: true },
       { source: '/99-ler-carpim-tablosu-oyunlar-alistirmalar/', destination: '/sayi/99', permanent: true },
       { source: '/100-ler-carpim-tablosu-oyunlar-alistirmalar/', destination: '/sayi/100', permanent: true },
+      { source: '/sample-page/', destination: '/', permanent: true },
     ];
   },
 }
