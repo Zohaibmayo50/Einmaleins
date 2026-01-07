@@ -74,12 +74,12 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4 text-purple-400">Kaynaklar</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/learn-multiplication/for-parents" className="text-slate-400 hover:text-white transition-colors">
+                <Link href="/veliler-icin" className="text-slate-400 hover:text-white transition-colors">
                   Ebeveynler İçin
                 </Link>
               </li>
               <li>
-                <Link href="/learn-multiplication/for-teachers" className="text-slate-400 hover:text-white transition-colors">
+                <Link href="/ogretmenler-icin" className="text-slate-400 hover:text-white transition-colors">
                   Öğretmenler İçin
                 </Link>
               </li>

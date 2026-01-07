@@ -6,7 +6,7 @@ export const metadata = {
   description: 'Sınıfınızda çarpım tablosu öğretimi için profesyonel kaynaklar, pedagojik stratejiler, aktivite önerileri ve değerlendirme araçları.',
   keywords: 'çarpım tablosu öğretimi, sınıf aktiviteleri, pedagojik yöntemler, matematik öğretimi',
   alternates: {
-    canonical: '/learn-multiplication/for-teachers',
+    canonical: '/ogretmenler-icin',
   },
 }
 

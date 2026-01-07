@@ -105,6 +105,9 @@ const nextConfig = {
       { source: '/99-ler-carpim-tablosu-oyunlar-alistirmalar/', destination: '/sayi/99', permanent: true },
       { source: '/100-ler-carpim-tablosu-oyunlar-alistirmalar/', destination: '/sayi/100', permanent: true },
       { source: '/sample-page/', destination: '/', permanent: true },
+      { source: '/learn-multiplication/for-students', destination: '/ogrenciler-icin', permanent: true },
+      { source: '/learn-multiplication/for-parents', destination: '/veliler-icin', permanent: true },
+      { source: '/learn-multiplication/for-teachers', destination: '/ogretmenler-icin', permanent: true },
     ];
   },
 }

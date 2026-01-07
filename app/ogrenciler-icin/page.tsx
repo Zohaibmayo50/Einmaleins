@@ -6,7 +6,7 @@ export const metadata = {
   description: 'Çarpım tablosunu kolayca öğrenmek için adım adım rehber. Görsel materyaller, pratik aktiviteler ve eğlenceli oyunlarla kendi hızında öğren!',
   keywords: 'çarpım tablosu öğrenme, matematik öğrenme, öğrenci rehberi, adım adım çarpım',
   alternates: {
-    canonical: '/learn-multiplication/for-students',
+    canonical: '/ogrenciler-icin',
   },
 }
 

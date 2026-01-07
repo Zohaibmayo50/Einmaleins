@@ -61,7 +61,7 @@ export default function AudienceSection() {
               </p>
             </div>
             <Link 
-              href="/learn-multiplication/for-students"
+              href="/ogrenciler-icin"
               className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium transition-colors mt-4"
             >
               Öğrenciler için rehber
@@ -114,7 +114,7 @@ export default function AudienceSection() {
                 </li>
               </ul>
               <Link 
-                href="/learn-multiplication/for-parents" 
+                href="/veliler-icin" 
                 className="inline-flex items-center text-purple-600 hover:text-purple-700 font-medium pt-2"
               >
                 Ebeveynler için rehber
@@ -170,7 +170,7 @@ export default function AudienceSection() {
                 </li>
               </ul>
               <Link 
-                href="/learn-multiplication/for-teachers" 
+                href="/ogretmenler-icin" 
                 className="inline-flex items-center text-emerald-600 hover:text-emerald-700 font-medium pt-2"
               >
                 Öğretmenler için rehber

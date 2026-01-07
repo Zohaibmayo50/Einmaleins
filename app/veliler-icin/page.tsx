@@ -6,7 +6,7 @@ export const metadata = {
   description: 'Çocuğunuzun çarpım tablosu öğrenmesine nasıl destek olabilirsiniz? Etkili stratejiler, motivasyon teknikleri ve ev içi aktiviteler.',
   keywords: 'çarpım tablosu öğretme, ebeveyn rehberi, çocuklara matematik, ev ödevleri',
   alternates: {
-    canonical: '/learn-multiplication/for-parents',
+    canonical: '/veliler-icin',
   },
 }
 
