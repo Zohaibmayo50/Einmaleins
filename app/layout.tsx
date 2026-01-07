@@ -4,9 +4,9 @@ import Header from './components/Header'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://carpimtablosu.com.tr'),
-  title: 'Çarpım Tablosu 1-100 | İnteraktif Öğrenme Platformu',
-  description: '1\'den 100\'e kadar çarpım tablolarını ücretsiz öğrenin. İnteraktif alıştırmalar, eğitici oyunlar ve yazdırılabilir çalışma sayfalarıyla çocuklar için ideal matematik platformu.',
-  keywords: 'çarpım tablosu, multiplication table, matematik, öğrenme, pratik, eğitim',
+  title: 'Çarpım Tablosu 1-100 | PDF Alıştırmaları ve İnteraktif Oyunlar',
+  description: '1\'den 100\'e kadar çarpım tablolarını ücretsiz öğrenin. İnteraktif alıştırmalar, eğitici oyunlar ve PDF çalışma sayfalarıyla çocuklar için ideal matematik platformu.',
+  keywords: 'çarpım tablosu, multiplication table, matematik, öğrenme, pratik, eğitim, pdf alıştırmaları',
   authors: [{ name: 'Çarpım Tablosu' }],
   creator: 'Çarpım Tablosu',
   publisher: 'Çarpım Tablosu',
