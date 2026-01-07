@@ -104,7 +104,13 @@ export default function Header() {
               href="/#practice" 
               className="px-4 py-2 text-slate-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-all duration-200 font-medium"
             >
-              Pratik Yap
+              PDF Alıştırmalar
+            </Link>
+            <Link 
+              href="/#practice" 
+              className="px-4 py-2 text-slate-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-all duration-200 font-medium"
+            >
+              İnteraktif Oyunlar
             </Link>
             <Link 
               href="/#learning-paths" 
@@ -204,7 +210,14 @@ export default function Header() {
               onClick={closeMobileMenu}
               className="block px-4 py-3 text-slate-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-all font-medium"
             >
-              🎯 Pratik Yap
+              📄 PDF Alıştırmalar
+            </Link>
+            <Link 
+              href="/#practice" 
+              onClick={closeMobileMenu}
+              className="block px-4 py-3 text-slate-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-all font-medium"
+            >
+              🎮 İnteraktif Oyunlar
             </Link>
             <Link 
               href="/#learning-paths" 

@@ -108,26 +108,31 @@ export default function Footer() {
 
           {/* Pratik Section */}
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-emerald-400">Pratik</h3>
+            <h3 className="text-lg font-semibold mb-4 text-emerald-400">Pratik & Oyunlar</h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <Link href="/#practice" className="text-slate-400 hover:text-white transition-colors">
-                  Alıştırma Modu
+                  📄 PDF Alıştırmalar
                 </Link>
               </li>
               <li>
                 <Link href="/#practice" className="text-slate-400 hover:text-white transition-colors">
-                  İnteraktif Oyunlar
+                  ⚡ Hız Oyunu
                 </Link>
               </li>
               <li>
                 <Link href="/#practice" className="text-slate-400 hover:text-white transition-colors">
-                  Testler
+                  🦸 Kahraman Oyunu
                 </Link>
               </li>
               <li>
-                <Link href="/#learning-paths" className="text-slate-400 hover:text-white transition-colors">
-                  Öğrenme Yolları
+                <Link href="/#practice" className="text-slate-400 hover:text-white transition-colors">
+                  🧠 Hafıza Oyunu
+                </Link>
+              </li>
+              <li>
+                <Link href="/#practice" className="text-slate-400 hover:text-white transition-colors">
+                  🚀 Uzay Oyunu
                 </Link>
               </li>
             </ul>
