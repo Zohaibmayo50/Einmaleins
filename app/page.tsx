@@ -14,57 +14,57 @@ const schemaData = {
   "@graph": [
     {
       "@type": "WebSite",
-      "@id": "https://carpimtablosu.com.tr/#website",
-      "url": "https://carpimtablosu.com.tr/",
-      "name": "Çarpım Tablosu",
-      "description": "1'den 100'e kadar çarpım tablolarını öğrenmek için interaktif eğitim platformu. Çocuklar için görsel öğrenme araçları, pratik alıştırmaları ve eğitici oyunlar.",
-      "inLanguage": "tr-TR",
+      "@id": "https://tablasdemultiplicar.online/#website",
+      "url": "https://tablasdemultiplicar.online/",
+      "name": "Tablas de Multiplicar",
+      "description": "Plataforma de educación interactiva para aprender las tablas de multiplicar del 1 al 100. Herramientas de aprendizaje visual para niños, ejercicios prácticos y juegos educativos.",
+      "inLanguage": "es",
       "publisher": {
-        "@id": "https://carpimtablosu.com.tr/#organization"
+        "@id": "https://tablasdemultiplicar.online/#organization"
       },
       "potentialAction": {
         "@type": "SearchAction",
         "target": {
           "@type": "EntryPoint",
-          "urlTemplate": "https://carpimtablosu.com.tr/sayi/{search_term_string}"
+          "urlTemplate": "https://tablasdemultiplicar.online/tabla/{search_term_string}"
         },
         "query-input": "required name=search_term_string"
       }
     },
     {
       "@type": "WebPage",
-      "@id": "https://carpimtablosu.com.tr/#webpage",
-      "url": "https://carpimtablosu.com.tr/",
-      "name": "Çarpım Tablosu - 1'den 100'e Kadar Tüm Tablolar",
-      "description": "Çocuklar için interaktif çarpım tablosu öğrenme platformu. 1-100 arası tüm çarpım tablolarını pratik yaparak öğrenin. Görsel alıştırmalar, oyunlar ve yazdırılabilir çalışma sayfaları.",
+      "@id": "https://tablasdemultiplicar.online/#webpage",
+      "url": "https://tablasdemultiplicar.online/",
+      "name": "Tablas de Multiplicar - Del 1 al 100 Todas las Tablas",
+      "description": "Plataforma interactiva de aprendizaje de tablas de multiplicar para niños. Aprende todas las tablas de multiplicar del 1 al 100 practicando. Ejercicios visuales, juegos y hojas de trabajo imprimibles.",
       "isPartOf": {
-        "@id": "https://carpimtablosu.com.tr/#website"
+        "@id": "https://tablasdemultiplicar.online/#website"
       },
       "about": {
-        "@id": "https://carpimtablosu.com.tr/#learningresource"
+        "@id": "https://tablasdemultiplicar.online/#learningresource"
       },
-      "inLanguage": "tr-TR",
+      "inLanguage": "es",
       "primaryImageOfPage": {
         "@type": "ImageObject",
-        "url": "https://carpimtablosu.com.tr/og-image.jpg",
+        "url": "https://tablasdemultiplicar.online/og-image.jpg",
         "width": 1200,
         "height": 630
       }
     },
     {
       "@type": "EducationalOrganization",
-      "@id": "https://carpimtablosu.com.tr/#organization",
-      "name": "Çarpım Tablosu",
-      "url": "https://carpimtablosu.com.tr/",
-      "description": "İlkokul öğrencilerine çarpım tablolarını öğreten eğitim platformu",
-      "areaServed": "TR",
-      "availableLanguage": "tr"
+      "@id": "https://tablasdemultiplicar.online/#organization",
+      "name": "Tablas de Multiplicar",
+      "url": "https://tablasdemultiplicar.online/",
+      "description": "Plataforma educativa que enseña las tablas de multiplicar a estudiantes de primaria",
+      "areaServed": "Worldwide",
+      "availableLanguage": "es"
     },
     {
       "@type": "LearningResource",
-      "@id": "https://carpimtablosu.com.tr/#learningresource",
-      "name": "Çarpım Tablosu Öğrenme Platformu",
-      "description": "1'den 100'e kadar çarpım tablolarını öğrenmek için kapsamlı eğitim kaynağı. Her sayı için detaylı açıklamalar, desenler, pratik stratejileri ve interaktif alıştırmalar.",
+      "@id": "https://tablasdemultiplicar.online/#learningresource",
+      "name": "Plataforma de Aprendizaje de Tablas de Multiplicar",
+      "description": "Recurso educativo integral para aprender las tablas de multiplicar del 1 al 100. Explicaciones detalladas para cada número, patrones, estrategias prácticas y ejercicios interactivos.",
       "educationalLevel": "Elementary",
       "learningResourceType": [
         "Interactive Resource",
@@ -80,7 +80,7 @@ const schemaData = {
           "teacher"
         ]
       },
-      "inLanguage": "tr-TR",
+      "inLanguage": "es",
       "educationalUse": [
         "practice",
         "self-study",
@@ -88,16 +88,16 @@ const schemaData = {
         "classroom activity"
       ],
       "keywords": [
-        "çarpım tablosu",
-        "matematik öğrenme",
-        "ilkokul matematik",
-        "çarpma işlemi",
-        "çarpım tablosu ezberleme",
-        "matematik pratik",
-        "çarpma alıştırmaları",
-        "çarpım tablosu oyunları"
+        "tablas de multiplicar",
+        "aprendizaje de matemáticas",
+        "matemáticas de primaria",
+        "operación de multiplicación",
+        "memorizar tablas de multiplicar",
+        "práctica de matemáticas",
+        "ejercicios de multiplicación",
+        "juegos de tablas de multiplicar"
       ],
-      "teaches": "Çarpma işlemi ve çarpım tablolarını anlama, uygulama ve ezberleme becerileri",
+      "teaches": "Habilidades para comprender, aplicar y memorizar la operación de multiplicación y las tablas de multiplicar",
       "typicalAgeRange": "6-12"
     }
   ]
