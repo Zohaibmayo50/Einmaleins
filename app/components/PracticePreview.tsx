@@ -101,27 +101,27 @@ export default function PracticePreview({ rangeStart = 1, rangeEnd = 10 }: Pract
 
   const exercises = [
     {
-      level: 'Kolay',
-      range: '2-5 Çarpım Tablosu',
-      questions: '20 Soru',
+      level: 'Fácil',
+      range: 'Tablas 2-5',
+      questions: '20 Preguntas',
       color: 'bg-green-100 text-green-700 border-green-300'
     },
     {
-      level: 'Orta',
-      range: '6-8 Çarpım Tablosu',
-      questions: '30 Soru',
+      level: 'Medio',
+      range: 'Tablas 6-8',
+      questions: '30 Preguntas',
       color: 'bg-yellow-100 text-yellow-700 border-yellow-300'
     },
     {
-      level: 'Zor',
-      range: '9-12 Çarpım Tablosu',
-      questions: '40 Soru',
+      level: 'Difícil',
+      range: 'Tablas 9-12',
+      questions: '40 Preguntas',
       color: 'bg-orange-100 text-orange-700 border-orange-300'
     },
     {
-      level: 'Uzman',
-      range: 'Karışık Tüm Tablolar',
-      questions: '50 Soru',
+      level: 'Experto',
+      range: 'Todas las Tablas Mezcladas',
+      questions: '50 Preguntas',
       color: 'bg-red-100 text-red-700 border-red-300'
     }
   ]
@@ -130,12 +130,12 @@ export default function PracticePreview({ rangeStart = 1, rangeEnd = 10 }: Pract
     <section id="practice" className="section-container bg-gradient-to-br from-slate-50 to-blue-50 border-t border-gray-200">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-slate-900 mb-4 text-center">
-          Çarpım Tablosunu Pratik Yapın
+          Practica las Tablas de Multiplicar
         </h2>
         
         <p className="text-center text-slate-700 max-w-3xl mx-auto mb-12 text-lg">
-          Öğrendiğiniz çarpım tablosunu pekiştirmek için pratik yapmak çok önemlidir. 
-          Aşağıdaki araçlarla eğlenceli bir şekilde pratik yapabilirsiniz.
+          Practicar es muy importante para reforzar las tablas de multiplicar que has aprendido. 
+          Puedes practicar de manera divertida con las siguientes herramientas.
         </p>
 
         {/* Tab Navigation */}
@@ -149,7 +149,7 @@ export default function PracticePreview({ rangeStart = 1, rangeEnd = 10 }: Pract
                   : 'text-slate-600 hover:text-slate-900'
               }`}
             >
-              ⚡ Hızlı Pratik
+              ⚡ Práctica Rápida
             </button>
             <button
               onClick={() => setActiveTab('exercises')}
@@ -159,7 +159,7 @@ export default function PracticePreview({ rangeStart = 1, rangeEnd = 10 }: Pract
                   : 'text-slate-600 hover:text-slate-900'
               }`}
             >
-              📝 Alıştırmalar
+              📝 Ejercicios
             </button>
           </div>
         </div>
@@ -170,15 +170,15 @@ export default function PracticePreview({ rangeStart = 1, rangeEnd = 10 }: Pract
             <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-200">
               <div className="flex justify-between items-center mb-8">
                 <div className="text-center">
-                  <div className="text-sm text-slate-600 mb-1">Doğru</div>
+                  <div className="text-sm text-slate-600 mb-1">Correctas</div>
                   <div className="text-2xl font-bold text-green-600">{score.correct}</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-sm text-slate-600 mb-1">Toplam</div>
+                  <div className="text-sm text-slate-600 mb-1">Total</div>
                   <div className="text-2xl font-bold text-blue-600">{score.total}</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-sm text-slate-600 mb-1">Başarı</div>
+                  <div className="text-sm text-slate-600 mb-1">Éxito</div>
                   <div className="text-2xl font-bold text-purple-600">
                     {score.total > 0 ? Math.round((score.correct / score.total) * 100) : 0}%
                   </div>
@@ -198,7 +198,7 @@ export default function PracticePreview({ rangeStart = 1, rangeEnd = 10 }: Pract
                     value={userAnswer}
                     onChange={(e) => setUserAnswer(e.target.value)}
                     onKeyPress={handleKeyPress}
-                    placeholder="Cevabınız"
+                    placeholder="Tu respuesta"
                     className="w-40 text-3xl text-center px-6 py-4 border-2 border-gray-300 rounded-xl focus:border-blue-500 focus:outline-none"
                     disabled={feedback === 'correct'}
                   />
@@ -207,7 +207,7 @@ export default function PracticePreview({ rangeStart = 1, rangeEnd = 10 }: Pract
                     disabled={!userAnswer || feedback === 'correct'}
                     className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-8 py-4 rounded-xl font-semibold hover:from-blue-700 hover:to-indigo-700 transition-all disabled:opacity-50 disabled:cursor-not-allowed shadow-lg"
                   >
-                    Kontrol Et
+                    Verificar
                   </button>
                 </div>
 
@@ -218,16 +218,16 @@ export default function PracticePreview({ rangeStart = 1, rangeEnd = 10 }: Pract
                     {feedback === 'correct' ? (
                       <div className="flex items-center justify-center gap-2">
                         <span className="text-3xl">✓</span>
-                        <span>Harika! Doğru cevap!</span>
+                        <span>¡Excelente! ¡Respuesta correcta!</span>
                       </div>
                     ) : (
                       <div>
                         <div className="flex items-center justify-center gap-2 mb-2">
                           <span className="text-3xl">✗</span>
-                          <span>Tekrar dene!</span>
+                          <span>¡Inténtalo de nuevo!</span>
                         </div>
                         <div className="text-base text-slate-600">
-                          Doğru cevap: {question.num1 * question.num2}
+                          Respuesta correcta: {question.num1 * question.num2}
                         </div>
                       </div>
                     )}
@@ -239,7 +239,7 @@ export default function PracticePreview({ rangeStart = 1, rangeEnd = 10 }: Pract
                 onClick={generateQuestion}
                 className="w-full bg-gradient-to-r from-slate-600 to-slate-700 text-white py-3 rounded-xl font-semibold hover:from-slate-700 hover:to-slate-800 transition-all"
               >
-                🔄 Yeni Soru
+                🔄 Nueva Pregunta
               </button>
             </div>
           </div>
@@ -254,13 +254,13 @@ export default function PracticePreview({ rangeStart = 1, rangeEnd = 10 }: Pract
                   <div className="inline-block px-4 py-2 rounded-lg font-semibold mb-3 border-2 bg-green-100 text-green-700 border-green-300">
                     Kolay
                   </div>
-                  <h3 className="text-xl font-bold text-slate-900 mb-1">2-5 Çarpım Tablosu</h3>
-                  <p className="text-slate-600">20 Soru</p>
+                  <h3 className="text-xl font-bold text-slate-900 mb-1">Tablas 2-5</h3>
+                  <p className="text-slate-600">20 Preguntas</p>
                 </div>
                 <div className="text-3xl group-hover:scale-110 transition-transform">📋</div>
               </div>
               <button className="w-full bg-gradient-to-r from-blue-500 to-blue-600 text-white py-3 rounded-lg font-semibold hover:from-blue-600 hover:to-blue-700 transition-all mt-4">
-                Başla
+                Comenzar
               </button>
             </div>
 
@@ -270,13 +270,13 @@ export default function PracticePreview({ rangeStart = 1, rangeEnd = 10 }: Pract
                   <div className="inline-block px-4 py-2 rounded-lg font-semibold mb-3 border-2 bg-yellow-100 text-yellow-700 border-yellow-300">
                     Orta
                   </div>
-                  <h3 className="text-xl font-bold text-slate-900 mb-1">6-8 Çarpım Tablosu</h3>
-                  <p className="text-slate-600">30 Soru</p>
+                  <h3 className="text-xl font-bold text-slate-900 mb-1">Tablas 6-8</h3>
+                  <p className="text-slate-600">30 Preguntas</p>
                 </div>
                 <div className="text-3xl group-hover:scale-110 transition-transform">📋</div>
               </div>
               <button className="w-full bg-gradient-to-r from-blue-500 to-blue-600 text-white py-3 rounded-lg font-semibold hover:from-blue-600 hover:to-blue-700 transition-all mt-4">
-                Başla
+                Comenzar
               </button>
             </div>
 
@@ -286,13 +286,13 @@ export default function PracticePreview({ rangeStart = 1, rangeEnd = 10 }: Pract
                   <div className="inline-block px-4 py-2 rounded-lg font-semibold mb-3 border-2 bg-orange-100 text-orange-700 border-orange-300">
                     Zor
                   </div>
-                  <h3 className="text-xl font-bold text-slate-900 mb-1">9-12 Çarpım Tablosu</h3>
-                  <p className="text-slate-600">40 Soru</p>
+                  <h3 className="text-xl font-bold text-slate-900 mb-1">Tablas 9-12</h3>
+                  <p className="text-slate-600">40 Preguntas</p>
                 </div>
                 <div className="text-3xl group-hover:scale-110 transition-transform">📋</div>
               </div>
               <button className="w-full bg-gradient-to-r from-blue-500 to-blue-600 text-white py-3 rounded-lg font-semibold hover:from-blue-600 hover:to-blue-700 transition-all mt-4">
-                Başla
+                Comenzar
               </button>
             </div>
 
@@ -302,13 +302,13 @@ export default function PracticePreview({ rangeStart = 1, rangeEnd = 10 }: Pract
                   <div className="inline-block px-4 py-2 rounded-lg font-semibold mb-3 border-2 bg-red-100 text-red-700 border-red-300">
                     Uzman
                   </div>
-                  <h3 className="text-xl font-bold text-slate-900 mb-1">Karışık Tüm Tablolar</h3>
-                  <p className="text-slate-600">50 Soru</p>
+                  <h3 className="text-xl font-bold text-slate-900 mb-1">Todas las Tablas Mezcladas</h3>
+                  <p className="text-slate-600">50 Preguntas</p>
                 </div>
                 <div className="text-3xl group-hover:scale-110 transition-transform">📋</div>
               </div>
               <button className="w-full bg-gradient-to-r from-blue-500 to-blue-600 text-white py-3 rounded-lg font-semibold hover:from-blue-600 hover:to-blue-700 transition-all mt-4">
-                Başla
+                Comenzar
               </button>
             </div>
           </div>
@@ -319,7 +319,7 @@ export default function PracticePreview({ rangeStart = 1, rangeEnd = 10 }: Pract
           <div className="max-w-3xl mx-auto">
             <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-200">
               <div className="flex justify-between items-center mb-6">
-                <h3 className="text-2xl font-bold text-blue-600">📝 Alıştırma</h3>
+                <h3 className="text-2xl font-bold text-blue-600">📝 Ejercicio</h3>
                 <button onClick={() => setActiveExercise(null)} className="text-slate-500 hover:text-slate-700">✕</button>
               </div>
 
@@ -329,7 +329,7 @@ export default function PracticePreview({ rangeStart = 1, rangeEnd = 10 }: Pract
                     Soru {currentQuestionIndex + 1} / {exerciseQuestions.length}
                   </span>
                   <span className="text-sm font-medium text-slate-600">
-                    Doğru: {exerciseQuestions.filter(q => q.correct === true).length}
+                    Correctas: {exerciseQuestions.filter(q => q.correct === true).length}
                   </span>
                 </div>
                 <div className="w-full bg-gray-200 rounded-full h-2">
@@ -350,7 +350,7 @@ export default function PracticePreview({ rangeStart = 1, rangeEnd = 10 }: Pract
                     value={exerciseQuestions[currentQuestionIndex].userAnswer}
                     onChange={(e) => updateExerciseAnswer(e.target.value)}
                     onKeyPress={(e) => e.key === 'Enter' && exerciseQuestions[currentQuestionIndex].userAnswer && submitExerciseAnswer()}
-                    placeholder="Cevabınız"
+                    placeholder="Tu respuesta"
                     className="w-40 text-3xl text-center px-6 py-4 border-2 border-gray-300 rounded-xl focus:border-blue-500 focus:outline-none"
                     autoFocus
                   />
@@ -359,7 +359,7 @@ export default function PracticePreview({ rangeStart = 1, rangeEnd = 10 }: Pract
                     disabled={!exerciseQuestions[currentQuestionIndex].userAnswer}
                     className="bg-blue-600 text-white px-8 py-4 rounded-xl font-semibold hover:bg-blue-700 transition-all disabled:opacity-50"
                   >
-                    {currentQuestionIndex < exerciseQuestions.length - 1 ? 'Sonraki' : 'Bitir'}
+                    {currentQuestionIndex < exerciseQuestions.length - 1 ? 'Siguiente' : 'Finalizar'}
                   </button>
                 </div>
               </div>
@@ -375,7 +375,7 @@ export default function PracticePreview({ rangeStart = 1, rangeEnd = 10 }: Pract
                 <div className="text-6xl mb-4">
                   {(exerciseQuestions.filter(q => q.correct).length / exerciseQuestions.length) >= 0.8 ? '🎉' : '👍'}
                 </div>
-                <h3 className="text-3xl font-bold text-slate-900 mb-4">Alıştırma Tamamlandı!</h3>
+                <h3 className="text-3xl font-bold text-slate-900 mb-4">¡Ejercicio Completado!</h3>
                 
                 <div className="grid grid-cols-3 gap-4 max-w-xl mx-auto mb-8">
                   <div className="bg-green-50 rounded-lg p-4">
@@ -391,7 +391,7 @@ export default function PracticePreview({ rangeStart = 1, rangeEnd = 10 }: Pract
                     </div>
                   </div>
                   <div className="bg-blue-50 rounded-lg p-4">
-                    <div className="text-sm text-slate-600 mb-1">Başarı</div>
+                    <div className="text-sm text-slate-600 mb-1">Éxito</div>
                     <div className="text-3xl font-bold text-blue-600">
                       {Math.round((exerciseQuestions.filter(q => q.correct).length / exerciseQuestions.length) * 100)}%
                     </div>
