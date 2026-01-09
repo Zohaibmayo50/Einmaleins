@@ -2049,7 +2049,7 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
                 <span className="text-slate-900">{number}</span>
                 <br className="sm:hidden" />
                 <span className="sm:inline"> </span>
-                <span className="text-slate-900">Çarpım Tablosu</span>
+                <span className="text-slate-900">Tabla de Multiplicar</span>
               </h1>
               <span className="text-4xl sm:text-5xl md:text-6xl animate-bounce" style={{ animationDelay: '0.2s' }}>🎨</span>
             </div>
@@ -2059,17 +2059,17 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
               <div className="bg-white/80 backdrop-blur-sm rounded-xl sm:rounded-2xl p-3 sm:p-4 shadow-md border-2 border-blue-100">
                 <div className="text-2xl sm:text-3xl mb-1">📊</div>
                 <div className="text-xl sm:text-2xl font-bold text-blue-600">10</div>
-                <div className="text-xs text-slate-600">İşlem</div>
+                <div className="text-xs text-slate-600">Operaciones</div>
               </div>
               <div className="bg-white/80 backdrop-blur-sm rounded-xl sm:rounded-2xl p-3 sm:p-4 shadow-md border-2 border-indigo-100">
                 <div className="text-2xl sm:text-3xl mb-1">🎮</div>
                 <div className="text-xl sm:text-2xl font-bold text-indigo-600">3</div>
-                <div className="text-xs text-slate-600">Oyun</div>
+                <div className="text-xs text-slate-600">Juegos</div>
               </div>
               <div className="bg-white/80 backdrop-blur-sm rounded-xl sm:rounded-2xl p-3 sm:p-4 shadow-md border-2 border-purple-100">
                 <div className="text-2xl sm:text-3xl mb-1">📝</div>
                 <div className="text-xl sm:text-2xl font-bold text-purple-600">∞</div>
-                <div className="text-xs text-slate-600">Pratik</div>
+                <div className="text-xs text-slate-600">Práctica</div>
               </div>
             </div>
           </div>
@@ -2077,10 +2077,10 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
           {/* Description with Better Typography */}
           <div className="max-w-3xl mx-auto space-y-4 text-center px-4">
             <p className="text-base sm:text-lg md:text-xl text-white/90 leading-relaxed">
-              Bu sayfa, <span className="font-semibold text-yellow-200">{number} çarpım tablosunu</span> öğrenmenize ve anlamanıza yardımcı olacaktır. 
-              {number}'in çarpmada nasıl davrandığını keşfedecek, 
-              <span className="font-semibold text-yellow-200"> desenlerini görecek</span> ve 
-              ustalaşmak için <span className="font-semibold text-yellow-200">pratik yollar</span> öğreneceksiniz.
+              Esta página te ayudará a aprender y entender <span className="font-semibold text-yellow-200">la tabla de multiplicar del {number}</span>. 
+              Descubrirás cómo se comporta el {number} en la multiplicación, 
+              <span className="font-semibold text-yellow-200"> verás sus patrones</span> y 
+              aprenderás <span className="font-semibold text-yellow-200">formas prácticas</span> para dominarla.
             </p>
             
             {/* Quick Action Buttons */}
@@ -2090,7 +2090,7 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
                 className="group inline-flex items-center gap-2 px-4 sm:px-6 py-2 sm:py-3 bg-white text-indigo-600 font-bold rounded-full shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-200 text-sm sm:text-base"
               >
                 <span className="text-lg sm:text-xl">🎯</span>
-                <span>Pratik Yap</span>
+                <span>Practicar</span>
                 <svg className="w-3 h-3 sm:w-4 sm:h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
@@ -2100,15 +2100,15 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
                 className="inline-flex items-center gap-2 px-4 sm:px-6 py-2 sm:py-3 bg-white/90 backdrop-blur-sm text-purple-600 font-bold rounded-full shadow-md hover:shadow-lg hover:scale-105 transition-all duration-200 border-2 border-white/50 text-sm sm:text-base"
               >
                 <span className="text-lg sm:text-xl">🎮</span>
-                <span>Oyunları Keşfet</span>
+                <span>Explorar Juegos</span>
               </a>
               <a 
                 href="#worksheets"
                 className="inline-flex items-center gap-2 px-4 sm:px-6 py-2 sm:py-3 bg-white/90 backdrop-blur-sm text-green-600 font-bold rounded-full shadow-md hover:shadow-lg hover:scale-105 transition-all duration-200 border-2 border-white/50 text-sm sm:text-base"
               >
                 <span className="text-lg sm:text-xl">📝</span>
-                <span className="hidden sm:inline">Alıştırma İndir</span>
-                <span className="sm:hidden">İndir</span>
+                <span className="hidden sm:inline">Descargar Ejercicios</span>
+                <span className="sm:hidden">Descargar</span>
               </a>
             </div>
           </div>
@@ -2121,14 +2121,14 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
           <div className="text-center mb-6">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-slate-900 mb-2 flex items-center justify-center gap-3">
               <span className="text-2xl sm:text-3xl">📖</span>
-              {number} Çarpım Tablosu Neyi Kapsar?
+              ¿Qué Cubre la Tabla del {number}?
             </h2>
             <div className="w-16 sm:w-20 h-1 bg-gradient-to-r from-blue-400 to-indigo-400 mx-auto rounded-full"></div>
           </div>
           
           <p className="text-sm sm:text-base text-slate-700 mb-6 leading-relaxed text-center max-w-2xl mx-auto">
-            {number} çarpım tablosu, {number} sayısının 1'den 10'a kadar olan tüm sayılarla çarpımını kapsar. 
-            Bu size günlük hayatta ve ileri matematik konularında çok yardımcı olacak <span className="font-bold text-indigo-600">10 temel işlemi</span> öğretir.
+            La tabla de multiplicar del {number} cubre el producto del número {number} con todos los números del 1 al 10. 
+            Esto te enseña <span className="font-bold text-indigo-600">10 operaciones fundamentales</span> que te ayudarán mucho en la vida diaria y en temas matemáticos avanzados.
           </p>
           
           <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-4 sm:p-6 border-2 border-blue-100 shadow-md">
@@ -2146,8 +2146,8 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
             <div className="bg-white/60 rounded-xl p-3 sm:p-4 flex items-start gap-2 sm:gap-3">
               <span className="text-2xl sm:text-3xl">💡</span>
               <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
-                {number} çarpım tablosunda <span className="font-bold text-indigo-600">10 çarpma işlemi</span> var. 
-                Bu tablodaki desenleri anlayarak, bu işlemleri kolayca ezberleyebilir ve hızlı bir şekilde hesaplayabilirsiniz!
+                La tabla del {number} tiene <span className="font-bold text-indigo-600">10 operaciones de multiplicación</span>. 
+                ¡Al entender los patrones de esta tabla, puedes memorizar fácilmente estas operaciones y calcularlas rápidamente!
               </p>
             </div>
           </div>
@@ -2162,7 +2162,7 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
             <div className="space-y-5 sm:space-y-6">
               <div>
                 <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-3 sm:mb-4">
-                  {number} Sayısı Çarpmada Ne Anlama Gelir?
+                  ¿Qué Significa el Número {number} en la Multiplicación?
                 </h2>
                 
                 <p className="text-sm sm:text-base text-slate-700 leading-relaxed mb-4 sm:mb-6">
@@ -2173,10 +2173,10 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
                   <div className="flex items-start gap-2 sm:gap-3">
                     <span className="text-2xl sm:text-3xl">💡</span>
                     <div>
-                      <h3 className="text-base sm:text-lg font-semibold text-slate-900 mb-1 sm:mb-2">Basit Açıklama</h3>
+                      <h3 className="text-base sm:text-lg font-semibold text-slate-900 mb-1 sm:mb-2">Explicación Simple</h3>
                       <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
-                        {number} × 4 gördüğünüzde şunu düşünün: "4 grubum var ve her grupta {number} öğe var." 
-                        Yani {number} × 4 = {number} + {number} + {number} + {number} = {number * 4}.
+                        Cuando ves {number} × 4, piensa: "Tengo 4 grupos y cada grupo tiene {number} elementos." 
+                        Entonces {number} × 4 = {number} + {number} + {number} + {number} = {number * 4}.
                       </p>
                     </div>
                   </div>
@@ -2185,7 +2185,7 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
 
               <div>
                 <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-3 sm:mb-4">
-                  {number} Çarpım Tablosunu Öğrenmek Neden Önemlidir
+                  Por Qué Es Importante Aprender la Tabla del {number}
                 </h2>
                 
                 <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
@@ -2198,7 +2198,7 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
             <div className="lg:sticky lg:top-8">
               <div className="flex items-center justify-between mb-3 sm:mb-4">
                 <h2 className="text-xl sm:text-2xl font-bold text-slate-900">
-                  {number} Çarpım Tablosu
+                  Tabla del {number}
                 </h2>
                 
                 {/* Print and Download Buttons */}
@@ -2206,23 +2206,23 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
                   <button
                     onClick={handlePrint}
                     className="group flex items-center gap-1.5 px-3 py-1.5 sm:px-4 sm:py-2 bg-white border-2 border-blue-200 text-blue-600 rounded-lg hover:bg-blue-50 hover:border-blue-300 transition-all text-xs sm:text-sm font-semibold"
-                    title="Yazdır"
+                    title="Imprimir"
                   >
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z" />
                     </svg>
-                    <span className="hidden sm:inline">Yazdır</span>
+                    <span className="hidden sm:inline">Imprimir</span>
                   </button>
                   
                   <button
                     onClick={handleDownload}
                     className="group flex items-center gap-1.5 px-3 py-1.5 sm:px-4 sm:py-2 bg-gradient-to-r from-blue-500 to-indigo-600 text-white rounded-lg hover:from-blue-600 hover:to-indigo-700 transition-all text-xs sm:text-sm font-semibold shadow-md hover:shadow-lg"
-                    title="İndir"
+                    title="Descargar"
                   >
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                     </svg>
-                    <span className="hidden sm:inline">İndir</span>
+                    <span className="hidden sm:inline">Descargar</span>
                   </button>
                 </div>
               </div>
@@ -2246,12 +2246,12 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
       <section className="section-container bg-white py-8 sm:py-12">
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-3 sm:mb-4">
-            {number} Çarpım Tablosundaki Desenler
+            Patrones en la Tabla del {number}
           </h2>
           
           <p className="text-sm sm:text-base text-slate-700 mb-4 sm:mb-6 leading-relaxed">
-            Desenleri anlamak öğrenmeyi daha kolay ve eğlenceli hale getirir. {number} çarpım tablosu, 
-            salt ezberleme yapmadan hatırlamanıza yardımcı olabilecek güzel desenlere sahiptir.
+            Entender los patrones hace que el aprendizaje sea más fácil y divertido. La tabla del {number} tiene 
+            hermosos patrones que pueden ayudarte a recordarla sin memorizar de memoria.
           </p>
           
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-3 sm:gap-4">
@@ -2289,12 +2289,12 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
       <section className="section-container bg-white">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-slate-900 mb-4 sm:mb-6">
-            {number} Çarpım Tablosu Nasıl Pratik Yapılır
+            Cómo Practicar la Tabla del {number}
           </h2>
           
           <p className="text-base sm:text-lg text-slate-700 mb-6 sm:mb-8 leading-relaxed">
-            Çarpım tablolarını öğrenmek doğru stratejilerle tutarlı pratik gerektirir. 
-            İşte özellikle {number} çarpım tablosunda ustalaşmak için kanıtlanmış yöntemler:
+            Aprender las tablas de multiplicar requiere práctica consistente con las estrategias correctas. 
+            Aquí hay métodos comprobados para dominar específicamente la tabla del {number}:
           </p>
           
           <div className="grid gap-3 sm:gap-4">
@@ -2316,12 +2316,12 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
       <section className="section-container bg-gradient-to-br from-slate-50 to-gray-100">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-slate-900 mb-4 sm:mb-6">
-            {number} Tablosunu Öğrenirken Yapılan Yaygın Hatalar
+            Errores Comunes al Aprender la Tabla del {number}
           </h2>
           
           <p className="text-base sm:text-lg text-slate-700 mb-6 sm:mb-8 leading-relaxed">
-            Birçok öğrenci bu tabloyu öğrenirken benzer hatalar yapar. Bu yaygın hataların 
-            farkında olmak, onlardan kaçınmanıza ve daha verimli öğrenmenize yardımcı olacaktır.
+            Muchos estudiantes cometen errores similares al aprender esta tabla. Ser consciente de estos errores comunes 
+            te ayudará a evitarlos y aprender de manera más efectiva.
           </p>
           
           <div className="space-y-4 sm:space-y-6">
@@ -2334,7 +2334,7 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
                       {item.mistake}
                     </h3>
                     <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
-                      <span className="font-semibold text-green-600">Çözüm:</span> {item.solution}
+                      <span className="font-semibold text-green-600">Solución:</span> {item.solution}
                     </p>
                   </div>
                 </div>
@@ -2348,25 +2348,25 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
       <section className="section-container bg-white">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-slate-900 mb-4 sm:mb-6">
-            İlgili Çarpım Tabloları
+            Tablas de Multiplicar Relacionadas
           </h2>
           
           <p className="text-base sm:text-lg text-slate-700 mb-6 sm:mb-8 leading-relaxed">
-            {number} çarpım tablosu daha büyük bir öğrenme sisteminin parçasıdır. 
-            Aynı aralıktaki diğer tabloları keşfedebilir veya bir sonraki mantıksal sayıya geçebilirsiniz.
+            La tabla del {number} es parte de un sistema de aprendizaje más amplio. 
+            Puedes explorar otras tablas en el mismo rango o pasar al siguiente número lógico.
           </p>
           
           <div className="grid sm:grid-cols-2 gap-4 sm:gap-6">
             {number > 1 && (
               <Link
-                href={`/sayi/${number - 1}`}
+                href={`/tabla/${number - 1}`}
                 className="block bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-4 sm:p-6 border-2 border-blue-200 hover:border-blue-400 hover:shadow-lg transition-all group"
               >
                 <div className="flex items-center justify-between">
                   <div>
-                    <div className="text-xs sm:text-sm text-slate-600 mb-1">← Önceki Sayı</div>
+                    <div className="text-xs sm:text-sm text-slate-600 mb-1">← Número Anterior</div>
                     <div className="text-lg sm:text-2xl font-bold text-slate-900">
-                      {number - 1} Çarpım Tablosu
+                      Tabla del {number - 1}
                     </div>
                   </div>
                   <svg className="w-5 h-5 sm:w-6 sm:h-6 text-blue-600 group-hover:-translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -2378,14 +2378,14 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
             
             {number < 100 && (
               <Link
-                href={`/sayi/${number + 1}`}
+                href={`/tabla/${number + 1}`}
                 className="block bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl p-4 sm:p-6 border-2 border-purple-200 hover:border-purple-400 hover:shadow-lg transition-all group"
               >
                 <div className="flex items-center justify-between">
                   <div>
-                    <div className="text-xs sm:text-sm text-slate-600 mb-1">Sonraki Sayı →</div>
+                    <div className="text-xs sm:text-sm text-slate-600 mb-1">Siguiente Número →</div>
                     <div className="text-lg sm:text-2xl font-bold text-slate-900">
-                      {number + 1} Çarpım Tablosu
+                      Tabla del {number + 1}
                     </div>
                   </div>
                   <svg className="w-5 h-5 sm:w-6 sm:h-6 text-purple-600 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -2396,17 +2396,17 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
             )}
             
             <Link
-              href={`/${rangeStart}-to-${rangeEnd}`}
+              href={`/${rangeStart}-${rangeEnd}`}
               className="block bg-gradient-to-br from-green-50 to-teal-50 rounded-xl p-4 sm:p-6 border-2 border-green-200 hover:border-green-400 hover:shadow-lg transition-all group sm:col-span-2"
             >
               <div className="flex items-center justify-between">
                 <div>
-                  <div className="text-xs sm:text-sm text-slate-600 mb-1">↑ Üst Aralık</div>
+                  <div className="text-xs sm:text-sm text-slate-600 mb-1">↑ Rango Superior</div>
                   <div className="text-lg sm:text-2xl font-bold text-slate-900">
-                    {rangeStart}'den {rangeEnd}'a Çarpım Tabloları
+                    Tablas del {rangeStart} al {rangeEnd}
                   </div>
                   <p className="text-xs sm:text-sm text-slate-600 mt-1 sm:mt-2">
-                    Bu aralıktaki tüm çarpım tablolarını pratik araçları ve oyunlarla keşfedin
+                    Explora todas las tablas de multiplicar en este rango con herramientas de práctica y juegos
                   </p>
                 </div>
                 <svg className="w-5 h-5 sm:w-6 sm:h-6 text-green-600 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
