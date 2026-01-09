@@ -5,12 +5,12 @@ export default function AudienceSection() {
     <section id="audience" className="section-container bg-gradient-to-br from-slate-50 to-gray-100">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-slate-900 mb-6 text-center">
-          Bu Platform Kimler İçin?
+          ¿Para Quién es Esta Plataforma?
         </h2>
         
         <p className="text-center text-slate-700 max-w-3xl mx-auto mb-12 text-lg">
-          Çarpım tablosu öğrenme platformumuz, farklı ihtiyaçlara sahip herkes için 
-          tasarlanmıştır. Her kitle için özel kaynaklar ve rehberler sunuyoruz.
+          Nuestra plataforma de aprendizaje de tablas de multiplicar está diseñada 
+          para todos con diferentes necesidades. Ofrecemos recursos y guías especiales para cada audiencia.
         </p>
         
         <div className="grid gap-8 md:grid-cols-3">
@@ -22,49 +22,49 @@ export default function AudienceSection() {
                 </svg>
               </div>
               <h3 className="text-2xl font-semibold text-slate-900 mb-3">
-                Öğrenciler İçin
+                Para Estudiantes
               </h3>
             </div>
             
             <div className="space-y-4 text-slate-700">
               <p>
-                İlkokul ve ortaokul öğrencileri için özel olarak tasarlanmış içerikler:
+                Contenidos diseñados especialmente para estudiantes de primaria y secundaria:
               </p>
               <ul className="space-y-2">
                 <li className="flex items-start">
                   <svg className="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
-                  <span>Basit ve anlaşılır açıklamalar</span>
+                  <span>Explicaciones simples y claras</span>
                 </li>
                 <li className="flex items-start">
                   <svg className="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
-                  <span>Adım adım öğrenme yolu</span>
+                  <span>Camino de aprendizaje paso a paso</span>
                 </li>
                 <li className="flex items-start">
                   <svg className="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
-                  <span>Görsel öğrenme materyalleri</span>
+                  <span>Materiales de aprendizaje visual</span>
                 </li>
                 <li className="flex items-start">
                   <svg className="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
-                  <span>Kendi hızında ilerleme imkanı</span>
+                  <span>Oportunidad de avanzar a tu propio ritmo</span>
                 </li>
               </ul>
               <p className="text-sm italic pt-2">
-                Her öğrencinin öğrenme hızı farklıdır. Kendi temponda ilerle!
+                Cada estudiante tiene un ritmo de aprendizaje diferente. ¡Avanza a tu propio ritmo!
               </p>
             </div>
             <Link 
-              href="/ogrenciler-icin"
+              href="/para-estudiantes"
               className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium transition-colors mt-4"
             >
-              Öğrenciler için rehber
+              Guía para estudiantes
               <svg className="w-5 h-5 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
@@ -79,45 +79,45 @@ export default function AudienceSection() {
                 </svg>
               </div>
               <h3 className="text-2xl font-semibold text-slate-900 mb-3">
-                Ebeveynler İçin
+                Para Padres
               </h3>
             </div>
             
             <div className="space-y-4 text-slate-700">
               <p>
-                Çocuğunuzun çarpım tablosunu öğrenmesine nasıl destek olabilirsiniz?
+                ¿Cómo puede apoyar a su hijo en el aprendizaje de las tablas de multiplicar?
               </p>
               <ul className="space-y-2">
                 <li className="flex items-start">
                   <svg className="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
-                  <span>Etkili öğrenme stratejileri</span>
+                  <span>Estrategias de aprendizaje efectivas</span>
                 </li>
                 <li className="flex items-start">
                   <svg className="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
-                  <span>Motivasyon teknikleri</span>
+                  <span>Técnicas de motivación</span>
                 </li>
                 <li className="flex items-start">
                   <svg className="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
-                  <span>Ev içi pratik aktiviteleri</span>
+                  <span>Actividades prácticas en casa</span>
                 </li>
                 <li className="flex items-start">
                   <svg className="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
-                  <span>İlerleme takip yöntemleri</span>
+                  <span>Métodos de seguimiento del progreso</span>
                 </li>
               </ul>
               <Link 
-                href="/veliler-icin" 
+                href="/para-padres" 
                 className="inline-flex items-center text-purple-600 hover:text-purple-700 font-medium pt-2"
               >
-                Ebeveynler için rehber
+                Guía para padres
                 <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                 </svg>
@@ -135,45 +135,45 @@ export default function AudienceSection() {
                 </svg>
               </div>
               <h3 className="text-2xl font-semibold text-slate-900 mb-3">
-                Öğretmenler İçin
+                Para Profesores
               </h3>
             </div>
             
             <div className="space-y-4 text-slate-700">
               <p>
-                Sınıfınızda çarpım tablosu öğretimi için profesyonel kaynaklar:
+                Recursos profesionales para enseñar las tablas de multiplicar en tu aula:
               </p>
               <ul className="space-y-2">
                 <li className="flex items-start">
                   <svg className="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
-                  <span>Pedagojik öğretim yöntemleri</span>
+                  <span>Métodos de enseñanza pedagógica</span>
                 </li>
                 <li className="flex items-start">
                   <svg className="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
-                  <span>Sınıf içi aktivite önerileri</span>
+                  <span>Sugerencias de actividades en el aula</span>
                 </li>
                 <li className="flex items-start">
                   <svg className="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
-                  <span>Ölçme ve değerlendirme araçları</span>
+                  <span>Herramientas de evaluación y medición</span>
                 </li>
                 <li className="flex items-start">
                   <svg className="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
-                  <span>Farklılaştırılmış öğretim materyalleri</span>
+                  <span>Materiales de enseñanza diferenciada</span>
                 </li>
               </ul>
               <Link 
-                href="/ogretmenler-icin" 
+                href="/para-profesores" 
                 className="inline-flex items-center text-emerald-600 hover:text-emerald-700 font-medium pt-2"
               >
-                Öğretmenler için rehber
+                Guía para profesores
                 <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                 </svg>
@@ -184,13 +184,13 @@ export default function AudienceSection() {
         
         <div className="mt-12 bg-white rounded-lg shadow-md p-8 text-center">
           <h3 className="text-2xl font-semibold text-slate-900 mb-4">
-            Birlikte Öğreniyoruz
+            Aprendemos Juntos
           </h3>
           <p className="text-slate-700 max-w-2xl mx-auto">
-            Bu platform, öğrencilerin çarpım tablosunu anlamasını, ebeveynlerin 
-            çocuklarına destek olmasını ve öğretmenlerin etkili öğretim 
-            yapmasını sağlamak için tasarlanmıştır. Hepimiz aynı hedefe 
-            odaklanıyoruz: Kalıcı ve anlamlı öğrenme.
+            Esta plataforma está diseñada para ayudar a los estudiantes a comprender 
+            las tablas de multiplicar, a los padres a apoyar a sus hijos y a los 
+            profesores a enseñar de manera efectiva. Todos nos enfocamos en el mismo 
+            objetivo: aprendizaje permanente y significativo.
           </p>
         </div>
       </div>

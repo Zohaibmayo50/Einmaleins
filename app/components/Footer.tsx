@@ -13,126 +13,126 @@ export default function Footer() {
               <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-xl flex items-center justify-center">
                 <span className="text-xl font-bold text-white">×</span>
               </div>
-              <span className="text-xl font-bold">Çarpım Tablosu</span>
+              <span className="text-xl font-bold">Tablas de Multiplicar</span>
             </div>
             <p className="text-slate-400 text-sm leading-relaxed">
-              1'den 100'e kadar çarpım tablosunu eğlenceli ve interaktif yollarla öğrenin.
+              Aprende las tablas de multiplicar del 1 al 100 de forma divertida e interactiva.
             </p>
           </div>
 
-          {/* Çarpım Tablosu Section */}
+          {/* Tablas de Multiplicar Section */}
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-blue-400">Çarpım Tablosu</h3>
+            <h3 className="text-lg font-semibold mb-4 text-blue-400">Tablas de Multiplicar</h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <Link href="/1-10" className="text-slate-400 hover:text-white transition-colors">
-                  1-10 Tablosu
+                  Tablas 1-10
                 </Link>
               </li>
               <li>
                 <Link href="/11-20" className="text-slate-400 hover:text-white transition-colors">
-                  11-20 Tablosu
+                  Tablas 11-20
                 </Link>
               </li>
               <li>
                 <Link href="/21-30" className="text-slate-400 hover:text-white transition-colors">
-                  21-30 Tablosu
+                  Tablas 21-30
                 </Link>
               </li>
               <li>
                 <Link href="/31-40" className="text-slate-400 hover:text-white transition-colors">
-                  31-40 Tablosu
+                  Tablas 31-40
                 </Link>
               </li>
               <li>
                 <Link href="/41-50" className="text-slate-400 hover:text-white transition-colors">
-                  41-50 Tablosu
+                  Tablas 41-50
                 </Link>
               </li>
             </ul>
           </div>
 
-          {/* Devam Section */}
+          {/* Continuar Section */}
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-indigo-400">Devam</h3>
+            <h3 className="text-lg font-semibold mb-4 text-indigo-400">Continuar</h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <Link href="/51-60" className="text-slate-400 hover:text-white transition-colors">
-                  51-60 Tablosu
+                  Tablas 51-60
                 </Link>
               </li>
               <li>
                 <Link href="/61-70" className="text-slate-400 hover:text-white transition-colors">
-                  61-70 Tablosu
+                  Tablas 61-70
                 </Link>
               </li>
               <li>
                 <Link href="/71-80" className="text-slate-400 hover:text-white transition-colors">
-                  71-80 Tablosu
+                  Tablas 71-80
                 </Link>
               </li>
               <li>
                 <Link href="/81-90" className="text-slate-400 hover:text-white transition-colors">
-                  81-90 Tablosu
+                  Tablas 81-90
                 </Link>
               </li>
               <li>
                 <Link href="/91-100" className="text-slate-400 hover:text-white transition-colors">
-                  91-100 Tablosu
+                  Tablas 91-100
                 </Link>
               </li>
             </ul>
           </div>
 
-          {/* Rehberler Section */}
+          {/* Guías Section */}
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-purple-400">Rehberler</h3>
+            <h3 className="text-lg font-semibold mb-4 text-purple-400">Guías</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/ogrenciler-icin" className="text-slate-400 hover:text-white transition-colors">
-                  Öğrenciler İçin
+                <Link href="/para-estudiantes" className="text-slate-400 hover:text-white transition-colors">
+                  Para Estudiantes
                 </Link>
               </li>
               <li>
-                <Link href="/veliler-icin" className="text-slate-400 hover:text-white transition-colors">
-                  Veliler İçin
+                <Link href="/para-padres" className="text-slate-400 hover:text-white transition-colors">
+                  Para Padres
                 </Link>
               </li>
               <li>
-                <Link href="/ogretmenler-icin" className="text-slate-400 hover:text-white transition-colors">
-                  Öğretmenler İçin
+                <Link href="/para-profesores" className="text-slate-400 hover:text-white transition-colors">
+                  Para Profesores
                 </Link>
               </li>
             </ul>
           </div>
 
-          {/* Pratik Section */}
+          {/* Práctica Section */}
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-emerald-400">Pratik & Oyunlar</h3>
+            <h3 className="text-lg font-semibold mb-4 text-emerald-400">Práctica y Juegos</h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <Link href="/#pdf-exercises" className="text-slate-400 hover:text-white transition-colors">
-                  📄 PDF Alıştırmalar
+                  📄 Ejercicios PDF
                 </Link>
               </li>
               <li>
                 <Link href="/#games" className="text-slate-400 hover:text-white transition-colors">
-                  ⚡ Hız Oyunu
+                  ⚡ Juego de Velocidad
                 </Link>
               </li>
               <li>
                 <Link href="/#games" className="text-slate-400 hover:text-white transition-colors">
-                  🦸 Kahraman Oyunu
+                  🦸 Juego del Héroe
                 </Link>
               </li>
               <li>
                 <Link href="/#games" className="text-slate-400 hover:text-white transition-colors">
-                  🧠 Hafıza Oyunu
+                  🧠 Juego de Memoria
                 </Link>
               </li>
               <li>
                 <Link href="/#games" className="text-slate-400 hover:text-white transition-colors">
-                  🚀 Uzay Oyunu
+                  🚀 Juego Espacial
                 </Link>
               </li>
             </ul>
@@ -143,10 +143,10 @@ export default function Footer() {
         <div className="border-t border-slate-700 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-slate-400 text-sm text-center md:text-left">
-              © {currentYear} Çarpım Tablosu. Tüm hakları saklıdır.
+              © {currentYear} Tablas de Multiplicar. Todos los derechos reservados.
             </p>
             <div className="flex items-center gap-4 text-sm text-slate-400">
-              <span>Herkes İçin Matematiği Eğlenceli Hale Getiriyoruz 🎓</span>
+              <span>Hacemos que las Matemáticas sean Divertidas para Todos 🎓</span>
             </div>
           </div>
         </div>
