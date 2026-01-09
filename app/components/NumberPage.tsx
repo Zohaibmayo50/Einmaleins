@@ -886,29 +886,29 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
   const getCommonMistakes = () => {
     const mistakes: { [key: number]: { mistake: string; solution: string }[] } = {
       1: [
-        { mistake: "1×1=2 olduğunu düşünmek", solution: "Unutmayın: 1 ile çarpılan her şey kendisine eşittir. 1 grubun 1'i sadece 1'dir." },
-        { mistake: "Toplama ile karıştırmak", solution: "1 ile çarpma toplamadan farklıdır. 5+1=6, ama 5×1=5." },
+        { mistake: "Pensar que 1×1=2", solution: "Recuerda: Todo lo que se multiplica por 1 es igual a sí mismo. 1 grupo de 1 es solo 1." },
+        { mistake: "Confundir con la suma", solution: "Multiplicar por 1 es diferente de sumar. 5+1=6, pero 5×1=5." },
       ],
       2: [
-        { mistake: "2×6=12 ile 2×7=14'ü karıştırmak", solution: "Atlayarak saymayı kullanın: 2, 4, 6, 8, 10, 12, 14. Atlamadan dikkatli sayın." },
-        { mistake: "Büyük sayılarla kafası karışmak", solution: "Parçalara ayırın: 2×8 sadece 8+8'dir. İkiye katlamak basit toplamadır." },
+        { mistake: "Confundir 2×6=12 con 2×7=14", solution: "Usa contar de dos en dos: 2, 4, 6, 8, 10, 12, 14. Cuenta cuidadosamente sin saltarte." },
+        { mistake: "Confundirse con números grandes", solution: "Descompón: 2×8 es solo 8+8. Duplicar es suma simple." },
       ],
       3: [
-        { mistake: "3×6=18 ile 3×7=21'i karıştırmak", solution: "+3 desenini hatırlayın: 18'den sonra 21 gelir. Doğrulamak için üçerli sayın." },
-        { mistake: "3×8=24 ile 3×9=27'yi karıştırmak", solution: "Basamak toplama hilesini kullanın: 24 (2+4=6) ve 27 (2+7=9), 3-6-9 desenini takip eder." },
+        { mistake: "Confundir 3×6=18 con 3×7=21", solution: "Recuerda el patrón +3: después de 18 viene 21. Cuenta de tres en tres para verificar." },
+        { mistake: "Confundir 3×8=24 con 3×9=27", solution: "Usa el truco de suma de dígitos: 24 (2+4=6) y 27 (2+7=9), sigue el patrón 3-6-9." },
       ],
       4: [
-        { mistake: "4×7=24 olduğunu düşünmek (28 yerine)", solution: "Hatırlayın: 4×6=24, bu yüzden 4×7, 4 fazla olmalı, yani 28." },
-        { mistake: "2 çarpım tablosu ile karıştırmak", solution: "4 çarpım tablosu her zaman 2 çarpım tablosunun iki katıdır. İki katına çıkararak kontrol edin." },
+        { mistake: "Pensar que 4×7=24 (en lugar de 28)", solution: "Recuerda: 4×6=24, entonces 4×7 debe ser 4 más, es decir 28." },
+        { mistake: "Confundir con la tabla del 2", solution: "La tabla del 4 es siempre el doble de la tabla del 2. Verifica duplicando." },
       ],
       5: [
-        { mistake: "Sırayı karıştırmak (20'den önce 25)", solution: "Desen tutarlıdır: 5, 10, 15, 20, 25. Her biri 5 artar." },
-        { mistake: "5×tek sayının her zaman 5 ile bittiğini düşünmek", solution: "Aslında 5×çift 0 ile, 5×tek 5 ile biter." },
+        { mistake: "Confundir el orden (25 antes de 20)", solution: "El patrón es consistente: 5, 10, 15, 20, 25. Cada uno aumenta en 5." },
+        { mistake: "Pensar que 5×impar siempre termina en 5", solution: "En realidad 5×par termina en 0, 5×impar termina en 5." },
       ],
       6: [
-        { mistake: "6×7=42 ile 6×8=48'i karıştırmak", solution: "Bu zor bir çift! Hatırlayın: 6×7=42 ('yedi altı' kafiyesi), ardından 6 ekleyin: 48." },
-        { mistake: "6×9=54 ile 6×8=48'i karıştırmak", solution: "6 tablosunu kullanın: 6×8=48, sonra +6=54. Veya 6×9'u 60-6=54 olarak hesaplayın." },
-        { mistake: "3 çarpım tablosu ile karıştırmak", solution: "6 çarpım tablosu her zaman 3 çarpım tablosunun iki katıdır. 3×4=12, yani 6×4=24." },
+        { mistake: "Confundir 6×7=42 con 6×8=48", solution: "¡Esta es una pareja difícil! Recuerda: 6×7=42 (rima 'siete seis'), luego agrega 6: 48." },
+        { mistake: "Confundir 6×9=54 con 6×8=48", solution: "Usa la tabla del 6: 6×8=48, luego +6=54. O calcula 6×9 como 60-6=54." },
+        { mistake: "Confundir con la tabla del 3", solution: "La tabla del 6 es siempre el doble de la tabla del 3. 3×4=12, entonces 6×4=24." },
       ],
       7: [
         { mistake: "7×8=56 ile 7×6=42'yi karıştırmak", solution: "Bu en zor ikili! Ezber ipucu: '5-6-7-8' (56=7×8). Veya 7×7=49'dan +7=56." },
@@ -916,9 +916,9 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
         { mistake: "7 tablosunu tamamen atlamak", solution: "7 zor görünse de, pratikle öğrenilebilir. Küçük adımlarla başlayın: 7×1, 7×2, 7×5, 7×10 kolayları ezberleyin." },
       ],
       8: [
-        { mistake: "8×7=56 ile 8×8=64'ü karıştırmak", solution: "8×8=64'ü ezberlemenin kolay yolu: '8 sekiz 64' ya da '8²=64'." },
-        { mistake: "8×9=72 ile 8×8=64'ü karıştırmak", solution: "8×8=64'den başlayın, sonra +8=72. Veya 80-8=72 (10×8 eksi 8)." },
-        { mistake: "4 çarpım tablosu ile karıştırmak", solution: "8 her zaman 4'ün iki katıdır. 4×6=24, yani 8×6=48. İki katına çıkararak kontrol edin." },
+        { mistake: "Confundir 8×7=56 con 8×8=64", solution: "Forma fácil de memorizar 8×8=64: 'ocho ocho 64' o '8²=64'." },
+        { mistake: "Confundir 8×9=72 con 8×8=64", solution: "Comienza desde 8×8=64, luego +8=72. O 80-8=72 (10×8 menos 8)." },
+        { mistake: "Confundir con la tabla del 4", solution: "El 8 es siempre el doble del 4. 4×6=24, entonces 8×6=48. Verifica duplicando." },
       ],
       9: [
         { mistake: "9×8=72 ile 9×7=63'ü karıştırmak", solution: "Parmak hilesini kullanın veya basamak toplamı: 72 (7+2=9), 63 (6+3=9). 72>63'ü hatırlayın." },
@@ -926,29 +926,29 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
         { mistake: "9×9=81 ile 9×8=72'yi karıştırmak", solution: "9×9=81 özeldir: '9 dokuz 81' veya '9²=81'. Basamak toplamı: 81 (8+1=9), 72 (7+2=9)." },
       ],
       10: [
-        { mistake: "Sıfırı unutmak", solution: "En kolay hatırlatma: 10 ile çarptığınızda SADECE sonuna bir sıfır ekleyin. 6×10=60, 25×10=250." },
-        { mistake: "Çok fazla sıfır eklemek", solution: "10 ile çarpma SADECE bir sıfır ekler. 100 (iki sıfır), 1000 (üç sıfır) değil, sadece 10 (bir sıfır)." },
+        { mistake: "Olvidar el cero", solution: "El recordatorio más fácil: cuando multiplicas por 10, SOLO agrega un cero al final. 6×10=60, 25×10=250." },
+        { mistake: "Agregar demasiados ceros", solution: "Multiplicar por 10 agrega SOLO un cero. No 100 (dos ceros), 1000 (tres ceros), solo 10 (un cero)." },
       ],
       11: [
-        { mistake: "11×12=121 olduğunu düşünmek (132 yerine)", solution: "Çift basamak deseni sadece 11×1'den 11×9'a kadar geçerlidir. 11×10=110, 11×12=132." },
-        { mistake: "Basamak toplama hilesini yanlış uygulamak", solution: "23×11: Basamakları topla (2+3=5), ortaya koy: 253. Eğer toplam >9 ise, elde var: 67×11: 6_(6+7=13)_7 = 6_(13)_7 = 737." },
-        { mistake: "11×11=111 sanmak", solution: "11×11=121, 111 değil. Her 11 katı, bir öncekine 11 ekler: 99+11=110, 110+11=121." },
+        { mistake: "Pensar que 11×12=121 (en lugar de 132)", solution: "El patrón de dígitos dobles solo funciona de 11×1 a 11×9. 11×10=110, 11×12=132." },
+        { mistake: "Aplicar mal el truco de suma de dígitos", solution: "23×11: Suma los dígitos (2+3=5), colócalo en el medio: 253. Si la suma >9, hay acarreo: 67×11: 6_(6+7=13)_7 = 6_(13)_7 = 737." },
+        { mistake: "Pensar que 11×11=111", solution: "11×11=121, no 111. Cada múltiplo de 11 agrega 11 al anterior: 99+11=110, 110+11=121." },
       ],
       12: [
-        { mistake: "12×8=84 ile 12×9=108'i karıştırmak", solution: "12×8=96 (8 düzine), 12×9=108 (9 düzine). 84 aslında 12×7. Düzine sayarak kontrol edin." },
-        { mistake: "12 ile 10'u karıştırmak", solution: "12×5=60, 10×5=50. 12 her zaman 10'dan %20 fazladır (10'a 2 eklenmiş)." },
+        { mistake: "Confundir 12×8=84 con 12×9=108", solution: "12×8=96 (8 docenas), 12×9=108 (9 docenas). 84 en realidad es 12×7. Verifica contando docenas." },
+        { mistake: "Confundir 12 con 10", solution: "12×5=60, 10×5=50. El 12 es siempre 20% más que 10 (10 más 2)." },
       ],
       13: [
-        { mistake: "13×7=91 ile 13×8=104'ü karıştırmak", solution: "13×7=91, 13×8=104. Aradaki fark 13'tür. 10+3 stratejisini kullanın: 70+21=91, 80+24=104." },
-        { mistake: "13'ü 3 veya 30 ile karıştırmak", solution: "13×4=52, 3×4=12 değil. 30×4=120 da değil. 13, tam olarak 10+3'tür." },
+        { mistake: "Confundir 13×7=91 con 13×8=104", solution: "13×7=91, 13×8=104. La diferencia es 13. Usa la estrategia 10+3: 70+21=91, 80+24=104." },
+        { mistake: "Confundir 13 con 3 o 30", solution: "13×4=52, no 3×4=12. Tampoco 30×4=120. El 13 es exactamente 10+3." },
       ],
       14: [
-        { mistake: "14×7=98 sanmak (doğrusu 14×7=98)", solution: "14×7=98 doğru! Ama 14×8=112'yi unutmayın (98+14=112). 7 tablosunun iki katı olduğunu hatırlayın." },
-        { mistake: "14×6=72 ile 14×6=84'ü karıştırmak", solution: "14×6=84 doğrudur (7×6=42, ×2=84). 72 aslında 12×6 veya 8×9." },
+        { mistake: "Pensar que 14×7=98 (¡correcto es 14×7=98!)", solution: "¡14×7=98 es correcto! Pero no olvides 14×8=112 (98+14=112). Recuerda que es el doble de la tabla del 7." },
+        { mistake: "Confundir 14×6=72 con 14×6=84", solution: "14×6=84 es correcto (7×6=42, ×2=84). 72 en realidad es 12×6 o 8×9." },
       ],
       15: [
-        { mistake: "15×6=80 sanmak (90 yerine)", solution: "15×6=90 (1.5 düzine). 80 aslında 16×5. 15×6'yı 3×6=18, sonra ×5=90 veya 5×6=30, sonra ×3=90 olarak hesaplayın." },
-        { mistake: "15×4=50 ile karıştırmak", solution: "15×4=60, 50 değil. 15 dakika×4 = 1 saat (60 dakika) olduğunu hatırlayın." },
+        { mistake: "Pensar que 15×6=80 (en lugar de 90)", solution: "15×6=90 (1.5 docenas). 80 en realidad es 16×5. Calcula 15×6 como 3×6=18, luego ×5=90 o 5×6=30, luego ×3=90." },
+        { mistake: "Confundir 15×4=50", solution: "15×4=60, no 50. Recuerda que 15 minutos×4 = 1 hora (60 minutos)." },
       ],
       16: [
         { mistake: "16×6=84 ile 16×6=96'yı karıştırmak", solution: "16×6=96 doğrudur (8×6=48, ×2=96). 84 aslında 14×6 veya 12×7." },
