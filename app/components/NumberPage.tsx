@@ -1559,11 +1559,11 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
         "Relaciónalo con la temperatura corporal: 38°C es fiebre leve",
       ],
       39: [
-        "40-1 stratejisi MUKEMMELDİR: 39×n = 40n - n",
-        "Örnek: 39×7 = 280 - 7 = 273. Çok kolay!",
-        "Veya 3×13: 13 tablosunu üçe katlayın",
-        "39'şarlı sayın: 39, 78, 117, 156, 195, 234, 273, 312, 351, 390",
-        "En zor katları pratik edin: 39×7=273, 39×8=312",
+        "Estrategia 40-1 es PERFECTA: 39×n = 40n - n",
+        "Ejemplo: 39×7 = 280 - 7 = 273. ¡Muy fácil!",
+        "O usa 3×13: triplica la tabla del 13",
+        "Cuenta de treinta y nueve en treinta y nueve: 39, 78, 117, 156, 195, 234, 273, 312, 351, 390",
+        "Practica los múltiplos más difíciles: 39×7=273, 39×8=312",
       ],
       40: [
         "Estrategia 4×10: multiplica por 10, luego por 4",
@@ -1615,10 +1615,10 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
         "Biología: 46 cromosomas (23 pares) en el ADN humano",
       ],
       47: [
-        "50-3 stratejisi MUKEMMELDİR: 47×n = 50n - 3n",
-        "Örnek: 47×7 = 350 - 21 = 329. Çok kolay!",
+        "Estrategia 50-3 es PERFECTA: 47×n = 50n - 3n",
+        "Ejemplo: 47×7 = 350 - 21 = 329. ¡Muy fácil!",
         "Cuenta de cuarenta y siete en cuarenta y siete: 47, 94, 141, 188, 235, 282, 329, 376, 423, 470",
-        "En zor katları pratik edin: 47×7=329, 47×8=376",
+        "Practica los múltiplos más difíciles: 47×7=329, 47×8=376",
         "Número primo: requiere estrategias mentales especiales",
       ],
       48: [
@@ -1629,11 +1629,11 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
         "Practica los múltiplos más difíciles: 48×7=336, 48×9=432",
       ],
       49: [
-        "7'nin karesi: 49=7×7. 7 tablosunu pekiştirir",
-        "50-1 stratejisi ÇOK KOLAY: 49×n = 50n - n",
-        "Örnek: 49×7 = 350 - 7 = 343. Basit!",
+        "Cuadrado de 7: 49=7×7. Refuerza la tabla del 7",
+        "Estrategia 50-1 MUY FÁCIL: 49×n = 50n - n",
+        "Ejemplo: 49×7 = 350 - 7 = 343. ¡Simple!",
         "Cuenta de cuarenta y nueve en cuarenta y nueve: 49, 98, 147, 196, 245, 294, 343, 392, 441, 490",
-        "Kare sayı: 49=7² geometride alan hesaplamaları için",
+        "Número cuadrado: 49=7² para cálculos de área en geometría",
       ],
       50: [
         "Estrategia 5×10: multiplica por 5, agrega un 0",
@@ -1643,11 +1643,11 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
         "Porcentaje: 50% = 1/2, la relación porcentual más importante",
       ],
       51: [
-        "50+1 stratejisi MÜKEMMEL: 51×n = 50n + n",
-        "Örnek: 51×7 = 350 + 7 = 357. Çok kolay!",
+        "Estrategia 50+1 es PERFECTA: 51×n = 50n + n",
+        "Ejemplo: 51×7 = 350 + 7 = 357. ¡Muy fácil!",
         "Cuenta de cincuenta y uno en cincuenta y uno: 51, 102, 153, 204, 255, 306, 357, 408, 459, 510",
-        "3×17 ilişkisi: 17 tablosunu üçe katlayın",
-        "En zor katları pratik edin: 51×7=357, 51×8=408",
+        "Relación 3×17: triplica la tabla del 17",
+        "Practica los múltiplos más difíciles: 51×7=357, 51×8=408",
       ],
       52: [
         "Relación 4×13: cuadruplica la tabla del 13",
@@ -1685,11 +1685,11 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
         "Practica los múltiplos más difíciles: 56×7=392, 56×9=504",
       ],
       57: [
-        "60-3 stratejisi MÜKEMMEL: 57×n = 60n - 3n",
-        "Örnek: 57×7 = 420 - 21 = 399. Çok kolay!",
+        "Estrategia 60-3 es PERFECTA: 57×n = 60n - 3n",
+        "Ejemplo: 57×7 = 420 - 21 = 399. ¡Muy fácil!",
         "Cuenta de cincuenta y siete en cincuenta y siete: 57, 114, 171, 228, 285, 342, 399, 456, 513, 570",
-        "3×19 ilişkisi: 19 tablosunu üçe katlayın",
-        "En zor katları pratik edin: 57×7=399, 57×8=456",
+        "Relación 3×19: triplica la tabla del 19",
+        "Practica los múltiplos más difíciles: 57×7=399, 57×8=456",
       ],
       58: [
         "Estrategia 60-2: 58×n = 60n - 2n",
@@ -1699,11 +1699,11 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
         "Practica los múltiplos más difíciles: 58×7=406, 58×9=522",
       ],
       59: [
-        "60-1 stratejisi SÜPER KOLAY: 59×n = 60n - n",
-        "Örnek: 59×7 = 420 - 7 = 413. MÜKEMMELDİR!",
+        "Estrategia 60-1 SÚPER FÁCIL: 59×n = 60n - n",
+        "Ejemplo: 59×7 = 420 - 7 = 413. ¡PERFECTO!",
         "Cuenta de cincuenta y nueve en cincuenta y nueve: 59, 118, 177, 236, 295, 354, 413, 472, 531, 590",
         "Tiempo: 59 minutos, 59 segundos - 1 menos que 60",
-        "En zor katları pratik edin: 59×7=413, 59×8=472",
+        "Practica los múltiplos más difíciles: 59×7=413, 59×8=472",
       ],
       60: [
         "Estrategia 6×10: multiplica por 6, agrega un 0",
@@ -1713,10 +1713,10 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
         "Múltiples métodos: 60=6×10=5×12=4×15=3×20=2×30",
       ],
       61: [
-        "60+1 stratejisi MÜKEMMEL: 61×n = 60n + n",
-        "Örnek: 61×7 = 420 + 7 = 427. Çok kolay!",
+        "Estrategia 60+1 es PERFECTA: 61×n = 60n + n",
+        "Ejemplo: 61×7 = 420 + 7 = 427. ¡Muy fácil!",
         "Cuenta de sesenta y uno en sesenta y uno: 61, 122, 183, 244, 305, 366, 427, 488, 549, 610",
-        "En zor katları pratik edin: 61×7=427, 61×8=488",
+        "Practica los múltiplos más difíciles: 61×7=427, 61×8=488",
         "Número primo: requiere estrategias de cálculo creativas",
       ],
       62: [
@@ -1755,10 +1755,10 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
         "Practica los múltiplos más difíciles: 66×7=462, 66×9=594",
       ],
       67: [
-        "70-3 stratejisi MÜKEMMEL: 67×n = 70n - 3n",
-        "Örnek: 67×7 = 490 - 21 = 469. Çok kolay!",
+        "Estrategia 70-3 es PERFECTA: 67×n = 70n - 3n",
+        "Ejemplo: 67×7 = 490 - 21 = 469. ¡Muy fácil!",
         "Cuenta de sesenta y siete en sesenta y siete: 67, 134, 201, 268, 335, 402, 469, 536, 603, 670",
-        "En zor katları pratik edin: 67×7=469, 67×8=536",
+        "Practica los múltiplos más difíciles: 67×7=469, 67×8=536",
         "Número primo: requiere estrategias mentales especiales",
       ],
       68: [
@@ -1769,11 +1769,11 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
         "Practica los múltiplos más difíciles: 68×7=476, 68×9=612",
       ],
       69: [
-        "70-1 stratejisi SÜPER KOLAY: 69×n = 70n - n",
-        "Örnek: 69×7 = 490 - 7 = 483. MÜKEMMELDİR!",
+        "Estrategia 70-1 SÚPER FÁCIL: 69×n = 70n - n",
+        "Ejemplo: 69×7 = 490 - 7 = 483. ¡PERFECTO!",
         "Cuenta de sesenta y nueve en sesenta y nueve: 69, 138, 207, 276, 345, 414, 483, 552, 621, 690",
-        "3×23 ilişkisi: 23 tablosunu üçe katlayın",
-        "En zor katları pratik edin: 69×7=483, 69×8=552",
+        "Relación 3×23: triplica la tabla del 23",
+        "Practica los múltiplos más difíciles: 69×7=483, 69×8=552",
       ],
       70: [
         "Estrategia 7×10: multiplica por 7, agrega un 0",
@@ -1783,10 +1783,10 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
         "Múltiples métodos: 70=7×10=5×14=2×35",
       ],
       71: [
-        "70+1 stratejisi MÜKEMMEL: 71×n = 70n + n",
-        "Örnek: 71×7 = 490 + 7 = 497. Çok kolay!",
+        "Estrategia 70+1 es PERFECTA: 71×n = 70n + n",
+        "Ejemplo: 71×7 = 490 + 7 = 497. ¡Muy fácil!",
         "Cuenta de setenta y uno en setenta y uno: 71, 142, 213, 284, 355, 426, 497, 568, 639, 710",
-        "En zor katları pratik edin: 71×7=497, 71×8=568",
+        "Practica los múltiplos más difíciles: 71×7=497, 71×8=568",
         "Número primo: requiere estrategias de cálculo creativas",
       ],
       72: [
@@ -1839,10 +1839,10 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
         "Practica los múltiplos más difíciles: 78×7=546, 78×9=702",
       ],
       79: [
-        "80-1 stratejisi SÜPER KOLAY: 79×n = 80n - n",
-        "Örnek: 79×7 = 560 - 7 = 553. MÜKEMMELDİR!",
+        "Estrategia 80-1 SÚPER FÁCIL: 79×n = 80n - n",
+        "Ejemplo: 79×7 = 560 - 7 = 553. ¡PERFECTO!",
         "Cuenta de setenta y nueve en setenta y nueve: 79, 158, 237, 316, 395, 474, 553, 632, 711, 790",
-        "En zor katları pratik edin: 79×7=553, 79×8=632",
+        "Practica los múltiplos más difíciles: 79×7=553, 79×8=632",
         "Número primo: 1 menos que 80, cálculo fácil",
       ],
       80: [
@@ -1895,11 +1895,11 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
         "Practica los múltiplos más difíciles: 86×7=602, 86×9=774",
       ],
       87: [
-        "90-3 stratejisi MÜKEMMEL: 87×n = 90n - 3n",
-        "Örnek: 87×7 = 630 - 21 = 609. Çok kolay!",
+        "Estrategia 90-3 es PERFECTA: 87×n = 90n - 3n",
+        "Ejemplo: 87×7 = 630 - 21 = 609. ¡Muy fácil!",
         "Cuenta de ochenta y siete en ochenta y siete: 87, 174, 261, 348, 435, 522, 609, 696, 783, 870",
-        "3×29 ilişkisi: 29 tablosunu üçe katlayın",
-        "En zor katları pratik edin: 87×7=609, 87×8=696, 87×9=783",
+        "Relación 3×29: triplica la tabla del 29",
+        "Practica los múltiplos más difíciles: 87×7=609, 87×8=696, 87×9=783",
       ],
       88: [
         "Relación 8×11: puedes usar cualquiera de las dos tablas",
@@ -1909,10 +1909,10 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
         "Múltiples métodos: 88=8×11=4×22=2×44",
       ],
       89: [
-        "90-1 stratejisi SÜPER KOLAY: 89×n = 90n - n",
-        "Örnek: 89×7 = 630 - 7 = 623. MÜKEMMELDİR!",
+        "Estrategia 90-1 SÚPER FÁCIL: 89×n = 90n - n",
+        "Ejemplo: 89×7 = 630 - 7 = 623. ¡PERFECTO!",
         "Cuenta de ochenta y nueve en ochenta y nueve: 89, 178, 267, 356, 445, 534, 623, 712, 801, 890",
-        "En zor katları pratik edin: 89×7=623, 89×8=712, 89×9=801",
+        "Practica los múltiplos más difíciles: 89×7=623, 89×8=712, 89×9=801",
         "Número primo: la estrategia 90-1 es el método más práctico",
       ],
       90: [
@@ -1944,11 +1944,11 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
         "Practica los múltiplos más difíciles: 93×7=651, 93×8=744, 93×9=837",
       ],
       94: [
-        "100-6 stratejisi MÜKEMMEL: 94×n = 100n - 6n",
-        "Örnek: 94×7 = 700 - 42 = 658. Çok kolay!",
+        "Estrategia 100-6 es PERFECTA: 94×n = 100n - 6n",
+        "Ejemplo: 94×7 = 700 - 42 = 658. ¡Muy fácil!",
         "Cuenta de noventa y cuatro en noventa y cuatro: 94, 188, 282, 376, 470, 564, 658, 752, 846, 940",
-        "2×47 ilişkisi: 47 tablosunu ikiye katlayın",
-        "En zor katları pratik edin: 94×7=658, 94×8=752, 94×9=846",
+        "Relación 2×47: duplica la tabla del 47",
+        "Practica los múltiplos más difíciles: 94×7=658, 94×8=752, 94×9=846",
       ],
       95: [
         "Relación 5×19: puedes usar ambas tablas, la del 5 y la del 19",
@@ -1965,10 +1965,10 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
         "Practica los múltiplos más difíciles: 96×7=672, 96×9=864",
       ],
       97: [
-        "100-3 stratejisi SÜPER KOLAY: 97×n = 100n - 3n",
-        "Örnek: 97×7 = 700 - 21 = 679. MÜKEMMELDİR!",
+        "Estrategia 100-3 SÚPER FÁCIL: 97×n = 100n - 3n",
+        "Ejemplo: 97×7 = 700 - 21 = 679. ¡PERFECTO!",
         "Cuenta de noventa y siete en noventa y siete: 97, 194, 291, 388, 485, 582, 679, 776, 873, 970",
-        "En zor katları pratik edin: 97×7=679, 97×8=776, 97×9=873",
+        "Practica los múltiplos más difíciles: 97×7=679, 97×8=776, 97×9=873",
         "Número primo: la estrategia 100-3 es el método más práctico",
       ],
       98: [
