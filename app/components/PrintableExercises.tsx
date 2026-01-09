@@ -47,10 +47,10 @@ export default function PrintableExercises({ rangeStart: defaultRangeStart = 1, 
     
     if (printWindow) {
       const title = exerciseType === 'single' 
-        ? `${selectedTable} Çarpım Tablosu Alıştırması`
+        ? `Ejercicio de la Tabla del ${selectedTable}`
         : exerciseType === 'mixed'
-        ? 'Karışık Çarpım Tablosu Alıştırması'
-        : `${rangeStart}-${rangeEnd} Çarpım Tablosu Alıştırması`
+        ? 'Ejercicio de Tablas de Multiplicar Mixtas'
+        : `Ejercicio de Tablas de Multiplicar ${rangeStart}-${rangeEnd}`
 
       printWindow.document.write(`
         <!DOCTYPE html>
@@ -142,16 +142,16 @@ export default function PrintableExercises({ rangeStart: defaultRangeStart = 1, 
             </style>
           </head>
           <body>
-            <button onclick="window.print()" class="print-button no-print">🖨️ Yazdır</button>
+            <button onclick="window.print()" class="print-button no-print">🖨️ Imprimir</button>
             <h1>${title}</h1>
             <div class="info">
-              <p>Tarih: ${new Date().toLocaleDateString('tr-TR')}</p>
-              <p>Toplam Soru: ${questionCount}</p>
+              <p>Fecha: ${new Date().toLocaleDateString('es-ES')}</p>
+              <p>Total de Preguntas: ${questionCount}</p>
             </div>
             <div class="questions">
               ${questions.map((q, i) => `
                 <div class="question">
-                  <div class="question-number">Soru ${i + 1}</div>
+                  <div class="question-number">Pregunta ${i + 1}</div>
                   <div class="equation">${q.num1} × ${q.num2} = </div>
                   <div class="answer-line"></div>
                 </div>
@@ -159,7 +159,7 @@ export default function PrintableExercises({ rangeStart: defaultRangeStart = 1, 
             </div>
             ${includeAnswers ? `
               <div class="answer-key">
-                <h2>Cevap Anahtarı</h2>
+                <h2>Clave de Respuestas</h2>
                 <div class="answers">
                   ${questions.map((q, i) => `
                     <div class="answer-item">
@@ -186,12 +186,12 @@ export default function PrintableExercises({ rangeStart: defaultRangeStart = 1, 
     <section id="pdf-exercises" className="section-container bg-gradient-to-br from-purple-50 to-pink-50 border-t border-gray-200">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-slate-900 mb-4 text-center">
-          📄 Yazdırılabilir Alıştırmalar
+          📄 Ejercicios Imprimibles
         </h2>
         
         <p className="text-center text-slate-700 max-w-3xl mx-auto mb-12 text-lg">
-          Öğrencileriniz veya çocuklarınız için özelleştirilmiş çarpım tablosu alıştırmaları oluşturun. 
-          Yazdırın veya PDF olarak kaydedin.
+          Crea ejercicios de tablas de multiplicar personalizados para tus estudiantes o hijos. 
+          Imprime o guarda como PDF.
         </p>
 
         <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-200">
@@ -200,7 +200,7 @@ export default function PrintableExercises({ rangeStart: defaultRangeStart = 1, 
             <div className="space-y-6">
               <div>
                 <label className="block text-sm font-semibold text-slate-700 mb-2">
-                  Alıştırma Tipi
+                  Tipo de Ejercicio
                 </label>
                 <div className="space-y-2">
                   <label className="flex items-center p-3 border-2 border-gray-200 rounded-lg cursor-pointer hover:border-blue-500 transition-colors">
@@ -212,8 +212,8 @@ export default function PrintableExercises({ rangeStart: defaultRangeStart = 1, 
                       className="mr-3"
                     />
                     <div>
-                      <div className="font-medium text-slate-900">Tek Tablo</div>
-                      <div className="text-sm text-slate-600">Belirli bir çarpım tablosu</div>
+                      <div className="font-medium text-slate-900">Tabla Única</div>
+                      <div className="text-sm text-slate-600">Una tabla de multiplicar específica</div>
                     </div>
                   </label>
                   
@@ -226,8 +226,8 @@ export default function PrintableExercises({ rangeStart: defaultRangeStart = 1, 
                       className="mr-3"
                     />
                     <div>
-                      <div className="font-medium text-slate-900">Aralık</div>
-                      <div className="text-sm text-slate-600">Belirli aralıktaki tablolar</div>
+                      <div className="font-medium text-slate-900">Rango</div>
+                      <div className="text-sm text-slate-600">Tablas en un rango específico</div>
                     </div>
                   </label>
                   
@@ -240,8 +240,8 @@ export default function PrintableExercises({ rangeStart: defaultRangeStart = 1, 
                       className="mr-3"
                     />
                     <div>
-                      <div className="font-medium text-slate-900">Karışık</div>
-                      <div className="text-sm text-slate-600">Tüm tablolardan rastgele</div>
+                      <div className="font-medium text-slate-900">Mixto</div>
+                      <div className="text-sm text-slate-600">Aleatorio de todas las tablas</div>
                     </div>
                   </label>
                 </div>
@@ -250,7 +250,7 @@ export default function PrintableExercises({ rangeStart: defaultRangeStart = 1, 
               {exerciseType === 'single' && (
                 <div>
                   <label className="block text-sm font-semibold text-slate-700 mb-2">
-                    Çarpım Tablosu
+                    Tabla de Multiplicar
                   </label>
                   <select
                     value={selectedTable}
@@ -259,7 +259,7 @@ export default function PrintableExercises({ rangeStart: defaultRangeStart = 1, 
                   >
                     {[...Array(11)].map((_, i) => (
                       <option key={i + 2} value={i + 2}>
-                        {i + 2} Çarpım Tablosu
+                        Tabla del {i + 2}
                       </option>
                     ))}
                   </select>
@@ -270,7 +270,7 @@ export default function PrintableExercises({ rangeStart: defaultRangeStart = 1, 
                 <div className="grid grid-cols-2 gap-4">
                   <div>
                     <label className="block text-sm font-semibold text-slate-700 mb-2">
-                      Başlangıç
+                      Inicio
                     </label>
                     <select
                       value={rangeStart}
@@ -284,7 +284,7 @@ export default function PrintableExercises({ rangeStart: defaultRangeStart = 1, 
                   </div>
                   <div>
                     <label className="block text-sm font-semibold text-slate-700 mb-2">
-                      Bitiş
+                      Fin
                     </label>
                     <select
                       value={rangeEnd}
@@ -303,7 +303,7 @@ export default function PrintableExercises({ rangeStart: defaultRangeStart = 1, 
 
               <div>
                 <label className="block text-sm font-semibold text-slate-700 mb-2">
-                  Soru Sayısı: {questionCount}
+                  Número de Preguntas: {questionCount}
                 </label>
                 <input
                   type="range"
@@ -330,8 +330,8 @@ export default function PrintableExercises({ rangeStart: defaultRangeStart = 1, 
                     className="mr-3 w-5 h-5"
                   />
                   <div>
-                    <div className="font-medium text-slate-900">Cevap Anahtarı Ekle</div>
-                    <div className="text-sm text-slate-600">Sayfanın sonuna cevapları ekler</div>
+                    <div className="font-medium text-slate-900">Incluir Clave de Respuestas</div>
+                    <div className="text-sm text-slate-600">Añade las respuestas al final de la página</div>
                   </div>
                 </label>
               </div>
@@ -340,34 +340,34 @@ export default function PrintableExercises({ rangeStart: defaultRangeStart = 1, 
             {/* Right Column - Preview */}
             <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-6 border-2 border-blue-200">
               <h3 className="text-lg font-bold text-slate-900 mb-4 flex items-center gap-2">
-                <span>👁️</span> Önizleme
+                <span>👁️</span> Vista Previa
               </h3>
               
               <div className="bg-white rounded-lg p-4 mb-4 space-y-3">
                 <div className="flex justify-between items-center">
-                  <span className="text-sm text-slate-600">Tür:</span>
+                  <span className="text-sm text-slate-600">Tipo:</span>
                   <span className="font-semibold text-slate-900">
                     {exerciseType === 'single' 
-                      ? `${selectedTable} Tablosu`
+                      ? `Tabla del ${selectedTable}`
                       : exerciseType === 'range'
-                      ? `${rangeStart}-${rangeEnd} Tablolar`
-                      : 'Karışık'}
+                      ? `Tablas ${rangeStart}-${rangeEnd}`
+                      : 'Mixto'}
                   </span>
                 </div>
                 <div className="flex justify-between items-center">
-                  <span className="text-sm text-slate-600">Soru Sayısı:</span>
+                  <span className="text-sm text-slate-600">Número de Preguntas:</span>
                   <span className="font-semibold text-slate-900">{questionCount}</span>
                 </div>
                 <div className="flex justify-between items-center">
-                  <span className="text-sm text-slate-600">Cevap Anahtarı:</span>
+                  <span className="text-sm text-slate-600">Clave de Respuestas:</span>
                   <span className={`font-semibold ${includeAnswers ? 'text-green-600' : 'text-slate-400'}`}>
-                    {includeAnswers ? 'Evet ✓' : 'Hayır ✗'}
+                    {includeAnswers ? 'Sí ✓' : 'No ✗'}
                   </span>
                 </div>
               </div>
 
               <div className="bg-white rounded-lg p-4 space-y-2">
-                <div className="text-sm font-semibold text-slate-700 mb-2">Örnek Sorular:</div>
+                <div className="text-sm font-semibold text-slate-700 mb-2">Preguntas de Ejemplo:</div>
                 {[...Array(3)].map((_, i) => {
                   const num1 = exerciseType === 'single' 
                     ? selectedTable 
@@ -386,7 +386,7 @@ export default function PrintableExercises({ rangeStart: defaultRangeStart = 1, 
 
               <div className="mt-4 p-3 bg-blue-100 rounded-lg border border-blue-300">
                 <p className="text-sm text-blue-900">
-                  💡 <strong>İpucu:</strong> Tarayıcınızın yazdırma özelliği ile PDF olarak kaydedebilirsiniz.
+                  💡 <strong>Consejo:</strong> Puedes guardar como PDF usando la función de impresión de tu navegador.
                 </p>
               </div>
             </div>
@@ -399,14 +399,14 @@ export default function PrintableExercises({ rangeStart: defaultRangeStart = 1, 
               className="flex items-center gap-2 bg-gradient-to-r from-blue-600 to-blue-700 text-white px-8 py-4 rounded-xl font-semibold hover:from-blue-700 hover:to-blue-800 transition-all shadow-lg"
             >
               <span className="text-xl">🖨️</span>
-              Yazdır
+              Imprimir
             </button>
             <button
               onClick={handleDownloadPDF}
               className="flex items-center gap-2 bg-gradient-to-r from-purple-600 to-purple-700 text-white px-8 py-4 rounded-xl font-semibold hover:from-purple-700 hover:to-purple-800 transition-all shadow-lg"
             >
               <span className="text-xl">📥</span>
-              PDF İndir
+              Descargar PDF
             </button>
           </div>
         </div>
@@ -415,23 +415,23 @@ export default function PrintableExercises({ rangeStart: defaultRangeStart = 1, 
         <div className="mt-8 grid md:grid-cols-3 gap-6">
           <div className="bg-white rounded-xl p-6 border-2 border-gray-200">
             <div className="text-3xl mb-3">🎯</div>
-            <h4 className="font-bold text-slate-900 mb-2">Özelleştirilebilir</h4>
+            <h4 className="font-bold text-slate-900 mb-2">Personalizable</h4>
             <p className="text-sm text-slate-600">
-              Soru sayısını, tabloları ve zorluk seviyesini istediğiniz gibi ayarlayın.
+              Ajusta el número de preguntas, tablas y nivel de dificultad como desees.
             </p>
           </div>
           <div className="bg-white rounded-xl p-6 border-2 border-gray-200">
             <div className="text-3xl mb-3">📱</div>
-            <h4 className="font-bold text-slate-900 mb-2">Mobil Uyumlu</h4>
+            <h4 className="font-bold text-slate-900 mb-2">Compatible con Móviles</h4>
             <p className="text-sm text-slate-600">
-              Telefon, tablet veya bilgisayardan rahatlıkla yazdırabilirsiniz.
+              Puedes imprimir fácilmente desde teléfono, tableta o computadora.
             </p>
           </div>
           <div className="bg-white rounded-xl p-6 border-2 border-gray-200">
             <div className="text-3xl mb-3">💾</div>
-            <h4 className="font-bold text-slate-900 mb-2">Kaydet & Paylaş</h4>
+            <h4 className="font-bold text-slate-900 mb-2">Guardar y Compartir</h4>
             <p className="text-sm text-slate-600">
-              PDF olarak kaydedin ve öğrencilerinizle kolayca paylaşın.
+              Guarda como PDF y compártelo fácilmente con tus estudiantes.
             </p>
           </div>
         </div>
