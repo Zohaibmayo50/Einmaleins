@@ -5,38 +5,38 @@ const schemaData = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://carpimtablosu.com.tr/sayi/18#webpage",
-      "url": "https://carpimtablosu.com.tr/sayi/18",
+      "@id": "https://tablasdemultiplicar.online/tabla/18#webpage",
+      "url": "https://tablasdemultiplicar.online/tabla/18",
       "name": "18 Çarpım Tablosu - Reşitlik Yaşı",
       "description": "18 çarpım tablosu ile çarpma becerilerinizi güçlendirin. 9×2 ve 6×3 ilişkileri ile 18 ile çarpma stratejileri.",
       "isPartOf": {
-        "@id": "https://carpimtablosu.com.tr/#website"
+        "@id": "https://tablasdemultiplicar.online/#website"
       },
       "about": {
-        "@id": "https://carpimtablosu.com.tr/sayi/18#learningresource"
+        "@id": "https://tablasdemultiplicar.online/tabla/18#learningresource"
       },
       "breadcrumb": {
-        "@id": "https://carpimtablosu.com.tr/sayi/18#breadcrumb"
+        "@id": "https://tablasdemultiplicar.online/tabla/18#breadcrumb"
       },
-      "inLanguage": "tr-TR"
+      "inLanguage": "es-MX"
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://carpimtablosu.com.tr/sayi/18#breadcrumb",
+      "@id": "https://tablasdemultiplicar.online/tabla/18#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
           "position": 1,
           "item": {
-            "@id": "https://carpimtablosu.com.tr/",
-            "name": "Ana Sayfa"
+            "@id": "https://tablasdemultiplicar.online/",
+            "name": "Inicio"
           }
         },
         {
           "@type": "ListItem",
           "position": 2,
           "item": {
-            "@id": "https://carpimtablosu.com.tr/11-20",
+            "@id": "https://tablasdemultiplicar.online/11-20",
             "name": "11-20 Çarpım Tablosu"
           }
         },
@@ -44,7 +44,7 @@ const schemaData = {
           "@type": "ListItem",
           "position": 3,
           "item": {
-            "@id": "https://carpimtablosu.com.tr/sayi/18",
+            "@id": "https://tablasdemultiplicar.online/tabla/18",
             "name": "18 Çarpım Tablosu"
           }
         }
@@ -52,21 +52,21 @@ const schemaData = {
     },
     {
       "@type": "LearningResource",
-      "@id": "https://carpimtablosu.com.tr/sayi/18#learningresource",
+      "@id": "https://tablasdemultiplicar.online/tabla/18#learningresource",
       "name": "18 Çarpım Tablosu Öğrenme Kaynağı",
       "description": "18 ile çarpma: 9×2 ve 6×3 ilişkisi, çift sayı desenleri, rakamlar toplamı 9'un katı kuralı.",
       "educationalLevel": "Beginner",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
       "teaches": "18 çarpım tablosu, 9 ve 6 tablolarının ilişkisi, 9'un katları kuralı",
       "typicalAgeRange": "7-10",
-      "inLanguage": "tr-TR",
+      "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study"],
       "audience": {
         "@type": "EducationalAudience",
         "educationalRole": ["student"]
       },
       "isPartOf": {
-        "@id": "https://carpimtablosu.com.tr/11-20#learningresource"
+        "@id": "https://tablasdemultiplicar.online/11-20#learningresource"
       }
     }
   ]
@@ -77,7 +77,7 @@ export const metadata = {
   description: '18 çarpım tablosunu eğlenceli oyunlar ve interaktif alıştırmalarla öğrenin. Çocuklar için görsel yardımcılar, pratik ipuçları ve kolay ezber teknikleri.',
   keywords: '18 çarpım tablosu, on sekiz çarpım tablosu, 18 ile çarpma, çarpım tablosu öğrenme, matematik oyunları',
   alternates: {
-    canonical: '/sayi/18',
+    canonical: '/tabla/18',
   },
 }
 
@@ -92,3 +92,4 @@ export default function Number18Page() {
     </>
   )
 }
+

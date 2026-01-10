@@ -1,11 +1,11 @@
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://carpimtablosu.com.tr'
+  const baseUrl = 'https://tablasdemultiplicar.online'
   
   // Generate number pages (1-100)
   const numberPages = Array.from({ length: 100 }, (_, i) => ({
-    url: `${baseUrl}/sayi/${i + 1}`,
+    url: `${baseUrl}/tabla/${i + 1}`,
     lastModified: new Date(),
     changeFrequency: 'monthly' as const,
     priority: 0.7,
@@ -31,9 +31,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
   
   // Guide pages
   const guidePages = [
-    { url: `${baseUrl}/ogrenciler-icin`, priority: 0.9 },
-    { url: `${baseUrl}/veliler-icin`, priority: 0.9 },
-    { url: `${baseUrl}/ogretmenler-icin`, priority: 0.9 },
+    { url: `${baseUrl}/para-estudiantes`, priority: 0.9 },
+    { url: `${baseUrl}/para-padres`, priority: 0.9 },
+    { url: `${baseUrl}/para-profesores`, priority: 0.9 },
   ].map(page => ({
     ...page,
     lastModified: new Date(),

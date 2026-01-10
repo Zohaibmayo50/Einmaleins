@@ -37,57 +37,82 @@ const schemaData = {
           "position": 2,
           "item": {
             "@id": "https://carpimtablosu.com.tr/1-10",
-            "name": "1-10 Çarpım Tablosu"
-          }
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "item": {
-            "@id": "https://carpimtablosu.com.tr/sayi/4",
-            "name": "4 Çarpım Tablosu"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "LearningResource",
-      "@id": "https://carpimtablosu.com.tr/sayi/4#learningresource",
-      "name": "4 Çarpım Tablosu Öğrenme Kaynağı",
-      "description": "4 ile çarpma: İkiye katlama stratejisi (2×2=4), dörtgen şekiller ve geometrik desenler ile 4 tablosunu anlayın.",
-      "educationalLevel": "Beginner",
-      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "4 çarpım tablosu, ikiye katlama, dörtgen kavramı, çift sayılar",
-      "typicalAgeRange": "6-8",
-      "inLanguage": "tr-TR",
-      "educationalUse": ["practice", "self-study"],
-      "audience": {
-        "@type": "EducationalAudience",
-        "educationalRole": ["student"]
-      },
-      "isPartOf": {
-        "@id": "https://carpimtablosu.com.tr/1-10#learningresource"
-      }
-    }
-  ]
-}
+            const schemaData = {
+              "@context": "https://schema.org",
+              "@graph": [
+                {
+                  "@type": "WebPage",
+                  "@id": "https://tablasdemultiplicar.online/tabla/4#webpage",
+                  "url": "https://tablasdemultiplicar.online/tabla/4",
+                  "name": "Tabla del 4 - Duplicación doble",
+                  "description": "Aprende la tabla del 4 pensando en duplicar dos veces. Estrategias de duplicación y patrones para practicar.",
+                  "isPartOf": {
+                    "@id": "https://tablasdemultiplicar.online/#website"
+                  },
+                  "about": {
+                    "@id": "https://tablasdemultiplicar.online/tabla/4#learningresource"
+                  },
+                  "breadcrumb": {
+                    "@id": "https://tablasdemultiplicar.online/tabla/4#breadcrumb"
+                  },
+                  "inLanguage": "es-MX"
+                },
+                {
+                  "@type": "BreadcrumbList",
+                  "@id": "https://tablasdemultiplicar.online/tabla/4#breadcrumb",
+                  "itemListElement": [
+                    {
+                      "@type": "ListItem",
+                      "position": 1,
+                      "item": {
+                        "@id": "https://tablasdemultiplicar.online/",
+                        "name": "Inicio"
+                      }
+                    },
+                    {
+                      "@type": "ListItem",
+                      "position": 2,
+                      "item": {
+                        "@id": "https://tablasdemultiplicar.online/1-10",
+                        "name": "Tablas 1-10"
+                      }
+                    },
+                    {
+                      "@type": "ListItem",
+                      "position": 3,
+                      "item": {
+                        "@id": "https://tablasdemultiplicar.online/tabla/4",
+                        "name": "Tabla del 4"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "@type": "LearningResource",
+                  "@id": "https://tablasdemultiplicar.online/tabla/4#learningresource",
+                  "name": "Recurso de aprendizaje: Tabla del 4",
+                  "description": "Multiplicar por 4 mediante duplicar dos veces y reconocer patrones para facilitar el cálculo.",
+                  "educationalLevel": "Principiante",
+                  "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
+                  "teaches": "Tabla del 4, duplicación, patrones",
+                  "typicalAgeRange": "6-8",
+                  "inLanguage": "es-MX",
+                  "educationalUse": ["practice", "self-study"],
+                  "audience": {
+                    "@type": "EducationalAudience",
+                    "educationalRole": ["student"]
+                  },
+                  "isPartOf": {
+                    "@id": "https://tablasdemultiplicar.online/1-10#learningresource"
+                  }
+                }
+              ]
+            }
 
-export const metadata = {
-  title: '4 Çarpım Tablosu | 4 İle Çarpmayı Öğrenin',
-  description: '4 çarpım tablosunda ikiye katlama teknikleri, geometrik desenler ve etkili pratik yöntemleri kullanarak ustalaşın. Güçlü çarpma becerileri oluşturun.',
-  alternates: {
-    canonical: '/sayi/4',
-  },
-}
-
-export default function MultiplicationTableOf4() {
-  return (
-    <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-      />
-      <NumberPage number={4} rangeStart={1} rangeEnd={10} />
-    </>
-  )
-}
+            export const metadata = {
+              title: 'Tabla del 4 | Aprende a multiplicar por 4',
+              description: 'Aprende la tabla del 4 con estrategias de duplicación y patrones que facilitan el cálculo.',
+              alternates: {
+                canonical: '/tabla/4',
+              },
+            }

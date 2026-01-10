@@ -1,16 +1,17 @@
 import NumberPage from '@/app/components/NumberPage'
 
-const schemaData = {"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "@id": "https://carpimtablosu.com.tr/sayi/38#webpage", "url": "https://carpimtablosu.com.tr/sayi/38", "name": "38 Çarpım Tablosu", "description": "38 çarpım tablosu ile 2×19 ilişkisi ve çarpma becerileri.", "isPartOf": {"@id": "https://carpimtablosu.com.tr/#website"}, "about": {"@id": "https://carpimtablosu.com.tr/sayi/38#learningresource"}, "breadcrumb": {"@id": "https://carpimtablosu.com.tr/sayi/38#breadcrumb"}, "inLanguage": "tr-TR"}, {"@type": "BreadcrumbList", "@id": "https://carpimtablosu.com.tr/sayi/38#breadcrumb", "itemListElement": [{"@type": "ListItem", "position": 1, "item": {"@id": "https://carpimtablosu.com.tr/", "name": "Ana Sayfa"}}, {"@type": "ListItem", "position": 2, "item": {"@id": "https://carpimtablosu.com.tr/31-40", "name": "31-40 Çarpım Tablosu"}}, {"@type": "ListItem", "position": 3, "item": {"@id": "https://carpimtablosu.com.tr/sayi/38", "name": "38 Çarpım Tablosu"}}]}, {"@type": "LearningResource", "@id": "https://carpimtablosu.com.tr/sayi/38#learningresource", "name": "38 Çarpım Tablosu", "description": "38 ile çarpma becerileri", "educationalLevel": "Intermediate", "learningResourceType": ["Interactive Resource", "Practice Material"], "teaches": "38 çarpım tablosu", "typicalAgeRange": "8-11", "inLanguage": "tr-TR", "educationalUse": ["practice"], "audience": {"@type": "EducationalAudience", "educationalRole": ["student"]}, "isPartOf": {"@id": "https://carpimtablosu.com.tr/31-40#learningresource"}}]}
+const schemaData = {"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "@id": "https://tablasdemultiplicar.online/tabla/38#webpage", "url": "https://tablasdemultiplicar.online/tabla/38", "name": "38 Çarpım Tablosu", "description": "38 çarpım tablosu ile 2×19 ilişkisi ve çarpma becerileri.", "isPartOf": {"@id": "https://tablasdemultiplicar.online/#website"}, "about": {"@id": "https://tablasdemultiplicar.online/tabla/38#learningresource"}, "breadcrumb": {"@id": "https://tablasdemultiplicar.online/tabla/38#breadcrumb"}, "inLanguage": "es-MX"}, {"@type": "BreadcrumbList", "@id": "https://tablasdemultiplicar.online/tabla/38#breadcrumb", "itemListElement": [{"@type": "ListItem", "position": 1, "item": {"@id": "https://tablasdemultiplicar.online/", "name": "Inicio"}}, {"@type": "ListItem", "position": 2, "item": {"@id": "https://tablasdemultiplicar.online/31-40", "name": "31-40 Çarpım Tablosu"}}, {"@type": "ListItem", "position": 3, "item": {"@id": "https://tablasdemultiplicar.online/tabla/38", "name": "38 Çarpım Tablosu"}}]}, {"@type": "LearningResource", "@id": "https://tablasdemultiplicar.online/tabla/38#learningresource", "name": "38 Çarpım Tablosu", "description": "38 ile çarpma becerileri", "educationalLevel": "Intermediate", "learningResourceType": ["Interactive Resource", "Practice Material"], "teaches": "38 çarpım tablosu", "typicalAgeRange": "8-11", "inLanguage": "es-MX", "educationalUse": ["practice"], "audience": {"@type": "EducationalAudience", "educationalRole": ["student"]}, "isPartOf": {"@id": "https://tablasdemultiplicar.online/31-40#learningresource"}}]}
 
 export const metadata = {
   title: '38 Çarpım Tablosu - Eğlenceli Oyunlar ve Pratik Egzersizleri',
   description: '38 çarpım tablosunu eğlenceli oyunlar ve interaktif alıştırmalarla öğrenin. Çocuklar için görsel yardımcılar, pratik ipuçları ve kolay ezber teknikleri.',
   keywords: '38 çarpım tablosu, otuz sekiz çarpım tablosu, 38 ile çarpma, çarpım tablosu öğrenme, matematik oyunları',
   alternates: {
-    canonical: '/sayi/38',
+    canonical: '/tabla/38',
   },
 }
 
 export default function Number38Page() {
   return (<><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} /><NumberPage number={38} rangeStart={31} rangeEnd={40} /></>)
 }
+

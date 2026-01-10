@@ -5,38 +5,38 @@ const schemaData = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://carpimtablosu.com.tr/sayi/10#webpage",
-      "url": "https://carpimtablosu.com.tr/sayi/10",
+      "@id": "https://tablasdemultiplicar.online/tabla/10#webpage",
+      "url": "https://tablasdemultiplicar.online/tabla/10",
       "name": "10 Çarpım Tablosu - Onluk Sistem Temeli",
       "description": "10 çarpım tablosu ile onluk sistem ve yer değeri kavramını öğrenin. En kolay çarpım tablosu ile matematiğin temelini anlayın.",
       "isPartOf": {
-        "@id": "https://carpimtablosu.com.tr/#website"
+        "@id": "https://tablasdemultiplicar.online/#website"
       },
       "about": {
-        "@id": "https://carpimtablosu.com.tr/sayi/10#learningresource"
+        "@id": "https://tablasdemultiplicar.online/tabla/10#learningresource"
       },
       "breadcrumb": {
-        "@id": "https://carpimtablosu.com.tr/sayi/10#breadcrumb"
+        "@id": "https://tablasdemultiplicar.online/tabla/10#breadcrumb"
       },
-      "inLanguage": "tr-TR"
+      "inLanguage": "es-MX"
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://carpimtablosu.com.tr/sayi/10#breadcrumb",
+      "@id": "https://tablasdemultiplicar.online/tabla/10#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
           "position": 1,
           "item": {
-            "@id": "https://carpimtablosu.com.tr/",
-            "name": "Ana Sayfa"
+            "@id": "https://tablasdemultiplicar.online/",
+            "name": "Inicio"
           }
         },
         {
           "@type": "ListItem",
           "position": 2,
           "item": {
-            "@id": "https://carpimtablosu.com.tr/1-10",
+            "@id": "https://tablasdemultiplicar.online/1-10",
             "name": "1-10 Çarpım Tablosu"
           }
         },
@@ -44,7 +44,7 @@ const schemaData = {
           "@type": "ListItem",
           "position": 3,
           "item": {
-            "@id": "https://carpimtablosu.com.tr/sayi/10",
+            "@id": "https://tablasdemultiplicar.online/tabla/10",
             "name": "10 Çarpım Tablosu"
           }
         }
@@ -52,21 +52,21 @@ const schemaData = {
     },
     {
       "@type": "LearningResource",
-      "@id": "https://carpimtablosu.com.tr/sayi/10#learningresource",
+      "@id": "https://tablasdemultiplicar.online/tabla/10#learningresource",
       "name": "10 Çarpım Tablosu Öğrenme Kaynağı",
       "description": "10 ile çarpma: Onluk sistem temeli, yer değeri kavramı ve sonuna sıfır ekleme kuralı ile en kolay çarpım tablosu.",
       "educationalLevel": "Beginner",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
       "teaches": "10 çarpım tablosu, onluk sistem, yer değeri, sıfır ekleme kuralı",
       "typicalAgeRange": "6-9",
-      "inLanguage": "tr-TR",
+      "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study", "foundational concept"],
       "audience": {
         "@type": "EducationalAudience",
         "educationalRole": ["student"]
       },
       "isPartOf": {
-        "@id": "https://carpimtablosu.com.tr/1-10#learningresource"
+        "@id": "https://tablasdemultiplicar.online/1-10#learningresource"
       }
     }
   ]
@@ -77,7 +77,7 @@ export const metadata = {
   description: '10 çarpım tablosunu eğlenceli oyunlar, interaktif alıştırmalar ve yazdırılabilir çalışma kağıtları ile öğrenin. Ücretsiz pratik araçları keşfedin.',
   keywords: '10 çarpım tablosu, on çarpım tablosu, matematik oyunları, çarpma alıştırmaları',
   alternates: {
-    canonical: '/sayi/10',
+    canonical: '/tabla/10',
   },
 }
 
@@ -92,3 +92,4 @@ export default function Number10Page() {
     </>
   )
 }
+

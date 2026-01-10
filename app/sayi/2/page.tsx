@@ -5,78 +5,78 @@ const schemaData = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://carpimtablosu.com.tr/sayi/2#webpage",
-      "url": "https://carpimtablosu.com.tr/sayi/2",
-      "name": "2 Çarpım Tablosu - İkişerli Sayma",
-      "description": "2 çarpım tablosu ile ikişerli sayma ve ikiye katlama becerilerini geliştirin. Çift sayı desenleri ve pratik stratejilerle öğrenin.",
+      "@id": "https://tablasdemultiplicar.online/tabla/2#webpage",
+      "url": "https://tablasdemultiplicar.online/tabla/2",
+      "name": "Tabla del 2 - Conteo de dos en dos",
+      "description": "Mejora el conteo de dos en dos y la duplicación. Aprende patrones de números pares y estrategias prácticas para multiplicar por 2.",
       "isPartOf": {
-        "@id": "https://carpimtablosu.com.tr/#website"
+        "@id": "https://tablasdemultiplicar.online/#website"
       },
       "about": {
-        "@id": "https://carpimtablosu.com.tr/sayi/2#learningresource"
+        "@id": "https://tablasdemultiplicar.online/tabla/2#learningresource"
       },
       "breadcrumb": {
-        "@id": "https://carpimtablosu.com.tr/sayi/2#breadcrumb"
+        "@id": "https://tablasdemultiplicar.online/tabla/2#breadcrumb"
       },
-      "inLanguage": "tr-TR"
+      "inLanguage": "es-MX"
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://carpimtablosu.com.tr/sayi/2#breadcrumb",
+      "@id": "https://tablasdemultiplicar.online/tabla/2#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
           "position": 1,
           "item": {
-            "@id": "https://carpimtablosu.com.tr/",
-            "name": "Ana Sayfa"
+            "@id": "https://tablasdemultiplicar.online/",
+            "name": "Inicio"
           }
         },
         {
           "@type": "ListItem",
           "position": 2,
           "item": {
-            "@id": "https://carpimtablosu.com.tr/1-10",
-            "name": "1-10 Çarpım Tablosu"
+            "@id": "https://tablasdemultiplicar.online/1-10",
+            "name": "Tablas 1-10"
           }
         },
         {
           "@type": "ListItem",
           "position": 3,
           "item": {
-            "@id": "https://carpimtablosu.com.tr/sayi/2",
-            "name": "2 Çarpım Tablosu"
+            "@id": "https://tablasdemultiplicar.online/tabla/2",
+            "name": "Tabla del 2"
           }
         }
       ]
     },
     {
       "@type": "LearningResource",
-      "@id": "https://carpimtablosu.com.tr/sayi/2#learningresource",
-      "name": "2 Çarpım Tablosu Öğrenme Kaynağı",
-      "description": "2 ile çarpma: İkişerli sayma, ikiye katlama ve çift sayı desenleri ile 2 çarpım tablosunu öğrenin.",
-      "educationalLevel": "Beginner",
+      "@id": "https://tablasdemultiplicar.online/tabla/2#learningresource",
+      "name": "Recurso de aprendizaje: Tabla del 2",
+      "description": "Multiplicar por 2: conteo de dos en dos, duplicación y patrones de números pares.",
+      "educationalLevel": "Principiante",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "2 çarpım tablosu, ikişerli sayma, ikiye katlama, çift sayılar",
+      "teaches": "Tabla del 2, conteo de dos en dos, duplicación, números pares",
       "typicalAgeRange": "6-8",
-      "inLanguage": "tr-TR",
+      "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study"],
       "audience": {
         "@type": "EducationalAudience",
         "educationalRole": ["student"]
       },
       "isPartOf": {
-        "@id": "https://carpimtablosu.com.tr/1-10#learningresource"
+        "@id": "https://tablasdemultiplicar.online/1-10#learningresource"
       }
     }
   ]
 }
 
 export const metadata = {
-  title: '2 Çarpım Tablosu | 2 İle Çarpmayı Öğrenin',
-  description: '2 çarpım tablosunda ustalaşın. İkiye katlama stratejileri, desenler ve pratik örneklerle en temel çarpım tablosunu güvenle öğrenin.',
+  title: 'Tabla del 2 | Aprende a multiplicar por 2',
+  description: 'Domina la tabla del 2. Estrategias de duplicación, patrones y ejemplos prácticos para aprender con seguridad.',
   alternates: {
-    canonical: '/sayi/2',
+    canonical: '/tabla/2',
   },
 }
 

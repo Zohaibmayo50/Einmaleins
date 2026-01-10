@@ -5,38 +5,38 @@ const schemaData = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://carpimtablosu.com.tr/sayi/23#webpage",
-      "url": "https://carpimtablosu.com.tr/sayi/23",
+      "@id": "https://tablasdemultiplicar.online/tabla/23#webpage",
+      "url": "https://tablasdemultiplicar.online/tabla/23",
       "name": "23 Çarpım Tablosu - Asal Sayı Desenleri",
       "description": "23 çarpım tablosu ile asal sayı desenleri ve ileri düzeyde çarpma becerilerini geliştirin.",
       "isPartOf": {
-        "@id": "https://carpimtablosu.com.tr/#website"
+        "@id": "https://tablasdemultiplicar.online/#website"
       },
       "about": {
-        "@id": "https://carpimtablosu.com.tr/sayi/23#learningresource"
+        "@id": "https://tablasdemultiplicar.online/tabla/23#learningresource"
       },
       "breadcrumb": {
-        "@id": "https://carpimtablosu.com.tr/sayi/23#breadcrumb"
+        "@id": "https://tablasdemultiplicar.online/tabla/23#breadcrumb"
       },
-      "inLanguage": "tr-TR"
+      "inLanguage": "es-MX"
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://carpimtablosu.com.tr/sayi/23#breadcrumb",
+      "@id": "https://tablasdemultiplicar.online/tabla/23#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
           "position": 1,
           "item": {
-            "@id": "https://carpimtablosu.com.tr/",
-            "name": "Ana Sayfa"
+            "@id": "https://tablasdemultiplicar.online/",
+            "name": "Inicio"
           }
         },
         {
           "@type": "ListItem",
           "position": 2,
           "item": {
-            "@id": "https://carpimtablosu.com.tr/21-30",
+            "@id": "https://tablasdemultiplicar.online/21-30",
             "name": "21-30 Çarpım Tablosu"
           }
         },
@@ -44,7 +44,7 @@ const schemaData = {
           "@type": "ListItem",
           "position": 3,
           "item": {
-            "@id": "https://carpimtablosu.com.tr/sayi/23",
+            "@id": "https://tablasdemultiplicar.online/tabla/23",
             "name": "23 Çarpım Tablosu"
           }
         }
@@ -52,21 +52,21 @@ const schemaData = {
     },
     {
       "@type": "LearningResource",
-      "@id": "https://carpimtablosu.com.tr/sayi/23#learningresource",
+      "@id": "https://tablasdemultiplicar.online/tabla/23#learningresource",
       "name": "23 Çarpım Tablosu Öğrenme Kaynağı",
       "description": "23 ile çarpma: Asal sayı özellikleri ve orta-ileri seviye çarpma pratikleri.",
       "educationalLevel": "Intermediate",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
       "teaches": "23 çarpım tablosu, asal sayı kavramı, ileri çarpma",
       "typicalAgeRange": "8-11",
-      "inLanguage": "tr-TR",
+      "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study"],
       "audience": {
         "@type": "EducationalAudience",
         "educationalRole": ["student"]
       },
       "isPartOf": {
-        "@id": "https://carpimtablosu.com.tr/21-30#learningresource"
+        "@id": "https://tablasdemultiplicar.online/21-30#learningresource"
       }
     }
   ]
@@ -77,7 +77,7 @@ export const metadata = {
   description: '23 çarpım tablosunu eğlenceli oyunlar ve interaktif alıştırmalarla öğrenin. Çocuklar için görsel yardımcılar, pratik ipuçları ve kolay ezber teknikleri.',
   keywords: '23 çarpım tablosu, yirmi üç çarpım tablosu, 23 ile çarpma, çarpım tablosu öğrenme, matematik oyunları',
   alternates: {
-    canonical: '/sayi/23',
+    canonical: '/tabla/23',
   },
 }
 
@@ -92,3 +92,4 @@ export default function Number23Page() {
     </>
   )
 }
+

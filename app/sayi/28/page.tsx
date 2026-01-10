@@ -5,37 +5,37 @@ const schemaData = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://carpimtablosu.com.tr/sayi/28#webpage",
-      "url": "https://carpimtablosu.com.tr/sayi/28",
+      "@id": "https://tablasdemultiplicar.online/tabla/28#webpage",
+      "url": "https://tablasdemultiplicar.online/tabla/28",
       "name": "28 Çarpım Tablosu - 4×7 İlişkisi",
       "description": "28 çarpım tablosu ile 4×7 ilişkisini öğrenin. Hafta günleri ve ay kavramları ile pratik uygulamalar.",
-      "isPartOf": {"@id": "https://carpimtablosu.com.tr/#website"},
-      "about": {"@id": "https://carpimtablosu.com.tr/sayi/28#learningresource"},
-      "breadcrumb": {"@id": "https://carpimtablosu.com.tr/sayi/28#breadcrumb"},
-      "inLanguage": "tr-TR"
+      "isPartOf": {"@id": "https://tablasdemultiplicar.online/#website"},
+      "about": {"@id": "https://tablasdemultiplicar.online/tabla/28#learningresource"},
+      "breadcrumb": {"@id": "https://tablasdemultiplicar.online/tabla/28#breadcrumb"},
+      "inLanguage": "es-MX"
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://carpimtablosu.com.tr/sayi/28#breadcrumb",
+      "@id": "https://tablasdemultiplicar.online/tabla/28#breadcrumb",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "item": {"@id": "https://carpimtablosu.com.tr/", "name": "Ana Sayfa"}},
-        {"@type": "ListItem", "position": 2, "item": {"@id": "https://carpimtablosu.com.tr/21-30", "name": "21-30 Çarpım Tablosu"}},
-        {"@type": "ListItem", "position": 3, "item": {"@id": "https://carpimtablosu.com.tr/sayi/28", "name": "28 Çarpım Tablosu"}}
+        {"@type": "ListItem", "position": 1, "item": {"@id": "https://tablasdemultiplicar.online/", "name": "Inicio"}},
+        {"@type": "ListItem", "position": 2, "item": {"@id": "https://tablasdemultiplicar.online/21-30", "name": "21-30 Çarpım Tablosu"}},
+        {"@type": "ListItem", "position": 3, "item": {"@id": "https://tablasdemultiplicar.online/tabla/28", "name": "28 Çarpım Tablosu"}}
       ]
     },
     {
       "@type": "LearningResource",
-      "@id": "https://carpimtablosu.com.tr/sayi/28#learningresource",
+      "@id": "https://tablasdemultiplicar.online/tabla/28#learningresource",
       "name": "28 Çarpım Tablosu Öğrenme Kaynağı",
       "description": "28 ile çarpma: 4 hafta=28 gün, 4×7 ilişkisi ve zaman hesaplama becerileri.",
       "educationalLevel": "Intermediate",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
       "teaches": "28 çarpım tablosu, 4×7 ilişkisi, ay ve hafta kavramı",
       "typicalAgeRange": "8-11",
-      "inLanguage": "tr-TR",
+      "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study", "real-world application"],
       "audience": {"@type": "EducationalAudience", "educationalRole": ["student"]},
-      "isPartOf": {"@id": "https://carpimtablosu.com.tr/21-30#learningresource"}
+      "isPartOf": {"@id": "https://tablasdemultiplicar.online/21-30#learningresource"}
     }
   ]
 }
@@ -45,7 +45,7 @@ export const metadata = {
   description: '28 çarpım tablosunu eğlenceli oyunlar ve interaktif alıştırmalarla öğrenin. Çocuklar için görsel yardımcılar, pratik ipuçları ve kolay ezber teknikleri.',
   keywords: '28 çarpım tablosu, yirmi sekiz çarpım tablosu, 28 ile çarpma, çarpım tablosu öğrenme, matematik oyunları',
   alternates: {
-    canonical: '/sayi/28',
+    canonical: '/tabla/28',
   },
 }
 
@@ -57,3 +57,4 @@ export default function Number28Page() {
     </>
   )
 }
+

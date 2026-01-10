@@ -5,37 +5,37 @@ const schemaData = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://carpimtablosu.com.tr/sayi/33#webpage",
-      "url": "https://carpimtablosu.com.tr/sayi/33",
+      "@id": "https://tablasdemultiplicar.online/tabla/33#webpage",
+      "url": "https://tablasdemultiplicar.online/tabla/33",
       "name": "33 Çarpım Tablosu - 3×11 İlişkisi",
       "description": "33 çarpım tablosu ile 3×11 ilişkisini öğrenin. Basamak desenleri ve çarpma stratejileri.",
-      "isPartOf": {"@id": "https://carpimtablosu.com.tr/#website"},
-      "about": {"@id": "https://carpimtablosu.com.tr/sayi/33#learningresource"},
-      "breadcrumb": {"@id": "https://carpimtablosu.com.tr/sayi/33#breadcrumb"},
-      "inLanguage": "tr-TR"
+      "isPartOf": {"@id": "https://tablasdemultiplicar.online/#website"},
+      "about": {"@id": "https://tablasdemultiplicar.online/tabla/33#learningresource"},
+      "breadcrumb": {"@id": "https://tablasdemultiplicar.online/tabla/33#breadcrumb"},
+      "inLanguage": "es-MX"
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://carpimtablosu.com.tr/sayi/33#breadcrumb",
+      "@id": "https://tablasdemultiplicar.online/tabla/33#breadcrumb",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "item": {"@id": "https://carpimtablosu.com.tr/", "name": "Ana Sayfa"}},
-        {"@type": "ListItem", "position": 2, "item": {"@id": "https://carpimtablosu.com.tr/31-40", "name": "31-40 Çarpım Tablosu"}},
-        {"@type": "ListItem", "position": 3, "item": {"@id": "https://carpimtablosu.com.tr/sayi/33", "name": "33 Çarpım Tablosu"}}
+        {"@type": "ListItem", "position": 1, "item": {"@id": "https://tablasdemultiplicar.online/", "name": "Inicio"}},
+        {"@type": "ListItem", "position": 2, "item": {"@id": "https://tablasdemultiplicar.online/31-40", "name": "31-40 Çarpım Tablosu"}},
+        {"@type": "ListItem", "position": 3, "item": {"@id": "https://tablasdemultiplicar.online/tabla/33", "name": "33 Çarpım Tablosu"}}
       ]
     },
     {
       "@type": "LearningResource",
-      "@id": "https://carpimtablosu.com.tr/sayi/33#learningresource",
+      "@id": "https://tablasdemultiplicar.online/tabla/33#learningresource",
       "name": "33 Çarpım Tablosu Öğrenme Kaynağı",
       "description": "33 ile çarpma: 3 ve 11 tablolarının birleşimi (3×11=33), çift basamak desenleri.",
       "educationalLevel": "Intermediate",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
       "teaches": "33 çarpım tablosu, 3×11 ilişkisi, basamak desenleri",
       "typicalAgeRange": "8-11",
-      "inLanguage": "tr-TR",
+      "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study"],
       "audience": {"@type": "EducationalAudience", "educationalRole": ["student"]},
-      "isPartOf": {"@id": "https://carpimtablosu.com.tr/31-40#learningresource"}
+      "isPartOf": {"@id": "https://tablasdemultiplicar.online/31-40#learningresource"}
     }
   ]
 }
@@ -45,7 +45,7 @@ export const metadata = {
   description: '33 çarpım tablosunu eğlenceli oyunlar ve interaktif alıştırmalarla öğrenin. Çocuklar için görsel yardımcılar, pratik ipuçları ve kolay ezber teknikleri.',
   keywords: '33 çarpım tablosu, otuz üç çarpım tablosu, 33 ile çarpma, çarpım tablosu öğrenme, matematik oyunları',
   alternates: {
-    canonical: '/sayi/33',
+    canonical: '/tabla/33',
   },
 }
 
@@ -57,3 +57,4 @@ export default function Number33Page() {
     </>
   )
 }
+
