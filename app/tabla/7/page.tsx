@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://tablasdemultiplicar.online/tabla/7#webpage",
       "url": "https://tablasdemultiplicar.online/tabla/7",
-      "name": "7 Çarpım Tablosu - Yedili Sistemler",
-      "description": "7 çarpım tablosu ile yedili sayma desenlerini öğrenin. Hafta günleri ve periyodik desenlerle pratik uygulamalar.",
+      "name": "Tabla del 7 - Sistemas de Siete",
+      "description": "Aprende patrones de conteo de siete con la tabla del 7. Aplicaciones prácticas con días de la semana y patrones periódicos.",
       "isPartOf": {
         "@id": "https://tablasdemultiplicar.online/#website"
       },
@@ -73,9 +73,9 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: '7 Çarpım Tablosu - Eğlenceli Oyunlar ve Pratik Egzersizleri',
-  description: '7 çarpım tablosunu eğlenceli oyunlar, interaktif alıştırmalar ve yazdırılabilir çalışma kağıtları ile öğrenin. Ücretsiz pratik araçları keşfedin.',
-  keywords: '7 çarpım tablosu, yedi çarpım tablosu, matematik oyunları, çarpma alıştırmaları',
+  title: 'Tabla del 7 - Juegos Divertidos y Ejercicios Prácticos',
+  description: 'Aprende la tabla del 7 con juegos divertidos, ejercicios interactivos y hojas de trabajo imprimibles. Descubre herramientas de práctica gratuitas.',
+  keywords: 'tabla del 7, tabla de multiplicar del siete, juegos de matemáticas, ejercicios de multiplicación',
   alternates: {
     canonical: '/tabla/7',
   },

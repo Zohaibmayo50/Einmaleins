@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://tablasdemultiplicar.online/tabla/8#webpage",
       "url": "https://tablasdemultiplicar.online/tabla/8",
-      "name": "8 Çarpım Tablosu - Sekizli Desenler",
-      "description": "8 çarpım tablosu ile ikiye ve dördüne katlama tekniklerini öğrenin. 2×2×2 ilişkisi ve sekizgen kavramını keşfedin.",
+      "name": "Tabla del 8 - Patrones de Ocho",
+      "description": "Aprende técnicas de duplicación y cuadruplicación con la tabla del 8. Descubre la relación 2×2×2 y el concepto de octágono.",
       "isPartOf": {
         "@id": "https://tablasdemultiplicar.online/#website"
       },
@@ -73,9 +73,9 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: '8 Çarpım Tablosu - Eğlenceli Oyunlar ve Pratik Egzersizleri',
-  description: '8 çarpım tablosunu eğlenceli oyunlar, interaktif alıştırmalar ve yazdırılabilir çalışma kağıtları ile öğrenin. Ücretsiz pratik araçları keşfedin.',
-  keywords: '8 çarpım tablosu, sekiz çarpım tablosu, matematik oyunları, çarpma alıştırmaları',
+  title: 'Tabla del 8 - Juegos Divertidos y Ejercicios Prácticos',
+  description: 'Aprende la tabla del 8 con juegos divertidos, ejercicios interactivos y hojas de trabajo imprimibles. Descubre herramientas de práctica gratuitas.',
+  keywords: 'tabla del 8, tabla de multiplicar del ocho, juegos de matemáticas, ejercicios de multiplicación',
   alternates: {
     canonical: '/tabla/8',
   },

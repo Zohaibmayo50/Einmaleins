@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://tablasdemultiplicar.online/tabla/6#webpage",
       "url": "https://tablasdemultiplicar.online/tabla/6",
-      "name": "6 Çarpım Tablosu - Altışar Sayma",
-      "description": "6 çarpım tablosu ile altışar sayma öğrenin. 2×3 ve 3×2 ilişkileri ile geometrik desenleri keşfedin.",
+      "name": "Tabla del 6 - Contar de Seis en Seis",
+      "description": "Aprende a contar de seis en seis con la tabla del 6. Descubre las relaciones 2×3 y 3×2 con patrones geométricos.",
       "isPartOf": {
         "@id": "https://tablasdemultiplicar.online/#website"
       },
@@ -73,9 +73,9 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: '6 Çarpım Tablosu - Eğlenceli Oyunlar ve Pratik Egzersizleri',
-  description: '6 çarpım tablosunu eğlenceli oyunlar, interaktif alıştırmalar ve yazdırılabilir çalışma kağıtları ile öğrenin. Ücretsiz pratik araçları keşfedin.',
-  keywords: '6 çarpım tablosu, altı çarpım tablosu, matematik oyunları, çarpma alıştırmaları',
+  title: 'Tabla del 6 - Juegos Divertidos y Ejercicios Prácticos',
+  description: 'Aprende la tabla del 6 con juegos divertidos, ejercicios interactivos y hojas de trabajo imprimibles. Descubre herramientas de práctica gratuitas.',
+  keywords: 'tabla del 6, tabla de multiplicar del seis, juegos de matemáticas, ejercicios de multiplicación',
   alternates: {
     canonical: '/tabla/6',
   },

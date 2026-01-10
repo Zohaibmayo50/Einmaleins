@@ -247,28 +247,28 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
       78: "Multiplicar por 78 usa las relaciones 2×39=3×26=6×13. Se puede calcular de múltiples maneras. Pensar en 78 como 80-2 o 75+3 facilita el cálculo mental. Como es un número par, todos sus múltiplos también son pares. El 78 es divisible por 2, 3, 6, 13, 26, 39.",
       79: "Multiplicar por 79 requiere estrategias especiales debido a sus propiedades de número primo. La estrategia más fácil es pensar en 79 como 80-1: multiplica un número por 80 y réstale el número mismo. El 79 es un número primo y solo es divisible por 1 y 79. Aprender la tabla del 79 establece una base perfecta para cálculos cercanos a 80.",
       80: "Multiplicar por 80 usa la relación 8×10 y es muy útil. Para multiplicar un número por 80, puedes multiplicarlo por 8 y agregar un cero al final. Hay relaciones de factores alternativos como 80=2×40=4×20=5×16. El 80 se asocia con el límite superior de la esperanza de vida promedio (entre 70-80 en la mayoría de los países). Esta tabla refuerza la tabla del 8.",
-      81: "81 ile çarpmak, 9'un karesidir (81=9×9=9²). Bu özel ilişki, 9 tablosunu mükemmel bilmeyi gerektirir. 81=3⁴ (3'ün dördúncü kuvveti) olması da ilginçtir. 81'i 80+1 olarak düşünmek zihinsel hesaplamayı kolaylaştırır. 81, kare sayı olduğu için geometri ve alan hesaplamalarında önemlidir.",
-      82: "82 ile çarpmak, 2×41 ilişkisini kullanır. 41 tablosunu biliyorsanız, her sonucu ikiye katlayarak 82 tablosunu bulabilirsiniz. 82'yi 80+2 veya 85-3 olarak düşünmek hesaplamayı kolaylaştırır. Çift sayı olduğu için tüm katları da çifttir. 82, hem 2'ye hem 41'e bölünebilir.",
-      83: "83 ile çarpmak, asal sayı özellikleri nedeniyle zihinsel matematik stratejilerini geliştirir. 83'ü 80+3 veya 85-2 olarak düşünmek en pratik yöntemlerdir. 83 asal bir sayıdır ve sadece 1 ve 83 ile bölünebilir. 83 tablosunu öğrenmek, büyük asal sayılarla çalışma yeteneğini artırır.",
-      84: "84 ile çarpmak, en çok yönlü tablolardan biridir. 84=7×12=6×14=4×21=3×28=2×42 olduğundan, birçok farklı yoldan hesaplanabilir. 84, bir haftadaki saat sayısının 12 katıdır veya 12 saatlik günün 7 katıdır. Çok sayıda böleni olması, kesir hesaplamalarında kullanışlıdır.",
-      85: "85 ile çarpmak, 5×17 ilişkisini kullanır. Her iki tablo da bilinen tablolarsa, 85 ile çarpma kolaydır. 85=80+5 veya 90-5 stratejisi de çok pratiktir. 5'in deseni (5 veya 0 ile biter) hesaplamayı kolaylaştırır. 85, hem 5'e hem 17'ye bölünebilir.",
-      86: "86 ile çarpmak, 2×43 ilişkisini kullanır. 43 tablosunu biliyorsanız, her sonucu ikiye katlayarak 86 tablosunu bulabilirsiniz. 86'yı 90-4 veya 85+1 olarak düşünmek hesaplamayı kolaylaştırır. Çift sayı olduğu için tüm katları da çifttir. 86, hem 2'ye hem 43'e bölünebilir.",
-      87: "87 ile çarpmak, 3×29 ilişkisini kullanır. 29 tablosunu üçe katlamak veya 3 tablosunu 29 ile çarpmak işe yarar. 87'yi 90-3 veya 85+2 olarak düşünmek hesaplamayı kolaylaştırır. 87=3×29 olduğundan, hem 3'e hem 29'a bölünebilir.",
-      88: "88 ile çarpmak, 8×11 ilişkisini veya 4×22 ilişkisini kullanır. 88, repdigit sayıdır (8'lerin tekrarı). 88=2×44 olarak da ifade edilebilir. 88'i 90-2 veya 80+8 olarak düşünmek zihinsel hesaplamayı kolaylaştırır. Çift sayı olduğu için tüm katları da çifttir.",
-      89: "89 ile çarpmak, asal sayı özellikleri nedeniyle özel stratejiler gerektirir. 89'u 90-1 olarak düşünmek en kolay stratejidir: bir sayıyı 90 ile çarpıp kendisini çıkarın. 89 asal bir sayıdır ve sadece 1 ve 89 ile bölünebilir. 89 tablosunu öğrenmek, 90'a yakın hesaplamalar için mükemmel bir temel oluşturur.",
-      90: "90 ile çarpmak, 9×10 ilişkisini kullanır ve çok kullanışlıdır. Bir sayıyı 90 ile çarpmak için, onu 9 ile çarpıp sonuna sıfır ekleyebilirsiniz. 90=2×45=3×30=5×18=6×15 gibi çok sayıda çarpan ilişkisi vardır. 90 derece dik açıdır, geometride çok önemlidir. Bu tablo, 9 tablosunu pekiştirir.",
-      91: "91 ile çarpmak, 7×13 ilişkisini kullanır. Her iki tablo da bilinen tablolarsa, 91 ile çarpma kolaydır. 91=7×13 olması, asal sayıların çarpımını anlamak için önemlidir. 91'i 90+1 olarak düşünmek zihinsel hesaplamayı kolaylaştırır. Hem 7'ye hem 13'e bölünebilir.",
-      92: "92 ile çarpmak, 4×23 ilişkisini veya 2×46 ilişkisini kullanır. 23 tablosunu dörde katlamak işe yarar. 92'yi 90+2 veya 100-8 olarak düşünmek hesaplamayı kolaylaştırır. Çift sayı olduğu için tüm katları da çifttir. 92, hem 4'e hem 23'e bölünebilir.",
-      93: "93 ile çarpmak, 3×31 ilişkisini kullanır. 31 tablosunu üçe katlamak veya 3 tablosunu 31 ile çarpmak işe yarar. 93'ü 90+3 veya 100-7 olarak düşünmek hesaplamayı kolaylaştırır. 93=3×31 olduğundan, hem 3'e hem 31'e bölünebilir.",
-      94: "94 ile çarpmak, 2×47 ilişkisini kullanır. 47 tablosunu biliyorsanız, her sonucu ikiye katlayarak 94 tablosunu bulabilirsiniz. 94'ü 100-6 veya 90+4 olarak düşünmek hesaplamayı kolaylaştırır. Çift sayı olduğu için tüm katları da çifttir. 94, hem 2'ye hem 47'ye bölünebilir.",
-      95: "95 ile çarpmak, 5×19 ilişkisini kullanır. Her iki tablo da bilinen tablolarsa, 95 ile çarpma kolaydır. 95=100-5 stratejisi çok pratiktir. 5'in deseni (5 veya 0 ile biter) hesaplamayı kolaylaştırır. 95, hem 5'e hem 19'a bölünebilir. Yüzde hesaplamalarında (95%) kullanışlıdır.",
-      96: "96 ile çarpmak, en çok yönlü tablolardan biridir. 96=8×12=6×16=4×24=3×32=2×48 olduğundan, birçok farklı yoldan hesaplanabilir. 96=2⁵×3 olması, 2'nin kuvvetleri açısından önemlidir. Çok sayıda böleni olması, kesir hesaplamalarında kullanışlıdır.",
-      97: "97 ile çarpmak, asal sayı özellikleri nedeniyle özel stratejiler gerektirir. 97'yi 100-3 olarak düşünmek en kolay stratejidir: bir sayıyı 100 ile çarpıp 3 katını çıkarın. 97 asal bir sayıdır ve sadece 1 ve 97 ile bölünebilir. 100'e en yakın asal sayı olması, zihinsel hesaplamayı çok kolaylaştırır.",
-      98: "98 ile çarpmak, 2×49 ilişkisini kullanır. 49 tablosunu biliyorsanız, her sonucu ikiye katlayarak 98 tablosunu bulabilirsiniz. 98=2×7² ilişkisi ilginçtir. 98'i 100-2 olarak düşünmek en kolay stratejidir. Çift sayı olduğu için tüm katları da çifttir.",
-      99: "99 ile çarpmak, 9×11 ilişkisini kullanır. 99, repdigit sayıdır (9'ların tekrarı). 99'u 100-1 olarak düşünmek en kolay stratejidir: bir sayıyı 100 ile çarpıp kendisini çıkarın. 99=9×11 olduğundan, hem 9'a hem 11'e bölünebilir. Zihinsel hesaplama için en kolay tablolardan biridir.",
-      100: "100 ile çarpmak, en kolay tablodur! Bir sayıyı 100 ile çarpmak için, sonuna iki sıfır ekleyin. 100=10×10=10² olması, onluk sistemi anlamak için temeldir. 100, yüzde hesaplamalarının (100%=tam) ve ondalık sistemin temelidir. Para birimleri (100 kuruş=1 lira), ölçü birimleri ve günlük matematik için kritik önem taşır.",
+      81: "Multiplicar por 81 es el cuadrado de 9 (81=9×9=9²). Esta relación especial requiere conocer perfectamente la tabla del 9. También es interesante que 81=3⁴ (la cuarta potencia de 3). Pensar en 81 como 80+1 facilita el cálculo mental. Como 81 es un número cuadrado, es importante en geometría y cálculos de área.",
+      82: "Multiplicar por 82 usa la relación 2×41. Si conoces la tabla del 41, puedes duplicar cada resultado para encontrar la tabla del 82. Pensar en 82 como 80+2 o 85-3 facilita el cálculo. Como es un número par, todos sus múltiplos también son pares. El 82 es divisible tanto por 2 como por 41.",
+      83: "Multiplicar por 83 desarrolla estrategias de matemática mental debido a sus propiedades de número primo. Los métodos más prácticos son pensar en 83 como 80+3 o 85-2. El 83 es un número primo y solo es divisible por 1 y 83. Aprender la tabla del 83 aumenta la capacidad de trabajar con números primos grandes.",
+      84: "Multiplicar por 84 es una de las tablas más versátiles. Como 84=7×12=6×14=4×21=3×28=2×42, se puede calcular de muchas maneras diferentes. El 84 es 12 veces el número de horas en una semana, o 7 veces un medio día de 12 horas. Tener muchos divisores lo hace útil en cálculos de fracciones.",
+      85: "Multiplicar por 85 usa la relación 5×17. Si ambas tablas son conocidas, multiplicar por 85 es fácil. La estrategia 85=80+5 o 90-5 también es muy práctica. El patrón del 5 (termina en 5 o 0) facilita el cálculo. El 85 es divisible tanto por 5 como por 17.",
+      86: "Multiplicar por 86 usa la relación 2×43. Si conoces la tabla del 43, puedes duplicar cada resultado para encontrar la tabla del 86. Pensar en 86 como 90-4 o 85+1 facilita el cálculo. Como es un número par, todos sus múltiplos también son pares. El 86 es divisible tanto por 2 como por 43.",
+      87: "Multiplicar por 87 usa la relación 3×29. Triplicar la tabla del 29 o multiplicar la tabla del 3 por 29 funciona. Pensar en 87 como 90-3 o 85+2 facilita el cálculo. Como 87=3×29, es divisible tanto por 3 como por 29.",
+      88: "Multiplicar por 88 usa la relación 8×11 o la relación 4×22. El 88 es un número repdigit (repetición de 8s). También se puede expresar como 88=2×44. Pensar en 88 como 90-2 o 80+8 facilita el cálculo mental. Como es un número par, todos sus múltiplos también son pares.",
+      89: "Multiplicar por 89 requiere estrategias especiales debido a sus propiedades de número primo. La estrategia más fácil es pensar en 89 como 90-1: multiplica un número por 90 y réstale el número mismo. El 89 es un número primo y solo es divisible por 1 y 89. Aprender la tabla del 89 establece una base perfecta para cálculos cercanos a 90.",
+      90: "Multiplicar por 90 usa la relación 9×10 y es muy útil. Para multiplicar un número por 90, puedes multiplicarlo por 9 y agregar un cero al final. Hay muchas relaciones de factores como 90=2×45=3×30=5×18=6×15. El 90 grados es un ángulo recto, muy importante en geometría. Esta tabla refuerza la tabla del 9.",
+      91: "Multiplicar por 91 usa la relación 7×13. Si ambas tablas son conocidas, multiplicar por 91 es fácil. Que 91=7×13 es importante para entender el producto de números primos. Pensar en 91 como 90+1 facilita el cálculo mental. Es divisible tanto por 7 como por 13.",
+      92: "Multiplicar por 92 usa la relación 4×23 o la relación 2×46. Cuadruplicar la tabla del 23 funciona. Pensar en 92 como 90+2 o 100-8 facilita el cálculo. Como es un número par, todos sus múltiplos también son pares. El 92 es divisible tanto por 4 como por 23.",
+      93: "Multiplicar por 93 usa la relación 3×31. Triplicar la tabla del 31 o multiplicar la tabla del 3 por 31 funciona. Pensar en 93 como 90+3 o 100-7 facilita el cálculo. Como 93=3×31, es divisible tanto por 3 como por 31.",
+      94: "Multiplicar por 94 usa la relación 2×47. Si conoces la tabla del 47, puedes duplicar cada resultado para encontrar la tabla del 94. Pensar en 94 como 100-6 o 90+4 facilita el cálculo. Como es un número par, todos sus múltiplos también son pares. El 94 es divisible tanto por 2 como por 47.",
+      95: "Multiplicar por 95 usa la relación 5×19. Si ambas tablas son conocidas, multiplicar por 95 es fácil. La estrategia 95=100-5 es muy práctica. El patrón del 5 (termina en 5 o 0) facilita el cálculo. El 95 es divisible tanto por 5 como por 19. Es útil en cálculos de porcentaje (95%).",
+      96: "Multiplicar por 96 es una de las tablas más versátiles. Como 96=8×12=6×16=4×24=3×32=2×48, se puede calcular de muchas maneras diferentes. Que 96=2⁵×3 es importante en términos de potencias de 2. Tener muchos divisores lo hace útil en cálculos de fracciones.",
+      97: "Multiplicar por 97 requiere estrategias especiales debido a sus propiedades de número primo. La estrategia más fácil es pensar en 97 como 100-3: multiplica un número por 100 y réstale 3 veces el número. El 97 es un número primo y solo es divisible por 1 y 97. Ser el número primo más cercano a 100 facilita mucho el cálculo mental.",
+      98: "Multiplicar por 98 usa la relación 2×49. Si conoces la tabla del 49, puedes duplicar cada resultado para encontrar la tabla del 98. La relación 98=2×7² es interesante. Pensar en 98 como 100-2 es la estrategia más fácil. Como es un número par, todos sus múltiplos también son pares.",
+      99: "Multiplicar por 99 usa la relación 9×11. El 99 es un número repdigit (repetición de 9s). Pensar en 99 como 100-1 es la estrategia más fácil: multiplica un número por 100 y réstale el número mismo. Como 99=9×11, es divisible tanto por 9 como por 11. Es una de las tablas más fáciles para el cálculo mental.",
+      100: "Multiplicar por 100 es la tabla más fácil! Para multiplicar un número por 100, solo agrega dos ceros al final. Que 100=10×10=10² es fundamental para entender el sistema decimal. El 100 es la base de cálculos de porcentaje (100%=completo) y el sistema decimal. Tiene importancia crítica para monedas, unidades de medida y matemática cotidiana.",
     }
-    return meanings[number] || `${number} ile çarpmak, ${number} sayısını tekrar tekrar ekleme demektir. Her çarptığınızda, ${number}'lik grupları sayıyorsunuz.`
+    return meanings[number] || `Multiplicar por ${number} significa sumar el número ${number} repetidamente. Cada vez que multiplicas, estás contando grupos de ${number}.`
   }
 
   const getWhyImportant = () => {
@@ -303,15 +303,15 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
       28: "La tabla del 28 es importante para conocimiento de calendario (mes de febrero). Que el 28 sea un número perfecto (suma de divisores igual a sí mismo) muestra propiedades matemáticas especiales. La relación 28=4×7 profundiza la comprensión de factorización. Esta tabla se usa en cálculos de tiempo y planificación semanal.",
       29: "La tabla del 29 es perfecta para perfeccionar estrategias de números primos. La relación 30-1 enseña a usar números complementarios. Es necesaria para conocimiento de calendario (febrero en año bisiesto). Aprender esta tabla maximiza las habilidades de cálculo mental.",
       30: "La tabla del 30 es el puente entre el sistema decimal y la multiplicación. La relación 30=3×10 fortalece la comprensión del valor posicional. Se usa constantemente en tiempo (media hora), calendario (días del mes) y medidas de ángulo (30°). Esta tabla forma la base de cálculos de porcentaje (descuento del 30%) y matemática práctica.",
-      31: "31 çarpım tablosu, takvim bilgisi için kritiktir. Ayların çoğu 31 gün olduğu için, tarih ve zaman hesaplamalarında sürekli kullanılır. 31 asal sayı olduğundan, zihinsel hesaplama stratejilerini geliştirmek için mükemmeldir. 30+1 stratejisi, tamamlayıcı sayılar kullanmayı öğretir ve büyük sayı hesaplamalarında yetkinlik kazandırır.",
-      32: "32 çarpım tablosu, üslü sayıları (2⁵) ve ikili sistemleri anlamak için önemlidir. Bilgisayar biliminde 32 bit mimarisi yaygın olduğu için, teknoloji çağında pratik önem taşır. İkiye katlama zincirlerini mükemmelleştirmek için harikadır. Sıcaklık dönüşümlerinde (Fahrenheit) kullanılır.",
-      33: "33 çarpım tablosu, 3 ve 11 tablolarını birleştirerek matematiksel ilişkileri güçlendirir. Repdigit özelliği (33, 66, 99...) desen tanımayı kolaylaştırır. 33=3×11 ilişkisi, çarpanlar ve katlar arasındaki bağlantıları anlamayı derinleştirir. Bu tablo, çoklu çarpma stratejilerini öğretir.",
-      34: "34 çarpım tablosu, 17 tablosunu pekiştirmeye yardımcı olur. 34=2×17 ilişkisi, asal sayılarla çift sayılar arasındaki bağlantıyı gösterir. Bu tablo, zihinsel esneklik ve alternatif hesaplama yöntemleri (35-1, 30+4) geliştirir. Çift sayı özelliklerini ve ikiye katlama becerilerini pekiştirir.",
-      35: "35 çarpım tablosu, 5 ve 7 tablolarının birleşimi olarak çarpanlara ayırma becerisini geliştirir. 5×7 ilişkisi, her iki tabloyu da pekiştirir. Zaman hesaplamalarında (35 dakika) ve günlük matematikte kullanılır. Bu tablo, 5'in deseniyle (son basamak 5 veya 0) tanınabilir örüntüler oluşturur.",
-      36: "36 çarpım tablosu, en kullanışlı tablolardan biridir. 36=6² olması, kare sayıları anlamak için kritiktir. Çok sayıda böleni olması (1,2,3,4,6,9,12,18,36), kesirler ve oranlar için ideal yapar. Düzine sisteminde (3 düzine) ve açı ölçümlerinde (360°'nin onda biri) sık kullanılır.",
-      37: "37 çarpım tablosu, asal sayı özellikleri ve zihinsel matematik stratejilerini mükemmelleştirir. 37×3=111 gibi özel ilişkiler, sayı desenleri hakkında derin anlayış sağlar. 40-3 veya 35+2 stratejileri, yaratıcı problem çözme becerilerini geliştirir. Bu tablo, matematiksel merak ve keşif ruhunu teşvik eder.",
-      38: "38 çarpım tablosu, 19 tablosunu pekiştirmeye yardımcı olur. 38=2×19 ilişkisi, ikiye katlama ve asal sayı stratejilerini birleştirir. 40-2 yaklaşımı, tamamlayıcı sayılar kullanmayı öğretir. Sağlık bağlamında (vücut ısısı) pratik öneme sahiptir.",
-      39: "39 çarpım tablosu, 3 ve 13 tablolarını birleştirerek matematiksel bağlantıları güçlendirir. 40-1 stratejisi, 40 gibi yuvarlak sayıları kullanarak hızlı hesaplama yapmayı öğretir. Bu tablo, çoklu çarpanlara ayrıştırma (3×13) becerilerini geliştirir ve zihinsel esneklik kazandırır.",
+      31: "Multiplicar por 31 es crítico para el conocimiento del calendario. Como la mayoría de los meses tienen 31 días, se usa constantemente en cálculos de fecha y tiempo. Como 31 es un número primo, es perfecto para desarrollar estrategias de cálculo mental. La estrategia 30+1 enseña a usar números complementarios y proporciona competencia en cálculos de números grandes.",
+      32: "Multiplicar por 32 es importante para entender números exponenciales (2⁵) y sistemas binarios. Como la arquitectura de 32 bits es común en ciencias de la computación, tiene importancia práctica en la era de la tecnología. Es perfecto para perfeccionar cadenas de duplicación. Se usa en conversiones de temperatura (Fahrenheit).",
+      33: "Multiplicar por 33 fortalece las relaciones matemáticas combinando las tablas del 3 y 11. La propiedad repdigit (33, 66, 99...) facilita el reconocimiento de patrones. La relación 33=3×11 profundiza la comprensión de las conexiones entre factores y múltiplos. Esta tabla enseña estrategias de multiplicación múltiple.",
+      34: "Multiplicar por 34 ayuda a reforzar la tabla del 17. La relación 34=2×17 muestra la conexión entre números primos y pares. Esta tabla desarrolla flexibilidad mental y métodos de cálculo alternativos (35-1, 30+4). Refuerza propiedades de números pares y habilidades de duplicación.",
+      35: "Multiplicar por 35 desarrolla habilidades de factorización como combinación de las tablas del 5 y 7. La relación 5×7 refuerza ambas tablas. Se usa en cálculos de tiempo (35 minutos) y matemática cotidiana. Esta tabla crea patrones reconocibles con el patrón del 5 (último dígito 5 o 0).",
+      36: "Multiplicar por 36 es una de las tablas más útiles. Que 36=6² es crítico para entender números cuadrados. Tener muchos divisores (1,2,3,4,6,9,12,18,36) lo hace ideal para fracciones y proporciones. Se usa frecuentemente en el sistema de docenas (3 docenas) y medidas de ángulos (un décimo de 360°).",
+      37: "Multiplicar por 37 perfecciona propiedades de números primos y estrategias de matemática mental. Relaciones especiales como 37×3=111 proporcionan comprensión profunda de patrones numéricos. Estrategias como 40-3 o 35+2 desarrollan habilidades creativas de resolución de problemas. Esta tabla fomenta la curiosidad matemática y el espíritu de descubrimiento.",
+      38: "Multiplicar por 38 ayuda a reforzar la tabla del 19. La relación 38=2×19 combina estrategias de duplicación y números primos. El enfoque 40-2 enseña a usar números complementarios. Tiene importancia práctica en contexto de salud (temperatura corporal).",
+      39: "Multiplicar por 39 fortalece las conexiones matemáticas combinando las tablas del 3 y 13. La estrategia 40-1 enseña a calcular rápidamente usando números redondos. Esta tabla desarrolla habilidades de factorización múltiple (3×13) y proporciona flexibilidad mental.",
       40: "La tabla del 40 es perfecta para comprender profundamente el sistema decimal. La relación 40=4×10 muestra la conexión entre valor posicional y multiplicación. Se usa mucho en la vida diaria debido a horas de trabajo (semana de 40 horas) y normas sociales (40 años). Esta tabla forma una base para números grandes y cálculos de porcentaje.",
       41: "La tabla del 41 lleva las estrategias de números primos a un nivel avanzado. El enfoque 40+1 proporciona dominio en el uso de números complementarios. Por ser un número primo, requiere flexibilidad mental y resolución creativa de problemas. Esta tabla desarrolla la habilidad de calcular rápidamente con números grandes.",
       42: "La tabla del 42 perfecciona las habilidades de factorización. Las relaciones 42=6×7=2×21=3×14 enseñan a ver conexiones matemáticas. Como combina las tablas del 6 y 7, refuerza ambas. Es memorable debido a referencias de la cultura pop (Guía del Autoestopista Galáctico).",
@@ -374,7 +374,7 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
       99: "Multiplicar por 99 usa la relación 9×11. La estrategia más fácil es pensar en 99 como 100-1: multiplica un número por 100 y réstale el número mismo. El 99 muestra un patrón similar a repdigit (repetición de 9s). Como 99=9×11, es divisible tanto por 9 como por 11. Esta tabla es extremadamente útil para cálculos cercanos a 100. La estrategia 100-1 es PERFECTA para matemática mental. La propiedad repdigit (99) profundiza la comprensión de patrones. Esta tabla es extremadamente importante para habilidades de cálculo práctico.",
       100: "La tabla del 100 es la base del sistema decimal. Proporciona una comprensión perfecta del concepto de valor posicional. Forma la base de cálculos de porcentaje (100%=completo) y el sistema decimal. Tiene importancia crítica para unidades monetarias, unidades de medida y matemática cotidiana. ¡ES UNA DE LAS TABLAS MÁS ÚTILES E IMPORTANTES!",
     }
-    return importance[number] || `${number} çarpım tablosunu öğrenmek, öğrencilerin bu önemli sayıyla akıcılık geliştirmelerine yardımcı olur. Matematik ve günlük hayatta sıkça görülür, bu da güçlü hesaplama becerileri oluşturmak için gerekli kılar.`
+    return importance[number] || `Aprender la tabla del ${number} ayuda a los estudiantes a desarrollar fluidez con este número importante. Se ve frecuentemente en matemáticas y la vida cotidiana, haciéndolo necesario para construir sólidas habilidades de cálculo.`
   }
 
   const getPatterns = () => {
@@ -911,9 +911,9 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
         { mistake: "Confundir con la tabla del 3", solution: "La tabla del 6 es siempre el doble de la tabla del 3. 3×4=12, entonces 6×4=24." },
       ],
       7: [
-        { mistake: "7×8=56 ile 7×6=42'yi karıştırmak", solution: "Bu en zor ikili! Ezber ipucu: '5-6-7-8' (56=7×8). Veya 7×7=49'dan +7=56." },
-        { mistake: "7×9=63 ile 7×8=56'yı karıştırmak", solution: "Desen: 7×8=56, sonra +7=63. Veya basamak toplama: 63 (6+3=9), 56 (5+6=11)." },
-        { mistake: "7 tablosunu tamamen atlamak", solution: "7 zor görünse de, pratikle öğrenilebilir. Küçük adımlarla başlayın: 7×1, 7×2, 7×5, 7×10 kolayları ezberleyin." },
+        { mistake: "Confundir 7×8=56 con 7×6=42", solution: "¡Estos son los más difíciles! Truco de memoria: '5-6-7-8' (56=7×8). O desde 7×7=49, luego +7=56." },
+        { mistake: "Confundir 7×9=63 con 7×8=56", solution: "Patrón: 7×8=56, luego +7=63. O suma de dígitos: 63 (6+3=9), 56 (5+6=11)." },
+        { mistake: "Saltarse completamente la tabla del 7", solution: "Aunque el 7 parezca difícil, se puede aprender con práctica. Empieza con pasos pequeños: memoriza los fáciles 7×1, 7×2, 7×5, 7×10." },
       ],
       8: [
         { mistake: "Confundir 8×7=56 con 8×8=64", solution: "Forma fácil de memorizar 8×8=64: 'ocho ocho 64' o '8²=64'." },
@@ -921,9 +921,9 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
         { mistake: "Confundir con la tabla del 4", solution: "El 8 es siempre el doble del 4. 4×6=24, entonces 8×6=48. Verifica duplicando." },
       ],
       9: [
-        { mistake: "9×8=72 ile 9×7=63'ü karıştırmak", solution: "Parmak hilesini kullanın veya basamak toplamı: 72 (7+2=9), 63 (6+3=9). 72>63'ü hatırlayın." },
-        { mistake: "Parmak hilesini yanlış uygulamak", solution: "Doğru sıra: Sol parmaklar 1-5, sağ parmaklar 6-10. Katladığınız parmağın solundakiler onlar, sağındakiler birler." },
-        { mistake: "9×9=81 ile 9×8=72'yi karıştırmak", solution: "9×9=81 özeldir: '9 dokuz 81' veya '9²=81'. Basamak toplamı: 81 (8+1=9), 72 (7+2=9)." },
+        { mistake: "Confundir 9×8=72 con 9×7=63", solution: "Usa el truco de los dedos o suma de dígitos: 72 (7+2=9), 63 (6+3=9). Recuerda que 72>63." },
+        { mistake: "Aplicar mal el truco de los dedos", solution: "Orden correcto: Dedos izquierdos 1-5, dedos derechos 6-10. Los dedos a la izquierda del dedo doblado son decenas, los de la derecha son unidades." },
+        { mistake: "Confundir 9×9=81 con 9×8=72", solution: "9×9=81 es especial: 'nueve nueve 81' o '9²=81'. Suma de dígitos: 81 (8+1=9), 72 (7+2=9)." },
       ],
       10: [
         { mistake: "Olvidar el cero", solution: "El recordatorio más fácil: cuando multiplicas por 10, SOLO agrega un cero al final. 6×10=60, 25×10=250." },
@@ -1298,10 +1298,10 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
   const getPracticeStrategies = () => {
     const strategies: { [key: number]: string[] } = {
       1: [
-        "Her çarpmayı yüksek sesle söyleyin: '1 çarpı 1 eşittir 1, 1 çarpı 2 eşittir 2...'",
-        "Tabloyu bir hafta boyunca her gün bir kez yazmayı pratik edin",
-        "Deseni arayın: cevap her zaman ikinci sayıyla aynıdır",
-        "Flash kartları kullanın, ancak bu tablo genellikle çok hızlı öğrenilir",
+        "Di cada multiplicación en voz alta: '1 por 1 es 1, 1 por 2 es 2...'",
+        "Practica escribir la tabla una vez al día durante una semana",
+        "Busca el patrón: la respuesta siempre es el mismo número que el segundo número",
+        "Usa tarjetas didácticas, aunque esta tabla generalmente se aprende muy rápido",
       ],
       2: [
         "Cuenta de dos en dos mientras caminas o subes escaleras: 2, 4, 6, 8...",
@@ -1475,11 +1475,11 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
         "Practica los múltiplos más difíciles: 26×7=182, 26×9=234",
       ],
       27: [
-        "30-3 stratejisini kullanın: 27×n = 30n - 3n",
-        "9 tablosunu biliyorsanız üçe katlayın: 9×6=54, yani 27×6=162",
-        "3'ün küpü olduğunu hatırlayın: 27=3×3×3",
-        "27'şerli sayın: 27, 54, 81, 108, 135, 162, 189, 216, 243, 270",
-        "En zor katları pratik edin: 27×7=189, 27×8=216, 27×9=243",
+        "Usa la estrategia 30-3: 27×n = 30n - 3n",
+        "Si conoces la tabla del 9, triplícala: 9×6=54, así que 27×6=162",
+        "Recuerda que es el cubo de 3: 27=3×3×3",
+        "Cuenta de 27 en 27: 27, 54, 81, 108, 135, 162, 189, 216, 243, 270",
+        "Practica los múltiplos más difíciles: 27×7=189, 27×8=216, 27×9=243",
       ],
       28: [
         "Usa la relación 4×7: multiplica la tabla del 4 por 7",

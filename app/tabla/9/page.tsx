@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://tablasdemultiplicar.online/tabla/9#webpage",
       "url": "https://tablasdemultiplicar.online/tabla/9",
-      "name": "9 Çarpım Tablosu - Dokuzlu Sihirli Desenler",
-      "description": "9 çarpım tablosu ile parmak triklerini ve basamak toplama sihirli kurallarını öğrenin. En eğlenceli çarpım tablosu desenlerini keşfedin.",
+      "name": "Tabla del 9 - Patrones Mágicos de Nueve",
+      "description": "Aprende trucos de dedos y reglas mágicas de suma de dígitos con la tabla del 9. Descubre los patrones de tabla de multiplicar más divertidos.",
       "isPartOf": {
         "@id": "https://tablasdemultiplicar.online/#website"
       },
@@ -73,9 +73,9 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: '9 Çarpım Tablosu - Eğlenceli Oyunlar ve Pratik Egzersizleri',
-  description: '9 çarpım tablosunu eğlenceli oyunlar, interaktif alıştırmalar ve yazdırılabilir çalışma kağıtları ile öğrenin. Ücretsiz pratik araçları keşfedin.',
-  keywords: '9 çarpım tablosu, dokuz çarpım tablosu, matematik oyunları, çarpma alıştırmaları',
+  title: 'Tabla del 9 - Juegos Divertidos y Ejercicios Prácticos',
+  description: 'Aprende la tabla del 9 con juegos divertidos, ejercicios interactivos y hojas de trabajo imprimibles. Descubre herramientas de práctica gratuitas.',
+  keywords: 'tabla del 9, tabla de multiplicar del nueve, juegos de matemáticas, ejercicios de multiplicación',
   alternates: {
     canonical: '/tabla/9',
   },

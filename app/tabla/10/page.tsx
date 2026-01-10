@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://tablasdemultiplicar.online/tabla/10#webpage",
       "url": "https://tablasdemultiplicar.online/tabla/10",
-      "name": "10 Çarpım Tablosu - Onluk Sistem Temeli",
-      "description": "10 çarpım tablosu ile onluk sistem ve yer değeri kavramını öğrenin. En kolay çarpım tablosu ile matematiğin temelini anlayın.",
+      "name": "Tabla del 10 - Base del Sistema Decimal",
+      "description": "Aprende el concepto de sistema decimal y valor posicional con la tabla del 10. Comprende la base de las matemáticas con la tabla de multiplicar más fácil.",
       "isPartOf": {
         "@id": "https://tablasdemultiplicar.online/#website"
       },
@@ -73,9 +73,9 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: '10 Çarpım Tablosu - Eğlenceli Oyunlar ve Pratik Egzersizleri',
-  description: '10 çarpım tablosunu eğlenceli oyunlar, interaktif alıştırmalar ve yazdırılabilir çalışma kağıtları ile öğrenin. Ücretsiz pratik araçları keşfedin.',
-  keywords: '10 çarpım tablosu, on çarpım tablosu, matematik oyunları, çarpma alıştırmaları',
+  title: 'Tabla del 10 - Juegos Divertidos y Ejercicios Prácticos',
+  description: 'Aprende la tabla del 10 con juegos divertidos, ejercicios interactivos y hojas de trabajo imprimibles. Descubre herramientas de práctica gratuitas.',
+  keywords: 'tabla del 10, tabla de multiplicar del diez, juegos de matemáticas, ejercicios de multiplicación',
   alternates: {
     canonical: '/tabla/10',
   },
