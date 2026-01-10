@@ -29,15 +29,15 @@ export default function RangePage({
   )
   
   const difficultyLabels = {
-    beginner: 'Başlangıç Seviyesi',
-    intermediate: 'Orta Seviye',
-    advanced: 'İleri Seviye'
+    beginner: 'Nivel Principiante',
+    intermediate: 'Nivel Intermedio',
+    advanced: 'Nivel Avanzado'
   }
   
   const difficultyDescriptions = {
-    beginner: 'Bu aralık çarpma işlemine yeni başlayan öğrenciler için idealdir.',
-    intermediate: 'Bu aralık temel çarpım tablolarını bilen ve becerilerini geliştirmek isteyen öğrenciler içindir.',
-    advanced: 'Bu aralık daha büyük sayılarla çarpma işlemini pratik etmek isteyen ileri seviye öğrenciler içindir.'
+    beginner: 'Este rango es ideal para estudiantes que están comenzando a aprender la multiplicación.',
+    intermediate: 'Este rango es para estudiantes que conocen las tablas básicas y quieren mejorar sus habilidades.',
+    advanced: 'Este rango es para estudiantes avanzados que quieren practicar la multiplicación con números más grandes.'
   }
   
   const colors = [
@@ -106,7 +106,7 @@ export default function RangePage({
                   {rangeStart} - {rangeEnd}
                 </span>
                 <br />
-                <span className="text-slate-900">Çarpım Tablosu</span>
+                <span className="text-slate-900">Tabla de Multiplicar</span>
               </h1>
               <span className="text-5xl md:text-6xl animate-bounce" style={{ animationDelay: '0.2s' }}>🎨</span>
             </div>
@@ -116,17 +116,17 @@ export default function RangePage({
               <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-4 shadow-md border-2 border-blue-100">
                 <div className="text-3xl mb-1">📚</div>
                 <div className="text-2xl font-bold text-blue-600">{rangeNumbers.length}</div>
-                <div className="text-xs text-slate-600">Sayı</div>
+                <div className="text-xs text-slate-600">Números</div>
               </div>
               <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-4 shadow-md border-2 border-indigo-100">
                 <div className="text-3xl mb-1">✖️</div>
                 <div className="text-2xl font-bold text-indigo-600">{rangeNumbers.length * 10}</div>
-                <div className="text-xs text-slate-600">İşlem</div>
+                <div className="text-xs text-slate-600">Operaciones</div>
               </div>
               <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-4 shadow-md border-2 border-purple-100 col-span-2 md:col-span-1">
                 <div className="text-3xl mb-1">🎮</div>
-                <div className="text-2xl font-bold text-purple-600">Sınırsız</div>
-                <div className="text-xs text-slate-600">Pratik</div>
+                <div className="text-2xl font-bold text-purple-600">Ilimitada</div>
+                <div className="text-xs text-slate-600">Práctica</div>
               </div>
             </div>
           </div>
@@ -134,10 +134,10 @@ export default function RangePage({
           {/* Description with Better Typography */}
           <div className="max-w-3xl mx-auto space-y-4 text-center">
             <p className="text-lg md:text-xl text-slate-700 leading-relaxed">
-              <span className="font-semibold text-blue-600">{rangeStart}'den {rangeEnd}'a</span> kadar olan çarpım tablosunu 
-              <span className="font-semibold text-indigo-600"> eğlenceli oyunlar</span>, 
-              <span className="font-semibold text-purple-600"> interaktif alıştırmalar</span> ve 
-              <span className="font-semibold text-pink-600"> yazdırılabilir çalışma kağıtları</span> ile öğrenin!
+              ¡Aprende la <span className="font-semibold text-blue-600">tabla de multiplicar del {rangeStart} al {rangeEnd}</span> con 
+              <span className="font-semibold text-indigo-600"> juegos divertidos</span>, 
+              <span className="font-semibold text-purple-600"> ejercicios interactivos</span> y 
+              <span className="font-semibold text-pink-600"> hojas de trabajo imprimibles</span>!
             </p>
             
             {/* Quick Action Buttons */}
@@ -147,7 +147,7 @@ export default function RangePage({
                 className="group inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-500 to-indigo-600 text-white font-bold rounded-full shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-200"
               >
                 <span className="text-xl">🎯</span>
-                <span>Hemen Pratik Yap</span>
+                <span>Practicar Ahora</span>
                 <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
@@ -157,7 +157,7 @@ export default function RangePage({
                 className="inline-flex items-center gap-2 px-6 py-3 bg-white/90 backdrop-blur-sm text-indigo-600 font-bold rounded-full shadow-md hover:shadow-lg hover:scale-105 transition-all duration-200 border-2 border-indigo-100"
               >
                 <span className="text-xl">🎮</span>
-                <span>Oyunlarla Öğren</span>
+                <span>Aprender Jugando</span>
               </a>
             </div>
           </div>
@@ -170,14 +170,14 @@ export default function RangePage({
           <div className="text-center mb-6">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-2 flex items-center justify-center gap-3">
               <span className="text-3xl">📖</span>
-              {rangeStart}'den {rangeEnd}'a Çarpım Tablosu Neyi Kapsar?
+              ¿Qué Cubre la Tabla del {rangeStart} al {rangeEnd}?
             </h2>
             <div className="w-20 h-1 bg-gradient-to-r from-blue-400 to-indigo-400 mx-auto rounded-full"></div>
           </div>
           
           <p className="text-base text-slate-700 mb-6 leading-relaxed text-center max-w-2xl mx-auto">
-            Bu aralık, {rangeStart} ile {rangeEnd} arasındaki her sayının kendi içindeki çarpım tablosunu içerir. 
-            Bu sayıların her biri, 1'den 10'a kadar olan sayılarla çarpılarak öğrenilir.
+            Este rango incluye la tabla de multiplicar de cada número entre {rangeStart} y {rangeEnd}. 
+            Cada uno de estos números se multiplica por los números del 1 al 10 para aprenderlos.
           </p>
           
           <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-6 border-2 border-blue-100 shadow-md">
@@ -195,9 +195,9 @@ export default function RangePage({
             <div className="bg-white/60 rounded-xl p-4 flex items-center gap-3">
               <span className="text-3xl">💡</span>
               <p className="text-sm text-slate-700 leading-relaxed">
-                Öğrenciler bu aralıkta toplam <span className="font-bold text-indigo-600">{rangeNumbers.length * 10} çarpma işlemini</span> öğrenirler. 
-                <span className="font-bold text-purple-600"> Simetri özelliği</span> sayesinde gerçekte ezberlemeleri gereken işlem sayısı daha azdır 
-                (örneğin <span className="font-mono bg-blue-50 px-2 py-0.5 rounded text-xs">{rangeStart} × {rangeEnd} = {rangeEnd} × {rangeStart}</span>).
+                Los estudiantes aprenden un total de <span className="font-bold text-indigo-600">{rangeNumbers.length * 10} operaciones de multiplicación</span> en este rango. 
+                Gracias a la <span className="font-bold text-purple-600">propiedad conmutativa</span>, en realidad necesitan memorizar menos operaciones 
+                (por ejemplo <span className="font-mono bg-blue-50 px-2 py-0.5 rounded text-xs">{rangeStart} × {rangeEnd} = {rangeEnd} × {rangeStart}</span>).
               </p>
             </div>
           </div>
@@ -218,7 +218,7 @@ export default function RangePage({
         <div className="max-w-6xl mx-auto">
           <div className="flex justify-between items-center mb-6">
             <h2 className="text-3xl font-bold text-slate-900">
-              {rangeStart}'den {rangeEnd}'a Çarpım Tablosu - Tam Liste
+              Tabla de Multiplicar del {rangeStart} al {rangeEnd} - Lista Completa
             </h2>
             <button
               onClick={() => {
@@ -228,7 +228,7 @@ export default function RangePage({
                     <!DOCTYPE html>
                     <html>
                     <head>
-                      <title>${rangeStart}'den ${rangeEnd}'a Çarpım Tablosu</title>
+                      <title>Tabla de Multiplicar del ${rangeStart} al ${rangeEnd}</title>
                       <style>
                         @media print {
                           @page { margin: 1cm; }
@@ -283,11 +283,11 @@ export default function RangePage({
                       </style>
                     </head>
                     <body>
-                      <h1>${rangeStart}'den ${rangeEnd}'a Çarpım Tablosu - Tam Liste</h1>
+                      <h1>Tabla de Multiplicar del ${rangeStart} al ${rangeEnd} - Lista Completa</h1>
                       <div class="grid">
                         ${rangeNumbers.map(num => `
                           <div class="table-box">
-                            <div class="table-title">${num} Çarpım Tablosu</div>
+                            <div class="table-title">Tabla del ${num}</div>
                             ${[...Array(10)].map((_, i) => `
                               <div class="equation">
                                 <span class="equation-left">${num} × ${i + 1}</span>
@@ -311,13 +311,13 @@ export default function RangePage({
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
               </svg>
-              Tabloyu İndir / Yazdır
+              Descargar / Imprimir Tabla
             </button>
           </div>
           
           <p className="text-center text-slate-700 mb-8 max-w-3xl mx-auto">
-            Aşağıda {rangeStart}'den {rangeEnd}'a kadar tüm çarpım tablolarını bir arada görebilirsiniz. 
-            Her sayının kendi renkli kutusu vardır.
+            A continuación puedes ver todas las tablas de multiplicar del {rangeStart} al {rangeEnd} juntas. 
+            Cada número tiene su propia casilla de color.
           </p>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-4">
@@ -326,7 +326,7 @@ export default function RangePage({
               
               return (
                 <div key={num} className={`bg-gradient-to-br ${colors[colorIndex]} rounded-xl p-4 text-white`}>
-                  <div className="font-bold text-lg mb-3 text-center">{num} Çarpım Tablosu</div>
+                  <div className="font-bold text-lg mb-3 text-center">Tabla del {num}</div>
                   <div className="space-y-1 text-sm">
                     {[...Array(10)].map((_, i) => (
                       <div key={i} className="flex justify-between items-center bg-white/20 rounded px-2 py-1">
@@ -346,29 +346,29 @@ export default function RangePage({
       <section className="section-container bg-gradient-to-br from-slate-50 to-gray-100">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
-            Bu Aralıktaki Bireysel Çarpım Tabloları
+            Tablas de Multiplicar Individuales en este Rango
           </h2>
           
           <p className="text-lg text-slate-700 mb-8 leading-relaxed">
-            Her sayının çarpım tablosunu ayrıntılı olarak öğrenmek isterseniz, aşağıdaki 
-            bağlantılardan ilgili sayfaya gidebilirsiniz. Her sayfa, o sayıya özel 
-            örüntüler, ipuçları ve pratik araçları içerir.
+            Si deseas aprender la tabla de multiplicar de cada número en detalle, puedes acceder a la 
+            página correspondiente a través de los siguientes enlaces. Cada página contiene patrones, 
+            consejos y herramientas de práctica específicas para ese número.
           </p>
           
           <div className="grid md:grid-cols-2 gap-4">
             {rangeNumbers.map((num) => (
               <Link
                 key={num}
-                href={`/sayi/${num}`}
+                href={`/tabla/${num}`}
                 className="block bg-white rounded-xl p-6 border-2 border-gray-200 hover:border-blue-500 hover:shadow-lg transition-all group"
               >
                 <div className="flex items-center justify-between">
                   <div>
                     <div className="text-2xl font-bold text-slate-900 mb-1">
-                      {num} Çarpım Tablosu
+                      Tabla de Multiplicar del {num}
                     </div>
                     <p className="text-slate-600">
-                      {num} sayısının detaylı açıklaması ve örnekleri
+                      Explicación detallada y ejemplos del número {num}
                     </p>
                   </div>
                   <svg 
@@ -390,7 +390,7 @@ export default function RangePage({
       <section className="section-container bg-gradient-to-br from-slate-50 to-gray-100">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
-            Bu Aralık Neden Önemlidir?
+            ¿Por Qué es Importante este Rango?
           </h2>
           
           <div className="space-y-6">
@@ -404,29 +404,29 @@ export default function RangePage({
               </h3>
               <p className="text-slate-700 leading-relaxed">
                 {difficultyDescriptions[difficultyLevel]} {rangeStart === 1 ? 
-                  'Sayılar küçük olduğu için öğrenciler sonuçları daha kolay anlayabilir ve doğrulayabilir.' :
-                  'Bu aralık, bir önceki aralıkta kazanılan bilgilerin üzerine inşa edilir.'}
+                  'Como los números son pequeños, los estudiantes pueden entender y verificar los resultados más fácilmente.' :
+                  'Este rango se construye sobre el conocimiento adquirido en el rango anterior.'}
               </p>
             </div>
             
             <div className="bg-white rounded-xl p-6 border-l-4 border-blue-500">
               <h3 className="text-xl font-semibold text-slate-900 mb-3">
-                🧠 Bilişsel Gelişim
+                🧠 Desarrollo Cognitivo
               </h3>
               <p className="text-slate-700 leading-relaxed">
-                Bu aralık, öğrencilerin zihinsel hesaplama becerilerini geliştirmelerine yardımcı olur. 
-                Düzenli pratik yaparak, bu sayıların çarpımlarını otomatik olarak hatırlamaya başlarlar.
+                Este rango ayuda a los estudiantes a desarrollar sus habilidades de cálculo mental. 
+                Con la práctica regular, comienzan a recordar automáticamente las multiplicaciones de estos números.
               </p>
             </div>
             
             {nextRangeUrl && (
               <div className="bg-white rounded-xl p-6 border-l-4 border-purple-500">
                 <h3 className="text-xl font-semibold text-slate-900 mb-3">
-                  📈 Sonraki Adıma Hazırlık
+                  📈 Preparación para el Siguiente Paso
                 </h3>
                 <p className="text-slate-700 leading-relaxed">
-                  Bu aralığı iyi öğrenen öğrenciler, bir sonraki aralığa geçmeye hazırdır. 
-                  Her aralık, çarpma mantığını daha da pekiştirir ve matematiksel düşünceyi geliştirir.
+                  Los estudiantes que aprenden bien este rango están listos para pasar al siguiente. 
+                  Cada rango refuerza aún más la lógica de la multiplicación y desarrolla el pensamiento matemático.
                 </p>
               </div>
             )}
@@ -438,70 +438,70 @@ export default function RangePage({
       <section className="section-container bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">
-            {rangeStart}'den {rangeEnd}'a Çarpım Tablosundaki Örüntüler
+            Patrones en la Tabla de Multiplicar del {rangeStart} al {rangeEnd}
           </h2>
           
           <p className="text-lg text-slate-700 mb-8 leading-relaxed">
-            Çarpım tablosunu ezberlemeye çalışmak yerine, içindeki örüntüleri anlamak 
-            öğrenme sürecini hem hızlandırır hem de kalıcı hale getirir.
+            En lugar de intentar memorizar la tabla de multiplicar, entender los patrones que contiene 
+            acelera el proceso de aprendizaje y lo hace más duradero.
           </p>
           
           <div className="grid md:grid-cols-2 gap-6">
             <div className="bg-amber-50 rounded-xl p-6 border border-amber-200">
               <h3 className="text-lg font-semibold text-slate-900 mb-3 flex items-center">
                 <span className="text-2xl mr-2">🔄</span>
-                Simetri (Değişme Özelliği)
+                Simetría (Propiedad Conmutativa)
               </h3>
               <p className="text-slate-700 mb-3">
-                Çarpma işleminde sıralama değiştirilebilir: {rangeStart} × {rangeEnd} = {rangeEnd} × {rangeStart}. 
-                Bu özellik öğrenmeyi kolaylaştırır.
+                En la multiplicación, el orden se puede cambiar: {rangeStart} × {rangeEnd} = {rangeEnd} × {rangeStart}. 
+                Esta propiedad facilita el aprendizaje.
               </p>
               <p className="text-sm text-slate-600 italic">
-                Örnek: Bir sayıyı biliyorsanız, tersini de biliyorsunuz demektir.
+                Ejemplo: Si conoces un número, también conoces su inverso.
               </p>
             </div>
             
             <div className="bg-green-50 rounded-xl p-6 border border-green-200">
               <h3 className="text-lg font-semibold text-slate-900 mb-3 flex items-center">
                 <span className="text-2xl mr-2">➕</span>
-                Tekrar Eden Toplama
+                Suma Repetida
               </h3>
               <p className="text-slate-700 mb-3">
                 {rangeStart} × 3 = {rangeStart} + {rangeStart} + {rangeStart} = {rangeStart * 3}. 
-                Çarpma, aynı sayının tekrar toplanmasıdır.
+                La multiplicación es la suma repetida del mismo número.
               </p>
               <p className="text-sm text-slate-600 italic">
-                Bu mantık, çarpmanın temel anlamını kavramak için önemlidir.
+                Esta lógica es importante para comprender el significado fundamental de la multiplicación.
               </p>
             </div>
             
             <div className="bg-blue-50 rounded-xl p-6 border border-blue-200">
               <h3 className="text-lg font-semibold text-slate-900 mb-3 flex items-center">
                 <span className="text-2xl mr-2">✖️</span>
-                Çift Sayı Örüntüleri
+                Patrones de Números Pares
               </h3>
               <p className="text-slate-700 mb-3">
                 {rangeNumbers.filter(n => n % 2 === 0).length > 0 ? 
-                  `Bu aralıktaki çift sayılar (${rangeNumbers.filter(n => n % 2 === 0).join(', ')}) her zaman çift sonuçlar verir.` :
-                  'Bu aralıktaki sayıların çarpım tabloları belirli örüntüler gösterir.'
+                  `Los números pares en este rango (${rangeNumbers.filter(n => n % 2 === 0).join(', ')}) siempre dan resultados pares.` :
+                  'Las tablas de multiplicar de los números en este rango muestran patrones específicos.'
                 }
               </p>
               <p className="text-sm text-slate-600 italic">
-                Çift ve tek sayı mantığını anlamak, hata yapmayı azaltır.
+                Comprender la lógica de los números pares e impares reduce los errores.
               </p>
             </div>
             
             <div className="bg-purple-50 rounded-xl p-6 border border-purple-200">
               <h3 className="text-lg font-semibold text-slate-900 mb-3 flex items-center">
                 <span className="text-2xl mr-2">🔢</span>
-                Son Rakam Örüntüleri
+                Patrones del Último Dígito
               </h3>
               <p className="text-slate-700 mb-3">
-                Her sayının çarpım tablosunda son rakamlar belirli bir düzen içinde tekrarlanır. 
-                Bu örüntüyü fark etmek doğrulama için yararlıdır.
+                En la tabla de multiplicar de cada número, los últimos dígitos se repiten en un orden específico. 
+                Notar este patrón es útil para la verificación.
               </p>
               <p className="text-sm text-slate-600 italic">
-                Örneğin: 5 ile biten sayılar her zaman 0 veya 5 ile biter.
+                Por ejemplo: Los números que terminan en 5 siempre terminan en 0 o 5.
               </p>
             </div>
           </div>
@@ -518,47 +518,47 @@ export default function RangePage({
           <div className="space-y-8">
             <div>
               <h3 className="text-2xl font-semibold text-slate-900 mb-4">
-                1. Sistematik Yaklaşım
+                1. Enfoque Sistemático
               </h3>
               <p className="text-lg text-slate-700 mb-4 leading-relaxed">
-                Bu aralıktaki sayıları bir anda öğrenmeye çalışmak yerine, her gün 1-2 sayı 
-                üzerinde yoğunlaşın. Bir sayıyı iyice öğrendikten sonra diğerine geçin.
+                En lugar de intentar aprender todos los números de este rango a la vez, concéntrate en 1-2 números 
+                cada día. Después de aprender bien un número, pasa al siguiente.
               </p>
               <div className="bg-white rounded-lg p-4 border-l-4 border-blue-600">
                 <p className="text-slate-700">
-                  <strong>Öneri:</strong> Her sayıyı 3-4 gün üst üste tekrar ettikten sonra, 
-                  karışık sorular çözmeye başlayın.
+                  <strong>Recomendación:</strong> Después de repasar cada número durante 3-4 días consecutivos, 
+                  comienza a resolver problemas mezclados.
                 </p>
               </div>
             </div>
             
             <div>
               <h3 className="text-2xl font-semibold text-slate-900 mb-4">
-                2. Görselleştirme Teknikleri
+                2. Técnicas de Visualización
               </h3>
               <p className="text-lg text-slate-700 mb-4 leading-relaxed">
-                Sayıları görsel olarak hayal etmek, hafızada tutmayı kolaylaştırır:
+                Imaginar los números visualmente facilita recordarlos:
               </p>
               <ul className="space-y-3">
                 <li className="flex items-start text-slate-700">
                   <span className="text-blue-600 font-bold mr-3 mt-1">•</span>
                   <div>
-                    <strong>Gruplar halinde düşünün:</strong> {rangeStart} × 4'ü, {rangeStart} kişinin 
-                    4 grup oluşturması şeklinde hayal edin.
+                    <strong>Piensa en grupos:</strong> Imagina {rangeStart} × 4 como {rangeStart} personas 
+                    formando 4 grupos.
                   </div>
                 </li>
                 <li className="flex items-start text-slate-700">
                   <span className="text-blue-600 font-bold mr-3 mt-1">•</span>
                   <div>
-                    <strong>Hikaye oluşturun:</strong> Her sayı için kısa bir hikaye oluşturmak, 
-                    hatırlamayı eğlenceli hale getirir.
+                    <strong>Crea historias:</strong> Crear una historia corta para cada número hace 
+                    que recordar sea divertido.
                   </div>
                 </li>
                 <li className="flex items-start text-slate-700">
                   <span className="text-blue-600 font-bold mr-3 mt-1">•</span>
                   <div>
-                    <strong>Renkli kartlar kullanın:</strong> Her sayıya farklı renk atamak, 
-                    görsel hafızayı güçlendirir.
+                    <strong>Usa tarjetas de colores:</strong> Asignar un color diferente a cada número fortalece 
+                    la memoria visual.
                   </div>
                 </li>
               </ul>
@@ -566,34 +566,34 @@ export default function RangePage({
             
             <div>
               <h3 className="text-2xl font-semibold text-slate-900 mb-4">
-                3. Pratik Egzersizleri
+                3. Ejercicios de Práctica
               </h3>
               <p className="text-lg text-slate-700 mb-4 leading-relaxed">
-                Düzenli pratik yapmak, öğrenilen bilgilerin kalıcı olmasını sağlar:
+                La práctica regular asegura que la información aprendida sea permanente:
               </p>
               <div className="grid md:grid-cols-2 gap-4">
                 <div className="bg-white rounded-lg p-5 border border-gray-200">
-                  <p className="font-semibold text-slate-900 mb-2">Hızlı Soru-Cevap</p>
+                  <p className="font-semibold text-slate-900 mb-2">Preguntas y Respuestas Rápidas</p>
                   <p className="text-slate-700 text-sm">
-                    Günde en az 10 rastgele soru çözün ve zamanınızı ölçün.
+                    Resuelve al menos 10 preguntas aleatorias al día y mide tu tiempo.
                   </p>
                 </div>
                 <div className="bg-white rounded-lg p-5 border border-gray-200">
-                  <p className="font-semibold text-slate-900 mb-2">Yazılı Testler</p>
+                  <p className="font-semibold text-slate-900 mb-2">Pruebas Escritas</p>
                   <p className="text-slate-700 text-sm">
-                    Haftada bir kez yazılı test yapın ve hatalarınızı analiz edin.
+                    Haz una prueba escrita una vez a la semana y analiza tus errores.
                   </p>
                 </div>
                 <div className="bg-white rounded-lg p-5 border border-gray-200">
-                  <p className="font-semibold text-slate-900 mb-2">Oyunlar</p>
+                  <p className="font-semibold text-slate-900 mb-2">Juegos</p>
                   <p className="text-slate-700 text-sm">
-                    Çarpım tablosu oyunları oynamak, eğlenerek öğrenmeyi sağlar.
+                    Jugar juegos de tablas de multiplicar permite aprender mientras te diviertes.
                   </p>
                 </div>
                 <div className="bg-white rounded-lg p-5 border border-gray-200">
-                  <p className="font-semibold text-slate-900 mb-2">Arkadaşlarla Yarış</p>
+                  <p className="font-semibold text-slate-900 mb-2">Competir con Amigos</p>
                   <p className="text-slate-700 text-sm">
-                    Arkadaşlarınızla yarışarak motivasyonunuzu artırabilirsiniz.
+                    Puedes aumentar tu motivación compitiendo con tus amigos.
                   </p>
                 </div>
               </div>
@@ -606,14 +606,14 @@ export default function RangePage({
       <section className="section-container bg-gradient-to-br from-blue-600 to-indigo-600 text-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-bold mb-6 text-center">
-            {nextRangeUrl ? 'Öğrenme Yolculuğunuza Devam Edin' : 'Tebrikler!'}
+            {nextRangeUrl ? 'Continúa tu Viaje de Aprendizaje' : '¡Felicitaciones!'}
           </h2>
           
           {nextRangeUrl ? (
             <>
               <p className="text-xl mb-8 leading-relaxed opacity-95 text-center">
-                {rangeStart}'den {rangeEnd}'a kadar olan çarpım tablosunu rahatlıkla kullanabiliyorsanız, 
-                bir sonraki adıma geçmeye hazırsınız!
+                Si puedes usar cómodamente la tabla de multiplicar del {rangeStart} al {rangeEnd}, 
+                ¡estás listo para pasar al siguiente paso!
               </p>
               
               <div className="flex flex-col md:flex-row gap-4 justify-center items-center">
@@ -625,7 +625,7 @@ export default function RangePage({
                     <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 17l-5-5m0 0l5-5m-5 5h12" />
                     </svg>
-                    Önceki Aralık
+                    Rango Anterior
                   </Link>
                 )}
                 
@@ -633,7 +633,7 @@ export default function RangePage({
                   href={nextRangeUrl}
                   className="inline-flex items-center gap-2 bg-white text-blue-600 px-8 py-4 rounded-xl font-bold text-lg hover:bg-blue-50 transition-all shadow-lg hover:shadow-xl"
                 >
-                  Sonraki Aralığa Geç
+                  Ir al Siguiente Rango
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                   </svg>
@@ -642,12 +642,12 @@ export default function RangePage({
             </>
           ) : (
             <p className="text-xl leading-relaxed opacity-95 text-center">
-              Tüm çarpım tablolarını tamamladınız! Artık 1'den 100'e kadar tüm çarpma işlemlerini biliyorsunuz.
+              ¡Has completado todas las tablas de multiplicar! Ahora conoces todas las operaciones de multiplicación del 1 al 100.
             </p>
           )}
           
           <p className="mt-6 text-sm opacity-80 text-center">
-            Tüm çarpım tablolarını öğrenmek için sabırlı ve düzenli olun. Her aralık bir öncekinin üzerine inşa edilir.
+            Sé paciente y constante para aprender todas las tablas de multiplicar. Cada rango se construye sobre el anterior.
           </p>
         </div>
       </section>
