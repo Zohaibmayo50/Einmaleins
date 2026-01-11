@@ -1,4 +1,4 @@
-import NumberPage from '@/app/components/NumberPage'
+﻿import NumberPage from '@/app/components/NumberPage'
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://tablasdemultiplicar.online/tabla/21#webpage",
       "url": "https://tablasdemultiplicar.online/tabla/21",
-      "name": "21 Çarpım Tablosu - Yirmili Sistemler",
-      "description": "21 çarpım tablosu ile yirmili sayı sistemini keşfedin. 3×7 ilişkisi ve iki basamaklı sayı desenleri.",
+      "name": "21 Tabla de Multiplicar - Yirmili Sistemler",
+      "description": "21 Tabla de Multiplicar ile yirmili sayı sistemini keşfedin. 3×7 ilişkisi ve iki basamaklı sayı desenleri.",
       "isPartOf": {
         "@id": "https://tablasdemultiplicar.online/#website"
       },
@@ -37,7 +37,7 @@ const schemaData = {
           "position": 2,
           "item": {
             "@id": "https://tablasdemultiplicar.online/21-30",
-            "name": "21-30 Çarpım Tablosu"
+            "name": "21-30 Tabla de Multiplicar"
           }
         },
         {
@@ -45,7 +45,7 @@ const schemaData = {
           "position": 3,
           "item": {
             "@id": "https://tablasdemultiplicar.online/tabla/21",
-            "name": "21 Çarpım Tablosu"
+            "name": "21 Tabla de Multiplicar"
           }
         }
       ]
@@ -53,11 +53,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://tablasdemultiplicar.online/tabla/21#learningresource",
-      "name": "21 Çarpım Tablosu Öğrenme Kaynağı",
-      "description": "21 ile çarpma: 3 ve 7 tablolarının birleşimi (3×7=21), yirmili sistem ve orta seviye çarpma becerileri.",
+      "name": "21 Tabla de Multiplicar Recurso de Aprendizaje",
+      "description": "21 Multiplicar por: 3 ve 7 tablolarının birleşimi (3×7=21), yirmili sistem ve orta seviye çarpma becerileri.",
       "educationalLevel": "Intermediate",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "21 çarpım tablosu, 3×7 ilişkisi, iki basamaklı çarpma",
+      "teaches": "21 Tabla de Multiplicar, 3×7 ilişkisi, iki basamaklı çarpma",
       "typicalAgeRange": "8-11",
       "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study"],
@@ -73,9 +73,9 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: '21 Çarpım Tablosu - Eğlenceli Oyunlar ve Pratik Egzersizleri',
-  description: '21 çarpım tablosunu eğlenceli oyunlar ve interaktif alıştırmalarla öğrenin. Çocuklar için görsel yardımcılar, pratik ipuçları ve kolay ezber teknikleri.',
-  keywords: '21 çarpım tablosu, yirmi bir çarpım tablosu, 21 ile çarpma, çarpım tablosu öğrenme, matematik oyunları',
+  title: '21 Tabla de Multiplicar - Juegos Divertidos y Ejercicios Prácticos',
+  description: '21 Tabla de Multiplicar con juegos divertidos y ejercicios interactivos. Ayudas visuales para niños, consejos prácticos y técnicas fáciles de memorización.',
+  keywords: '21 Tabla de Multiplicar, yirmi bir Tabla de Multiplicar, 21 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
   alternates: {
     canonical: '/tabla/21',
   },

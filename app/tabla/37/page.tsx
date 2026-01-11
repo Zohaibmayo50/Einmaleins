@@ -1,18 +1,18 @@
-import NumberPage from '@/app/components/NumberPage'
+﻿import NumberPage from '@/app/components/NumberPage'
 
 const schemaData = {
   "@context": "https://schema.org",
   "@graph": [
-    {"@type": "WebPage", "@id": "https://tablasdemultiplicar.online/tabla/37#webpage", "url": "https://tablasdemultiplicar.online/tabla/37", "name": "37 Çarpım Tablosu - Asal Sayı", "description": "37 çarpım tablosu ile asal sayı özelliklerini keşfedin. İleri seviye çarpma becerileri.", "isPartOf": {"@id": "https://tablasdemultiplicar.online/#website"}, "about": {"@id": "https://tablasdemultiplicar.online/tabla/37#learningresource"}, "breadcrumb": {"@id": "https://tablasdemultiplicar.online/tabla/37#breadcrumb"}, "inLanguage": "es-MX"},
-    {"@type": "BreadcrumbList", "@id": "https://tablasdemultiplicar.online/tabla/37#breadcrumb", "itemListElement": [{"@type": "ListItem", "position": 1, "item": {"@id": "https://tablasdemultiplicar.online/", "name": "Inicio"}}, {"@type": "ListItem", "position": 2, "item": {"@id": "https://tablasdemultiplicar.online/31-40", "name": "31-40 Çarpım Tablosu"}}, {"@type": "ListItem", "position": 3, "item": {"@id": "https://tablasdemultiplicar.online/tabla/37", "name": "37 Çarpım Tablosu"}}]},
-    {"@type": "LearningResource", "@id": "https://tablasdemultiplicar.online/tabla/37#learningresource", "name": "37 Çarpım Tablosu Öğrenme Kaynağı", "description": "37 ile çarpma: Asal sayı özellikleri ve ileri düzey çarpma pratikleri.", "educationalLevel": "Intermediate", "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"], "teaches": "37 çarpım tablosu, asal sayı kavramı", "typicalAgeRange": "8-11", "inLanguage": "es-MX", "educationalUse": ["practice", "self-study"], "audience": {"@type": "EducationalAudience", "educationalRole": ["student"]}, "isPartOf": {"@id": "https://tablasdemultiplicar.online/31-40#learningresource"}}
+    {"@type": "WebPage", "@id": "https://tablasdemultiplicar.online/tabla/37#webpage", "url": "https://tablasdemultiplicar.online/tabla/37", "name": "37 Tabla de Multiplicar - Asal Sayı", "description": "37 Tabla de Multiplicar ile asal sayı özelliklerini keşfedin. İleri seviye çarpma becerileri.", "isPartOf": {"@id": "https://tablasdemultiplicar.online/#website"}, "about": {"@id": "https://tablasdemultiplicar.online/tabla/37#learningresource"}, "breadcrumb": {"@id": "https://tablasdemultiplicar.online/tabla/37#breadcrumb"}, "inLanguage": "es-MX"},
+    {"@type": "BreadcrumbList", "@id": "https://tablasdemultiplicar.online/tabla/37#breadcrumb", "itemListElement": [{"@type": "ListItem", "position": 1, "item": {"@id": "https://tablasdemultiplicar.online/", "name": "Inicio"}}, {"@type": "ListItem", "position": 2, "item": {"@id": "https://tablasdemultiplicar.online/31-40", "name": "31-40 Tabla de Multiplicar"}}, {"@type": "ListItem", "position": 3, "item": {"@id": "https://tablasdemultiplicar.online/tabla/37", "name": "37 Tabla de Multiplicar"}}]},
+    {"@type": "LearningResource", "@id": "https://tablasdemultiplicar.online/tabla/37#learningresource", "name": "37 Tabla de Multiplicar Recurso de Aprendizaje", "description": "37 Multiplicar por: Asal sayı özellikleri ve ileri düzey çarpma pratikleri.", "educationalLevel": "Intermediate", "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"], "teaches": "37 Tabla de Multiplicar, asal sayı kavramı", "typicalAgeRange": "8-11", "inLanguage": "es-MX", "educationalUse": ["practice", "self-study"], "audience": {"@type": "EducationalAudience", "educationalRole": ["student"]}, "isPartOf": {"@id": "https://tablasdemultiplicar.online/31-40#learningresource"}}
   ]
 }
 
 export const metadata = {
-  title: '37 Çarpım Tablosu - Eğlenceli Oyunlar ve Pratik Egzersizleri',
-  description: '37 çarpım tablosunu eğlenceli oyunlar ve interaktif alıştırmalarla öğrenin. Çocuklar için görsel yardımcılar, pratik ipuçları ve kolay ezber teknikleri.',
-  keywords: '37 çarpım tablosu, otuz yedi çarpım tablosu, 37 ile çarpma, çarpım tablosu öğrenme, matematik oyunları',
+  title: '37 Tabla de Multiplicar - Juegos Divertidos y Ejercicios Prácticos',
+  description: '37 Tabla de Multiplicar con juegos divertidos y ejercicios interactivos. Ayudas visuales para niños, consejos prácticos y técnicas fáciles de memorización.',
+  keywords: '37 Tabla de Multiplicar, otuz yedi Tabla de Multiplicar, 37 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
   alternates: {
     canonical: '/tabla/37',
   },

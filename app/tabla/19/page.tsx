@@ -1,4 +1,4 @@
-import NumberPage from '@/app/components/NumberPage'
+﻿import NumberPage from '@/app/components/NumberPage'
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://tablasdemultiplicar.online/tabla/19#webpage",
       "url": "https://tablasdemultiplicar.online/tabla/19",
-      "name": "19 Çarpım Tablosu - Asal Sayı Ustası",
-      "description": "19 çarpım tablosu ile asal sayılarda ustalaşın. 20-1 stratejisi ve zihinsel matematik teknikleri.",
+      "name": "19 Tabla de Multiplicar - Asal Sayı Ustası",
+      "description": "19 Tabla de Multiplicar ile asal sayılarda ustalaşın. 20-1 stratejisi ve zihinsel matematik teknikleri.",
       "isPartOf": {
         "@id": "https://tablasdemultiplicar.online/#website"
       },
@@ -37,7 +37,7 @@ const schemaData = {
           "position": 2,
           "item": {
             "@id": "https://tablasdemultiplicar.online/11-20",
-            "name": "11-20 Çarpım Tablosu"
+            "name": "11-20 Tabla de Multiplicar"
           }
         },
         {
@@ -45,7 +45,7 @@ const schemaData = {
           "position": 3,
           "item": {
             "@id": "https://tablasdemultiplicar.online/tabla/19",
-            "name": "19 Çarpım Tablosu"
+            "name": "19 Tabla de Multiplicar"
           }
         }
       ]
@@ -53,11 +53,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://tablasdemultiplicar.online/tabla/19#learningresource",
-      "name": "19 Çarpım Tablosu Öğrenme Kaynağı",
-      "description": "19 ile çarpma: Asal sayı özellikleri, 20-1 yaklaşım stratejisi, ileri düzey zihinsel matematik.",
+      "name": "19 Tabla de Multiplicar Recurso de Aprendizaje",
+      "description": "19 Multiplicar por: Asal sayı özellikleri, 20-1 yaklaşım stratejisi, ileri düzey zihinsel matematik.",
       "educationalLevel": "Beginner",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "19 çarpım tablosu, asal sayılar, 20-1 çıkarma stratejisi",
+      "teaches": "19 Tabla de Multiplicar, asal sayılar, 20-1 çıkarma stratejisi",
       "typicalAgeRange": "7-10",
       "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study"],
@@ -73,9 +73,9 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: '19 Çarpım Tablosu - Eğlenceli Oyunlar ve Pratik Egzersizleri',
-  description: '19 çarpım tablosunu eğlenceli oyunlar ve interaktif alıştırmalarla öğrenin. Çocuklar için görsel yardımcılar, pratik ipuçları ve kolay ezber teknikleri.',
-  keywords: '19 çarpım tablosu, on dokuz çarpım tablosu, 19 ile çarpma, çarpım tablosu öğrenme, matematik oyunları',
+  title: '19 Tabla de Multiplicar - Juegos Divertidos y Ejercicios Prácticos',
+  description: '19 Tabla de Multiplicar con juegos divertidos y ejercicios interactivos. Ayudas visuales para niños, consejos prácticos y técnicas fáciles de memorización.',
+  keywords: '19 Tabla de Multiplicar, on dokuz Tabla de Multiplicar, 19 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
   alternates: {
     canonical: '/tabla/19',
   },

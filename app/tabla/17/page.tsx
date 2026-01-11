@@ -1,4 +1,4 @@
-import NumberPage from '@/app/components/NumberPage'
+﻿import NumberPage from '@/app/components/NumberPage'
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://tablasdemultiplicar.online/tabla/17#webpage",
       "url": "https://tablasdemultiplicar.online/tabla/17",
-      "name": "17 Çarpım Tablosu - Asal Sayı Keşfi",
-      "description": "17 çarpım tablosu ile asal sayı kavramını keşfedin. Zihinsel matematik ve pratik stratejilerle 17 ile çarpma.",
+      "name": "17 Tabla de Multiplicar - Asal Sayı Keşfi",
+      "description": "17 Tabla de Multiplicar ile asal sayı kavramını keşfedin. Zihinsel matematik ve pratik stratejilerle 17 Multiplicar por.",
       "isPartOf": {
         "@id": "https://tablasdemultiplicar.online/#website"
       },
@@ -37,7 +37,7 @@ const schemaData = {
           "position": 2,
           "item": {
             "@id": "https://tablasdemultiplicar.online/11-20",
-            "name": "11-20 Çarpım Tablosu"
+            "name": "11-20 Tabla de Multiplicar"
           }
         },
         {
@@ -45,7 +45,7 @@ const schemaData = {
           "position": 3,
           "item": {
             "@id": "https://tablasdemultiplicar.online/tabla/17",
-            "name": "17 Çarpım Tablosu"
+            "name": "17 Tabla de Multiplicar"
           }
         }
       ]
@@ -53,11 +53,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://tablasdemultiplicar.online/tabla/17#learningresource",
-      "name": "17 Çarpım Tablosu Öğrenme Kaynağı",
-      "description": "17 ile çarpma: Asal sayı özellikleri, 10+7 ayrıştırma stratejisi, zihinsel matematik teknikleri.",
+      "name": "17 Tabla de Multiplicar Recurso de Aprendizaje",
+      "description": "17 Multiplicar por: Asal sayı özellikleri, 10+7 ayrıştırma stratejisi, zihinsel matematik teknikleri.",
       "educationalLevel": "Beginner",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "17 çarpım tablosu, asal sayılar, zihinsel matematik",
+      "teaches": "17 Tabla de Multiplicar, asal sayılar, zihinsel matematik",
       "typicalAgeRange": "7-10",
       "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study"],
@@ -73,9 +73,9 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: '17 Çarpım Tablosu - Eğlenceli Oyunlar ve Pratik Egzersizleri',
-  description: '17 çarpım tablosunu eğlenceli oyunlar ve interaktif alıştırmalarla öğrenin. Çocuklar için görsel yardımcılar, pratik ipuçları ve kolay ezber teknikleri.',
-  keywords: '17 çarpım tablosu, on yedi çarpım tablosu, 17 ile çarpma, çarpım tablosu öğrenme, matematik oyunları',
+  title: '17 Tabla de Multiplicar - Juegos Divertidos y Ejercicios Prácticos',
+  description: '17 Tabla de Multiplicar con juegos divertidos y ejercicios interactivos. Ayudas visuales para niños, consejos prácticos y técnicas fáciles de memorización.',
+  keywords: '17 Tabla de Multiplicar, on yedi Tabla de Multiplicar, 17 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
   alternates: {
     canonical: '/tabla/17',
   },

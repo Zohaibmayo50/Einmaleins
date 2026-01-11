@@ -1,4 +1,4 @@
-import NumberPage from '@/app/components/NumberPage'
+﻿import NumberPage from '@/app/components/NumberPage'
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -37,7 +37,7 @@ const schemaData = {
           "position": 2,
           "item": {
             "@id": "https://tablasdemultiplicar.online/1-10",
-            "name": "1-10 Çarpım Tablosu"
+            "name": "1-10 Tabla de Multiplicar"
           }
         },
         {
@@ -45,7 +45,7 @@ const schemaData = {
           "position": 3,
           "item": {
             "@id": "https://tablasdemultiplicar.online/tabla/8",
-            "name": "8 Çarpım Tablosu"
+            "name": "8 Tabla de Multiplicar"
           }
         }
       ]
@@ -53,11 +53,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://tablasdemultiplicar.online/tabla/8#learningresource",
-      "name": "8 Çarpım Tablosu Öğrenme Kaynağı",
-      "description": "8 ile çarpma: 4 tablosunu ikiye katlama (4×2=8), sekizli sayma ve 2ün kuvvetleri (2³=8).",
+      "name": "8 Tabla de Multiplicar Recurso de Aprendizaje",
+      "description": "8 Multiplicar por: 4 tablosunu ikiye katlama (4×2=8), sekizli sayma ve 2ün kuvvetleri (2³=8).",
       "educationalLevel": "Beginner",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "8 çarpım tablosu, sekizli sayma, ikiye katlama, 2’nin kuvvetleri",
+      "teaches": "8 Tabla de Multiplicar, sekizli sayma, ikiye katlama, 2’nin kuvvetleri",
       "typicalAgeRange": "6-9",
       "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study"],

@@ -1,4 +1,4 @@
-import NumberPage from '@/app/components/NumberPage'
+﻿import NumberPage from '@/app/components/NumberPage'
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://tablasdemultiplicar.online/tabla/13#webpage",
       "url": "https://tablasdemultiplicar.online/tabla/13",
-      "name": "13 Çarpım Tablosu - Uğurlu Sayı Desenleri",
-      "description": "13 çarpım tablosu ile matematik becerilerinizi geliştirin. Desenler ve kolay stratejilerle 13 ile çarpma işleminde ustalaşın.",
+      "name": "13 Tabla de Multiplicar - Uğurlu Sayı Desenleri",
+      "description": "13 Tabla de Multiplicar ile matematik becerilerinizi geliştirin. Desenler ve kolay stratejilerle 13 Multiplicar por işleminde ustalaşın.",
       "isPartOf": {
         "@id": "https://tablasdemultiplicar.online/#website"
       },
@@ -37,7 +37,7 @@ const schemaData = {
           "position": 2,
           "item": {
             "@id": "https://tablasdemultiplicar.online/11-20",
-            "name": "11-20 Çarpım Tablosu"
+            "name": "11-20 Tabla de Multiplicar"
           }
         },
         {
@@ -45,7 +45,7 @@ const schemaData = {
           "position": 3,
           "item": {
             "@id": "https://tablasdemultiplicar.online/tabla/13",
-            "name": "13 Çarpım Tablosu"
+            "name": "13 Tabla de Multiplicar"
           }
         }
       ]
@@ -53,11 +53,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://tablasdemultiplicar.online/tabla/13#learningresource",
-      "name": "13 Çarpım Tablosu Öğrenme Kaynağı",
-      "description": "13 ile çarpma: Asal sayı özellikleri, zihinsel matematik stratejileri, 10+3 ayrıştırma yöntemi.",
+      "name": "13 Tabla de Multiplicar Recurso de Aprendizaje",
+      "description": "13 Multiplicar por: Asal sayı özellikleri, zihinsel matematik stratejileri, 10+3 ayrıştırma yöntemi.",
       "educationalLevel": "Beginner",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "13 çarpım tablosu, asal sayılar, zihinsel matematik",
+      "teaches": "13 Tabla de Multiplicar, asal sayılar, zihinsel matematik",
       "typicalAgeRange": "7-10",
       "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study"],
@@ -73,9 +73,9 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: '13 Çarpım Tablosu - Eğlenceli Oyunlar ve Pratik Egzersizleri',
-  description: '13 çarpım tablosunu eğlenceli oyunlar ve interaktif alıştırmalarla öğrenin. Çocuklar için görsel yardımcılar, pratik ipuçları ve kolay ezber teknikleri.',
-  keywords: '13 çarpım tablosu, on üç çarpım tablosu, 13 ile çarpma, çarpım tablosu öğrenme, matematik oyunları',
+  title: '13 Tabla de Multiplicar - Juegos Divertidos y Ejercicios Prácticos',
+  description: '13 Tabla de Multiplicar con juegos divertidos y ejercicios interactivos. Ayudas visuales para niños, consejos prácticos y técnicas fáciles de memorización.',
+  keywords: '13 Tabla de Multiplicar, on üç Tabla de Multiplicar, 13 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
   alternates: {
     canonical: '/tabla/13',
   },

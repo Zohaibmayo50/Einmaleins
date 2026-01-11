@@ -1,4 +1,4 @@
-import NumberPage from '@/app/components/NumberPage'
+﻿import NumberPage from '@/app/components/NumberPage'
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://tablasdemultiplicar.online/tabla/32#webpage",
       "url": "https://tablasdemultiplicar.online/tabla/32",
-      "name": "32 Çarpım Tablosu - 2 Üssü 5",
-      "description": "32 çarpım tablosu ile 2⁵=32 kavramını öğrenin. İkinin kuvvetleri ve geometrik desenler.",
+      "name": "32 Tabla de Multiplicar - 2 Üssü 5",
+      "description": "32 Tabla de Multiplicar ile 2⁵=32 kavramını öğrenin. İkinin kuvvetleri ve geometrik desenler.",
       "isPartOf": {"@id": "https://tablasdemultiplicar.online/#website"},
       "about": {"@id": "https://tablasdemultiplicar.online/tabla/32#learningresource"},
       "breadcrumb": {"@id": "https://tablasdemultiplicar.online/tabla/32#breadcrumb"},
@@ -19,18 +19,18 @@ const schemaData = {
       "@id": "https://tablasdemultiplicar.online/tabla/32#breadcrumb",
       "itemListElement": [
         {"@type": "ListItem", "position": 1, "item": {"@id": "https://tablasdemultiplicar.online/", "name": "Inicio"}},
-        {"@type": "ListItem", "position": 2, "item": {"@id": "https://tablasdemultiplicar.online/31-40", "name": "31-40 Çarpım Tablosu"}},
-        {"@type": "ListItem", "position": 3, "item": {"@id": "https://tablasdemultiplicar.online/tabla/32", "name": "32 Çarpım Tablosu"}}
+        {"@type": "ListItem", "position": 2, "item": {"@id": "https://tablasdemultiplicar.online/31-40", "name": "31-40 Tabla de Multiplicar"}},
+        {"@type": "ListItem", "position": 3, "item": {"@id": "https://tablasdemultiplicar.online/tabla/32", "name": "32 Tabla de Multiplicar"}}
       ]
     },
     {
       "@type": "LearningResource",
       "@id": "https://tablasdemultiplicar.online/tabla/32#learningresource",
-      "name": "32 Çarpım Tablosu Öğrenme Kaynağı",
-      "description": "32 ile çarpma: 2 üssü 5 (2⁵=32), ikinin kuvvetleri ve 4×8 ilişkisi.",
+      "name": "32 Tabla de Multiplicar Recurso de Aprendizaje",
+      "description": "32 Multiplicar por: 2 üssü 5 (2⁵=32), ikinin kuvvetleri ve 4×8 ilişkisi.",
       "educationalLevel": "Intermediate",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "32 çarpım tablosu, 2⁵ kavramı, ikinin kuvvetleri",
+      "teaches": "32 Tabla de Multiplicar, 2⁵ kavramı, ikinin kuvvetleri",
       "typicalAgeRange": "8-11",
       "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study"],
@@ -41,9 +41,9 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: '32 Çarpım Tablosu - Eğlenceli Oyunlar ve Pratik Egzersizleri',
-  description: '32 çarpım tablosunu eğlenceli oyunlar ve interaktif alıştırmalarla öğrenin. Çocuklar için görsel yardımcılar, pratik ipuçları ve kolay ezber teknikleri.',
-  keywords: '32 çarpım tablosu, otuz iki çarpım tablosu, 32 ile çarpma, çarpım tablosu öğrenme, matematik oyunları',
+  title: '32 Tabla de Multiplicar - Juegos Divertidos y Ejercicios Prácticos',
+  description: '32 Tabla de Multiplicar con juegos divertidos y ejercicios interactivos. Ayudas visuales para niños, consejos prácticos y técnicas fáciles de memorización.',
+  keywords: '32 Tabla de Multiplicar, otuz iki Tabla de Multiplicar, 32 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
   alternates: {
     canonical: '/tabla/32',
   },

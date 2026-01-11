@@ -1,4 +1,4 @@
-import NumberPage from '@/app/components/NumberPage'
+﻿import NumberPage from '@/app/components/NumberPage'
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://tablasdemultiplicar.online/tabla/18#webpage",
       "url": "https://tablasdemultiplicar.online/tabla/18",
-      "name": "18 Çarpım Tablosu - Reşitlik Yaşı",
-      "description": "18 çarpım tablosu ile çarpma becerilerinizi güçlendirin. 9×2 ve 6×3 ilişkileri ile 18 ile çarpma stratejileri.",
+      "name": "18 Tabla de Multiplicar - Reşitlik Yaşı",
+      "description": "18 Tabla de Multiplicar Multiplicar por becerilerinizi güçlendirin. 9×2 ve 6×3 ilişkileri ile 18 Multiplicar por stratejileri.",
       "isPartOf": {
         "@id": "https://tablasdemultiplicar.online/#website"
       },
@@ -37,7 +37,7 @@ const schemaData = {
           "position": 2,
           "item": {
             "@id": "https://tablasdemultiplicar.online/11-20",
-            "name": "11-20 Çarpım Tablosu"
+            "name": "11-20 Tabla de Multiplicar"
           }
         },
         {
@@ -45,7 +45,7 @@ const schemaData = {
           "position": 3,
           "item": {
             "@id": "https://tablasdemultiplicar.online/tabla/18",
-            "name": "18 Çarpım Tablosu"
+            "name": "18 Tabla de Multiplicar"
           }
         }
       ]
@@ -53,11 +53,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://tablasdemultiplicar.online/tabla/18#learningresource",
-      "name": "18 Çarpım Tablosu Öğrenme Kaynağı",
-      "description": "18 ile çarpma: 9×2 ve 6×3 ilişkisi, çift sayı desenleri, rakamlar toplamı 9'un katı kuralı.",
+      "name": "18 Tabla de Multiplicar Recurso de Aprendizaje",
+      "description": "18 Multiplicar por: 9×2 ve 6×3 ilişkisi, çift sayı desenleri, rakamlar toplamı 9'un katı kuralı.",
       "educationalLevel": "Beginner",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "18 çarpım tablosu, 9 ve 6 tablolarının ilişkisi, 9'un katları kuralı",
+      "teaches": "18 Tabla de Multiplicar, 9 ve 6 tablolarının ilişkisi, 9'un katları kuralı",
       "typicalAgeRange": "7-10",
       "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study"],
@@ -73,9 +73,9 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: '18 Çarpım Tablosu - Eğlenceli Oyunlar ve Pratik Egzersizleri',
-  description: '18 çarpım tablosunu eğlenceli oyunlar ve interaktif alıştırmalarla öğrenin. Çocuklar için görsel yardımcılar, pratik ipuçları ve kolay ezber teknikleri.',
-  keywords: '18 çarpım tablosu, on sekiz çarpım tablosu, 18 ile çarpma, çarpım tablosu öğrenme, matematik oyunları',
+  title: '18 Tabla de Multiplicar - Juegos Divertidos y Ejercicios Prácticos',
+  description: '18 Tabla de Multiplicar con juegos divertidos y ejercicios interactivos. Ayudas visuales para niños, consejos prácticos y técnicas fáciles de memorización.',
+  keywords: '18 Tabla de Multiplicar, on sekiz Tabla de Multiplicar, 18 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
   alternates: {
     canonical: '/tabla/18',
   },

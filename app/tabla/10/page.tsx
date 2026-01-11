@@ -1,4 +1,4 @@
-import NumberPage from '@/app/components/NumberPage'
+﻿import NumberPage from '@/app/components/NumberPage'
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -37,7 +37,7 @@ const schemaData = {
           "position": 2,
           "item": {
             "@id": "https://tablasdemultiplicar.online/1-10",
-            "name": "1-10 Çarpım Tablosu"
+            "name": "1-10 Tabla de Multiplicar"
           }
         },
         {
@@ -45,7 +45,7 @@ const schemaData = {
           "position": 3,
           "item": {
             "@id": "https://tablasdemultiplicar.online/tabla/10",
-            "name": "10 Çarpım Tablosu"
+            "name": "10 Tabla de Multiplicar"
           }
         }
       ]
@@ -53,11 +53,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://tablasdemultiplicar.online/tabla/10#learningresource",
-      "name": "10 Çarpım Tablosu Öğrenme Kaynağı",
-      "description": "10 ile çarpma: Onluk sistem temeli, yer değeri kavramı ve sonuna sıfır ekleme kuralı ile en kolay çarpım tablosu.",
+      "name": "10 Tabla de Multiplicar Recurso de Aprendizaje",
+      "description": "10 Multiplicar por: Onluk sistem temeli, yer değeri kavramı ve sonuna sıfır ekleme kuralı ile en kolay Tabla de Multiplicar.",
       "educationalLevel": "Beginner",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "10 çarpım tablosu, onluk sistem, yer değeri, sıfır ekleme kuralı",
+      "teaches": "10 Tabla de Multiplicar, onluk sistem, yer değeri, sıfır ekleme kuralı",
       "typicalAgeRange": "6-9",
       "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study", "foundational concept"],

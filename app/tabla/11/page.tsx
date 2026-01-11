@@ -1,4 +1,4 @@
-import NumberPage from '@/app/components/NumberPage'
+﻿import NumberPage from '@/app/components/NumberPage'
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://tablasdemultiplicar.online/tabla/11#webpage",
       "url": "https://tablasdemultiplicar.online/tabla/11",
-      "name": "11 Çarpım Tablosu - İki Basamaklı Sayılara Giriş",
-      "description": "11 çarpım tablosu ile iki basamaklı sayılara geçiş yapın. Kolay desen ve stratejilerle 11 ile çarpma işlemini öğrenin.",
+      "name": "11 Tabla de Multiplicar - Introducción a Números de Dos Dígitos",
+      "description": "11 Tabla de Multiplicar y transiciona a números de dos dígitos. Con patrones y estrategias fáciles, aprende a multiplicar por 11 Multiplicar por .",
       "isPartOf": {
         "@id": "https://tablasdemultiplicar.online/#website"
       },
@@ -37,7 +37,7 @@ const schemaData = {
           "position": 2,
           "item": {
             "@id": "https://tablasdemultiplicar.online/11-20",
-            "name": "11-20 Çarpım Tablosu"
+            "name": "11-20 Tabla de Multiplicar"
           }
         },
         {
@@ -45,7 +45,7 @@ const schemaData = {
           "position": 3,
           "item": {
             "@id": "https://tablasdemultiplicar.online/tabla/11",
-            "name": "11 Çarpım Tablosu"
+            "name": "11 Tabla de Multiplicar"
           }
         }
       ]
@@ -53,11 +53,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://tablasdemultiplicar.online/tabla/11#learningresource",
-      "name": "11 Çarpım Tablosu Öğrenme Kaynağı",
-      "description": "11 ile çarpma: İki basamaklı sayılara giriş, rakam tekrarı deseni (11×2=22, 11×3=33), kolay ezber stratejileri.",
+      "name": "11 Tabla de Multiplicar Recurso de Aprendizaje",
+      "description": "11 Multiplicar por: Introducción a números de dos dígitos, patrón de repetición de dígitos (11×2=22, 11×3=33), estrategias fáciles de memorización.",
       "educationalLevel": "Beginner",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "11 çarpım tablosu, iki basamaklı sayılar, rakam desenleri",
+      "teaches": "11 Tabla de Multiplicar, números de dos dígitos, patrones de dígitos",
       "typicalAgeRange": "7-10",
       "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study"],
@@ -73,9 +73,9 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: '11 Çarpım Tablosu - Eğlenceli Oyunlar ve Pratik Egzersizleri',
-  description: '11 çarpım tablosunu eğlenceli oyunlar ve interaktif alıştırmalarla öğrenin. Çocuklar için görsel yardımcılar, pratik ipuçları ve kolay ezber teknikleri.',
-  keywords: '11 çarpım tablosu, on bir çarpım tablosu, 11 ile çarpma, çarpım tablosu öğrenme, matematik oyunları',
+  title: '11 Tabla de Multiplicar - Juegos Divertidos y Ejercicios Prácticos',
+  description: '11 Tabla de Multiplicar con juegos divertidos y ejercicios interactivos. Ayudas visuales para niños, consejos prácticos y técnicas fáciles de memorización.',
+  keywords: '11 Tabla de Multiplicar, on bir Tabla de Multiplicar, 11 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
   alternates: {
     canonical: '/tabla/11',
   },

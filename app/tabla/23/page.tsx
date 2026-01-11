@@ -1,4 +1,4 @@
-import NumberPage from '@/app/components/NumberPage'
+﻿import NumberPage from '@/app/components/NumberPage'
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://tablasdemultiplicar.online/tabla/23#webpage",
       "url": "https://tablasdemultiplicar.online/tabla/23",
-      "name": "23 Çarpım Tablosu - Asal Sayı Desenleri",
-      "description": "23 çarpım tablosu ile asal sayı desenleri ve ileri düzeyde çarpma becerilerini geliştirin.",
+      "name": "23 Tabla de Multiplicar - Asal Sayı Desenleri",
+      "description": "23 Tabla de Multiplicar ile asal sayı desenleri ve ileri düzeyde çarpma becerilerini geliştirin.",
       "isPartOf": {
         "@id": "https://tablasdemultiplicar.online/#website"
       },
@@ -37,7 +37,7 @@ const schemaData = {
           "position": 2,
           "item": {
             "@id": "https://tablasdemultiplicar.online/21-30",
-            "name": "21-30 Çarpım Tablosu"
+            "name": "21-30 Tabla de Multiplicar"
           }
         },
         {
@@ -45,7 +45,7 @@ const schemaData = {
           "position": 3,
           "item": {
             "@id": "https://tablasdemultiplicar.online/tabla/23",
-            "name": "23 Çarpım Tablosu"
+            "name": "23 Tabla de Multiplicar"
           }
         }
       ]
@@ -53,11 +53,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://tablasdemultiplicar.online/tabla/23#learningresource",
-      "name": "23 Çarpım Tablosu Öğrenme Kaynağı",
-      "description": "23 ile çarpma: Asal sayı özellikleri ve orta-ileri seviye çarpma pratikleri.",
+      "name": "23 Tabla de Multiplicar Recurso de Aprendizaje",
+      "description": "23 Multiplicar por: Asal sayı özellikleri ve orta-ileri seviye çarpma pratikleri.",
       "educationalLevel": "Intermediate",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "23 çarpım tablosu, asal sayı kavramı, ileri çarpma",
+      "teaches": "23 Tabla de Multiplicar, asal sayı kavramı, ileri çarpma",
       "typicalAgeRange": "8-11",
       "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study"],
@@ -73,9 +73,9 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: '23 Çarpım Tablosu - Eğlenceli Oyunlar ve Pratik Egzersizleri',
-  description: '23 çarpım tablosunu eğlenceli oyunlar ve interaktif alıştırmalarla öğrenin. Çocuklar için görsel yardımcılar, pratik ipuçları ve kolay ezber teknikleri.',
-  keywords: '23 çarpım tablosu, yirmi üç çarpım tablosu, 23 ile çarpma, çarpım tablosu öğrenme, matematik oyunları',
+  title: '23 Tabla de Multiplicar - Juegos Divertidos y Ejercicios Prácticos',
+  description: '23 Tabla de Multiplicar con juegos divertidos y ejercicios interactivos. Ayudas visuales para niños, consejos prácticos y técnicas fáciles de memorización.',
+  keywords: '23 Tabla de Multiplicar, yirmi üç Tabla de Multiplicar, 23 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
   alternates: {
     canonical: '/tabla/23',
   },

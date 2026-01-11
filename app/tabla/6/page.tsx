@@ -1,4 +1,4 @@
-import NumberPage from '@/app/components/NumberPage'
+﻿import NumberPage from '@/app/components/NumberPage'
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -37,7 +37,7 @@ const schemaData = {
           "position": 2,
           "item": {
             "@id": "https://tablasdemultiplicar.online/1-10",
-            "name": "1-10 Çarpım Tablosu"
+            "name": "1-10 Tabla de Multiplicar"
           }
         },
         {
@@ -45,7 +45,7 @@ const schemaData = {
           "position": 3,
           "item": {
             "@id": "https://tablasdemultiplicar.online/tabla/6",
-            "name": "6 Çarpım Tablosu"
+            "name": "6 Tabla de Multiplicar"
           }
         }
       ]
@@ -53,11 +53,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://tablasdemultiplicar.online/tabla/6#learningresource",
-      "name": "6 Çarpım Tablosu Öğrenme Kaynağı",
-      "description": "6 ile çarpma: 2 ve 3 tablolarının birleşimi (2×3), altışar sayma ve çift sayı desenleri.",
+      "name": "6 Tabla de Multiplicar Recurso de Aprendizaje",
+      "description": "6 Multiplicar por: 2 ve 3 tablolarının birleşimi (2×3), altışar sayma ve çift sayı desenleri.",
       "educationalLevel": "Beginner",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "6 çarpım tablosu, altışar sayma, 2 ve 3 tablolarının ilişkisi",
+      "teaches": "6 Tabla de Multiplicar, altışar sayma, 2 ve 3 tablolarının ilişkisi",
       "typicalAgeRange": "6-9",
       "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study"],

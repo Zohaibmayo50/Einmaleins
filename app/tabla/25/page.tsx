@@ -1,4 +1,4 @@
-import NumberPage from '@/app/components/NumberPage'
+﻿import NumberPage from '@/app/components/NumberPage'
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://tablasdemultiplicar.online/tabla/25#webpage",
       "url": "https://tablasdemultiplicar.online/tabla/25",
-      "name": "25 Çarpım Tablosu - Çeyrek ve Yüzde Kavramı",
-      "description": "25 çarpım tablosu ile çeyrek kavramı ve yüzde hesaplamalarını öğrenin. Para hesaplama için kritik öneme sahip desenleri keşfedin.",
+      "name": "25 Tabla de Multiplicar - Çeyrek ve Yüzde Kavramı",
+      "description": "25 Tabla de Multiplicar ile çeyrek kavramı ve yüzde hesaplamalarını öğrenin. Para hesaplama için kritik öneme sahip desenleri keşfedin.",
       "isPartOf": {
         "@id": "https://tablasdemultiplicar.online/#website"
       },
@@ -37,7 +37,7 @@ const schemaData = {
           "position": 2,
           "item": {
             "@id": "https://tablasdemultiplicar.online/21-30",
-            "name": "21-30 Çarpım Tablosu"
+            "name": "21-30 Tabla de Multiplicar"
           }
         },
         {
@@ -45,7 +45,7 @@ const schemaData = {
           "position": 3,
           "item": {
             "@id": "https://tablasdemultiplicar.online/tabla/25",
-            "name": "25 Çarpım Tablosu"
+            "name": "25 Tabla de Multiplicar"
           }
         }
       ]
@@ -53,11 +53,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://tablasdemultiplicar.online/tabla/25#learningresource",
-      "name": "25 Çarpım Tablosu Öğrenme Kaynağı",
-      "description": "25 ile çarpma: Çeyrek (1/4) kavramı, yüzde hesaplamaları (25%=1/4), para hesaplama ve 25-50-75-00 son rakam deseni.",
+      "name": "25 Tabla de Multiplicar Recurso de Aprendizaje",
+      "description": "25 Multiplicar por: Çeyrek (1/4) kavramı, yüzde hesaplamaları (25%=1/4), para hesaplama ve 25-50-75-00 son rakam deseni.",
       "educationalLevel": "Intermediate",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "25 çarpım tablosu, çeyrek kavramı, yüzde hesaplama, para hesaplama, 5'in karesi",
+      "teaches": "25 Tabla de Multiplicar, çeyrek kavramı, yüzde hesaplama, para hesaplama, 5'in karesi",
       "typicalAgeRange": "8-11",
       "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study", "real-world application"],
@@ -73,9 +73,9 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: '25 Çarpım Tablosu - Eğlenceli Oyunlar ve Pratik Egzersizleri',
-  description: '25 çarpım tablosunu eğlenceli oyunlar ve interaktif alıştırmalarla öğrenin. Çocuklar için görsel yardımcılar, pratik ipuçları ve kolay ezber teknikleri.',
-  keywords: '25 çarpım tablosu, yirmi beş çarpım tablosu, 25 ile çarpma, çarpım tablosu öğrenme, matematik oyunları',
+  title: '25 Tabla de Multiplicar - Juegos Divertidos y Ejercicios Prácticos',
+  description: '25 Tabla de Multiplicar con juegos divertidos y ejercicios interactivos. Ayudas visuales para niños, consejos prácticos y técnicas fáciles de memorización.',
+  keywords: '25 Tabla de Multiplicar, yirmi beş Tabla de Multiplicar, 25 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
   alternates: {
     canonical: '/tabla/25',
   },

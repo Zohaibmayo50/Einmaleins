@@ -1,4 +1,4 @@
-import NumberPage from '@/app/components/NumberPage'
+﻿import NumberPage from '@/app/components/NumberPage'
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://tablasdemultiplicar.online/tabla/24#webpage",
       "url": "https://tablasdemultiplicar.online/tabla/24",
-      "name": "24 Çarpım Tablosu - 24 Saat Sistemi",
-      "description": "24 çarpım tablosu ile 24 saat sistemi ve günlük zaman hesaplamalarını öğrenin. 3×8, 4×6, 2×12 ilişkilerini keşfedin.",
+      "name": "24 Tabla de Multiplicar - 24 Saat Sistemi",
+      "description": "24 Tabla de Multiplicar ile 24 saat sistemi ve günlük zaman hesaplamalarını öğrenin. 3×8, 4×6, 2×12 ilişkilerini keşfedin.",
       "isPartOf": {
         "@id": "https://tablasdemultiplicar.online/#website"
       },
@@ -37,7 +37,7 @@ const schemaData = {
           "position": 2,
           "item": {
             "@id": "https://tablasdemultiplicar.online/21-30",
-            "name": "21-30 Çarpım Tablosu"
+            "name": "21-30 Tabla de Multiplicar"
           }
         },
         {
@@ -45,7 +45,7 @@ const schemaData = {
           "position": 3,
           "item": {
             "@id": "https://tablasdemultiplicar.online/tabla/24",
-            "name": "24 Çarpım Tablosu"
+            "name": "24 Tabla de Multiplicar"
           }
         }
       ]
@@ -53,11 +53,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://tablasdemultiplicar.online/tabla/24#learningresource",
-      "name": "24 Çarpım Tablosu Öğrenme Kaynağı",
-      "description": "24 ile çarpma: 24 saat gün sistemi, 3×8, 4×6, 2×12 çarpan ilişkileri ve zaman hesaplama.",
+      "name": "24 Tabla de Multiplicar Recurso de Aprendizaje",
+      "description": "24 Multiplicar por: 24 saat gün sistemi, 3×8, 4×6, 2×12 çarpan ilişkileri ve zaman hesaplama.",
       "educationalLevel": "Intermediate",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "24 çarpım tablosu, 24 saat sistemi, çoklu çarpan ilişkileri",
+      "teaches": "24 Tabla de Multiplicar, 24 saat sistemi, çoklu çarpan ilişkileri",
       "typicalAgeRange": "8-11",
       "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study", "real-world application"],
@@ -73,9 +73,9 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: '24 Çarpım Tablosu - Eğlenceli Oyunlar ve Pratik Egzersizleri',
-  description: '24 çarpım tablosunu eğlenceli oyunlar ve interaktif alıştırmalarla öğrenin. Çocuklar için görsel yardımcılar, pratik ipuçları ve kolay ezber teknikleri.',
-  keywords: '24 çarpım tablosu, yirmi dört çarpım tablosu, 24 ile çarpma, çarpım tablosu öğrenme, matematik oyunları',
+  title: '24 Tabla de Multiplicar - Juegos Divertidos y Ejercicios Prácticos',
+  description: '24 Tabla de Multiplicar con juegos divertidos y ejercicios interactivos. Ayudas visuales para niños, consejos prácticos y técnicas fáciles de memorización.',
+  keywords: '24 Tabla de Multiplicar, yirmi dört Tabla de Multiplicar, 24 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
   alternates: {
     canonical: '/tabla/24',
   },

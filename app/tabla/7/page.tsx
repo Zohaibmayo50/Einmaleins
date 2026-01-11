@@ -1,4 +1,4 @@
-import NumberPage from '@/app/components/NumberPage'
+﻿import NumberPage from '@/app/components/NumberPage'
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -37,7 +37,7 @@ const schemaData = {
           "position": 2,
           "item": {
             "@id": "https://tablasdemultiplicar.online/1-10",
-            "name": "1-10 Çarpım Tablosu"
+            "name": "1-10 Tabla de Multiplicar"
           }
         },
         {
@@ -45,7 +45,7 @@ const schemaData = {
           "position": 3,
           "item": {
             "@id": "https://tablasdemultiplicar.online/tabla/7",
-            "name": "7 Çarpım Tablosu"
+            "name": "7 Tabla de Multiplicar"
           }
         }
       ]
@@ -53,11 +53,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://tablasdemultiplicar.online/tabla/7#learningresource",
-      "name": "7 Çarpım Tablosu Öğrenme Kaynağı",
-      "description": "7 ile çarpma: Yedili sayma, hafta günleri ilişkisi ve zorlayıcı ama düzenli desenleri ile 7 tablosunu keşfedin.",
+      "name": "7 Tabla de Multiplicar Recurso de Aprendizaje",
+      "description": "7 Multiplicar por: Yedili sayma, hafta günleri ilişkisi ve zorlayıcı ama düzenli desenleri ile 7 tablosunu keşfedin.",
       "educationalLevel": "Beginner",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "7 çarpım tablosu, yedili sayma, hafta günleri kavramı",
+      "teaches": "7 Tabla de Multiplicar, yedili sayma, hafta günleri kavramı",
       "typicalAgeRange": "6-9",
       "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study"],

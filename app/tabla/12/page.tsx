@@ -1,4 +1,4 @@
-import NumberPage from '@/app/components/NumberPage'
+﻿import NumberPage from '@/app/components/NumberPage'
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://tablasdemultiplicar.online/tabla/12#webpage",
       "url": "https://tablasdemultiplicar.online/tabla/12",
-      "name": "12 Çarpım Tablosu - Düzine Kavramı",
-      "description": "12 çarpım tablosu ile düzine kavramını öğrenin. Saat sistemi ve günlük hayatta sıkça kullanılan 12 tablosunda ustalaşın.",
+      "name": "12 Tabla de Multiplicar - Düzine Kavramı",
+      "description": "12 Tabla de Multiplicar ile düzine kavramını öğrenin. Saat sistemi ve günlük hayatta sıkça kullanılan 12 tablosunda ustalaşın.",
       "isPartOf": {
         "@id": "https://tablasdemultiplicar.online/#website"
       },
@@ -37,7 +37,7 @@ const schemaData = {
           "position": 2,
           "item": {
             "@id": "https://tablasdemultiplicar.online/11-20",
-            "name": "11-20 Çarpım Tablosu"
+            "name": "11-20 Tabla de Multiplicar"
           }
         },
         {
@@ -45,7 +45,7 @@ const schemaData = {
           "position": 3,
           "item": {
             "@id": "https://tablasdemultiplicar.online/tabla/12",
-            "name": "12 Çarpım Tablosu"
+            "name": "12 Tabla de Multiplicar"
           }
         }
       ]
@@ -53,11 +53,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://tablasdemultiplicar.online/tabla/12#learningresource",
-      "name": "12 Çarpım Tablosu Öğrenme Kaynağı",
-      "description": "12 ile çarpma: Düzine kavramı, saat sistemi (12 saat), 3×4 ilişkisi ve günlük hayat uygulamaları.",
+      "name": "12 Tabla de Multiplicar Recurso de Aprendizaje",
+      "description": "12 Multiplicar por: Düzine kavramı, saat sistemi (12 saat), 3×4 ilişkisi ve günlük hayat uygulamaları.",
       "educationalLevel": "Intermediate",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "12 çarpım tablosu, düzine kavramı, saat okuma, 3 ve 4 tablolarının ilişkisi",
+      "teaches": "12 Tabla de Multiplicar, düzine kavramı, saat okuma, 3 ve 4 tablolarının ilişkisi",
       "typicalAgeRange": "7-10",
       "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study", "real-world application"],
@@ -73,9 +73,9 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: '12 Çarpım Tablosu - Eğlenceli Oyunlar ve Pratik Egzersizleri',
-  description: '12 çarpım tablosunu eğlenceli oyunlar ve interaktif alıştırmalarla öğrenin. Çocuklar için görsel yardımcılar, pratik ipuçları ve kolay ezber teknikleri.',
-  keywords: '12 çarpım tablosu, on iki çarpım tablosu, 12 ile çarpma, çarpım tablosu öğrenme, matematik oyunları',
+  title: '12 Tabla de Multiplicar - Juegos Divertidos y Ejercicios Prácticos',
+  description: '12 Tabla de Multiplicar con juegos divertidos y ejercicios interactivos. Ayudas visuales para niños, consejos prácticos y técnicas fáciles de memorización.',
+  keywords: '12 Tabla de Multiplicar, on iki Tabla de Multiplicar, 12 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
   alternates: {
     canonical: '/tabla/12',
   },

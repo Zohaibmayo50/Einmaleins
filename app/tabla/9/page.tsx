@@ -1,4 +1,4 @@
-import NumberPage from '@/app/components/NumberPage'
+﻿import NumberPage from '@/app/components/NumberPage'
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -37,7 +37,7 @@ const schemaData = {
           "position": 2,
           "item": {
             "@id": "https://tablasdemultiplicar.online/1-10",
-            "name": "1-10 Çarpım Tablosu"
+            "name": "1-10 Tabla de Multiplicar"
           }
         },
         {
@@ -45,7 +45,7 @@ const schemaData = {
           "position": 3,
           "item": {
             "@id": "https://tablasdemultiplicar.online/tabla/9",
-            "name": "9 Çarpım Tablosu"
+            "name": "9 Tabla de Multiplicar"
           }
         }
       ]
@@ -53,11 +53,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://tablasdemultiplicar.online/tabla/9#learningresource",
-      "name": "9 Çarpım Tablosu Öğrenme Kaynağı",
-      "description": "9 ile çarpma: Parmak trikleri, basamak toplama kuralı (sonuçların rakamları toplamı=9), 10-1 ilişkisi ve sihirli desenler.",
+      "name": "9 Tabla de Multiplicar Recurso de Aprendizaje",
+      "description": "9 Multiplicar por: Parmak trikleri, basamak toplama kuralı (sonuçların rakamları toplamı=9), 10-1 ilişkisi ve sihirli desenler.",
       "educationalLevel": "Beginner",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "9 çarpım tablosu, parmak trikeri, basamak toplama kuralı, 3²=9",
+      "teaches": "9 Tabla de Multiplicar, parmak trikeri, basamak toplama kuralı, 3²=9",
       "typicalAgeRange": "6-9",
       "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study"],

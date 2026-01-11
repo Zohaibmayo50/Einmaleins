@@ -1,4 +1,4 @@
-import NumberPage from '@/app/components/NumberPage'
+﻿import NumberPage from '@/app/components/NumberPage'
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://tablasdemultiplicar.online/tabla/14#webpage",
       "url": "https://tablasdemultiplicar.online/tabla/14",
-      "name": "14 Çarpım Tablosu - İki Haftalık Döngü",
-      "description": "14 çarpım tablosu ile hafta ve zaman kavramlarını öğrenin. 7×2 ilişkisi ve pratik stratejilerle 14 ile çarpma.",
+      "name": "14 Tabla de Multiplicar - İki Haftalık Döngü",
+      "description": "14 Tabla de Multiplicar ile hafta ve zaman kavramlarını öğrenin. 7×2 ilişkisi ve pratik stratejilerle 14 Multiplicar por.",
       "isPartOf": {
         "@id": "https://tablasdemultiplicar.online/#website"
       },
@@ -37,7 +37,7 @@ const schemaData = {
           "position": 2,
           "item": {
             "@id": "https://tablasdemultiplicar.online/11-20",
-            "name": "11-20 Çarpım Tablosu"
+            "name": "11-20 Tabla de Multiplicar"
           }
         },
         {
@@ -45,7 +45,7 @@ const schemaData = {
           "position": 3,
           "item": {
             "@id": "https://tablasdemultiplicar.online/tabla/14",
-            "name": "14 Çarpım Tablosu"
+            "name": "14 Tabla de Multiplicar"
           }
         }
       ]
@@ -53,11 +53,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://tablasdemultiplicar.online/tabla/14#learningresource",
-      "name": "14 Çarpım Tablosu Öğrenme Kaynağı",
-      "description": "14 ile çarpma: İki hafta (14 gün), 7×2 ilişkisi, çift sayı desenleri ve günlük hayat uygulamaları.",
+      "name": "14 Tabla de Multiplicar Recurso de Aprendizaje",
+      "description": "14 Multiplicar por: İki hafta (14 gün), 7×2 ilişkisi, çift sayı desenleri ve günlük hayat uygulamaları.",
       "educationalLevel": "Beginner",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "14 çarpım tablosu, hafta hesaplama, 7 tablosunun katları",
+      "teaches": "14 Tabla de Multiplicar, hafta hesaplama, 7 tablosunun katları",
       "typicalAgeRange": "7-10",
       "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study", "real-world application"],
@@ -73,9 +73,9 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: '14 Çarpım Tablosu - Eğlenceli Oyunlar ve Pratik Egzersizleri',
-  description: '14 çarpım tablosunu eğlenceli oyunlar ve interaktif alıştırmalarla öğrenin. Çocuklar için görsel yardımcılar, pratik ipuçları ve kolay ezber teknikleri.',
-  keywords: '14 çarpım tablosu, on dört çarpım tablosu, 14 ile çarpma, çarpım tablosu öğrenme, matematik oyunları',
+  title: '14 Tabla de Multiplicar - Juegos Divertidos y Ejercicios Prácticos',
+  description: '14 Tabla de Multiplicar con juegos divertidos y ejercicios interactivos. Ayudas visuales para niños, consejos prácticos y técnicas fáciles de memorización.',
+  keywords: '14 Tabla de Multiplicar, on dört Tabla de Multiplicar, 14 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
   alternates: {
     canonical: '/tabla/14',
   },

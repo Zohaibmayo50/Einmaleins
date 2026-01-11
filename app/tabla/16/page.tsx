@@ -1,4 +1,4 @@
-import NumberPage from '@/app/components/NumberPage'
+﻿import NumberPage from '@/app/components/NumberPage'
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://tablasdemultiplicar.online/tabla/16#webpage",
       "url": "https://tablasdemultiplicar.online/tabla/16",
-      "name": "16 Çarpım Tablosu - Kare Sayı İlişkisi",
-      "description": "16 çarpım tablosu ile kare sayı kavramını öğrenin. 4×4=16 ilişkisi ve kolay stratejilerle 16 ile çarpma.",
+      "name": "16 Tabla de Multiplicar - Kare Sayı İlişkisi",
+      "description": "16 Tabla de Multiplicar ile kare sayı kavramını öğrenin. 4×4=16 ilişkisi ve kolay stratejilerle 16 Multiplicar por.",
       "isPartOf": {
         "@id": "https://tablasdemultiplicar.online/#website"
       },
@@ -37,7 +37,7 @@ const schemaData = {
           "position": 2,
           "item": {
             "@id": "https://tablasdemultiplicar.online/11-20",
-            "name": "11-20 Çarpım Tablosu"
+            "name": "11-20 Tabla de Multiplicar"
           }
         },
         {
@@ -45,7 +45,7 @@ const schemaData = {
           "position": 3,
           "item": {
             "@id": "https://tablasdemultiplicar.online/tabla/16",
-            "name": "16 Çarpım Tablosu"
+            "name": "16 Tabla de Multiplicar"
           }
         }
       ]
@@ -53,11 +53,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://tablasdemultiplicar.online/tabla/16#learningresource",
-      "name": "16 Çarpım Tablosu Öğrenme Kaynağı",
-      "description": "16 ile çarpma: 4'ün karesi (4×4=16), ikili katlar (8×2), çift sayı desenleri ve geometrik uygulamalar.",
+      "name": "16 Tabla de Multiplicar Recurso de Aprendizaje",
+      "description": "16 Multiplicar por: 4'ün karesi (4×4=16), ikili katlar (8×2), çift sayı desenleri ve geometrik uygulamalar.",
       "educationalLevel": "Beginner",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "16 çarpım tablosu, kare sayılar, 4 tablosunun katları",
+      "teaches": "16 Tabla de Multiplicar, kare sayılar, 4 tablosunun katları",
       "typicalAgeRange": "7-10",
       "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study"],
@@ -73,9 +73,9 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: '16 Çarpım Tablosu - Eğlenceli Oyunlar ve Pratik Egzersizleri',
-  description: '16 çarpım tablosunu eğlenceli oyunlar ve interaktif alıştırmalarla öğrenin. Çocuklar için görsel yardımcılar, pratik ipuçları ve kolay ezber teknikleri.',
-  keywords: '16 çarpım tablosu, on altı çarpım tablosu, 16 ile çarpma, çarpım tablosu öğrenme, matematik oyunları',
+  title: '16 Tabla de Multiplicar - Juegos Divertidos y Ejercicios Prácticos',
+  description: '16 Tabla de Multiplicar con juegos divertidos y ejercicios interactivos. Ayudas visuales para niños, consejos prácticos y técnicas fáciles de memorización.',
+  keywords: '16 Tabla de Multiplicar, on altı Tabla de Multiplicar, 16 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
   alternates: {
     canonical: '/tabla/16',
   },

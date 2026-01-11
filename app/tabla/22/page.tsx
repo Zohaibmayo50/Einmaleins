@@ -1,4 +1,4 @@
-import NumberPage from '@/app/components/NumberPage'
+﻿import NumberPage from '@/app/components/NumberPage'
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://tablasdemultiplicar.online/tabla/22#webpage",
       "url": "https://tablasdemultiplicar.online/tabla/22",
-      "name": "22 Çarpım Tablosu - Çift Sayı Desenleri",
-      "description": "22 çarpım tablosu ile 2 ve 11 tablolarının ilişkisini öğrenin. Çift sayı desenleri ve kolay çarpma stratejileri.",
+      "name": "22 Tabla de Multiplicar - Çift Sayı Desenleri",
+      "description": "22 Tabla de Multiplicar ile 2 ve 11 tablolarının ilişkisini öğrenin. Çift sayı desenleri ve kolay çarpma stratejileri.",
       "isPartOf": {
         "@id": "https://tablasdemultiplicar.online/#website"
       },
@@ -37,7 +37,7 @@ const schemaData = {
           "position": 2,
           "item": {
             "@id": "https://tablasdemultiplicar.online/21-30",
-            "name": "21-30 Çarpım Tablosu"
+            "name": "21-30 Tabla de Multiplicar"
           }
         },
         {
@@ -45,7 +45,7 @@ const schemaData = {
           "position": 3,
           "item": {
             "@id": "https://tablasdemultiplicar.online/tabla/22",
-            "name": "22 Çarpım Tablosu"
+            "name": "22 Tabla de Multiplicar"
           }
         }
       ]
@@ -53,11 +53,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://tablasdemultiplicar.online/tabla/22#learningresource",
-      "name": "22 Çarpım Tablosu Öğrenme Kaynağı",
-      "description": "22 ile çarpma: 2 ve 11 tablolarının birleşimi (2×11=22), çift sayı desenleri ve ikiye katlama.",
+      "name": "22 Tabla de Multiplicar Recurso de Aprendizaje",
+      "description": "22 Multiplicar por: 2 ve 11 tablolarının birleşimi (2×11=22), çift sayı desenleri ve ikiye katlama.",
       "educationalLevel": "Intermediate",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "22 çarpım tablosu, 2×11 ilişkisi, çift sayılar",
+      "teaches": "22 Tabla de Multiplicar, 2×11 ilişkisi, çift sayılar",
       "typicalAgeRange": "8-11",
       "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study"],
@@ -73,9 +73,9 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: '22 Çarpım Tablosu - Eğlenceli Oyunlar ve Pratik Egzersizleri',
-  description: '22 çarpım tablosunu eğlenceli oyunlar ve interaktif alıştırmalarla öğrenin. Çocuklar için görsel yardımcılar, pratik ipuçları ve kolay ezber teknikleri.',
-  keywords: '22 çarpım tablosu, yirmi iki çarpım tablosu, 22 ile çarpma, çarpım tablosu öğrenme, matematik oyunları',
+  title: '22 Tabla de Multiplicar - Juegos Divertidos y Ejercicios Prácticos',
+  description: '22 Tabla de Multiplicar con juegos divertidos y ejercicios interactivos. Ayudas visuales para niños, consejos prácticos y técnicas fáciles de memorización.',
+  keywords: '22 Tabla de Multiplicar, yirmi iki Tabla de Multiplicar, 22 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
   alternates: {
     canonical: '/tabla/22',
   },

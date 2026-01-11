@@ -1,4 +1,4 @@
-import NumberPage from '@/app/components/NumberPage'
+﻿import NumberPage from '@/app/components/NumberPage'
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://tablasdemultiplicar.online/tabla/20#webpage",
       "url": "https://tablasdemultiplicar.online/tabla/20",
-      "name": "20 Çarpım Tablosu - Yirmili Sistem",
-      "description": "20 çarpım tablosu ile yirmili sayma sistemini öğrenin. Kolay 0 ekleme stratejisi ve pratik uygulamalar.",
+      "name": "20 Tabla de Multiplicar - Yirmili Sistem",
+      "description": "20 Tabla de Multiplicar ile yirmili sayma sistemini öğrenin. Kolay 0 ekleme stratejisi ve pratik uygulamalar.",
       "isPartOf": {
         "@id": "https://tablasdemultiplicar.online/#website"
       },
@@ -37,7 +37,7 @@ const schemaData = {
           "position": 2,
           "item": {
             "@id": "https://tablasdemultiplicar.online/11-20",
-            "name": "11-20 Çarpım Tablosu"
+            "name": "11-20 Tabla de Multiplicar"
           }
         },
         {
@@ -45,7 +45,7 @@ const schemaData = {
           "position": 3,
           "item": {
             "@id": "https://tablasdemultiplicar.online/tabla/20",
-            "name": "20 Çarpım Tablosu"
+            "name": "20 Tabla de Multiplicar"
           }
         }
       ]
@@ -53,11 +53,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://tablasdemultiplicar.online/tabla/20#learningresource",
-      "name": "20 Çarpım Tablosu Öğrenme Kaynağı",
-      "description": "20 ile çarpma: Yirmili sayma sistemi, 2×10 ilişkisi, sonu 0 ile biten sayı deseni, para hesaplama (20 TL).",
+      "name": "20 Tabla de Multiplicar Recurso de Aprendizaje",
+      "description": "20 Multiplicar por: Yirmili sayma sistemi, 2×10 ilişkisi, sonu 0 ile biten sayı deseni, para hesaplama (20 TL).",
       "educationalLevel": "Beginner",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "20 çarpım tablosu, yirmili sistem, 10 tablosunun katları, para hesaplama",
+      "teaches": "20 Tabla de Multiplicar, yirmili sistem, 10 tablosunun katları, para hesaplama",
       "typicalAgeRange": "7-10",
       "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study", "real-world application"],
@@ -73,9 +73,9 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: '20 Çarpım Tablosu - Eğlenceli Oyunlar ve Pratik Egzersizleri',
-  description: '20 çarpım tablosunu eğlenceli oyunlar ve interaktif alıştırmalarla öğrenin. Çocuklar için görsel yardımcılar, pratik ipuçları ve kolay ezber teknikleri.',
-  keywords: '20 çarpım tablosu, yirmi çarpım tablosu, 20 ile çarpma, çarpım tablosu öğrenme, matematik oyunları',
+  title: '20 Tabla de Multiplicar - Juegos Divertidos y Ejercicios Prácticos',
+  description: '20 Tabla de Multiplicar con juegos divertidos y ejercicios interactivos. Ayudas visuales para niños, consejos prácticos y técnicas fáciles de memorización.',
+  keywords: '20 Tabla de Multiplicar, yirmi Tabla de Multiplicar, 20 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
   alternates: {
     canonical: '/tabla/20',
   },

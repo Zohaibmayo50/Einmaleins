@@ -1,4 +1,4 @@
-import NumberPage from '@/app/components/NumberPage'
+﻿import NumberPage from '@/app/components/NumberPage'
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://tablasdemultiplicar.online/tabla/26#webpage",
       "url": "https://tablasdemultiplicar.online/tabla/26",
-      "name": "26 Çarpım Tablosu - İki Kat 13",
-      "description": "26 çarpım tablosu ile 2×13 ilişkisini ve çift sayı desenlerini öğrenin. Orta seviye çarpma becerileri.",
+      "name": "26 Tabla de Multiplicar - İki Kat 13",
+      "description": "26 Tabla de Multiplicar ile 2×13 ilişkisini ve çift sayı desenlerini öğrenin. Orta seviye çarpma becerileri.",
       "isPartOf": {
         "@id": "https://tablasdemultiplicar.online/#website"
       },
@@ -37,7 +37,7 @@ const schemaData = {
           "position": 2,
           "item": {
             "@id": "https://tablasdemultiplicar.online/21-30",
-            "name": "21-30 Çarpım Tablosu"
+            "name": "21-30 Tabla de Multiplicar"
           }
         },
         {
@@ -45,7 +45,7 @@ const schemaData = {
           "position": 3,
           "item": {
             "@id": "https://tablasdemultiplicar.online/tabla/26",
-            "name": "26 Çarpım Tablosu"
+            "name": "26 Tabla de Multiplicar"
           }
         }
       ]
@@ -53,11 +53,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://tablasdemultiplicar.online/tabla/26#learningresource",
-      "name": "26 Çarpım Tablosu Öğrenme Kaynağı",
-      "description": "26 ile çarpma: 2 ve 13 tablolarının birleşimi (2×13=26), çift sayı desenleri.",
+      "name": "26 Tabla de Multiplicar Recurso de Aprendizaje",
+      "description": "26 Multiplicar por: 2 ve 13 tablolarının birleşimi (2×13=26), çift sayı desenleri.",
       "educationalLevel": "Intermediate",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "26 çarpım tablosu, 2×13 ilişkisi, çift sayılar",
+      "teaches": "26 Tabla de Multiplicar, 2×13 ilişkisi, çift sayılar",
       "typicalAgeRange": "8-11",
       "inLanguage": "es-MX",
       "educationalUse": ["practice", "self-study"],
@@ -73,9 +73,9 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: '26 Çarpım Tablosu - Eğlenceli Oyunlar ve Pratik Egzersizleri',
-  description: '26 çarpım tablosunu eğlenceli oyunlar ve interaktif alıştırmalarla öğrenin. Çocuklar için görsel yardımcılar, pratik ipuçları ve kolay ezber teknikleri.',
-  keywords: '26 çarpım tablosu, yirmi altı çarpım tablosu, 26 ile çarpma, çarpım tablosu öğrenme, matematik oyunları',
+  title: '26 Tabla de Multiplicar - Juegos Divertidos y Ejercicios Prácticos',
+  description: '26 Tabla de Multiplicar con juegos divertidos y ejercicios interactivos. Ayudas visuales para niños, consejos prácticos y técnicas fáciles de memorización.',
+  keywords: '26 Tabla de Multiplicar, yirmi altı Tabla de Multiplicar, 26 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
   alternates: {
     canonical: '/tabla/26',
   },
