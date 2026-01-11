@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     description: 'Aprende las tablas de multiplicar paso a paso, compréndelas y practica.',
   },
   verification: {
-    google: 'your-google-site-verification',
+    google: 'ptAG3AHUZPPQ3LSoZ9eP6prlbhZYHMJzeVsu7V8f6RE',
   },
 }
 
