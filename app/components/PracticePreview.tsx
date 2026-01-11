@@ -105,25 +105,25 @@ export default function PracticePreview({ rangeStart = 1, rangeEnd = 10 }: Pract
   const exercises = [
     {
       level: 'Fácil',
-      range: 'Tablas 2-5',
+      range: rangeStart === rangeEnd ? `Tabla del ${rangeStart}` : `Tablas ${rangeStart}-${Math.min(rangeStart + 4, rangeEnd)}`,
       questions: '20 Preguntas',
       color: 'bg-green-100 text-green-700 border-green-300'
     },
     {
       level: 'Medio',
-      range: 'Tablas 6-8',
+      range: rangeStart === rangeEnd ? `Tabla del ${rangeStart}` : `Tablas ${rangeStart}-${Math.min(rangeStart + 7, rangeEnd)}`,
       questions: '30 Preguntas',
       color: 'bg-yellow-100 text-yellow-700 border-yellow-300'
     },
     {
       level: 'Difícil',
-      range: 'Tablas 9-12',
+      range: rangeStart === rangeEnd ? `Tabla del ${rangeStart}` : `Tablas ${Math.max(rangeStart, rangeEnd - 5)}-${rangeEnd}`,
       questions: '40 Preguntas',
       color: 'bg-orange-100 text-orange-700 border-orange-300'
     },
     {
       level: 'Experto',
-      range: 'Todas las Tablas Mezcladas',
+      range: rangeStart === rangeEnd ? `Tabla del ${rangeStart}` : `Tablas ${rangeStart}-${rangeEnd}`,
       questions: '50 Preguntas',
       color: 'bg-red-100 text-red-700 border-red-300'
     }
