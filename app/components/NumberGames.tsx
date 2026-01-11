@@ -156,9 +156,10 @@ export default function NumberGames({ number }: NumberGamesProps) {
   const checkRaceAnswer = (selected: number) => {
     if (selected === raceCar.question.answer) {
       setRaceScore(raceScore + 1)
-      setRaceCar(prev => ({ ...prev, position: prev.position + 10 }))
+      const newPosition = raceCar.position + 10
+      setRaceCar(prev => ({ ...prev, position: newPosition }))
       
-      if (raceCar.position >= 90) {
+      if (newPosition >= 100) {
         setRaceGameActive(false)
       } else {
         setTimeout(() => generateRaceQuestion(), 300)
