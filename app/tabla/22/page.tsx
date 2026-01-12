@@ -5,79 +5,79 @@ const schemaData = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://tablasdemultiplicar.online/tabla/22#webpage",
-      "url": "https://tablasdemultiplicar.online/tabla/22",
-      "name": "22 Tabla de Multiplicar - Çift Sayı Desenleri",
-      "description": "22 Tabla de Multiplicar ile 2 ve 11 tablolarının ilişkisini öğrenin. Çift sayı desenleri ve kolay çarpma stratejileri.",
+      "@id": "https://einmaleins.online/einmaleins/22#webpage",
+      "url": "https://einmaleins.online/einmaleins/22",
+      "name": "22er-Einmaleins - Çift Sayı Desenleri",
+      "description": "22er-Einmaleins ile 2 ve 11 tablolarının ilişkisini öğrenin. Çift sayı desenleri ve kolay çarpma stratejileri.",
       "isPartOf": {
-        "@id": "https://tablasdemultiplicar.online/#website"
+        "@id": "https://einmaleins.online/#website"
       },
       "about": {
-        "@id": "https://tablasdemultiplicar.online/tabla/22#learningresource"
+        "@id": "https://einmaleins.online/einmaleins/22#learningresource"
       },
       "breadcrumb": {
-        "@id": "https://tablasdemultiplicar.online/tabla/22#breadcrumb"
+        "@id": "https://einmaleins.online/einmaleins/22#breadcrumb"
       },
-      "inLanguage": "es-MX"
+      "inLanguage": "de"
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://tablasdemultiplicar.online/tabla/22#breadcrumb",
+      "@id": "https://einmaleins.online/einmaleins/22#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
           "position": 1,
           "item": {
-            "@id": "https://tablasdemultiplicar.online/",
-            "name": "Inicio"
+            "@id": "https://einmaleins.online/",
+            "name": "Startseite"
           }
         },
         {
           "@type": "ListItem",
           "position": 2,
           "item": {
-            "@id": "https://tablasdemultiplicar.online/21-30",
-            "name": "21-30 Tabla de Multiplicar"
+            "@id": "https://einmaleins.online/21-30",
+            "name": "Einmaleins 21-30"
           }
         },
         {
           "@type": "ListItem",
           "position": 3,
           "item": {
-            "@id": "https://tablasdemultiplicar.online/tabla/22",
-            "name": "22 Tabla de Multiplicar"
+            "@id": "https://einmaleins.online/einmaleins/22",
+            "name": "22er-Einmaleins"
           }
         }
       ]
     },
     {
       "@type": "LearningResource",
-      "@id": "https://tablasdemultiplicar.online/tabla/22#learningresource",
-      "name": "22 Tabla de Multiplicar Recurso de Aprendizaje",
-      "description": "22 Multiplicar por: 2 ve 11 tablolarının birleşimi (2×11=22), çift sayı desenleri ve ikiye katlama.",
+      "@id": "https://einmaleins.online/einmaleins/22#learningresource",
+      "name": "22er-Einmaleins Recurso de Aprendizaje",
+      "description": "22 Multiplikation por: 2 ve 11 tablolarının birleşimi (2×11=22), çift sayı desenleri ve ikiye katlama.",
       "educationalLevel": "Intermediate",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "22 Tabla de Multiplicar, 2×11 ilişkisi, çift sayılar",
+      "teaches": "22er-Einmaleins, 2×11 ilişkisi, çift sayılar",
       "typicalAgeRange": "8-11",
-      "inLanguage": "es-MX",
+      "inLanguage": "de",
       "educationalUse": ["practice", "self-study"],
       "audience": {
         "@type": "EducationalAudience",
         "educationalRole": ["student"]
       },
       "isPartOf": {
-        "@id": "https://tablasdemultiplicar.online/21-30#learningresource"
+        "@id": "https://einmaleins.online/21-30#learningresource"
       }
     }
   ]
 }
 
 export const metadata = {
-  title: '22 Tabla de Multiplicar - Juegos Divertidos y Ejercicios Prácticos',
-  description: '22 Tabla de Multiplicar con juegos divertidos y ejercicios interactivos. Ayudas visuales para niños, consejos prácticos y técnicas fáciles de memorización.',
-  keywords: '22 Tabla de Multiplicar, yirmi iki Tabla de Multiplicar, 22 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
+  title: '22er-Einmaleins | Lerne Multiplikation mit 22',
+  description: 'Meistere das 22er-Einmaleins. Klare ErklÃ¤rungen, Muster und praktische Ãœbungsstrategien.',
+  keywords: '22er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {
-    canonical: '/tabla/22',
+    canonical: '/einmaleins/22',
   },
 }
 

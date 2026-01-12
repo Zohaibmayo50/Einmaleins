@@ -5,28 +5,28 @@ const schemaData = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://tablasdemultiplicar.online/91-100#webpage",
-      "url": "https://tablasdemultiplicar.online/91-100",
-      "name": "Tablas de Multiplicar del 91 al 100 - Nivel Avanzado",
-      "description": "Aprende las tablas de multiplicar del 91 al 100. Recursos educativos completos para las tablas de multiplicar de nivel más avanzado.",
+      "@id": "https://einmaleins.online/91-100#webpage",
+      "url": "https://einmaleins.online/91-100",
+      "name": "Einmaleins-Tabellen von 91 bis 100 - Fortgeschrittenes Level",
+      "description": "Lerne die Einmaleins-Tabellen von 91 bis 100. Umfassende Lernressourcen für die anspruchsvollsten Einmaleins-Tabellen.",
       "isPartOf": {
-        "@id": "https://tablasdemultiplicar.online/#website"
+        "@id": "https://einmaleins.online/#website"
       },
       "about": {
-        "@id": "https://tablasdemultiplicar.online/91-100#learningresource"
+        "@id": "https://einmaleins.online/91-100#learningresource"
       },
-      "inLanguage": "es"
+      "inLanguage": "de"
     },
     {
       "@type": "LearningResource",
-      "@id": "https://tablasdemultiplicar.online/91-100#learningresource",
-      "name": "Recurso de Aprendizaje Tablas del 91 al 100",
-      "description": "Tablas de multiplicar de nivel más avanzado: Aprende las tablas de multiplicar de los números del 91 al 100 con ejercicios prácticos. Completa tus habilidades de multiplicación con la tabla del 100.",
+      "@id": "https://einmaleins.online/91-100#learningresource",
+      "name": "Lernressource Einmaleins-Tabellen von 91 bis 100",
+      "description": "Einmaleins-Tabellen höchstes Level: Lerne die Einmaleins-Tabellen der Zahlen von 91 bis 100 mit praktischen Übungen. Vervollständige deine Multiplikationsfähigkeiten mit der Einmaleins-Tabelle von 100.",
       "educationalLevel": "Advanced",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "Habilidades para comprender y aplicar las tablas de multiplicar del 91 al 100",
+      "teaches": "Fähigkeiten zum Verstehen und Anwenden der Einmaleins-Tabellen von 91 bis 100",
       "typicalAgeRange": "10-12",
-      "inLanguage": "es",
+      "inLanguage": "de",
       "educationalUse": ["practice", "self-study", "homework"],
       "audience": {
         "@type": "EducationalAudience",
@@ -38,9 +38,9 @@ const schemaData = {
 
 
 export const metadata = {
-  title: 'Tablas de Multiplicar del 91 al 100 | Nivel Más Alto',
-  description: 'Aprende las tablas de multiplicar del 91, 92, 93, 94, 95, 96, 97, 98, 99, 100. Educación completa para habilidades de multiplicación de nivel más alto.',
-  keywords: 'tablas de multiplicar del 91 al 100, tablas de multiplicar, multiplicación, aprendizaje de matemáticas',
+  title: 'Einmaleins-Tabellen von 91 bis 100 | Höchstes Level',
+  description: 'Lerne die Einmaleins-Tabellen von 91, 92, 93, 94, 95, 96, 97, 98, 99, 100. Umfassende Bildung für Multiplikationsfähigkeiten auf höchstem Level.',
+  keywords: 'einmaleins tabellen von 91 bis 100, einmaleins tabellen, multiplikation, mathematik lernen, großes einmaleins',
   alternates: {
     canonical: '/91-100',
   },

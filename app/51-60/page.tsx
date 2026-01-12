@@ -5,28 +5,28 @@ const schemaData = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://tablasdemultiplicar.online/51-60#webpage",
-      "url": "https://tablasdemultiplicar.online/51-60",
-      "name": "Tablas de Multiplicar del 51 al 60 - Nivel Avanzado",
-      "description": "Aprende las tablas de multiplicar del 51 al 60. Prácticas de multiplicación con números grandes para estudiantes de nivel avanzado.",
+      "@id": "https://einmaleins.online/51-60#webpage",
+      "url": "https://einmaleins.online/51-60",
+      "name": "Einmaleins-Tabellen von 51 bis 60 - Fortgeschrittenes Level",
+      "description": "Lerne die Einmaleins-Tabellen von 51 bis 60. Multiplikationsübungen mit großen Zahlen für Schüler auf fortgeschrittenem Level.",
       "isPartOf": {
-        "@id": "https://tablasdemultiplicar.online/#website"
+        "@id": "https://einmaleins.online/#website"
       },
       "about": {
-        "@id": "https://tablasdemultiplicar.online/51-60#learningresource"
+        "@id": "https://einmaleins.online/51-60#learningresource"
       },
-      "inLanguage": "es"
+      "inLanguage": "de"
     },
     {
       "@type": "LearningResource",
-      "@id": "https://tablasdemultiplicar.online/51-60#learningresource",
-      "name": "Recurso de Aprendizaje Tablas del 51 al 60",
-      "description": "Tablas de multiplicar nivel avanzado: Aprende las tablas de multiplicar de los números del 51 al 60 con ejercicios prácticos.",
+      "@id": "https://einmaleins.online/51-60#learningresource",
+      "name": "Lernressource Einmaleins-Tabellen von 51 bis 60",
+      "description": "Einmaleins-Tabellen fortgeschrittenes Level: Lerne die Einmaleins-Tabellen der Zahlen von 51 bis 60 mit praktischen Übungen.",
       "educationalLevel": "Advanced",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "Habilidades para comprender y aplicar las tablas de multiplicar del 51 al 60",
+      "teaches": "Fähigkeiten zum Verstehen und Anwenden der Einmaleins-Tabellen von 51 bis 60",
       "typicalAgeRange": "9-12",
-      "inLanguage": "es",
+      "inLanguage": "de",
       "educationalUse": ["practice", "self-study", "homework"],
       "audience": {
         "@type": "EducationalAudience",
@@ -38,9 +38,9 @@ const schemaData = {
 
 
 export const metadata = {
-  title: 'Tablas de Multiplicar del 51 al 60 | Nivel Avanzado',
-  description: 'Aprende las tablas de multiplicar del 51, 52, 53, 54, 55, 56, 57, 58, 59, 60. Materiales de estudio detallados para estudiantes de nivel avanzado.',
-  keywords: 'tablas de multiplicar del 51 al 60, tablas de multiplicar, multiplicación, aprendizaje de matemáticas',
+  title: 'Einmaleins-Tabellen von 51 bis 60 | Fortgeschrittenes Level',
+  description: 'Lerne die Einmaleins-Tabellen von 51, 52, 53, 54, 55, 56, 57, 58, 59, 60. Detaillierte Lernmaterialien für Schüler auf fortgeschrittenem Level.',
+  keywords: 'einmaleins tabellen von 51 bis 60, einmaleins tabellen, multiplikation, mathematik lernen, großes einmaleins',
   alternates: {
     canonical: '/51-60',
   },

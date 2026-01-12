@@ -5,47 +5,47 @@ const schemaData = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://tablasdemultiplicar.online/tabla/29#webpage",
-      "url": "https://tablasdemultiplicar.online/tabla/29",
-      "name": "29 Tabla de Multiplicar - Asal Sayı Desenleri",
-      "description": "29 Tabla de Multiplicar ile asal sayı özelliklerini keşfedin. İleri seviye çarpma becerileri geliştirin.",
-      "isPartOf": {"@id": "https://tablasdemultiplicar.online/#website"},
-      "about": {"@id": "https://tablasdemultiplicar.online/tabla/29#learningresource"},
-      "breadcrumb": {"@id": "https://tablasdemultiplicar.online/tabla/29#breadcrumb"},
-      "inLanguage": "es-MX"
+      "@id": "https://einmaleins.online/einmaleins/29#webpage",
+      "url": "https://einmaleins.online/einmaleins/29",
+      "name": "29er-Einmaleins - Asal Sayı Desenleri",
+      "description": "29er-Einmaleins ile asal sayı özelliklerini keşfedin. İleri seviye çarpma becerileri geliştirin.",
+      "isPartOf": {"@id": "https://einmaleins.online/#website"},
+      "about": {"@id": "https://einmaleins.online/einmaleins/29#learningresource"},
+      "breadcrumb": {"@id": "https://einmaleins.online/einmaleins/29#breadcrumb"},
+      "inLanguage": "de"
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://tablasdemultiplicar.online/tabla/29#breadcrumb",
+      "@id": "https://einmaleins.online/einmaleins/29#breadcrumb",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "item": {"@id": "https://tablasdemultiplicar.online/", "name": "Inicio"}},
-        {"@type": "ListItem", "position": 2, "item": {"@id": "https://tablasdemultiplicar.online/21-30", "name": "21-30 Tabla de Multiplicar"}},
-        {"@type": "ListItem", "position": 3, "item": {"@id": "https://tablasdemultiplicar.online/tabla/29", "name": "29 Tabla de Multiplicar"}}
+        {"@type": "ListItem", "position": 1, "item": {"@id": "https://einmaleins.online/", "name": "Startseite"}},
+        {"@type": "ListItem", "position": 2, "item": {"@id": "https://einmaleins.online/21-30", "name": "Einmaleins 21-30"}},
+        {"@type": "ListItem", "position": 3, "item": {"@id": "https://einmaleins.online/einmaleins/29", "name": "29er-Einmaleins"}}
       ]
     },
     {
       "@type": "LearningResource",
-      "@id": "https://tablasdemultiplicar.online/tabla/29#learningresource",
-      "name": "29 Tabla de Multiplicar Recurso de Aprendizaje",
-      "description": "29 Multiplicar por: Asal sayı özellikleri ve ileri düzey çarpma pratikleri.",
+      "@id": "https://einmaleins.online/einmaleins/29#learningresource",
+      "name": "29er-Einmaleins Recurso de Aprendizaje",
+      "description": "29 Multiplikation por: Asal sayı özellikleri ve ileri düzey çarpma pratikleri.",
       "educationalLevel": "Intermediate",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "29 Tabla de Multiplicar, asal sayı kavramı, ileri çarpma",
+      "teaches": "29er-Einmaleins, asal sayı kavramı, ileri çarpma",
       "typicalAgeRange": "8-11",
-      "inLanguage": "es-MX",
+      "inLanguage": "de",
       "educationalUse": ["practice", "self-study"],
       "audience": {"@type": "EducationalAudience", "educationalRole": ["student"]},
-      "isPartOf": {"@id": "https://tablasdemultiplicar.online/21-30#learningresource"}
+      "isPartOf": {"@id": "https://einmaleins.online/21-30#learningresource"}
     }
   ]
 }
 
 export const metadata = {
-  title: '29 Tabla de Multiplicar - Juegos Divertidos y Ejercicios Prácticos',
-  description: '29 Tabla de Multiplicar con juegos divertidos y ejercicios interactivos. Ayudas visuales para niños, consejos prácticos y técnicas fáciles de memorización.',
-  keywords: '29 Tabla de Multiplicar, yirmi dokuz Tabla de Multiplicar, 29 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
+  title: '29er-Einmaleins | Lerne Multiplikation mit 29',
+  description: 'Meistere das 29er-Einmaleins. Klare ErklÃ¤rungen, Muster und praktische Ãœbungsstrategien.',
+  keywords: '29er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {
-    canonical: '/tabla/29',
+    canonical: '/einmaleins/29',
   },
 }
 

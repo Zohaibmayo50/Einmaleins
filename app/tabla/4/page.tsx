@@ -5,78 +5,78 @@ const schemaData = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://tablasdemultiplicar.online/tabla/4#webpage",
-      "url": "https://tablasdemultiplicar.online/tabla/4",
-      "name": "Tabla del 4 - Multiplicar por 1",
-      "description": "Aprende el concepto bÃ¡sico de multiplicar por 1. Propiedad de identidad, patrones y estrategias prÃ¡cticas para comprender las multiplicaciones por 1.",
+      "@id": "https://einmaleins.online/einmaleins/4#webpage",
+      "url": "https://einmaleins.online/einmaleins/4",
+      "name": "4er-Einmaleins - Multiplikation mit 4",
+      "description": "Lerne el concepto bÃ¡sico de Multiplikation mit 4. Propiedad de identidad, patrones y estrategias prÃ¡cticas para comprender las multiplicaciones por 1.",
       "isPartOf": {
-        "@id": "https://tablasdemultiplicar.online/#website"
+        "@id": "https://einmaleins.online/#website"
       },
       "about": {
-        "@id": "https://tablasdemultiplicar.online/tabla/4#learningresource"
+        "@id": "https://einmaleins.online/einmaleins/4#learningresource"
       },
       "breadcrumb": {
-        "@id": "https://tablasdemultiplicar.online/tabla/4#breadcrumb"
+        "@id": "https://einmaleins.online/einmaleins/4#breadcrumb"
       },
-      "inLanguage": "es-MX"
+      "inLanguage": "de"
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://tablasdemultiplicar.online/tabla/4#breadcrumb",
+      "@id": "https://einmaleins.online/einmaleins/4#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
           "position": 1,
           "item": {
-            "@id": "https://tablasdemultiplicar.online/",
-            "name": "Inicio"
+            "@id": "https://einmaleins.online/",
+            "name": "Startseite"
           }
         },
         {
           "@type": "ListItem",
           "position": 2,
           "item": {
-            "@id": "https://tablasdemultiplicar.online/1-10",
-            "name": "Tablas 1-10"
+            "@id": "https://einmaleins.online/1-10",
+            "name": "Einmaleins 1-10"
           }
         },
         {
           "@type": "ListItem",
           "position": 3,
           "item": {
-            "@id": "https://tablasdemultiplicar.online/tabla/4",
-            "name": "Tabla del 4"
+            "@id": "https://einmaleins.online/einmaleins/4",
+            "name": "4er-Einmaleins"
           }
         }
       ]
     },
     {
       "@type": "LearningResource",
-      "@id": "https://tablasdemultiplicar.online/tabla/4#learningresource",
-      "name": "Recurso de aprendizaje: Tabla del 4",
-      "description": "Multiplicar por 1 (propiedad de identidad): cualquier nÃºmero multiplicado por 1 es el mismo nÃºmero. Aprende las reglas bÃ¡sicas de la multiplicaciÃ³n.",
-      "educationalLevel": "Principiante",
+      "@id": "https://einmaleins.online/einmaleins/4#learningresource",
+      "name": "Lernressource: 4er-Einmaleins",
+      "description": "Multiplikation mit 4 (propiedad de identidad): cualquier nÃºmero multiplicado por 1 es el mismo nÃºmero. Lerne las reglas bÃ¡sicas de la multiplicaciÃ³n.",
+      "educationalLevel": "Beginner",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "Tabla del 4, propiedad de identidad, conceptos bÃ¡sicos de multiplicaciÃ³n",
+      "teaches": "4er-Einmaleins, propiedad de identidad, conceptos bÃ¡sicos de multiplicaciÃ³n",
       "typicalAgeRange": "6-8",
-      "inLanguage": "es-MX",
+      "inLanguage": "de",
       "educationalUse": ["practice", "self-study"],
       "audience": {
         "@type": "EducationalAudience",
         "educationalRole": ["student"]
       },
       "isPartOf": {
-        "@id": "https://tablasdemultiplicar.online/1-10#learningresource"
+        "@id": "https://einmaleins.online/1-10#learningresource"
       }
     }
   ]
 }
 
 export const metadata = {
-  title: 'Tabla del 4 | Aprende a multiplicar por 1',
-  description: 'Domina la Tabla del 4. Explicaciones claras, patrones y estrategias prÃ¡cticas para comprender la propiedad de identidad y sentar las bases de la multiplicaciÃ³n.',
+  title: '4er-Einmaleins | Lerne a Multiplikation mit 4',
+  description: 'Meistere das 4er-Einmaleins. Klare ErklÃ¤rungen, Muster und praktische Ãœbungsstrategien.',
   alternates: {
-    canonical: '/tabla/4',
+    canonical: '/einmaleins/4',
   },
 }
 

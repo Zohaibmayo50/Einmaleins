@@ -5,38 +5,38 @@ const schemaData = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://tablasdemultiplicar.online/tabla/11#webpage",
-      "url": "https://tablasdemultiplicar.online/tabla/11",
-      "name": "11 Tabla de Multiplicar - Introducción a Números de Dos Dígitos",
-      "description": "11 Tabla de Multiplicar y transiciona a números de dos dígitos. Con patrones y estrategias fáciles, aprende a multiplicar por 11 Multiplicar por .",
+      "@id": "https://einmaleins.online/einmaleins/11#webpage",
+      "url": "https://einmaleins.online/einmaleins/11",
+      "name": "11er-Einmaleins - Introducción a Números de Dos Dígitos",
+      "description": "11er-Einmaleins y transiciona a números de dos dígitos. Con patrones y estrategias fáciles, Lerne a Multiplikation mit 11 Multiplicar por .",
       "isPartOf": {
-        "@id": "https://tablasdemultiplicar.online/#website"
+        "@id": "https://einmaleins.online/#website"
       },
       "about": {
-        "@id": "https://tablasdemultiplicar.online/tabla/11#learningresource"
+        "@id": "https://einmaleins.online/einmaleins/11#learningresource"
       },
       "breadcrumb": {
-        "@id": "https://tablasdemultiplicar.online/tabla/11#breadcrumb"
+        "@id": "https://einmaleins.online/einmaleins/11#breadcrumb"
       },
-      "inLanguage": "es-MX"
+      "inLanguage": "de"
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://tablasdemultiplicar.online/tabla/11#breadcrumb",
+      "@id": "https://einmaleins.online/einmaleins/11#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
           "position": 1,
           "item": {
-            "@id": "https://tablasdemultiplicar.online/",
-            "name": "Inicio"
+            "@id": "https://einmaleins.online/",
+            "name": "Startseite"
           }
         },
         {
           "@type": "ListItem",
           "position": 2,
           "item": {
-            "@id": "https://tablasdemultiplicar.online/11-20",
+            "@id": "https://einmaleins.online/11-20",
             "name": "11-20 Tabla de Multiplicar"
           }
         },
@@ -44,40 +44,40 @@ const schemaData = {
           "@type": "ListItem",
           "position": 3,
           "item": {
-            "@id": "https://tablasdemultiplicar.online/tabla/11",
-            "name": "11 Tabla de Multiplicar"
+            "@id": "https://einmaleins.online/einmaleins/11",
+            "name": "11er-Einmaleins"
           }
         }
       ]
     },
     {
       "@type": "LearningResource",
-      "@id": "https://tablasdemultiplicar.online/tabla/11#learningresource",
-      "name": "11 Tabla de Multiplicar Recurso de Aprendizaje",
+      "@id": "https://einmaleins.online/einmaleins/11#learningresource",
+      "name": "11er-Einmaleins Recurso de Aprendizaje",
       "description": "11 Multiplicar por: Introducción a números de dos dígitos, patrón de repetición de dígitos (11×2=22, 11×3=33), estrategias fáciles de memorización.",
       "educationalLevel": "Beginner",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "11 Tabla de Multiplicar, números de dos dígitos, patrones de dígitos",
+      "teaches": "11er-Einmaleins, números de dos dígitos, patrones de dígitos",
       "typicalAgeRange": "7-10",
-      "inLanguage": "es-MX",
+      "inLanguage": "de",
       "educationalUse": ["practice", "self-study"],
       "audience": {
         "@type": "EducationalAudience",
         "educationalRole": ["student"]
       },
       "isPartOf": {
-        "@id": "https://tablasdemultiplicar.online/11-20#learningresource"
+        "@id": "https://einmaleins.online/11-20#learningresource"
       }
     }
   ]
 }
 
 export const metadata = {
-  title: '11 Tabla de Multiplicar - Juegos Divertidos y Ejercicios Prácticos',
-  description: '11 Tabla de Multiplicar con juegos divertidos y ejercicios interactivos. Ayudas visuales para niños, consejos prácticos y técnicas fáciles de memorización.',
-  keywords: '11 Tabla de Multiplicar, on bir Tabla de Multiplicar, 11 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
+  title: '11er-Einmaleins - Juegos Divertidos y Ejercicios Prácticos',
+  description: 'Meistere das 11er-Einmaleins. Klare ErklÃ¤rungen, Muster und praktische Ãœbungsstrategien.',
+  keywords: '11er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {
-    canonical: '/tabla/11',
+    canonical: '/einmaleins/11',
   },
 }
 

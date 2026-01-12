@@ -5,47 +5,47 @@ const schemaData = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://tablasdemultiplicar.online/tabla/27#webpage",
-      "url": "https://tablasdemultiplicar.online/tabla/27",
-      "name": "27 Tabla de Multiplicar - 3 Küp Kavramı",
-      "description": "27 Tabla de Multiplicar ile 3³=27 küp kavramını öğrenin. 3×9 ilişkisi ve geometrik desenler.",
-      "isPartOf": {"@id": "https://tablasdemultiplicar.online/#website"},
-      "about": {"@id": "https://tablasdemultiplicar.online/tabla/27#learningresource"},
-      "breadcrumb": {"@id": "https://tablasdemultiplicar.online/tabla/27#breadcrumb"},
-      "inLanguage": "es-MX"
+      "@id": "https://einmaleins.online/einmaleins/27#webpage",
+      "url": "https://einmaleins.online/einmaleins/27",
+      "name": "27er-Einmaleins - 3 Küp Kavramı",
+      "description": "27er-Einmaleins ile 3³=27 küp kavramını öğrenin. 3×9 ilişkisi ve geometrik desenler.",
+      "isPartOf": {"@id": "https://einmaleins.online/#website"},
+      "about": {"@id": "https://einmaleins.online/einmaleins/27#learningresource"},
+      "breadcrumb": {"@id": "https://einmaleins.online/einmaleins/27#breadcrumb"},
+      "inLanguage": "de"
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://tablasdemultiplicar.online/tabla/27#breadcrumb",
+      "@id": "https://einmaleins.online/einmaleins/27#breadcrumb",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "item": {"@id": "https://tablasdemultiplicar.online/", "name": "Inicio"}},
-        {"@type": "ListItem", "position": 2, "item": {"@id": "https://tablasdemultiplicar.online/21-30", "name": "21-30 Tabla de Multiplicar"}},
-        {"@type": "ListItem", "position": 3, "item": {"@id": "https://tablasdemultiplicar.online/tabla/27", "name": "27 Tabla de Multiplicar"}}
+        {"@type": "ListItem", "position": 1, "item": {"@id": "https://einmaleins.online/", "name": "Startseite"}},
+        {"@type": "ListItem", "position": 2, "item": {"@id": "https://einmaleins.online/21-30", "name": "Einmaleins 21-30"}},
+        {"@type": "ListItem", "position": 3, "item": {"@id": "https://einmaleins.online/einmaleins/27", "name": "27er-Einmaleins"}}
       ]
     },
     {
       "@type": "LearningResource",
-      "@id": "https://tablasdemultiplicar.online/tabla/27#learningresource",
-      "name": "27 Tabla de Multiplicar Recurso de Aprendizaje",
-      "description": "27 Multiplicar por: 3 küp (3³=27), 3×9 ilişkisi ve ileri seviye çarpma becerileri.",
+      "@id": "https://einmaleins.online/einmaleins/27#learningresource",
+      "name": "27er-Einmaleins Recurso de Aprendizaje",
+      "description": "27 Multiplikation por: 3 küp (3³=27), 3×9 ilişkisi ve ileri seviye çarpma becerileri.",
       "educationalLevel": "Intermediate",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "27 Tabla de Multiplicar, 3 küp kavramı, 3×9 ilişkisi",
+      "teaches": "27er-Einmaleins, 3 küp kavramı, 3×9 ilişkisi",
       "typicalAgeRange": "8-11",
-      "inLanguage": "es-MX",
+      "inLanguage": "de",
       "educationalUse": ["practice", "self-study"],
       "audience": {"@type": "EducationalAudience", "educationalRole": ["student"]},
-      "isPartOf": {"@id": "https://tablasdemultiplicar.online/21-30#learningresource"}
+      "isPartOf": {"@id": "https://einmaleins.online/21-30#learningresource"}
     }
   ]
 }
 
 export const metadata = {
-  title: '27 Tabla de Multiplicar - Juegos Divertidos y Ejercicios Prácticos',
-  description: '27 Tabla de Multiplicar con juegos divertidos y ejercicios interactivos. Ayudas visuales para niños, consejos prácticos y técnicas fáciles de memorización.',
-  keywords: '27 Tabla de Multiplicar, yirmi yedi Tabla de Multiplicar, 27 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
+  title: '27er-Einmaleins | Lerne Multiplikation mit 27',
+  description: 'Meistere das 27er-Einmaleins. Klare ErklÃ¤rungen, Muster und praktische Ãœbungsstrategien.',
+  keywords: '27er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {
-    canonical: '/tabla/27',
+    canonical: '/einmaleins/27',
   },
 }
 

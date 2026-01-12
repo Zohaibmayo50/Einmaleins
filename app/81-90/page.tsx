@@ -5,28 +5,28 @@ const schemaData = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://tablasdemultiplicar.online/81-90#webpage",
-      "url": "https://tablasdemultiplicar.online/81-90",
-      "name": "Tabla del 81 al 90 - Nivel Avanzado",
-      "description": "Aprende las tablas de multiplicar del 81 al 90. Materiales interactivos para desarrollar habilidades matemáticas de nivel avanzado.",
+      "@id": "https://einmaleins.online/81-90#webpage",
+      "url": "https://einmaleins.online/81-90",
+      "name": "Einmaleins-Tabellen von 81 bis 90 - Fortgeschrittenes Level",
+      "description": "Lerne die Einmaleins-Tabellen von 81 bis 90. Interaktive Materialien zur Entwicklung mathematischer Fähigkeiten auf fortgeschrittenem Level.",
       "isPartOf": {
-        "@id": "https://tablasdemultiplicar.online/#website"
+        "@id": "https://einmaleins.online/#website"
       },
       "about": {
-        "@id": "https://tablasdemultiplicar.online/81-90#learningresource"
+        "@id": "https://einmaleins.online/81-90#learningresource"
       },
-      "inLanguage": "es"
+      "inLanguage": "de"
     },
     {
       "@type": "LearningResource",
-      "@id": "https://tablasdemultiplicar.online/81-90#learningresource",
-      "name": "Recurso de Aprendizaje Tablas del 81 al 90",
-      "description": "Tablas de multiplicar de nivel avanzado: aprende las tablas del 81 al 90 con ejercicios prácticos.",
+      "@id": "https://einmaleins.online/81-90#learningresource",
+      "name": "Lernressource Einmaleins-Tabellen von 81 bis 90",
+      "description": "Einmaleins-Tabellen fortgeschrittenes Level: Lerne die Einmaleins-Tabellen von 81 bis 90 mit praktischen Übungen.",
       "educationalLevel": "Advanced",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "Comprensión y aplicación de las tablas de multiplicar del 81 al 90",
+      "teaches": "Verstehen und Anwenden der Einmaleins-Tabellen von 81 bis 90",
       "typicalAgeRange": "10-12",
-      "inLanguage": "es",
+      "inLanguage": "de",
       "educationalUse": ["practice", "self-study", "homework"],
       "audience": {
         "@type": "EducationalAudience",
@@ -38,9 +38,9 @@ const schemaData = {
 
 
 export const metadata = {
-  title: 'Tabla del 81 al 90 | Nivel Experto',
-  description: 'Aprende las tablas de multiplicar del 81 al 90. Operaciones de multiplicación desafiantes y estrategias para estudiantes de nivel experto.',
-  keywords: 'tablas de multiplicar del 81 al 90, tablas de multiplicar, multiplicación, aprender matemáticas',
+  title: 'Einmaleins-Tabellen von 81 bis 90 | Experten-Level',
+  description: 'Lerne die Einmaleins-Tabellen von 81 bis 90. Anspruchsvolle Multiplikationsoperationen und Strategien für Schüler auf Experten-Level.',
+  keywords: 'einmaleins tabellen von 81 bis 90, einmaleins tabellen, multiplikation, mathematik lernen, großes einmaleins',
   alternates: {
     canonical: '/81-90',
   },

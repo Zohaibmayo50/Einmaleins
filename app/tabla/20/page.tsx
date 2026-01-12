@@ -5,79 +5,79 @@ const schemaData = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://tablasdemultiplicar.online/tabla/20#webpage",
-      "url": "https://tablasdemultiplicar.online/tabla/20",
-      "name": "20 Tabla de Multiplicar - Yirmili Sistem",
-      "description": "20 Tabla de Multiplicar ile yirmili sayma sistemini öğrenin. Kolay 0 ekleme stratejisi ve pratik uygulamalar.",
+      "@id": "https://einmaleins.online/einmaleins/20#webpage",
+      "url": "https://einmaleins.online/einmaleins/20",
+      "name": "20er-Einmaleins - Yirmili Sistem",
+      "description": "20er-Einmaleins ile yirmili sayma sistemini öğrenin. Kolay 0 ekleme stratejisi ve pratik uygulamalar.",
       "isPartOf": {
-        "@id": "https://tablasdemultiplicar.online/#website"
+        "@id": "https://einmaleins.online/#website"
       },
       "about": {
-        "@id": "https://tablasdemultiplicar.online/tabla/20#learningresource"
+        "@id": "https://einmaleins.online/einmaleins/20#learningresource"
       },
       "breadcrumb": {
-        "@id": "https://tablasdemultiplicar.online/tabla/20#breadcrumb"
+        "@id": "https://einmaleins.online/einmaleins/20#breadcrumb"
       },
-      "inLanguage": "es-MX"
+      "inLanguage": "de"
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://tablasdemultiplicar.online/tabla/20#breadcrumb",
+      "@id": "https://einmaleins.online/einmaleins/20#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
           "position": 1,
           "item": {
-            "@id": "https://tablasdemultiplicar.online/",
-            "name": "Inicio"
+            "@id": "https://einmaleins.online/",
+            "name": "Startseite"
           }
         },
         {
           "@type": "ListItem",
           "position": 2,
           "item": {
-            "@id": "https://tablasdemultiplicar.online/11-20",
-            "name": "11-20 Tabla de Multiplicar"
+            "@id": "https://einmaleins.online/11-20",
+            "name": "11-20er-Einmaleins"
           }
         },
         {
           "@type": "ListItem",
           "position": 3,
           "item": {
-            "@id": "https://tablasdemultiplicar.online/tabla/20",
-            "name": "20 Tabla de Multiplicar"
+            "@id": "https://einmaleins.online/einmaleins/20",
+            "name": "20er-Einmaleins"
           }
         }
       ]
     },
     {
       "@type": "LearningResource",
-      "@id": "https://tablasdemultiplicar.online/tabla/20#learningresource",
-      "name": "20 Tabla de Multiplicar Recurso de Aprendizaje",
+      "@id": "https://einmaleins.online/einmaleins/20#learningresource",
+      "name": "20er-Einmaleins Recurso de Aprendizaje",
       "description": "20 Multiplicar por: Yirmili sayma sistemi, 2×10 ilişkisi, sonu 0 ile biten sayı deseni, para hesaplama (20 TL).",
       "educationalLevel": "Beginner",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "20 Tabla de Multiplicar, yirmili sistem, 10 tablosunun katları, para hesaplama",
+      "teaches": "20er-Einmaleins, yirmili sistem, 10 tablosunun katları, para hesaplama",
       "typicalAgeRange": "7-10",
-      "inLanguage": "es-MX",
+      "inLanguage": "de",
       "educationalUse": ["practice", "self-study", "real-world application"],
       "audience": {
         "@type": "EducationalAudience",
         "educationalRole": ["student"]
       },
       "isPartOf": {
-        "@id": "https://tablasdemultiplicar.online/11-20#learningresource"
+        "@id": "https://einmaleins.online/11-20#learningresource"
       }
     }
   ]
 }
 
 export const metadata = {
-  title: '20 Tabla de Multiplicar - Juegos Divertidos y Ejercicios Prácticos',
-  description: '20 Tabla de Multiplicar con juegos divertidos y ejercicios interactivos. Ayudas visuales para niños, consejos prácticos y técnicas fáciles de memorización.',
-  keywords: '20 Tabla de Multiplicar, yirmi Tabla de Multiplicar, 20 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
+  title: '20er-Einmaleins - Juegos Divertidos y Ejercicios Prácticos',
+  description: 'Meistere das 20er-Einmaleins. Klare ErklÃ¤rungen, Muster und praktische Ãœbungsstrategien.',
+  keywords: '20er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {
-    canonical: '/tabla/20',
+    canonical: '/einmaleins/20',
   },
 }
 

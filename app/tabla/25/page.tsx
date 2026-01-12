@@ -5,79 +5,79 @@ const schemaData = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://tablasdemultiplicar.online/tabla/25#webpage",
-      "url": "https://tablasdemultiplicar.online/tabla/25",
-      "name": "25 Tabla de Multiplicar - Çeyrek ve Yüzde Kavramı",
-      "description": "25 Tabla de Multiplicar ile çeyrek kavramı ve yüzde hesaplamalarını öğrenin. Para hesaplama için kritik öneme sahip desenleri keşfedin.",
+      "@id": "https://einmaleins.online/einmaleins/25#webpage",
+      "url": "https://einmaleins.online/einmaleins/25",
+      "name": "25er-Einmaleins - Çeyrek ve Yüzde Kavramı",
+      "description": "25er-Einmaleins ile çeyrek kavramı ve yüzde hesaplamalarını öğrenin. Para hesaplama için kritik öneme sahip desenleri keşfedin.",
       "isPartOf": {
-        "@id": "https://tablasdemultiplicar.online/#website"
+        "@id": "https://einmaleins.online/#website"
       },
       "about": {
-        "@id": "https://tablasdemultiplicar.online/tabla/25#learningresource"
+        "@id": "https://einmaleins.online/einmaleins/25#learningresource"
       },
       "breadcrumb": {
-        "@id": "https://tablasdemultiplicar.online/tabla/25#breadcrumb"
+        "@id": "https://einmaleins.online/einmaleins/25#breadcrumb"
       },
-      "inLanguage": "es-MX"
+      "inLanguage": "de"
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://tablasdemultiplicar.online/tabla/25#breadcrumb",
+      "@id": "https://einmaleins.online/einmaleins/25#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
           "position": 1,
           "item": {
-            "@id": "https://tablasdemultiplicar.online/",
-            "name": "Inicio"
+            "@id": "https://einmaleins.online/",
+            "name": "Startseite"
           }
         },
         {
           "@type": "ListItem",
           "position": 2,
           "item": {
-            "@id": "https://tablasdemultiplicar.online/21-30",
-            "name": "21-30 Tabla de Multiplicar"
+            "@id": "https://einmaleins.online/21-30",
+            "name": "Einmaleins 21-30"
           }
         },
         {
           "@type": "ListItem",
           "position": 3,
           "item": {
-            "@id": "https://tablasdemultiplicar.online/tabla/25",
-            "name": "25 Tabla de Multiplicar"
+            "@id": "https://einmaleins.online/einmaleins/25",
+            "name": "25er-Einmaleins"
           }
         }
       ]
     },
     {
       "@type": "LearningResource",
-      "@id": "https://tablasdemultiplicar.online/tabla/25#learningresource",
-      "name": "25 Tabla de Multiplicar Recurso de Aprendizaje",
-      "description": "25 Multiplicar por: Çeyrek (1/4) kavramı, yüzde hesaplamaları (25%=1/4), para hesaplama ve 25-50-75-00 son rakam deseni.",
+      "@id": "https://einmaleins.online/einmaleins/25#learningresource",
+      "name": "25er-Einmaleins Recurso de Aprendizaje",
+      "description": "25 Multiplikation por: Çeyrek (1/4) kavramı, yüzde hesaplamaları (25%=1/4), para hesaplama ve 25-50-75-00 son rakam deseni.",
       "educationalLevel": "Intermediate",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "25 Tabla de Multiplicar, çeyrek kavramı, yüzde hesaplama, para hesaplama, 5'in karesi",
+      "teaches": "25er-Einmaleins, çeyrek kavramı, yüzde hesaplama, para hesaplama, 5'in karesi",
       "typicalAgeRange": "8-11",
-      "inLanguage": "es-MX",
+      "inLanguage": "de",
       "educationalUse": ["practice", "self-study", "real-world application"],
       "audience": {
         "@type": "EducationalAudience",
         "educationalRole": ["student"]
       },
       "isPartOf": {
-        "@id": "https://tablasdemultiplicar.online/21-30#learningresource"
+        "@id": "https://einmaleins.online/21-30#learningresource"
       }
     }
   ]
 }
 
 export const metadata = {
-  title: '25 Tabla de Multiplicar - Juegos Divertidos y Ejercicios Prácticos',
-  description: '25 Tabla de Multiplicar con juegos divertidos y ejercicios interactivos. Ayudas visuales para niños, consejos prácticos y técnicas fáciles de memorización.',
-  keywords: '25 Tabla de Multiplicar, yirmi beş Tabla de Multiplicar, 25 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
+  title: '25er-Einmaleins | Lerne Multiplikation mit 25',
+  description: 'Meistere das 25er-Einmaleins. Klare ErklÃ¤rungen, Muster und praktische Ãœbungsstrategien.',
+  keywords: '25er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {
-    canonical: '/tabla/25',
+    canonical: '/einmaleins/25',
   },
 }
 

@@ -5,12 +5,12 @@ export default function LearningPaths() {
     <section id="learning-paths" className="section-container bg-gradient-to-br from-primary-50 via-white to-educational-50">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-slate-900 mb-6 text-center">
-          Comienza a Aprender las Tablas de Multiplicar
+          Beginne jetzt das Einmaleins zu lernen
         </h2>
         
         <p className="text-center text-slate-700 max-w-3xl mx-auto mb-12 text-lg">
-          Ruta de aprendizaje completa de tablas de multiplicar dividida en 10 niveles. 
-          Cada nivel incluye explicaciones detalladas, patrones y estrategias de aprendizaje.
+          Vollständiger Einmaleins-Lernpfad unterteilt in 10 Stufen. 
+          Jede Stufe enthält detaillierte Erklärungen, Muster und Lernstrategien.
         </p>
         
         <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
@@ -20,13 +20,13 @@ export default function LearningPaths() {
                 <span className="text-lg font-bold text-white">1-10</span>
               </div>
               <h3 className="text-base font-semibold text-slate-900 mb-2">
-                Nivel 1
+                Stufe 1
               </h3>
               <p className="text-slate-700 text-sm mb-3 flex-grow">
-                Tablas básicas. Punto de partida para todos los estudiantes.
+                Grundtabellen. Startpunkt für alle Schüler.
               </p>
               <div className="text-blue-600 font-medium text-xs group-hover:text-blue-700 flex items-center">
-                Aprender
+                Lernen
                 <svg className="w-3 h-3 ml-1 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
@@ -40,13 +40,13 @@ export default function LearningPaths() {
                 <span className="text-lg font-bold text-white">11-20</span>
               </div>
               <h3 className="text-base font-semibold text-slate-900 mb-2">
-                Nivel 2
+                Stufe 2
               </h3>
               <p className="text-slate-700 text-sm mb-3 flex-grow">
-                Desarrolla habilidad con números de dos dígitos.
+                Entwickle Fähigkeiten mit zweistelligen Zahlen.
               </p>
               <div className="text-indigo-600 font-medium text-xs group-hover:text-indigo-700 flex items-center">
-                Aprender
+                Lernen
                 <svg className="w-3 h-3 ml-1 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
@@ -60,13 +60,13 @@ export default function LearningPaths() {
                 <span className="text-lg font-bold text-white">21-30</span>
               </div>
               <h3 className="text-base font-semibold text-slate-900 mb-2">
-                Nivel 3
+                Stufe 3
               </h3>
               <p className="text-slate-700 text-sm mb-3 flex-grow">
-                Nivel intermedio y patrones de multiplicación.
+                Mittlere Stufe und Multiplikationsmuster.
               </p>
               <div className="text-purple-600 font-medium text-xs group-hover:text-purple-700 flex items-center">
-                Aprender
+                Lernen
                 <svg className="w-3 h-3 ml-1 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
@@ -80,13 +80,13 @@ export default function LearningPaths() {
                 <span className="text-lg font-bold text-white">31-40</span>
               </div>
               <h3 className="text-base font-semibold text-slate-900 mb-2">
-                Nivel 4
+                Stufe 4
               </h3>
               <p className="text-slate-700 text-sm mb-3 flex-grow">
-                Habilidades avanzadas de cálculo mental.
+                Fortgeschrittene Kopfrechenfähigkeiten.
               </p>
               <div className="text-pink-600 font-medium text-xs group-hover:text-pink-700 flex items-center">
-                Aprender
+                Lernen
                 <svg className="w-3 h-3 ml-1 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
@@ -100,13 +100,13 @@ export default function LearningPaths() {
                 <span className="text-lg font-bold text-white">41-50</span>
               </div>
               <h3 className="text-base font-semibold text-slate-900 mb-2">
-                Nivel 5
+                Stufe 5
               </h3>
               <p className="text-slate-700 text-sm mb-3 flex-grow">
-                ¡A mitad de camino! Domina hasta el 50.
+                Halbzeit! Beherrsche bis 50.
               </p>
               <div className="text-rose-600 font-medium text-xs group-hover:text-rose-700 flex items-center">
-                Aprender
+                Lernen
                 <svg className="w-3 h-3 ml-1 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
@@ -120,13 +120,13 @@ export default function LearningPaths() {
                 <span className="text-lg font-bold text-white">51-60</span>
               </div>
               <h3 className="text-base font-semibold text-slate-900 mb-2">
-                Nivel 6
+                Stufe 6
               </h3>
               <p className="text-slate-700 text-sm mb-3 flex-grow">
-                Nivel avanzado. Trabajo con números grandes.
+                Fortgeschrittene Stufe. Arbeiten mit größeren Zahlen.
               </p>
               <div className="text-orange-600 font-medium text-xs group-hover:text-orange-700 flex items-center">
-                Aprender
+                Lernen
                 <svg className="w-3 h-3 ml-1 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
@@ -140,13 +140,13 @@ export default function LearningPaths() {
                 <span className="text-lg font-bold text-white">61-70</span>
               </div>
               <h3 className="text-base font-semibold text-slate-900 mb-2">
-                Nivel 7
+                Stufe 7
               </h3>
               <p className="text-slate-700 text-sm mb-3 flex-grow">
-                Desarrolla estrategias avanzadas de multiplicación.
+                Entwickle fortgeschrittene Multiplikationsstrategien.
               </p>
               <div className="text-amber-600 font-medium text-xs group-hover:text-amber-700 flex items-center">
-                Aprender
+                Lernen
                 <svg className="w-3 h-3 ml-1 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
@@ -160,13 +160,13 @@ export default function LearningPaths() {
                 <span className="text-lg font-bold text-white">71-80</span>
               </div>
               <h3 className="text-base font-semibold text-slate-900 mb-2">
-                Nivel 8
+                Stufe 8
               </h3>
               <p className="text-slate-700 text-sm mb-3 flex-grow">
-                ¡Te estás acercando al nivel experto!
+                Du näherst dich dem Expertenlevel!
               </p>
               <div className="text-yellow-600 font-medium text-xs group-hover:text-yellow-700 flex items-center">
-                Aprender
+                Lernen
                 <svg className="w-3 h-3 ml-1 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
@@ -180,13 +180,13 @@ export default function LearningPaths() {
                 <span className="text-lg font-bold text-white">81-90</span>
               </div>
               <h3 className="text-base font-semibold text-slate-900 mb-2">
-                Nivel 9
+                Stufe 9
               </h3>
               <p className="text-slate-700 text-sm mb-3 flex-grow">
-                ¡Casi completo! Continúa así.
+                Fast geschafft! Mach weiter so.
               </p>
               <div className="text-lime-600 font-medium text-xs group-hover:text-lime-700 flex items-center">
-                Aprender
+                Lernen
                 <svg className="w-3 h-3 ml-1 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
@@ -200,13 +200,13 @@ export default function LearningPaths() {
                 <span className="text-base font-bold text-white">91-100</span>
               </div>
               <h3 className="text-base font-semibold text-slate-900 mb-2">
-                Nivel 10
+                Stufe 10
               </h3>
               <p className="text-slate-700 text-sm mb-3 flex-grow">
-                ¡Nivel final! Completa el 100 y conviértete en experto.
+                Finale Stufe! Vollende die 100 und werde Experte.
               </p>
               <div className="text-emerald-600 font-medium text-xs group-hover:text-emerald-700 flex items-center">
-                Aprender
+                Lernen
                 <svg className="w-3 h-3 ml-1 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
@@ -217,9 +217,9 @@ export default function LearningPaths() {
         
         <div className="mt-10 bg-white border-2 border-primary-200 rounded-lg p-6 text-center">
           <p className="text-slate-700 text-lg">
-            <strong className="text-slate-900">Ruta Recomendada:</strong> Comienza con el Nivel 1 (1-10) 
-            y luego completa todos los niveles en orden. Avanza al siguiente nivel después de sentirte 
-            cómodo en cada nivel. ¡Cuando llegues a 100, serás un experto en las tablas de multiplicar!
+            <strong className="text-slate-900">Empfohlener Pfad:</strong> Beginne mit Stufe 1 (1-10) 
+            und absolviere dann alle Stufen der Reihe nach. Gehe zur nächsten Stufe über, nachdem du dich 
+            auf jeder Stufe sicher fühlst. Wenn du 100 erreichst, bist du ein Einmaleins-Experte!
           </p>
         </div>
       </div>

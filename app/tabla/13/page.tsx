@@ -5,38 +5,38 @@ const schemaData = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://tablasdemultiplicar.online/tabla/13#webpage",
-      "url": "https://tablasdemultiplicar.online/tabla/13",
-      "name": "13 Tabla de Multiplicar - Uğurlu Sayı Desenleri",
-      "description": "13 Tabla de Multiplicar ile matematik becerilerinizi geliştirin. Desenler ve kolay stratejilerle 13 Multiplicar por işleminde ustalaşın.",
+      "@id": "https://einmaleins.online/einmaleins/13#webpage",
+      "url": "https://einmaleins.online/einmaleins/13",
+      "name": "13er-Einmaleins - Uğurlu Sayı Desenleri",
+      "description": "13er-Einmaleins ile matematik becerilerinizi geliştirin. Desenler ve kolay stratejilerle 13 Multiplicar por işleminde ustalaşın.",
       "isPartOf": {
-        "@id": "https://tablasdemultiplicar.online/#website"
+        "@id": "https://einmaleins.online/#website"
       },
       "about": {
-        "@id": "https://tablasdemultiplicar.online/tabla/13#learningresource"
+        "@id": "https://einmaleins.online/einmaleins/13#learningresource"
       },
       "breadcrumb": {
-        "@id": "https://tablasdemultiplicar.online/tabla/13#breadcrumb"
+        "@id": "https://einmaleins.online/einmaleins/13#breadcrumb"
       },
-      "inLanguage": "es-MX"
+      "inLanguage": "de"
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://tablasdemultiplicar.online/tabla/13#breadcrumb",
+      "@id": "https://einmaleins.online/einmaleins/13#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
           "position": 1,
           "item": {
-            "@id": "https://tablasdemultiplicar.online/",
-            "name": "Inicio"
+            "@id": "https://einmaleins.online/",
+            "name": "Startseite"
           }
         },
         {
           "@type": "ListItem",
           "position": 2,
           "item": {
-            "@id": "https://tablasdemultiplicar.online/11-20",
+            "@id": "https://einmaleins.online/11-20",
             "name": "11-20 Tabla de Multiplicar"
           }
         },
@@ -44,40 +44,40 @@ const schemaData = {
           "@type": "ListItem",
           "position": 3,
           "item": {
-            "@id": "https://tablasdemultiplicar.online/tabla/13",
-            "name": "13 Tabla de Multiplicar"
+            "@id": "https://einmaleins.online/einmaleins/13",
+            "name": "13er-Einmaleins"
           }
         }
       ]
     },
     {
       "@type": "LearningResource",
-      "@id": "https://tablasdemultiplicar.online/tabla/13#learningresource",
-      "name": "13 Tabla de Multiplicar Recurso de Aprendizaje",
+      "@id": "https://einmaleins.online/einmaleins/13#learningresource",
+      "name": "13er-Einmaleins Recurso de Aprendizaje",
       "description": "13 Multiplicar por: Asal sayı özellikleri, zihinsel matematik stratejileri, 10+3 ayrıştırma yöntemi.",
       "educationalLevel": "Beginner",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "13 Tabla de Multiplicar, asal sayılar, zihinsel matematik",
+      "teaches": "13er-Einmaleins, asal sayılar, zihinsel matematik",
       "typicalAgeRange": "7-10",
-      "inLanguage": "es-MX",
+      "inLanguage": "de",
       "educationalUse": ["practice", "self-study"],
       "audience": {
         "@type": "EducationalAudience",
         "educationalRole": ["student"]
       },
       "isPartOf": {
-        "@id": "https://tablasdemultiplicar.online/11-20#learningresource"
+        "@id": "https://einmaleins.online/11-20#learningresource"
       }
     }
   ]
 }
 
 export const metadata = {
-  title: '13 Tabla de Multiplicar - Juegos Divertidos y Ejercicios Prácticos',
-  description: '13 Tabla de Multiplicar con juegos divertidos y ejercicios interactivos. Ayudas visuales para niños, consejos prácticos y técnicas fáciles de memorización.',
-  keywords: '13 Tabla de Multiplicar, on üç Tabla de Multiplicar, 13 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
+  title: '13er-Einmaleins - Juegos Divertidos y Ejercicios Prácticos',
+  description: 'Meistere das 13er-Einmaleins. Klare ErklÃ¤rungen, Muster und praktische Ãœbungsstrategien.',
+  keywords: '13er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {
-    canonical: '/tabla/13',
+    canonical: '/einmaleins/13',
   },
 }
 

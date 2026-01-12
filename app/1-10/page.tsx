@@ -5,44 +5,44 @@ const schemaData = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://tablasdemultiplicar.online/1-10#webpage",
-      "url": "https://tablasdemultiplicar.online/1-10",
-      "name": "Tablas de Multiplicar del 1 al 10 - Nivel Principiante",
-      "description": "Aprende las tablas de multiplicar del 1 al 10. Ideal para nivel principiante, con ejercicios interactivos y juegos educativos.",
+      "@id": "https://einmaleins.online/1-10#webpage",
+      "url": "https://einmaleins.online/1-10",
+      "name": "Einmaleins-Tabellen von 1 bis 10 - Anfänger-Level",
+      "description": "Lerne die Einmaleins-Tabellen von 1 bis 10. Ideal für Anfänger-Level, mit interaktiven Übungen und Lernspielen.",
       "isPartOf": {
-        "@id": "https://tablasdemultiplicar.online/#website"
+        "@id": "https://einmaleins.online/#website"
       },
       "about": {
-        "@id": "https://tablasdemultiplicar.online/1-10#learningresource"
+        "@id": "https://einmaleins.online/1-10#learningresource"
       },
-      "inLanguage": "es"
+      "inLanguage": "de"
     },
     {
       "@type": "LearningResource",
-      "@id": "https://tablasdemultiplicar.online/1-10#learningresource",
-      "name": "Recurso de Aprendizaje Tablas del 1 al 10",
-      "description": "Tablas de multiplicar nivel principiante: Aprende las tablas de multiplicar de los números del 1 al 10 con ejercicios prácticos, juegos interactivos y hojas de trabajo imprimibles.",
+      "@id": "https://einmaleins.online/1-10#learningresource",
+      "name": "Lernressource Einmaleins-Tabellen von 1 bis 10",
+      "description": "Einmaleins-Tabellen Anfänger-Level: Lerne die Einmaleins-Tabellen der Zahlen von 1 bis 10 mit praktischen Übungen, interaktiven Spielen und druckbaren Arbeitsblättern.",
       "educationalLevel": "Beginner",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "Habilidades para comprender y aplicar las tablas de multiplicar del 1, 2, 3, 4, 5, 6, 7, 8, 9, 10",
+      "teaches": "Fähigkeiten zum Verstehen und Anwenden der Einmaleins-Tabellen von 1, 2, 3, 4, 5, 6, 7, 8, 9, 10",
       "typicalAgeRange": "6-8",
-      "inLanguage": "es",
+      "inLanguage": "de",
       "educationalUse": ["practice", "self-study", "homework"],
       "audience": {
         "@type": "EducationalAudience",
         "educationalRole": ["student"]
       },
       "hasPart": [
-        {"@type": "LearningResource", "name": "Tabla de Multiplicar del 1", "url": "https://tablasdemultiplicar.online/tabla/1"},
-        {"@type": "LearningResource", "name": "Tabla de Multiplicar del 2", "url": "https://tablasdemultiplicar.online/tabla/2"},
-        {"@type": "LearningResource", "name": "Tabla de Multiplicar del 3", "url": "https://tablasdemultiplicar.online/tabla/3"},
-        {"@type": "LearningResource", "name": "Tabla de Multiplicar del 4", "url": "https://tablasdemultiplicar.online/tabla/4"},
-        {"@type": "LearningResource", "name": "Tabla de Multiplicar del 5", "url": "https://tablasdemultiplicar.online/tabla/5"},
-        {"@type": "LearningResource", "name": "Tabla de Multiplicar del 6", "url": "https://tablasdemultiplicar.online/tabla/6"},
-        {"@type": "LearningResource", "name": "Tabla de Multiplicar del 7", "url": "https://tablasdemultiplicar.online/tabla/7"},
-        {"@type": "LearningResource", "name": "Tabla de Multiplicar del 8", "url": "https://tablasdemultiplicar.online/tabla/8"},
-        {"@type": "LearningResource", "name": "Tabla de Multiplicar del 9", "url": "https://tablasdemultiplicar.online/tabla/9"},
-        {"@type": "LearningResource", "name": "Tabla de Multiplicar del 10", "url": "https://tablasdemultiplicar.online/tabla/10"}
+        {"@type": "LearningResource", "name": "1er-Einmaleins-Tabelle", "url": "https://einmaleins.online/einmaleins/1"},
+        {"@type": "LearningResource", "name": "2er-Einmaleins-Tabelle", "url": "https://einmaleins.online/einmaleins/2"},
+        {"@type": "LearningResource", "name": "3er-Einmaleins-Tabelle", "url": "https://einmaleins.online/einmaleins/3"},
+        {"@type": "LearningResource", "name": "4er-Einmaleins-Tabelle", "url": "https://einmaleins.online/einmaleins/4"},
+        {"@type": "LearningResource", "name": "5er-Einmaleins-Tabelle", "url": "https://einmaleins.online/einmaleins/5"},
+        {"@type": "LearningResource", "name": "6er-Einmaleins-Tabelle", "url": "https://einmaleins.online/einmaleins/6"},
+        {"@type": "LearningResource", "name": "7er-Einmaleins-Tabelle", "url": "https://einmaleins.online/einmaleins/7"},
+        {"@type": "LearningResource", "name": "8er-Einmaleins-Tabelle", "url": "https://einmaleins.online/einmaleins/8"},
+        {"@type": "LearningResource", "name": "9er-Einmaleins-Tabelle", "url": "https://einmaleins.online/einmaleins/9"},
+        {"@type": "LearningResource", "name": "10er-Einmaleins-Tabelle", "url": "https://einmaleins.online/einmaleins/10"}
       ]
     }
   ]
@@ -50,9 +50,9 @@ const schemaData = {
 
 
 export const metadata = {
-  title: 'Tablas de Multiplicar del 1 al 10 | Nivel Principiante',
-  description: 'Aprende las tablas de multiplicar del 1, 2, 3, 4, 5, 6, 7, 8, 9, 10. Explicaciones fáciles para nivel principiante, ejemplos visuales y ejercicios prácticos.',
-  keywords: 'tablas de multiplicar del 1 al 10, tablas de multiplicar, multiplicación, aprendizaje de matemáticas',
+  title: 'Einmaleins-Tabellen von 1 bis 10 | Anfänger-Level',
+  description: 'Lerne die Einmaleins-Tabellen von 1, 2, 3, 4, 5, 6, 7, 8, 9, 10. Einfache Erklärungen für Anfänger-Level, visuelle Beispiele und praktische Übungen.',
+  keywords: 'einmaleins tabellen von 1 bis 10, einmaleins tabellen, multiplikation, mathematik lernen, kleines einmaleins',
   alternates: {
     canonical: '/1-10',
   },

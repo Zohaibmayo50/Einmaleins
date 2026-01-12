@@ -5,28 +5,28 @@ const schemaData = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://tablasdemultiplicar.online/21-30#webpage",
-      "url": "https://tablasdemultiplicar.online/21-30",
-      "name": "Tablas de Multiplicar del 21 al 30 - Nivel Intermedio",
-      "description": "Aprende las tablas de multiplicar del 21 al 30. Ejercicios interactivos y materiales prácticos para estudiantes de nivel intermedio.",
+      "@id": "https://einmaleins.online/21-30#webpage",
+      "url": "https://einmaleins.online/21-30",
+      "name": "Einmaleins-Tabellen von 21 bis 30 - Mittleres Level",
+      "description": "Lerne die Einmaleins-Tabellen von 21 bis 30. Interaktive Übungen und praktische Materialien für Schüler mit mittlerem Level.",
       "isPartOf": {
-        "@id": "https://tablasdemultiplicar.online/#website"
+        "@id": "https://einmaleins.online/#website"
       },
       "about": {
-        "@id": "https://tablasdemultiplicar.online/21-30#learningresource"
+        "@id": "https://einmaleins.online/21-30#learningresource"
       },
-      "inLanguage": "es"
+      "inLanguage": "de"
     },
     {
       "@type": "LearningResource",
-      "@id": "https://tablasdemultiplicar.online/21-30#learningresource",
-      "name": "Recurso de Aprendizaje Tablas del 21 al 30",
-      "description": "Tablas de multiplicar nivel intermedio: Aprende las tablas de multiplicar de los números del 21 al 30 con ejercicios prácticos.",
+      "@id": "https://einmaleins.online/21-30#learningresource",
+      "name": "Lernressource Einmaleins-Tabellen von 21 bis 30",
+      "description": "Einmaleins-Tabellen mittleres Level: Lerne die Einmaleins-Tabellen der Zahlen von 21 bis 30 mit praktischen Übungen.",
       "educationalLevel": "Intermediate",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "Habilidades para comprender y aplicar las tablas de multiplicar del 21 al 30",
+      "teaches": "Fähigkeiten zum Verstehen und Anwenden der Einmaleins-Tabellen von 21 bis 30",
       "typicalAgeRange": "8-10",
-      "inLanguage": "es",
+      "inLanguage": "de",
       "educationalUse": ["practice", "self-study", "homework"],
       "audience": {
         "@type": "EducationalAudience",
@@ -38,9 +38,9 @@ const schemaData = {
 
 
 export const metadata = {
-  title: 'Tablas de Multiplicar del 21 al 30 | Nivel Intermedio',
-  description: 'Aprende las tablas de multiplicar del 21 al 30. Explicaciones detalladas y ejercicios prácticos para estudiantes de nivel intermedio.',
-  keywords: 'tablas de multiplicar del 21 al 30, tablas de multiplicar, multiplicación, aprendizaje de matemáticas',
+  title: 'Einmaleins-Tabellen von 21 bis 30 | Mittleres Level',
+  description: 'Lerne die Einmaleins-Tabellen von 21 bis 30. Detaillierte Erklärungen und praktische Übungen für Schüler mit mittlerem Level.',
+  keywords: 'einmaleins tabellen von 21 bis 30, einmaleins tabellen, multiplikation, mathematik lernen, großes einmaleins',
   alternates: {
     canonical: '/21-30',
   },

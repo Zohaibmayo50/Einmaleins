@@ -5,28 +5,28 @@ const schemaData = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://tablasdemultiplicar.online/61-70#webpage",
-      "url": "https://tablasdemultiplicar.online/61-70",
-      "name": "Tablas de Multiplicar del 61 al 70 - Nivel Avanzado",
-      "description": "Aprende las tablas de multiplicar del 61 al 70. Recursos interactivos de aprendizaje para habilidades matemáticas de nivel avanzado.",
+      "@id": "https://einmaleins.online/61-70#webpage",
+      "url": "https://einmaleins.online/61-70",
+      "name": "Einmaleins-Tabellen von 61 bis 70 - Fortgeschrittenes Level",
+      "description": "Lerne die Einmaleins-Tabellen von 61 bis 70. Interaktive Lernressourcen für mathematische Fähigkeiten auf fortgeschrittenem Level.",
       "isPartOf": {
-        "@id": "https://tablasdemultiplicar.online/#website"
+        "@id": "https://einmaleins.online/#website"
       },
       "about": {
-        "@id": "https://tablasdemultiplicar.online/61-70#learningresource"
+        "@id": "https://einmaleins.online/61-70#learningresource"
       },
-      "inLanguage": "es"
+      "inLanguage": "de"
     },
     {
       "@type": "LearningResource",
-      "@id": "https://tablasdemultiplicar.online/61-70#learningresource",
-      "name": "Recurso de Aprendizaje Tablas del 61 al 70",
-      "description": "Tablas de multiplicar nivel avanzado: Aprende las tablas de multiplicar de los números del 61 al 70 con ejercicios prácticos.",
+      "@id": "https://einmaleins.online/61-70#learningresource",
+      "name": "Lernressource Einmaleins-Tabellen von 61 bis 70",
+      "description": "Einmaleins-Tabellen fortgeschrittenes Level: Lerne die Einmaleins-Tabellen der Zahlen von 61 bis 70 mit praktischen Übungen.",
       "educationalLevel": "Advanced",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "Habilidades para comprender y aplicar las tablas de multiplicar del 61 al 70",
+      "teaches": "Fähigkeiten zum Verstehen und Anwenden der Einmaleins-Tabellen von 61 bis 70",
       "typicalAgeRange": "9-12",
-      "inLanguage": "es",
+      "inLanguage": "de",
       "educationalUse": ["practice", "self-study", "homework"],
       "audience": {
         "@type": "EducationalAudience",
@@ -38,9 +38,9 @@ const schemaData = {
 
 
 export const metadata = {
-  title: 'Tablas de Multiplicar del 61 al 70 | Números Altos',
-  description: 'Aprende las tablas de multiplicar del 61 al 70. Recursos educativos completos para multiplicación con números altos.',
-  keywords: 'tablas de multiplicar del 61 al 70, tablas de multiplicar, multiplicación, aprendizaje de matemáticas',
+  title: 'Einmaleins-Tabellen von 61 bis 70 | Hohe Zahlen',
+  description: 'Lerne die Einmaleins-Tabellen von 61 bis 70. Umfassende Lernressourcen für die Multiplikation mit hohen Zahlen.',
+  keywords: 'einmaleins tabellen von 61 bis 70, einmaleins tabellen, multiplikation, mathematik lernen, großes einmaleins',
   alternates: {
     canonical: '/61-70',
   },

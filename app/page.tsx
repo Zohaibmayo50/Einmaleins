@@ -14,57 +14,57 @@ const schemaData = {
   "@graph": [
     {
       "@type": "WebSite",
-      "@id": "https://tablasdemultiplicar.online/#website",
-      "url": "https://tablasdemultiplicar.online/",
-      "name": "Tablas de Multiplicar",
-      "description": "Plataforma de educación interactiva para aprender las tablas de multiplicar del 1 al 100. Herramientas de aprendizaje visual para niños, ejercicios prácticos y juegos educativos.",
-      "inLanguage": "es",
+      "@id": "https://einmaleins.online/#website",
+      "url": "https://einmaleins.online/",
+      "name": "Einmaleins",
+      "description": "Interaktive Lernplattform für das Einmaleins von 1 bis 100. Visuelle Lernwerkzeuge für Kinder, praktische Übungen und lehrreiche Spiele.",
+      "inLanguage": "de",
       "publisher": {
-        "@id": "https://tablasdemultiplicar.online/#organization"
+        "@id": "https://einmaleins.online/#organization"
       },
       "potentialAction": {
         "@type": "SearchAction",
         "target": {
           "@type": "EntryPoint",
-          "urlTemplate": "https://tablasdemultiplicar.online/tabla/{search_term_string}"
+          "urlTemplate": "https://einmaleins.online/einmaleins/{search_term_string}"
         },
         "query-input": "required name=search_term_string"
       }
     },
     {
       "@type": "WebPage",
-      "@id": "https://tablasdemultiplicar.online/#webpage",
-      "url": "https://tablasdemultiplicar.online/",
-      "name": "Tablas de Multiplicar - Del 1 al 100 Todas las Tablas",
-      "description": "Plataforma interactiva de aprendizaje de tablas de multiplicar para niños. Aprende todas las tablas de multiplicar del 1 al 100 practicando. Ejercicios visuales, juegos y hojas de trabajo imprimibles.",
+      "@id": "https://einmaleins.online/#webpage",
+      "url": "https://einmaleins.online/",
+      "name": "Einmaleins - Von 1 bis 100 Alle Tabellen",
+      "description": "Interaktive Lernplattform für das Einmaleins für Kinder. Lerne alle Multiplikationstabellen von 1 bis 100 durch Üben. Visuelle Übungen, Spiele und druckbare Arbeitsblätter.",
       "isPartOf": {
-        "@id": "https://tablasdemultiplicar.online/#website"
+        "@id": "https://einmaleins.online/#website"
       },
       "about": {
-        "@id": "https://tablasdemultiplicar.online/#learningresource"
+        "@id": "https://einmaleins.online/#learningresource"
       },
-      "inLanguage": "es",
+      "inLanguage": "de",
       "primaryImageOfPage": {
         "@type": "ImageObject",
-        "url": "https://tablasdemultiplicar.online/og-image.jpg",
+        "url": "https://einmaleins.online/og-image.jpg",
         "width": 1200,
         "height": 630
       }
     },
     {
       "@type": "EducationalOrganization",
-      "@id": "https://tablasdemultiplicar.online/#organization",
-      "name": "Tablas de Multiplicar",
-      "url": "https://tablasdemultiplicar.online/",
-      "description": "Plataforma educativa que enseña las tablas de multiplicar a estudiantes de primaria",
+      "@id": "https://einmaleins.online/#organization",
+      "name": "Einmaleins",
+      "url": "https://einmaleins.online/",
+      "description": "Bildungsplattform, die das Einmaleins an Grundschüler vermittelt",
       "areaServed": "Worldwide",
-      "availableLanguage": "es"
+      "availableLanguage": "de"
     },
     {
       "@type": "LearningResource",
-      "@id": "https://tablasdemultiplicar.online/#learningresource",
-      "name": "Plataforma de Aprendizaje de Tablas de Multiplicar",
-      "description": "Recurso educativo integral para aprender las tablas de multiplicar del 1 al 100. Explicaciones detalladas para cada número, patrones, estrategias prácticas y ejercicios interactivos.",
+      "@id": "https://einmaleins.online/#learningresource",
+      "name": "Einmaleins Lernplattform",
+      "description": "Umfassende Lernressource für das Einmaleins von 1 bis 100. Detaillierte Erklärungen für jede Zahl, Muster, praktische Strategien und interaktive Übungen.",
       "educationalLevel": "Elementary",
       "learningResourceType": [
         "Interactive Resource",
@@ -80,7 +80,7 @@ const schemaData = {
           "teacher"
         ]
       },
-      "inLanguage": "es",
+      "inLanguage": "de",
       "educationalUse": [
         "practice",
         "self-study",
@@ -88,16 +88,21 @@ const schemaData = {
         "classroom activity"
       ],
       "keywords": [
-        "tablas de multiplicar",
-        "aprendizaje de matemáticas",
-        "matemáticas de primaria",
-        "operación de multiplicación",
-        "memorizar tablas de multiplicar",
-        "práctica de matemáticas",
-        "ejercicios de multiplicación",
-        "juegos de tablas de multiplicar"
+        "einmaleins",
+        "kleines einmaleins",
+        "das einmaleins",
+        "einmaleins lernen",
+        "einmaleins üben",
+        "einmaleins spiele",
+        "einmaleins tabelle",
+        "einmaleins aufgaben",
+        "arbeitsblätter einmaleins",
+        "einmaleins arbeitsblätter zum ausdrucken pdf",
+        "grosses einmaleins",
+        "einmaleins tafel",
+        "kernaufgaben einmaleins"
       ],
-      "teaches": "Habilidades para comprender, aplicar y memorizar la operación de multiplicación y las tablas de multiplicar",
+      "teaches": "Fähigkeiten zum Verstehen, Anwenden und Auswendiglernen der Multiplikation und des Einmaleins",
       "typicalAgeRange": "6-12"
     }
   ]

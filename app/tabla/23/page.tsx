@@ -5,79 +5,79 @@ const schemaData = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://tablasdemultiplicar.online/tabla/23#webpage",
-      "url": "https://tablasdemultiplicar.online/tabla/23",
-      "name": "23 Tabla de Multiplicar - Asal Sayı Desenleri",
-      "description": "23 Tabla de Multiplicar ile asal sayı desenleri ve ileri düzeyde çarpma becerilerini geliştirin.",
+      "@id": "https://einmaleins.online/einmaleins/23#webpage",
+      "url": "https://einmaleins.online/einmaleins/23",
+      "name": "23er-Einmaleins - Asal Sayı Desenleri",
+      "description": "23er-Einmaleins ile asal sayı desenleri ve ileri düzeyde çarpma becerilerini geliştirin.",
       "isPartOf": {
-        "@id": "https://tablasdemultiplicar.online/#website"
+        "@id": "https://einmaleins.online/#website"
       },
       "about": {
-        "@id": "https://tablasdemultiplicar.online/tabla/23#learningresource"
+        "@id": "https://einmaleins.online/einmaleins/23#learningresource"
       },
       "breadcrumb": {
-        "@id": "https://tablasdemultiplicar.online/tabla/23#breadcrumb"
+        "@id": "https://einmaleins.online/einmaleins/23#breadcrumb"
       },
-      "inLanguage": "es-MX"
+      "inLanguage": "de"
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://tablasdemultiplicar.online/tabla/23#breadcrumb",
+      "@id": "https://einmaleins.online/einmaleins/23#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
           "position": 1,
           "item": {
-            "@id": "https://tablasdemultiplicar.online/",
-            "name": "Inicio"
+            "@id": "https://einmaleins.online/",
+            "name": "Startseite"
           }
         },
         {
           "@type": "ListItem",
           "position": 2,
           "item": {
-            "@id": "https://tablasdemultiplicar.online/21-30",
-            "name": "21-30 Tabla de Multiplicar"
+            "@id": "https://einmaleins.online/21-30",
+            "name": "Einmaleins 21-30"
           }
         },
         {
           "@type": "ListItem",
           "position": 3,
           "item": {
-            "@id": "https://tablasdemultiplicar.online/tabla/23",
-            "name": "23 Tabla de Multiplicar"
+            "@id": "https://einmaleins.online/einmaleins/23",
+            "name": "23er-Einmaleins"
           }
         }
       ]
     },
     {
       "@type": "LearningResource",
-      "@id": "https://tablasdemultiplicar.online/tabla/23#learningresource",
-      "name": "23 Tabla de Multiplicar Recurso de Aprendizaje",
-      "description": "23 Multiplicar por: Asal sayı özellikleri ve orta-ileri seviye çarpma pratikleri.",
+      "@id": "https://einmaleins.online/einmaleins/23#learningresource",
+      "name": "23er-Einmaleins Recurso de Aprendizaje",
+      "description": "23 Multiplikation por: Asal sayı özellikleri ve orta-ileri seviye çarpma pratikleri.",
       "educationalLevel": "Intermediate",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "23 Tabla de Multiplicar, asal sayı kavramı, ileri çarpma",
+      "teaches": "23er-Einmaleins, asal sayı kavramı, ileri çarpma",
       "typicalAgeRange": "8-11",
-      "inLanguage": "es-MX",
+      "inLanguage": "de",
       "educationalUse": ["practice", "self-study"],
       "audience": {
         "@type": "EducationalAudience",
         "educationalRole": ["student"]
       },
       "isPartOf": {
-        "@id": "https://tablasdemultiplicar.online/21-30#learningresource"
+        "@id": "https://einmaleins.online/21-30#learningresource"
       }
     }
   ]
 }
 
 export const metadata = {
-  title: '23 Tabla de Multiplicar - Juegos Divertidos y Ejercicios Prácticos',
-  description: '23 Tabla de Multiplicar con juegos divertidos y ejercicios interactivos. Ayudas visuales para niños, consejos prácticos y técnicas fáciles de memorización.',
-  keywords: '23 Tabla de Multiplicar, yirmi üç Tabla de Multiplicar, 23 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
+  title: '23er-Einmaleins | Lerne Multiplikation mit 23',
+  description: 'Meistere das 23er-Einmaleins. Klare ErklÃ¤rungen, Muster und praktische Ãœbungsstrategien.',
+  keywords: '23er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {
-    canonical: '/tabla/23',
+    canonical: '/einmaleins/23',
   },
 }
 

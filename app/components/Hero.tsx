@@ -22,24 +22,24 @@ export default function Hero() {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/80 backdrop-blur-sm rounded-full shadow-sm border border-blue-100 mb-6">
             <span className="text-2xl">🎓</span>
-            <span className="text-sm font-medium text-blue-700">Del 1 al 100 - Aprendizaje Divertido</span>
+            <span className="text-sm font-medium text-blue-700">Von 1 bis 100 - Spannendes Lernen</span>
           </div>
 
           {/* H1 - Main Heading */}
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 mb-6 leading-tight">
             <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
-              Tablas de Multiplicar
+              Einmaleins
             </span>
             <br />
-            <span className="text-slate-800">Aprende, Comprende y Practica</span>
+            <span className="text-slate-800">Lernen, Verstehen und Üben</span>
           </h1>
 
           {/* Subtitle */}
           <p className="text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed mb-8">
-            Las tablas de multiplicar son uno de los pilares fundamentales de las matemáticas. 
-            En esta plataforma, no solo <span className="font-semibold text-blue-600">memorizarás las tablas</span>, 
-            sino que también las <span className="font-semibold text-indigo-600">comprenderás completamente</span> 
-            y las aprenderás de forma permanente con práctica regular.
+            Das Einmaleins ist eine der wichtigsten Grundlagen der Mathematik. 
+            Auf dieser Plattform wirst du nicht nur <span className="font-semibold text-blue-600">das Einmaleins auswendig lernen</span>, 
+            sondern es auch <span className="font-semibold text-indigo-600">vollständig verstehen</span> 
+            und durch regelmäßiges Üben dauerhaft beherrschen.
           </p>
 
           {/* CTA Buttons */}
@@ -48,7 +48,7 @@ export default function Hero() {
               href="#learning-paths" 
               className="group px-8 py-4 bg-gradient-to-r from-blue-500 to-indigo-600 text-white font-semibold rounded-2xl shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-200 flex items-center gap-2"
             >
-              <span>Comenzar a Aprender</span>
+              <span>Jetzt Lernen Beginnen</span>
               <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
@@ -57,7 +57,7 @@ export default function Hero() {
               href="#definition" 
               className="px-8 py-4 bg-white text-blue-600 font-semibold rounded-2xl shadow-md hover:shadow-lg hover:scale-105 transition-all duration-200 border border-blue-100"
             >
-              ¿Cómo Funciona?
+              Wie funktioniert es?
             </a>
           </div>
 
@@ -65,15 +65,15 @@ export default function Hero() {
           <div className="mt-12 grid grid-cols-3 gap-6 max-w-2xl mx-auto">
             <div className="bg-white/60 backdrop-blur-sm rounded-2xl p-4 border border-blue-100/50">
               <div className="text-3xl font-bold text-blue-600 mb-1">100</div>
-              <div className="text-sm text-slate-600">Tablas</div>
+              <div className="text-sm text-slate-600">Tabellen</div>
             </div>
             <div className="bg-white/60 backdrop-blur-sm rounded-2xl p-4 border border-indigo-100/50">
               <div className="text-3xl font-bold text-indigo-600 mb-1">10</div>
-              <div className="text-sm text-slate-600">Niveles</div>
+              <div className="text-sm text-slate-600">Stufen</div>
             </div>
             <div className="bg-white/60 backdrop-blur-sm rounded-2xl p-4 border border-purple-100/50">
               <div className="text-3xl font-bold text-purple-600 mb-1">∞</div>
-              <div className="text-sm text-slate-600">Ejercicios</div>
+              <div className="text-sm text-slate-600">Übungen</div>
             </div>
           </div>
         </div>

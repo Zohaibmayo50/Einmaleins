@@ -5,28 +5,28 @@ const schemaData = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://tablasdemultiplicar.online/41-50#webpage",
-      "url": "https://tablasdemultiplicar.online/41-50",
-      "name": "Tablas de Multiplicar del 41 al 50 - Nivel Intermedio",
-      "description": "Aprende las tablas de multiplicar del 41 al 50. Materiales educativos completos para desarrollar habilidades matemáticas de nivel intermedio.",
+      "@id": "https://einmaleins.online/41-50#webpage",
+      "url": "https://einmaleins.online/41-50",
+      "name": "Einmaleins-Tabellen von 41 bis 50 - Mittleres Level",
+      "description": "Lerne die Einmaleins-Tabellen von 41 bis 50. Umfassende Lernmaterialien zur Entwicklung mathematischer Fähigkeiten auf mittlerem Level.",
       "isPartOf": {
-        "@id": "https://tablasdemultiplicar.online/#website"
+        "@id": "https://einmaleins.online/#website"
       },
       "about": {
-        "@id": "https://tablasdemultiplicar.online/41-50#learningresource"
+        "@id": "https://einmaleins.online/41-50#learningresource"
       },
-      "inLanguage": "es"
+      "inLanguage": "de"
     },
     {
       "@type": "LearningResource",
-      "@id": "https://tablasdemultiplicar.online/41-50#learningresource",
-      "name": "Recurso de Aprendizaje Tablas del 41 al 50",
-      "description": "Tablas de multiplicar nivel intermedio: Aprende las tablas de multiplicar de los números del 41 al 50 con ejercicios prácticos.",
+      "@id": "https://einmaleins.online/41-50#learningresource",
+      "name": "Lernressource Einmaleins-Tabellen von 41 bis 50",
+      "description": "Einmaleins-Tabellen mittleres Level: Lerne die Einmaleins-Tabellen der Zahlen von 41 bis 50 mit praktischen Übungen.",
       "educationalLevel": "Intermediate",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "Habilidades para comprender y aplicar las tablas de multiplicar del 41 al 50",
+      "teaches": "Fähigkeiten zum Verstehen und Anwenden der Einmaleins-Tabellen von 41 bis 50",
       "typicalAgeRange": "8-11",
-      "inLanguage": "es",
+      "inLanguage": "de",
       "educationalUse": ["practice", "self-study", "homework"],
       "audience": {
         "@type": "EducationalAudience",
@@ -38,9 +38,9 @@ const schemaData = {
 
 
 export const metadata = {
-  title: 'Tablas de Multiplicar del 41 al 50 | Nivel Intermedio-Avanzado',
-  description: 'Aprende las tablas de multiplicar del 41 al 50. Ejercicios interactivos para dominar la multiplicación con números grandes.',
-  keywords: 'tablas de multiplicar del 41 al 50, tablas de multiplicar, multiplicación, aprendizaje de matemáticas',
+  title: 'Einmaleins-Tabellen von 41 bis 50 | Mittleres bis Fortgeschrittenes Level',
+  description: 'Lerne die Einmaleins-Tabellen von 41 bis 50. Interaktive Übungen zur Beherrschung der Multiplikation mit großen Zahlen.',
+  keywords: 'einmaleins tabellen von 41 bis 50, einmaleins tabellen, multiplikation, mathematik lernen, großes einmaleins',
   alternates: {
     canonical: '/41-50',
   },

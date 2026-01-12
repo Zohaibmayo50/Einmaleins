@@ -3,7 +3,7 @@ export default function WhyItMatters() {
     <section className="section-container bg-gradient-to-br from-educational-50 to-white">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-slate-900 mb-12 text-center">
-          ¿Por Qué es Importante Aprender las Tablas de Multiplicar?
+          Warum ist es wichtig, das Einmaleins zu lernen?
         </h2>
         
         <div className="grid gap-8 md:grid-cols-2">
@@ -15,14 +15,13 @@ export default function WhyItMatters() {
                 </svg>
               </div>
               <h3 className="text-xl font-semibold text-slate-900 mb-3">
-                Habilidad de Cálculo Mental
+                Kopfrechnen Fähigkeit
               </h3>
             </div>
             <p className="text-slate-700">
-              Los estudiantes que dominan las tablas de multiplicar pueden realizar 
-              cálculos mentalmente en la vida diaria y en matemáticas escolares sin 
-              necesidad de papel y lápiz. Esta habilidad aumenta la velocidad y confianza 
-              al resolver problemas.
+              Schüler, die das Einmaleins beherrschen, können im Alltag und in der Schulmathematik 
+              ohne Papier und Stift Berechnungen im Kopf durchführen. Diese Fähigkeit erhöht 
+              die Geschwindigkeit und das Selbstvertrauen beim Lösen von Problemen.
             </p>
           </article>
           
@@ -34,13 +33,13 @@ export default function WhyItMatters() {
                 </svg>
               </div>
               <h3 className="text-xl font-semibold text-slate-900 mb-3">
-                Rapidez y Precisión
+                Schnelligkeit und Genauigkeit
               </h3>
             </div>
             <p className="text-slate-700">
-              Comprender las tablas de multiplicar en lugar de solo memorizarlas permite 
-              realizar operaciones tanto rápida como correctamente. Esta habilidad es 
-              críticamente importante especialmente en exámenes y situaciones con límite de tiempo.
+              Das Einmaleins zu verstehen statt nur auswendig zu lernen, ermöglicht 
+              Berechnungen sowohl schnell als auch korrekt durchzuführen. Diese Fähigkeit ist 
+              besonders bei Prüfungen und zeitkritischen Situationen von entscheidender Bedeutung.
             </p>
           </article>
           
@@ -52,13 +51,13 @@ export default function WhyItMatters() {
                 </svg>
               </div>
               <h3 className="text-xl font-semibold text-slate-900 mb-3">
-                Base para Matemáticas Avanzadas
+                Grundlage für höhere Mathematik
               </h3>
             </div>
             <p className="text-slate-700">
-              Todas las operaciones de división, fracciones, expresiones algebraicas y 
-              conceptos matemáticos más complejos se basan en el conocimiento de las 
-              tablas de multiplicar. Una base sólida garantiza el éxito en niveles avanzados.
+              Alle Divisionsoperationen, Brüche, algebraische Ausdrücke und 
+              komplexere mathematische Konzepte basieren auf der Kenntnis des 
+              Einmaleins. Eine solide Grundlage garantiert Erfolg in fortgeschrittenen Stufen.
             </p>
           </article>
           
@@ -70,13 +69,13 @@ export default function WhyItMatters() {
                 </svg>
               </div>
               <h3 className="text-xl font-semibold text-slate-900 mb-3">
-                Confianza y Motivación en Matemáticas
+                Selbstvertrauen und Motivation in Mathe
               </h3>
             </div>
             <p className="text-slate-700">
-              Los estudiantes que conocen las tablas de multiplicar desarrollan una 
-              actitud positiva hacia las matemáticas. Esta confianza afecta directamente 
-              el éxito general en las clases de matemáticas y el deseo de aprender.
+              Schüler, die das Einmaleins beherrschen, entwickeln eine 
+              positive Einstellung zur Mathematik. Dieses Selbstvertrauen wirkt sich direkt 
+              auf den Gesamterfolg im Mathematikunterricht und die Lernbereitschaft aus.
             </p>
           </article>
         </div>

@@ -34,7 +34,7 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
         printWindow.document.write(`
           <html>
             <head>
-              <title>Tabla de Multiplicar del ${number}</title>
+              <title>Einmaleins-Tabelle von ${number}</title>
               <style>
                 body {
                   font-family: Arial, sans-serif;
@@ -70,7 +70,7 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
               </style>
             </head>
             <body>
-              <h1>Tabla de Multiplicar del ${number}</h1>
+              <h1>Einmaleins-Tabelle von ${number}</h1>
               ${Array.from({ length: 10 }, (_, i) => `
                 <div class="table-item">
                   <span class="equation">${number} × ${i + 1}</span>
@@ -122,7 +122,7 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
         ctx.fillStyle = '#ffffff'
         ctx.font = 'bold 36px Arial'
         ctx.textAlign = 'center'
-        ctx.fillText('Tabla del ' + number, 300, 60)
+        ctx.fillText(number + 'er-Einmaleins', 300, 60)
 
         // Table items
         ctx.font = '24px Arial'
@@ -153,7 +153,7 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
             const url = URL.createObjectURL(blob)
             const link = document.createElement('a')
             link.href = url
-            link.download = number + '-tabla-de-multiplicar.png'
+            link.download = number + '-einmaleins-tabelle.png'
             link.click()
             URL.revokeObjectURL(url)
           }
@@ -268,7 +268,7 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
       99: "Multiplicar por 99 usa la relación 9×11. El 99 es un número repdigit (repetición de 9s). Pensar en 99 como 100-1 es la estrategia más fácil: multiplica un número por 100 y réstale el número mismo. Como 99=9×11, es divisible tanto por 9 como por 11. Es una de las tablas más fáciles para el cálculo mental.",
       100: "Multiplicar por 100 es la tabla más fácil! Para multiplicar un número por 100, solo agrega dos ceros al final. Que 100=10×10=10² es fundamental para entender el sistema decimal. El 100 es la base de cálculos de porcentaje (100%=completo) y el sistema decimal. Tiene importancia crítica para monedas, unidades de medida y matemática cotidiana.",
     }
-    return meanings[number] || `Multiplicar por ${number} significa sumar el número ${number} repetidamente. Cada vez que multiplicas, estás contando grupos de ${number}.`
+    return meanings[number] || `Mit ${number} multiplizieren bedeutet, die Zahl ${number} wiederholt zu addieren. Jedes Mal, wenn du multiplizierst, zählst du Gruppen von ${number}.`
   }
 
   const getWhyImportant = () => {
@@ -374,7 +374,7 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
       99: "Multiplicar por 99 usa la relación 9×11. La estrategia más fácil es pensar en 99 como 100-1: multiplica un número por 100 y réstale el número mismo. El 99 muestra un patrón similar a repdigit (repetición de 9s). Como 99=9×11, es divisible tanto por 9 como por 11. Esta tabla es extremadamente útil para cálculos cercanos a 100. La estrategia 100-1 es PERFECTA para matemática mental. La propiedad repdigit (99) profundiza la comprensión de patrones. Esta tabla es extremadamente importante para habilidades de cálculo práctico.",
       100: "La tabla del 100 es la base del sistema decimal. Proporciona una comprensión perfecta del concepto de valor posicional. Forma la base de cálculos de porcentaje (100%=completo) y el sistema decimal. Tiene importancia crítica para unidades monetarias, unidades de medida y matemática cotidiana. ¡ES UNA DE LAS TABLAS MÁS ÚTILES E IMPORTANTES!",
     }
-    return importance[number] || `Aprender la tabla del ${number} ayuda a los estudiantes a desarrollar fluidez con este número importante. Se ve frecuentemente en matemáticas y la vida cotidiana, haciéndolo necesario para construir sólidas habilidades de cálculo.`
+    return importance[number] || `Das Lernen der Einmaleins-Tabelle von ${number} hilft Schülern, Gewandtheit mit dieser wichtigen Zahl zu entwickeln. Sie erscheint häufig in Mathematik und Alltag und ist notwendig, um solide Rechenfähigkeiten aufzubauen.`
   }
 
   const getPatterns = () => {
@@ -1994,10 +1994,10 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
       ],
     }
     return strategies[number] || [
-      `Practica contar de ${number} en ${number} en voz alta`,
-      "Escribe la tabla todos los días durante una semana",
-      "Usa tarjetas de memoria para probarte de forma aleatoria",
-      "Practica 5-10 minutos diarios en lugar de estudiar mucho tiempo de una vez",
+      `Übe das Zählen in ${number}er-Schritten laut`,
+      "Schreibe die Tabelle jeden Tag eine Woche lang auf",
+      "Verwende Lernkarten, um dich zufällig zu testen",
+      "Übe täglich 5-10 Minuten, anstatt auf einmal lange zu lernen",
     ]
   }
 
@@ -2198,7 +2198,7 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
             <div className="lg:sticky lg:top-8">
               <div className="flex items-center justify-between mb-3 sm:mb-4">
                 <h2 className="text-xl sm:text-2xl font-bold text-slate-900">
-                  Tabla del {number}
+                  Einmaleins-Tabelle von {number}
                 </h2>
                 
                 {/* Print and Download Buttons */}
@@ -2206,23 +2206,23 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
                   <button
                     onClick={handlePrint}
                     className="group flex items-center gap-1.5 px-3 py-1.5 sm:px-4 sm:py-2 bg-white border-2 border-blue-200 text-blue-600 rounded-lg hover:bg-blue-50 hover:border-blue-300 transition-all text-xs sm:text-sm font-semibold"
-                    title="Imprimir"
+                    title="Drucken"
                   >
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z" />
                     </svg>
-                    <span className="hidden sm:inline">Imprimir</span>
+                    <span className="hidden sm:inline">Drucken</span>
                   </button>
                   
                   <button
                     onClick={handleDownload}
                     className="group flex items-center gap-1.5 px-3 py-1.5 sm:px-4 sm:py-2 bg-gradient-to-r from-blue-500 to-indigo-600 text-white rounded-lg hover:from-blue-600 hover:to-indigo-700 transition-all text-xs sm:text-sm font-semibold shadow-md hover:shadow-lg"
-                    title="Descargar"
+                    title="Herunterladen"
                   >
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                     </svg>
-                    <span className="hidden sm:inline">Descargar</span>
+                    <span className="hidden sm:inline">Herunterladen</span>
                   </button>
                 </div>
               </div>
@@ -2246,12 +2246,12 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
       <section className="section-container bg-white py-8 sm:py-12">
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-3 sm:mb-4">
-            Patrones en la Tabla del {number}
+            Muster in der Einmaleins-Tabelle von {number}
           </h2>
           
           <p className="text-sm sm:text-base text-slate-700 mb-4 sm:mb-6 leading-relaxed">
-            Entender los patrones hace que el aprendizaje sea más fácil y divertido. La tabla del {number} tiene 
-            hermosos patrones que pueden ayudarte a recordarla sin memorizar de memoria.
+            Muster zu verstehen macht das Lernen einfacher und macht mehr Spaß. Die Einmaleins-Tabelle von {number} hat 
+            wunderschöne Muster, die dir helfen können, sie zu merken, ohne auswendig zu lernen.
           </p>
           
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-3 sm:gap-4">
@@ -2289,12 +2289,12 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
       <section className="section-container bg-white">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-slate-900 mb-4 sm:mb-6">
-            Cómo Practicar la Tabla del {number}
+            Wie man die Einmaleins-Tabelle von {number} übt
           </h2>
           
           <p className="text-base sm:text-lg text-slate-700 mb-6 sm:mb-8 leading-relaxed">
-            Aprender las tablas de multiplicar requiere práctica consistente con las estrategias correctas. 
-            Aquí hay métodos comprobados para dominar específicamente la tabla del {number}:
+            Das Lernen der Einmaleins-Tabellen erfordert konsequentes Üben mit den richtigen Strategien. 
+            Hier sind bewährte Methoden, um speziell die Einmaleins-Tabelle von {number} zu meistern:
           </p>
           
           <div className="grid gap-3 sm:gap-4">
@@ -2316,12 +2316,12 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
       <section className="section-container bg-gradient-to-br from-slate-50 to-gray-100">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-slate-900 mb-4 sm:mb-6">
-            Errores Comunes al Aprender la Tabla del {number}
+            Häufige Fehler beim Lernen der Einmaleins-Tabelle von {number}
           </h2>
           
           <p className="text-base sm:text-lg text-slate-700 mb-6 sm:mb-8 leading-relaxed">
-            Muchos estudiantes cometen errores similares al aprender esta tabla. Ser consciente de estos errores comunes 
-            te ayudará a evitarlos y aprender de manera más efectiva.
+            Viele Schüler machen ähnliche Fehler beim Lernen dieser Tabelle. Sich dieser häufigen Fehler bewusst zu sein, 
+            hilft dir, sie zu vermeiden und effektiver zu lernen.
           </p>
           
           <div className="space-y-4 sm:space-y-6">
@@ -2334,7 +2334,7 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
                       {item.mistake}
                     </h3>
                     <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
-                      <span className="font-semibold text-green-600">Solución:</span> {item.solution}
+                      <span className="font-semibold text-green-600">Lösung:</span> {item.solution}
                     </p>
                   </div>
                 </div>
@@ -2348,12 +2348,12 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
       <section className="section-container bg-white">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-slate-900 mb-4 sm:mb-6">
-            Tablas de Multiplicar Relacionadas
+            Verwandte Einmaleins-Tabellen
           </h2>
           
           <p className="text-base sm:text-lg text-slate-700 mb-6 sm:mb-8 leading-relaxed">
-            La tabla del {number} es parte de un sistema de aprendizaje más amplio. 
-            Puedes explorar otras tablas en el mismo rango o pasar al siguiente número lógico.
+            Die Einmaleins-Tabelle von {number} ist Teil eines breiteren Lernsystems. 
+            Du kannst andere Tabellen im selben Bereich erkunden oder zur nächsten logischen Zahl übergehen.
           </p>
           
           <div className="grid sm:grid-cols-2 gap-4 sm:gap-6">
@@ -2364,9 +2364,9 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
               >
                 <div className="flex items-center justify-between">
                   <div>
-                    <div className="text-xs sm:text-sm text-slate-600 mb-1">← Número Anterior</div>
+                    <div className="text-xs sm:text-sm text-slate-600 mb-1">← Vorherige Zahl</div>
                     <div className="text-lg sm:text-2xl font-bold text-slate-900">
-                      Tabla del {number - 1}
+                      {number - 1}er-Einmaleins-Tabelle
                     </div>
                   </div>
                   <svg className="w-5 h-5 sm:w-6 sm:h-6 text-blue-600 group-hover:-translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -2383,9 +2383,9 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
               >
                 <div className="flex items-center justify-between">
                   <div>
-                    <div className="text-xs sm:text-sm text-slate-600 mb-1">Siguiente Número →</div>
+                    <div className="text-xs sm:text-sm text-slate-600 mb-1">Nächste Zahl →</div>
                     <div className="text-lg sm:text-2xl font-bold text-slate-900">
-                      Tabla del {number + 1}
+                      {number + 1}er-Einmaleins-Tabelle
                     </div>
                   </div>
                   <svg className="w-5 h-5 sm:w-6 sm:h-6 text-purple-600 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -2401,12 +2401,12 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
             >
               <div className="flex items-center justify-between">
                 <div>
-                  <div className="text-xs sm:text-sm text-slate-600 mb-1">↑ Rango Superior</div>
+                  <div className="text-xs sm:text-sm text-slate-600 mb-1">↑ Übergeordneter Bereich</div>
                   <div className="text-lg sm:text-2xl font-bold text-slate-900">
-                    Tablas del {rangeStart} al {rangeEnd}
+                    Einmaleins-Tabellen von {rangeStart} bis {rangeEnd}
                   </div>
                   <p className="text-xs sm:text-sm text-slate-600 mt-1 sm:mt-2">
-                    Explora todas las tablas de multiplicar en este rango con herramientas de práctica y juegos
+                    Entdecke alle Einmaleins-Tabellen in diesem Bereich mit Übungstools und Spielen
                   </p>
                 </div>
                 <svg className="w-5 h-5 sm:w-6 sm:h-6 text-green-600 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">

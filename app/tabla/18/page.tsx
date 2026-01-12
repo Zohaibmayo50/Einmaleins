@@ -5,38 +5,38 @@ const schemaData = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://tablasdemultiplicar.online/tabla/18#webpage",
-      "url": "https://tablasdemultiplicar.online/tabla/18",
-      "name": "18 Tabla de Multiplicar - Reşitlik Yaşı",
-      "description": "18 Tabla de Multiplicar Multiplicar por becerilerinizi güçlendirin. 9×2 ve 6×3 ilişkileri ile 18 Multiplicar por stratejileri.",
+      "@id": "https://einmaleins.online/einmaleins/18#webpage",
+      "url": "https://einmaleins.online/einmaleins/18",
+      "name": "18er-Einmaleins - Reşitlik Yaşı",
+      "description": "18er-Einmaleins Multiplicar por becerilerinizi güçlendirin. 9×2 ve 6×3 ilişkileri ile 18 Multiplicar por stratejileri.",
       "isPartOf": {
-        "@id": "https://tablasdemultiplicar.online/#website"
+        "@id": "https://einmaleins.online/#website"
       },
       "about": {
-        "@id": "https://tablasdemultiplicar.online/tabla/18#learningresource"
+        "@id": "https://einmaleins.online/einmaleins/18#learningresource"
       },
       "breadcrumb": {
-        "@id": "https://tablasdemultiplicar.online/tabla/18#breadcrumb"
+        "@id": "https://einmaleins.online/einmaleins/18#breadcrumb"
       },
-      "inLanguage": "es-MX"
+      "inLanguage": "de"
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://tablasdemultiplicar.online/tabla/18#breadcrumb",
+      "@id": "https://einmaleins.online/einmaleins/18#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
           "position": 1,
           "item": {
-            "@id": "https://tablasdemultiplicar.online/",
-            "name": "Inicio"
+            "@id": "https://einmaleins.online/",
+            "name": "Startseite"
           }
         },
         {
           "@type": "ListItem",
           "position": 2,
           "item": {
-            "@id": "https://tablasdemultiplicar.online/11-20",
+            "@id": "https://einmaleins.online/11-20",
             "name": "11-20 Tabla de Multiplicar"
           }
         },
@@ -44,40 +44,40 @@ const schemaData = {
           "@type": "ListItem",
           "position": 3,
           "item": {
-            "@id": "https://tablasdemultiplicar.online/tabla/18",
-            "name": "18 Tabla de Multiplicar"
+            "@id": "https://einmaleins.online/einmaleins/18",
+            "name": "18er-Einmaleins"
           }
         }
       ]
     },
     {
       "@type": "LearningResource",
-      "@id": "https://tablasdemultiplicar.online/tabla/18#learningresource",
-      "name": "18 Tabla de Multiplicar Recurso de Aprendizaje",
+      "@id": "https://einmaleins.online/einmaleins/18#learningresource",
+      "name": "18er-Einmaleins Recurso de Aprendizaje",
       "description": "18 Multiplicar por: 9×2 ve 6×3 ilişkisi, çift sayı desenleri, rakamlar toplamı 9'un katı kuralı.",
       "educationalLevel": "Beginner",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "18 Tabla de Multiplicar, 9 ve 6 tablolarının ilişkisi, 9'un katları kuralı",
+      "teaches": "18er-Einmaleins, 9 ve 6 tablolarının ilişkisi, 9'un katları kuralı",
       "typicalAgeRange": "7-10",
-      "inLanguage": "es-MX",
+      "inLanguage": "de",
       "educationalUse": ["practice", "self-study"],
       "audience": {
         "@type": "EducationalAudience",
         "educationalRole": ["student"]
       },
       "isPartOf": {
-        "@id": "https://tablasdemultiplicar.online/11-20#learningresource"
+        "@id": "https://einmaleins.online/11-20#learningresource"
       }
     }
   ]
 }
 
 export const metadata = {
-  title: '18 Tabla de Multiplicar - Juegos Divertidos y Ejercicios Prácticos',
-  description: '18 Tabla de Multiplicar con juegos divertidos y ejercicios interactivos. Ayudas visuales para niños, consejos prácticos y técnicas fáciles de memorización.',
-  keywords: '18 Tabla de Multiplicar, on sekiz Tabla de Multiplicar, 18 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
+  title: '18er-Einmaleins - Juegos Divertidos y Ejercicios Prácticos',
+  description: 'Meistere das 18er-Einmaleins. Klare ErklÃ¤rungen, Muster und praktische Ãœbungsstrategien.',
+  keywords: '18er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {
-    canonical: '/tabla/18',
+    canonical: '/einmaleins/18',
   },
 }
 

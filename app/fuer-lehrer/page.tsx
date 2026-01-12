@@ -1,30 +1,29 @@
-import type { Metadata } from 'next';
+﻿import type { Metadata } from 'next';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Guía de Tablas de Multiplicar para Profesores | Estrategias de Enseñanza',
-  description: 'Recursos completos para profesores sobre cómo enseñar tablas de multiplicar de manera efectiva. Incluye estrategias pedagógicas, actividades de aula, instrucción diferenciada y métodos de evaluación.',
-  keywords: 'enseñar tablas de multiplicar, estrategias pedagógicas, actividades de matemáticas, instrucción diferenciada, recursos para profesores',
+  title: 'Einmaleins-Leitfaden für Lehrer | Unterrichtsstrategien',
+  description: 'Umfassende Ressourcen für Lehrer zum effektiven Unterrichten des Einmaleins. Enthält pädagogische Strategien, Klassenzimmeraktivitäten, differenzierte Unterrichtsmethoden und Bewertungsmethoden.',
+  keywords: 'Einmaleins unterrichten, pädagogische Strategien, Mathematikaktivitäten, differenzierter Unterricht, Lehrerressourcen',
   alternates: {
-    canonical: 'https://tablas-de-multiplicar.com/para-profesores',
+    canonical: 'https://einmaleins.online/fuer-lehrer',
     languages: {
-      'es-MX': 'https://tablas-de-multiplicar.com/para-profesores',
-      'es': 'https://tablas-de-multiplicar.com/para-profesores',
+      'de': 'https://einmaleins.online/fuer-lehrer',
     },
   },
   openGraph: {
-    title: 'Guía de Tablas de Multiplicar para Profesores',
-    description: 'Recursos completos para profesores sobre cómo enseñar tablas de multiplicar de manera efectiva.',
-    url: 'https://tablas-de-multiplicar.com/para-profesores',
-    siteName: 'Tablas de Multiplicar',
-    locale: 'es_MX',
+    title: 'Einmaleins-Leitfaden für Lehrer',
+    description: 'Umfassende Ressourcen für Lehrer zum effektiven Unterrichten des Einmaleins.',
+    url: 'https://einmaleins.online/fuer-lehrer',
+    siteName: 'Einmaleins',
+    locale: 'de_DE',
     type: 'website',
   },
 };
 
-export default function ParaProfesoresPage() {
+export default function FuerLehrerPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50">
       <Header />
@@ -34,11 +33,11 @@ export default function ParaProfesoresPage() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Guía de Tablas de Multiplicar para Profesores
+              Einmaleins-Leitfaden für Lehrer
             </h1>
             <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-              Estrategias efectivas, actividades de aula y recursos para enseñar 
-              las tablas de multiplicar de manera que todos los estudiantes puedan dominarlas.
+              Effektive Strategien, Klassenzimmeraktivitäten und Ressourcen zum Unterrichten 
+              des Einmaleins, damit alle Schüler es meistern können.
             </p>
           </div>
         </div>
@@ -48,7 +47,7 @@ export default function ParaProfesoresPage() {
       <section className="py-12 px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-            Estrategias de Enseñanza Efectivas
+            Effektive Unterrichtsstrategien
           </h2>
           
           <div className="grid md:grid-cols-2 gap-8 mb-12">
@@ -61,7 +60,7 @@ export default function ParaProfesoresPage() {
                 <h3 className="text-2xl font-bold text-gray-900">Visualización</h3>
               </div>
               <p className="text-gray-700 mb-4">
-                Use representaciones visuales para ayudar a los estudiantes a comprender 
+                Use representaciones visuales para ayudar a los SchÃ¼ler a comprender 
                 la multiplicación como grupos repetidos.
               </p>
               <ul className="space-y-2 text-gray-700">
@@ -93,7 +92,7 @@ export default function ParaProfesoresPage() {
                 <h3 className="text-2xl font-bold text-gray-900">Descomposición</h3>
               </div>
               <p className="text-gray-700 mb-4">
-                Enseñe a los estudiantes a descomponer multiplicaciones difíciles 
+                Enseñe a los SchÃ¼ler a descomponer multiplicaciones difíciles 
                 en operaciones más simples.
               </p>
               <ul className="space-y-2 text-gray-700">
@@ -122,10 +121,10 @@ export default function ParaProfesoresPage() {
                 <div className="w-12 h-12 bg-purple-500 rounded-lg flex items-center justify-center mr-4">
                   <span className="text-2xl">🔢</span>
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900">Patrones</h3>
+                <h3 className="text-2xl font-bold text-gray-900">Muster</h3>
               </div>
               <p className="text-gray-700 mb-4">
-                Ayude a los estudiantes a descubrir y usar patrones para facilitar 
+                Ayude a los SchÃ¼ler a descubrir y usar Muster para facilitar 
                 el aprendizaje y la memorización.
               </p>
               <ul className="space-y-2 text-gray-700">
@@ -154,7 +153,7 @@ export default function ParaProfesoresPage() {
                 <div className="w-12 h-12 bg-orange-500 rounded-lg flex items-center justify-center mr-4">
                   <span className="text-2xl">🌍</span>
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900">Aplicaciones Reales</h3>
+                <h3 className="text-2xl font-bold text-gray-900">Reale Anwendungen</h3>
               </div>
               <p className="text-gray-700 mb-4">
                 Conecte la multiplicación con situaciones cotidianas para dar 
@@ -187,7 +186,7 @@ export default function ParaProfesoresPage() {
       <section className="py-12 px-4 bg-white/50">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-            Actividades para el Aula
+            AktivitÃ¤ten fÃ¼r das Klassenzimmer
           </h2>
           
           <div className="grid md:grid-cols-3 gap-6">
@@ -198,11 +197,11 @@ export default function ParaProfesoresPage() {
                 Bingo de Multiplicación
               </h3>
               <p className="text-gray-700 mb-3">
-                Los estudiantes crean tarjetas de bingo con productos. 
-                Llame multiplicaciones y los estudiantes marcan las respuestas.
+                Los SchÃ¼ler crean tarjetas de bingo con productos. 
+                Llame multiplicaciones y los SchÃ¼ler marcan las respuestas.
               </p>
               <div className="bg-blue-50 rounded-lg p-3 text-sm text-gray-700">
-                <strong>Nivel:</strong> Principiante a Intermedio<br/>
+                <strong>Nivel:</strong> AnfÃ¤nger a Fortgeschrittene<br/>
                 <strong>Tiempo:</strong> 15-20 minutos
               </div>
             </div>
@@ -230,11 +229,11 @@ export default function ParaProfesoresPage() {
                 Dominó de Multiplicación
               </h3>
               <p className="text-gray-700 mb-3">
-                Fichas de dominó modificadas donde los estudiantes emparejan 
+                Fichas de dominó modificadas donde los SchÃ¼ler emparejan 
                 multiplicaciones con sus productos.
               </p>
               <div className="bg-purple-50 rounded-lg p-3 text-sm text-gray-700">
-                <strong>Nivel:</strong> Intermedio<br/>
+                <strong>Nivel:</strong> Fortgeschrittene<br/>
                 <strong>Tiempo:</strong> 20-30 minutos
               </div>
             </div>
@@ -243,14 +242,14 @@ export default function ParaProfesoresPage() {
             <div className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow">
               <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center">
                 <span className="text-2xl mr-2">🎨</span>
-                Arte con Arreglos
+                Kunst mit Anordnungen
               </h3>
               <p className="text-gray-700 mb-3">
-                Los estudiantes crean diseños artísticos usando arreglos 
+                Los SchÃ¼ler crean diseños artísticos usando arreglos 
                 rectangulares y etiquetan las multiplicaciones correspondientes.
               </p>
               <div className="bg-pink-50 rounded-lg p-3 text-sm text-gray-700">
-                <strong>Nivel:</strong> Principiante<br/>
+                <strong>Nivel:</strong> AnfÃ¤nger<br/>
                 <strong>Tiempo:</strong> 30-40 minutos
               </div>
             </div>
@@ -278,11 +277,11 @@ export default function ParaProfesoresPage() {
                 Historias de Multiplicación
               </h3>
               <p className="text-gray-700 mb-3">
-                Los estudiantes escriben e ilustran problemas de multiplicación 
+                Los SchÃ¼ler escriben e ilustran problemas de multiplicación 
                 basados en situaciones reales o imaginarias.
               </p>
               <div className="bg-yellow-50 rounded-lg p-3 text-sm text-gray-700">
-                <strong>Nivel:</strong> Intermedio a Avanzado<br/>
+                <strong>Nivel:</strong> Fortgeschrittene a Experten<br/>
                 <strong>Tiempo:</strong> 30-45 minutos
               </div>
             </div>
@@ -302,7 +301,7 @@ export default function ParaProfesoresPage() {
             <div className="bg-gradient-to-br from-green-50 to-green-100 rounded-2xl shadow-xl p-8">
               <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-center">
                 <span className="text-3xl mr-2">🌱</span>
-                Estudiantes Principiantes
+                SchÃ¼ler AnfÃ¤ngers
               </h3>
               <ul className="space-y-3 text-gray-700">
                 <li className="flex items-start">
@@ -336,7 +335,7 @@ export default function ParaProfesoresPage() {
             <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl shadow-xl p-8">
               <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-center">
                 <span className="text-3xl mr-2">📚</span>
-                Estudiantes Intermedios
+                SchÃ¼ler Fortgeschrittenes
               </h3>
               <ul className="space-y-3 text-gray-700">
                 <li className="flex items-start">
@@ -370,7 +369,7 @@ export default function ParaProfesoresPage() {
             <div className="bg-gradient-to-br from-purple-50 to-purple-100 rounded-2xl shadow-xl p-8">
               <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-center">
                 <span className="text-3xl mr-2">🚀</span>
-                Estudiantes Avanzados
+                SchÃ¼ler Expertens
               </h3>
               <ul className="space-y-3 text-gray-700">
                 <li className="flex items-start">
@@ -421,7 +420,7 @@ export default function ParaProfesoresPage() {
                 <div className="border-l-4 border-blue-500 pl-4">
                   <h4 className="font-bold text-gray-900 mb-2">Observación Diaria</h4>
                   <p className="text-gray-700">
-                    Observe a los estudiantes durante la práctica, tome notas sobre 
+                    Observe a los SchÃ¼ler durante la práctica, tome notas sobre 
                     estrategias usadas y errores comunes.
                   </p>
                 </div>
@@ -435,7 +434,7 @@ export default function ParaProfesoresPage() {
                 <div className="border-l-4 border-purple-500 pl-4">
                   <h4 className="font-bold text-gray-900 mb-2">Pizarras Individuales</h4>
                   <p className="text-gray-700">
-                    Los estudiantes muestran respuestas simultáneamente, permitiendo 
+                    Los SchÃ¼ler muestran respuestas simultáneamente, permitiendo 
                     verificación rápida de toda la clase.
                   </p>
                 </div>
@@ -466,7 +465,7 @@ export default function ParaProfesoresPage() {
                 <div className="border-l-4 border-yellow-500 pl-4">
                   <h4 className="font-bold text-gray-900 mb-2">Proyectos Aplicados</h4>
                   <p className="text-gray-700">
-                    Los estudiantes resuelven problemas del mundo real que requieren 
+                    Los SchÃ¼ler resuelven problemas del mundo real que requieren 
                     multiplicación en varios contextos.
                   </p>
                 </div>
@@ -480,7 +479,7 @@ export default function ParaProfesoresPage() {
                 <div className="border-l-4 border-indigo-500 pl-4">
                   <h4 className="font-bold text-gray-900 mb-2">Autoevaluación</h4>
                   <p className="text-gray-700">
-                    Los estudiantes rastrean su propio progreso, identifican tablas 
+                    Los SchÃ¼ler rastrean su propio progreso, identifican tablas 
                     dominadas y establecen metas.
                   </p>
                 </div>
@@ -492,13 +491,13 @@ export default function ParaProfesoresPage() {
           <div className="mt-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-2xl shadow-xl p-8 text-white">
             <h3 className="text-2xl font-bold mb-4 flex items-center">
               <span className="text-3xl mr-3">📈</span>
-              Seguimiento del Progreso
+              Fortschrittsverfolgung
             </h3>
             <div className="grid md:grid-cols-3 gap-6">
               <div className="bg-white/20 rounded-lg p-4">
                 <h4 className="font-bold mb-2">Gráficas de Dominio</h4>
                 <p className="text-sm">
-                  Los estudiantes colorean tablas dominadas en una cuadrícula visual 
+                  Los SchÃ¼ler colorean tablas dominadas en una cuadrícula visual 
                   de 12×12 para ver su progreso.
                 </p>
               </div>
@@ -525,7 +524,7 @@ export default function ParaProfesoresPage() {
       <section className="py-12 px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-            Errores Conceptuales Comunes
+            HÃ¤ufige Fehlvorstellungen
           </h2>
           
           <div className="bg-white rounded-2xl shadow-xl p-8">
@@ -542,7 +541,7 @@ export default function ParaProfesoresPage() {
                   "La multiplicación siempre hace los números más grandes"
                 </h3>
                 <p className="text-gray-700 mb-2">
-                  <strong>Por qué es problemático:</strong> Los estudiantes se confunden 
+                  <strong>Por qué es problemático:</strong> Los SchÃ¼ler se confunden 
                   al multiplicar por fracciones o decimales.
                 </p>
                 <p className="text-gray-700">
@@ -576,7 +575,7 @@ export default function ParaProfesoresPage() {
                   "Multiplicar es solo memorización"
                 </h3>
                 <p className="text-gray-700 mb-2">
-                  <strong>Por qué es problemático:</strong> Los estudiantes pueden 
+                  <strong>Por qué es problemático:</strong> Los SchÃ¼ler pueden 
                   memorizar sin entender, dificultando la aplicación y retención.
                 </p>
                 <p className="text-gray-700">
@@ -590,15 +589,15 @@ export default function ParaProfesoresPage() {
               <div className="border-l-4 border-red-500 bg-red-50 rounded-r-lg p-6">
                 <h3 className="text-xl font-bold text-gray-900 mb-2 flex items-center">
                   <span className="text-2xl mr-2">❌</span>
-                  "Los patrones siempre funcionan sin entenderlos"
+                  "Los Muster siempre funcionan sin entenderlos"
                 </h3>
                 <p className="text-gray-700 mb-2">
-                  <strong>Por qué es problemático:</strong> Los estudiantes aplican 
-                  patrones mecánicamente sin comprender el "por qué" matemático.
+                  <strong>Por qué es problemático:</strong> Los SchÃ¼ler aplican 
+                  Muster mecánicamente sin comprender el "por qué" matemático.
                 </p>
                 <p className="text-gray-700">
                   <strong className="text-green-700">Cómo corregirlo:</strong> Al enseñar 
-                  patrones (ej: tabla del 9), siempre explicar por qué funcionan 
+                  Muster (ej: tabla del 9), siempre explicar por qué funcionan 
                   usando propiedades matemáticas.
                 </p>
               </div>
@@ -615,7 +614,7 @@ export default function ParaProfesoresPage() {
                 </p>
                 <p className="text-gray-700">
                   <strong className="text-green-700">Cómo corregirlo:</strong> Celebrar 
-                  múltiples estrategias. Pedir a los estudiantes que compartan diferentes 
+                  múltiples estrategias. Pedir a los SchÃ¼ler que compartan diferentes 
                   métodos y discutir cuándo cada uno es más útil.
                 </p>
               </div>
@@ -668,7 +667,7 @@ export default function ParaProfesoresPage() {
             <div className="bg-gradient-to-br from-teal-50 to-cyan-50 rounded-2xl shadow-xl p-8">
               <h3 className="text-2xl font-bold text-gray-900 mb-6 flex items-center">
                 <span className="text-3xl mr-3">🎯</span>
-                Secuencia Sugerida
+                Empfohlene Reihenfolge
               </h3>
               <div className="space-y-3">
                 <div className="flex items-center bg-white rounded-lg p-3 shadow">
@@ -685,7 +684,7 @@ export default function ParaProfesoresPage() {
                 </div>
                 <div className="flex items-center bg-white rounded-lg p-3 shadow">
                   <span className="bg-teal-500 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-3">4</span>
-                  <span className="text-gray-700">Tabla del 9 (patrones especiales)</span>
+                  <span className="text-gray-700">Tabla del 9 (Muster especiales)</span>
                 </div>
                 <div className="flex items-center bg-white rounded-lg p-3 shadow">
                   <span className="bg-teal-500 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-3">5</span>
@@ -697,7 +696,7 @@ export default function ParaProfesoresPage() {
                 </div>
                 <div className="flex items-center bg-white rounded-lg p-3 shadow">
                   <span className="bg-teal-500 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-3">7</span>
-                  <span className="text-gray-700">Tablas del 11, 12 (patrones avanzados)</span>
+                  <span className="text-gray-700">Tablas del 11, 12 (Muster Expertens)</span>
                 </div>
               </div>
             </div>
@@ -709,7 +708,7 @@ export default function ParaProfesoresPage() {
       <section className="py-12 px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-            Recursos Adicionales
+            ZusÃ¤tzliche Ressourcen
           </h2>
           
           <div className="grid md:grid-cols-4 gap-6">
@@ -728,25 +727,25 @@ export default function ParaProfesoresPage() {
             >
               <div className="text-4xl mb-3">📗</div>
               <h3 className="font-bold text-gray-900 mb-2">Tablas 11-20</h3>
-              <p className="text-sm text-gray-600">Nivel intermedio</p>
+              <p className="text-sm text-gray-600">Mittleres Niveau</p>
             </Link>
 
             <Link 
-              href="/para-estudiantes" 
+              href="/para-SchÃ¼ler" 
               className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow text-center"
             >
               <div className="text-4xl mb-3">👨‍🎓</div>
-              <h3 className="font-bold text-gray-900 mb-2">Para Estudiantes</h3>
+              <h3 className="font-bold text-gray-900 mb-2">Para SchÃ¼ler</h3>
               <p className="text-sm text-gray-600">Guía de aprendizaje</p>
             </Link>
 
             <Link 
-              href="/para-padres" 
+              href="/fuer-eltern" 
               className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow text-center"
             >
               <div className="text-4xl mb-3">👨‍👩‍👧</div>
-              <h3 className="font-bold text-gray-900 mb-2">Para Padres</h3>
-              <p className="text-sm text-gray-600">Apoyo en casa</p>
+              <h3 className="font-bold text-gray-900 mb-2">FÃ¼r Eltern</h3>
+              <p className="text-sm text-gray-600">UnterstÃ¼tzung zu Hause</p>
             </Link>
           </div>
 
@@ -755,14 +754,14 @@ export default function ParaProfesoresPage() {
               ¿Necesita Más Ayuda?
             </h3>
             <p className="text-lg mb-6">
-              Explore nuestras tablas individuales para recursos específicos, 
+              Erkunden Sie unsere einzelnen Reihen para recursos específicos, 
               ejercicios descargables y actividades interactivas.
             </p>
             <Link 
               href="/"
               className="inline-block bg-white text-indigo-600 font-bold py-3 px-8 rounded-full hover:bg-gray-100 transition-colors"
             >
-              Ver Todas las Tablas
+              Alle Reihen ansehen
             </Link>
           </div>
         </div>

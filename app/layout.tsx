@@ -4,13 +4,13 @@ import './globals.css'
 import Header from './components/Header'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://tablasdemultiplicar.online'),
-  title: 'Tablas de Multiplicar del 1 al 100 | Ejercicios PDF y Juegos Interactivos',
-  description: 'Aprende las tablas de multiplicar del 1 al 100 gratis. Ejercicios interactivos, juegos educativos y hojas de trabajo en PDF. Plataforma ideal de matemáticas para niños.',
-  keywords: 'tablas de multiplicar, tablas de multiplicar del 1 al 10, para imprimir, para niños, juegos de tablas de multiplicar, ejercicios, como aprender las tablas de multiplicar',
-  authors: [{ name: 'Tablas de Multiplicar' }],
-  creator: 'Tablas de Multiplicar',
-  publisher: 'Tablas de Multiplicar',
+  metadataBase: new URL('https://einmaleins.online'),
+  title: 'Einmaleins von 1 bis 100 | Übungen PDF und Interaktive Spiele',
+  description: 'Lerne das Einmaleins von 1 bis 100 kostenlos. Interaktive Übungen, Einmaleins Spiele und Arbeitsblätter als PDF. Die ideale Mathe-Plattform für Kinder.',
+  keywords: 'einmaleins, kleines einmaleins, das einmaleins, einmaleins lernen, einmaleins üben, einmaleins spiele, einmaleins tabelle, einmaleins aufgaben, arbeitsblätter einmaleins, einmaleins arbeitsblätter zum ausdrucken pdf',
+  authors: [{ name: 'Einmaleins' }],
+  creator: 'Einmaleins',
+  publisher: 'Einmaleins',
   alternates: {
     canonical: '/',
   },
@@ -26,17 +26,17 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Tablas de Multiplicar – Aprende, Comprende y Practica',
-    description: 'Aprende las tablas de multiplicar paso a paso, compréndelas y practica.',
+    title: 'Einmaleins – Lernen, Verstehen und Üben',
+    description: 'Lerne das Einmaleins Schritt für Schritt, verstehe es und übe regelmäßig.',
     type: 'website',
-    locale: 'es_MX',
-    url: 'https://tablasdemultiplicar.online',
-    siteName: 'Tablas de Multiplicar',
+    locale: 'de_DE',
+    url: 'https://einmaleins.online',
+    siteName: 'Einmaleins',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Tablas de Multiplicar – Aprende, Comprende y Practica',
-    description: 'Aprende las tablas de multiplicar paso a paso, compréndelas y practica.',
+    title: 'Einmaleins – Lernen, Verstehen und Üben',
+    description: 'Lerne das Einmaleins Schritt für Schritt, verstehe es und übe regelmäßig.',
   },
   verification: {
     google: 'ptAG3AHUZPPQ3LSoZ9eP6prlbhZYHMJzeVsu7V8f6RE',
@@ -49,7 +49,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="es">
+    <html lang="de">
       <head>
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-KJXX9G2ZD2"

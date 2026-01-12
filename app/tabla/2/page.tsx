@@ -52,31 +52,31 @@ const schemaData = {
     },
     {
       "@type": "LearningResource",
-      "@id": "https://tablasdemultiplicar.online/tabla/2#learningresource",
-      "name": "Recurso de aprendizaje: Tabla del 2",
-      "description": "Multiplicar por 1 (propiedad de identidad): cualquier nÃºmero multiplicado por 1 es el mismo nÃºmero. Aprende las reglas bÃ¡sicas de la multiplicaciÃ³n.",
-      "educationalLevel": "Principiante",
+      "@id": "https://einmaleins.online/einmaleins/2#learningresource",
+      "name": "Lernressource: 2er-Einmaleins",
+      "description": "Multiplikation mit 2 (Verdopplung): Lerne das Verdopplungsmuster und grundlegende Multiplikationsfähigkeiten.",
+      "educationalLevel": "Beginner",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "Tabla del 2, propiedad de identidad, conceptos bÃ¡sicos de multiplicaciÃ³n",
+      "teaches": "2er-Einmaleins, Verdopplung, grundlegende Multiplikationskonzepte",
       "typicalAgeRange": "6-8",
-      "inLanguage": "es-MX",
+      "inLanguage": "de",
       "educationalUse": ["practice", "self-study"],
       "audience": {
         "@type": "EducationalAudience",
         "educationalRole": ["student"]
       },
       "isPartOf": {
-        "@id": "https://tablasdemultiplicar.online/1-10#learningresource"
+        "@id": "https://einmaleins.online/1-10#learningresource"
       }
     }
   ]
 }
 
 export const metadata = {
-  title: 'Tabla del 2 | Aprende a multiplicar por 1',
-  description: 'Domina la Tabla del 2. Explicaciones claras, patrones y estrategias prÃ¡cticas para comprender la propiedad de identidad y sentar las bases de la multiplicaciÃ³n.',
+  title: '2er-Einmaleins | Lerne Multiplikation mit 2',
+  description: 'Meistere das 2er-Einmaleins. Klare Erklärungen, Verdopplungsmuster und praktische Strategien zum Verständnis der Multiplikation mit 2.',
   alternates: {
-    canonical: '/tabla/2',
+    canonical: '/einmaleins/2',
   },
 }
 

@@ -6,79 +6,79 @@ const schemaData = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://tablasdemultiplicar.online/tabla/100#webpage",
-      "url": "https://tablasdemultiplicar.online/tabla/100",
-      "name": "100 Tabla de Multiplicar - Onluk Sistemin Ustası",
-      "description": "100 Tabla de Multiplicar ile onluk sistem, yüzde hesaplamaları ve yer değeri kavramında ustalaşın. En önemli çarpım tablolarından biri.",
+      "@id": "https://einmaleins.online/einmaleins/100#webpage",
+      "url": "https://einmaleins.online/einmaleins/100",
+      "name": "100er-Einmaleins - Onluk Sistemin Ustası",
+      "description": "100er-Einmaleins ile onluk sistem, yüzde hesaplamaları ve yer değeri kavramında ustalaşın. En önemli çarpım tablolarından biri.",
       "isPartOf": {
-        "@id": "https://tablasdemultiplicar.online/#website"
+        "@id": "https://einmaleins.online/#website"
       },
       "about": {
-        "@id": "https://tablasdemultiplicar.online/tabla/100#learningresource"
+        "@id": "https://einmaleins.online/einmaleins/100#learningresource"
       },
       "breadcrumb": {
-        "@id": "https://tablasdemultiplicar.online/tabla/100#breadcrumb"
+        "@id": "https://einmaleins.online/einmaleins/100#breadcrumb"
       },
-      "inLanguage": "es-MX"
+      "inLanguage": "de"
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://tablasdemultiplicar.online/tabla/100#breadcrumb",
+      "@id": "https://einmaleins.online/einmaleins/100#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
           "position": 1,
           "item": {
-            "@id": "https://tablasdemultiplicar.online/",
-            "name": "Inicio"
+            "@id": "https://einmaleins.online/",
+            "name": "Startseite"
           }
         },
         {
           "@type": "ListItem",
           "position": 2,
           "item": {
-            "@id": "https://tablasdemultiplicar.online/91-100",
-            "name": "91-100 Tabla de Multiplicar"
+            "@id": "https://einmaleins.online/91-100",
+            "name": "Einmaleins 91-100"
           }
         },
         {
           "@type": "ListItem",
           "position": 3,
           "item": {
-            "@id": "https://tablasdemultiplicar.online/tabla/100",
-            "name": "100 Tabla de Multiplicar"
+            "@id": "https://einmaleins.online/einmaleins/100",
+            "name": "100er-Einmaleins"
           }
         }
       ]
     },
     {
       "@type": "LearningResource",
-      "@id": "https://tablasdemultiplicar.online/tabla/100#learningresource",
-      "name": "100 Tabla de Multiplicar Recurso de Aprendizaje",
-      "description": "100 Multiplicar por: Onluk sistemin temeli, yer değeri kavramı, yüzde hesaplamaları (100%=tam), sonuna iki sıfır ekleme kuralı. En kullanışlı çarpım tablolarından biri.",
+      "@id": "https://einmaleins.online/einmaleins/100#learningresource",
+      "name": "100er-Einmaleins Recurso de Aprendizaje",
+      "description": "100 Multiplikation por: Onluk sistemin temeli, yer değeri kavramı, yüzde hesaplamaları (100%=tam), sonuna iki sıfır ekleme kuralı. En kullanışlı çarpım tablolarından biri.",
       "educationalLevel": "Advanced",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "100 Tabla de Multiplicar, onluk sistem, yer değeri, yüzde hesaplama, 10'un karesi",
+      "teaches": "100er-Einmaleins, onluk sistem, yer değeri, yüzde hesaplama, 10'un karesi",
       "typicalAgeRange": "9-12",
-      "inLanguage": "es-MX",
+      "inLanguage": "de",
       "educationalUse": ["practice", "self-study", "real-world application", "foundational concept"],
       "audience": {
         "@type": "EducationalAudience",
         "educationalRole": ["student"]
       },
       "isPartOf": {
-        "@id": "https://tablasdemultiplicar.online/91-100#learningresource"
+        "@id": "https://einmaleins.online/91-100#learningresource"
       }
     }
   ]
 }
 
 export const metadata: Metadata = {
-  title: '100 Tabla de Multiplicar - Métodos Fáciles de Aprendizaje',
-  description: '100 Tabla de Multiplicarnu con métodos divertidos y efectivos. Domina la tabla con herramientas visuales y consejos prácticos.',
-  keywords: '100 Tabla de Multiplicar, 100 tablosu, Tabla de Multiplicar 100, matematik, çarpma işlemi',
+  title: '100er-Einmaleins | Lerne Multiplikation mit 100',
+  description: 'Meistere das 100er-Einmaleins. Klare ErklÃ¤rungen, Muster und praktische Ãœbungsstrategien.',
+  keywords: '100er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {
-    canonical: '/tabla/100',
+    canonical: '/einmaleins/100',
   },
 }
 

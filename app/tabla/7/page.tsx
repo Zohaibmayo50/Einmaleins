@@ -5,79 +5,79 @@ const schemaData = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://tablasdemultiplicar.online/tabla/7#webpage",
-      "url": "https://tablasdemultiplicar.online/tabla/7",
-      "name": "Tabla del 7 - Sistemas de Siete",
-      "description": "Aprende patrones de conteo de siete con la tabla del 7. Aplicaciones prácticas con días de la semana y patrones periódicos.",
+      "@id": "https://einmaleins.online/einmaleins/7#webpage",
+      "url": "https://einmaleins.online/einmaleins/7",
+      "name": "7er-Einmaleins - Sistemas de Siete",
+      "description": "Lerne patrones de conteo de siete con la 7er-Einmaleins. Aplicaciones prácticas con días de la semana y patrones periódicos.",
       "isPartOf": {
-        "@id": "https://tablasdemultiplicar.online/#website"
+        "@id": "https://einmaleins.online/#website"
       },
       "about": {
-        "@id": "https://tablasdemultiplicar.online/tabla/7#learningresource"
+        "@id": "https://einmaleins.online/einmaleins/7#learningresource"
       },
       "breadcrumb": {
-        "@id": "https://tablasdemultiplicar.online/tabla/7#breadcrumb"
+        "@id": "https://einmaleins.online/einmaleins/7#breadcrumb"
       },
-      "inLanguage": "es-MX"
+      "inLanguage": "de"
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://tablasdemultiplicar.online/tabla/7#breadcrumb",
+      "@id": "https://einmaleins.online/einmaleins/7#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
           "position": 1,
           "item": {
-            "@id": "https://tablasdemultiplicar.online/",
-            "name": "Inicio"
+            "@id": "https://einmaleins.online/",
+            "name": "Startseite"
           }
         },
         {
           "@type": "ListItem",
           "position": 2,
           "item": {
-            "@id": "https://tablasdemultiplicar.online/1-10",
-            "name": "1-10 Tabla de Multiplicar"
+            "@id": "https://einmaleins.online/1-10",
+            "name": "Einmaleins 1-10"
           }
         },
         {
           "@type": "ListItem",
           "position": 3,
           "item": {
-            "@id": "https://tablasdemultiplicar.online/tabla/7",
-            "name": "7 Tabla de Multiplicar"
+            "@id": "https://einmaleins.online/einmaleins/7",
+            "name": "7er-Einmaleins"
           }
         }
       ]
     },
     {
       "@type": "LearningResource",
-      "@id": "https://tablasdemultiplicar.online/tabla/7#learningresource",
-      "name": "7 Tabla de Multiplicar Recurso de Aprendizaje",
+      "@id": "https://einmaleins.online/einmaleins/7#learningresource",
+      "name": "7er-Einmaleins Recurso de Aprendizaje",
       "description": "7 Multiplicar por: Yedili sayma, hafta günleri ilişkisi ve zorlayıcı ama düzenli desenleri ile 7 tablosunu keşfedin.",
       "educationalLevel": "Beginner",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "7 Tabla de Multiplicar, yedili sayma, hafta günleri kavramı",
+      "teaches": "7er-Einmaleins, yedili sayma, hafta günleri kavramı",
       "typicalAgeRange": "6-9",
-      "inLanguage": "es-MX",
+      "inLanguage": "de",
       "educationalUse": ["practice", "self-study"],
       "audience": {
         "@type": "EducationalAudience",
         "educationalRole": ["student"]
       },
       "isPartOf": {
-        "@id": "https://tablasdemultiplicar.online/1-10#learningresource"
+        "@id": "https://einmaleins.online/1-10#learningresource"
       }
     }
   ]
 }
 
 export const metadata = {
-  title: 'Tabla del 7 - Juegos Divertidos y Ejercicios Prácticos',
-  description: 'Aprende la tabla del 7 con juegos divertidos, ejercicios interactivos y hojas de trabajo imprimibles. Descubre herramientas de práctica gratuitas.',
-  keywords: 'tabla del 7, tabla de multiplicar del siete, juegos de matemáticas, ejercicios de multiplicación',
+  title: '7er-Einmaleins - Juegos Divertidos y Ejercicios Prácticos',
+  description: 'Meistere das 7er-Einmaleins. Klare ErklÃ¤rungen, Muster und praktische Ãœbungsstrategien.',
+  keywords: '7er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {
-    canonical: '/tabla/7',
+    canonical: '/einmaleins/7',
   },
 }
 

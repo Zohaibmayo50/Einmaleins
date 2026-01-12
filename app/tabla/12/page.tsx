@@ -5,38 +5,38 @@ const schemaData = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://tablasdemultiplicar.online/tabla/12#webpage",
-      "url": "https://tablasdemultiplicar.online/tabla/12",
-      "name": "12 Tabla de Multiplicar - Düzine Kavramı",
-      "description": "12 Tabla de Multiplicar ile düzine kavramını öğrenin. Saat sistemi ve günlük hayatta sıkça kullanılan 12 tablosunda ustalaşın.",
+      "@id": "https://einmaleins.online/einmaleins/12#webpage",
+      "url": "https://einmaleins.online/einmaleins/12",
+      "name": "12er-Einmaleins - Düzine Kavramı",
+      "description": "12er-Einmaleins ile düzine kavramını öğrenin. Saat sistemi ve günlük hayatta sıkça kullanılan 12 tablosunda ustalaşın.",
       "isPartOf": {
-        "@id": "https://tablasdemultiplicar.online/#website"
+        "@id": "https://einmaleins.online/#website"
       },
       "about": {
-        "@id": "https://tablasdemultiplicar.online/tabla/12#learningresource"
+        "@id": "https://einmaleins.online/einmaleins/12#learningresource"
       },
       "breadcrumb": {
-        "@id": "https://tablasdemultiplicar.online/tabla/12#breadcrumb"
+        "@id": "https://einmaleins.online/einmaleins/12#breadcrumb"
       },
-      "inLanguage": "es-MX"
+      "inLanguage": "de"
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://tablasdemultiplicar.online/tabla/12#breadcrumb",
+      "@id": "https://einmaleins.online/einmaleins/12#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
           "position": 1,
           "item": {
-            "@id": "https://tablasdemultiplicar.online/",
-            "name": "Inicio"
+            "@id": "https://einmaleins.online/",
+            "name": "Startseite"
           }
         },
         {
           "@type": "ListItem",
           "position": 2,
           "item": {
-            "@id": "https://tablasdemultiplicar.online/11-20",
+            "@id": "https://einmaleins.online/11-20",
             "name": "11-20 Tabla de Multiplicar"
           }
         },
@@ -44,40 +44,40 @@ const schemaData = {
           "@type": "ListItem",
           "position": 3,
           "item": {
-            "@id": "https://tablasdemultiplicar.online/tabla/12",
-            "name": "12 Tabla de Multiplicar"
+            "@id": "https://einmaleins.online/einmaleins/12",
+            "name": "12er-Einmaleins"
           }
         }
       ]
     },
     {
       "@type": "LearningResource",
-      "@id": "https://tablasdemultiplicar.online/tabla/12#learningresource",
-      "name": "12 Tabla de Multiplicar Recurso de Aprendizaje",
+      "@id": "https://einmaleins.online/einmaleins/12#learningresource",
+      "name": "12er-Einmaleins Recurso de Aprendizaje",
       "description": "12 Multiplicar por: Düzine kavramı, saat sistemi (12 saat), 3×4 ilişkisi ve günlük hayat uygulamaları.",
       "educationalLevel": "Intermediate",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "12 Tabla de Multiplicar, düzine kavramı, saat okuma, 3 ve 4 tablolarının ilişkisi",
+      "teaches": "12er-Einmaleins, düzine kavramı, saat okuma, 3 ve 4 tablolarının ilişkisi",
       "typicalAgeRange": "7-10",
-      "inLanguage": "es-MX",
+      "inLanguage": "de",
       "educationalUse": ["practice", "self-study", "real-world application"],
       "audience": {
         "@type": "EducationalAudience",
         "educationalRole": ["student"]
       },
       "isPartOf": {
-        "@id": "https://tablasdemultiplicar.online/11-20#learningresource"
+        "@id": "https://einmaleins.online/11-20#learningresource"
       }
     }
   ]
 }
 
 export const metadata = {
-  title: '12 Tabla de Multiplicar - Juegos Divertidos y Ejercicios Prácticos',
-  description: '12 Tabla de Multiplicar con juegos divertidos y ejercicios interactivos. Ayudas visuales para niños, consejos prácticos y técnicas fáciles de memorización.',
-  keywords: '12 Tabla de Multiplicar, on iki Tabla de Multiplicar, 12 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
+  title: '12er-Einmaleins - Juegos Divertidos y Ejercicios Prácticos',
+  description: 'Meistere das 12er-Einmaleins. Klare ErklÃ¤rungen, Muster und praktische Ãœbungsstrategien.',
+  keywords: '12er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {
-    canonical: '/tabla/12',
+    canonical: '/einmaleins/12',
   },
 }
 

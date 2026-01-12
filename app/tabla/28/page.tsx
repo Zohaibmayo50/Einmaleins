@@ -5,47 +5,47 @@ const schemaData = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://tablasdemultiplicar.online/tabla/28#webpage",
-      "url": "https://tablasdemultiplicar.online/tabla/28",
-      "name": "28 Tabla de Multiplicar - 4×7 İlişkisi",
-      "description": "28 Tabla de Multiplicar ile 4×7 ilişkisini öğrenin. Hafta günleri ve ay kavramları ile pratik uygulamalar.",
-      "isPartOf": {"@id": "https://tablasdemultiplicar.online/#website"},
-      "about": {"@id": "https://tablasdemultiplicar.online/tabla/28#learningresource"},
-      "breadcrumb": {"@id": "https://tablasdemultiplicar.online/tabla/28#breadcrumb"},
-      "inLanguage": "es-MX"
+      "@id": "https://einmaleins.online/einmaleins/28#webpage",
+      "url": "https://einmaleins.online/einmaleins/28",
+      "name": "28er-Einmaleins - 4×7 İlişkisi",
+      "description": "28er-Einmaleins ile 4×7 ilişkisini öğrenin. Hafta günleri ve ay kavramları ile pratik uygulamalar.",
+      "isPartOf": {"@id": "https://einmaleins.online/#website"},
+      "about": {"@id": "https://einmaleins.online/einmaleins/28#learningresource"},
+      "breadcrumb": {"@id": "https://einmaleins.online/einmaleins/28#breadcrumb"},
+      "inLanguage": "de"
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://tablasdemultiplicar.online/tabla/28#breadcrumb",
+      "@id": "https://einmaleins.online/einmaleins/28#breadcrumb",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "item": {"@id": "https://tablasdemultiplicar.online/", "name": "Inicio"}},
-        {"@type": "ListItem", "position": 2, "item": {"@id": "https://tablasdemultiplicar.online/21-30", "name": "21-30 Tabla de Multiplicar"}},
-        {"@type": "ListItem", "position": 3, "item": {"@id": "https://tablasdemultiplicar.online/tabla/28", "name": "28 Tabla de Multiplicar"}}
+        {"@type": "ListItem", "position": 1, "item": {"@id": "https://einmaleins.online/", "name": "Startseite"}},
+        {"@type": "ListItem", "position": 2, "item": {"@id": "https://einmaleins.online/21-30", "name": "Einmaleins 21-30"}},
+        {"@type": "ListItem", "position": 3, "item": {"@id": "https://einmaleins.online/einmaleins/28", "name": "28er-Einmaleins"}}
       ]
     },
     {
       "@type": "LearningResource",
-      "@id": "https://tablasdemultiplicar.online/tabla/28#learningresource",
-      "name": "28 Tabla de Multiplicar Recurso de Aprendizaje",
-      "description": "28 Multiplicar por: 4 hafta=28 gün, 4×7 ilişkisi ve zaman hesaplama becerileri.",
+      "@id": "https://einmaleins.online/einmaleins/28#learningresource",
+      "name": "28er-Einmaleins Recurso de Aprendizaje",
+      "description": "28 Multiplikation por: 4 hafta=28 gün, 4×7 ilişkisi ve zaman hesaplama becerileri.",
       "educationalLevel": "Intermediate",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "28 Tabla de Multiplicar, 4×7 ilişkisi, ay ve hafta kavramı",
+      "teaches": "28er-Einmaleins, 4×7 ilişkisi, ay ve hafta kavramı",
       "typicalAgeRange": "8-11",
-      "inLanguage": "es-MX",
+      "inLanguage": "de",
       "educationalUse": ["practice", "self-study", "real-world application"],
       "audience": {"@type": "EducationalAudience", "educationalRole": ["student"]},
-      "isPartOf": {"@id": "https://tablasdemultiplicar.online/21-30#learningresource"}
+      "isPartOf": {"@id": "https://einmaleins.online/21-30#learningresource"}
     }
   ]
 }
 
 export const metadata = {
-  title: '28 Tabla de Multiplicar - Juegos Divertidos y Ejercicios Prácticos',
-  description: '28 Tabla de Multiplicar con juegos divertidos y ejercicios interactivos. Ayudas visuales para niños, consejos prácticos y técnicas fáciles de memorización.',
-  keywords: '28 Tabla de Multiplicar, yirmi sekiz Tabla de Multiplicar, 28 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
+  title: '28er-Einmaleins | Lerne Multiplikation mit 28',
+  description: 'Meistere das 28er-Einmaleins. Klare ErklÃ¤rungen, Muster und praktische Ãœbungsstrategien.',
+  keywords: '28er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {
-    canonical: '/tabla/28',
+    canonical: '/einmaleins/28',
   },
 }
 

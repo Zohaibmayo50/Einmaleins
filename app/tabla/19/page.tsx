@@ -5,38 +5,38 @@ const schemaData = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://tablasdemultiplicar.online/tabla/19#webpage",
-      "url": "https://tablasdemultiplicar.online/tabla/19",
-      "name": "19 Tabla de Multiplicar - Asal Sayı Ustası",
-      "description": "19 Tabla de Multiplicar ile asal sayılarda ustalaşın. 20-1 stratejisi ve zihinsel matematik teknikleri.",
+      "@id": "https://einmaleins.online/einmaleins/19#webpage",
+      "url": "https://einmaleins.online/einmaleins/19",
+      "name": "19er-Einmaleins - Asal Sayı Ustası",
+      "description": "19er-Einmaleins ile asal sayılarda ustalaşın. 20-1 stratejisi ve zihinsel matematik teknikleri.",
       "isPartOf": {
-        "@id": "https://tablasdemultiplicar.online/#website"
+        "@id": "https://einmaleins.online/#website"
       },
       "about": {
-        "@id": "https://tablasdemultiplicar.online/tabla/19#learningresource"
+        "@id": "https://einmaleins.online/einmaleins/19#learningresource"
       },
       "breadcrumb": {
-        "@id": "https://tablasdemultiplicar.online/tabla/19#breadcrumb"
+        "@id": "https://einmaleins.online/einmaleins/19#breadcrumb"
       },
-      "inLanguage": "es-MX"
+      "inLanguage": "de"
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://tablasdemultiplicar.online/tabla/19#breadcrumb",
+      "@id": "https://einmaleins.online/einmaleins/19#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
           "position": 1,
           "item": {
-            "@id": "https://tablasdemultiplicar.online/",
-            "name": "Inicio"
+            "@id": "https://einmaleins.online/",
+            "name": "Startseite"
           }
         },
         {
           "@type": "ListItem",
           "position": 2,
           "item": {
-            "@id": "https://tablasdemultiplicar.online/11-20",
+            "@id": "https://einmaleins.online/11-20",
             "name": "11-20 Tabla de Multiplicar"
           }
         },
@@ -44,40 +44,40 @@ const schemaData = {
           "@type": "ListItem",
           "position": 3,
           "item": {
-            "@id": "https://tablasdemultiplicar.online/tabla/19",
-            "name": "19 Tabla de Multiplicar"
+            "@id": "https://einmaleins.online/einmaleins/19",
+            "name": "19er-Einmaleins"
           }
         }
       ]
     },
     {
       "@type": "LearningResource",
-      "@id": "https://tablasdemultiplicar.online/tabla/19#learningresource",
-      "name": "19 Tabla de Multiplicar Recurso de Aprendizaje",
+      "@id": "https://einmaleins.online/einmaleins/19#learningresource",
+      "name": "19er-Einmaleins Recurso de Aprendizaje",
       "description": "19 Multiplicar por: Asal sayı özellikleri, 20-1 yaklaşım stratejisi, ileri düzey zihinsel matematik.",
       "educationalLevel": "Beginner",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "19 Tabla de Multiplicar, asal sayılar, 20-1 çıkarma stratejisi",
+      "teaches": "19er-Einmaleins, asal sayılar, 20-1 çıkarma stratejisi",
       "typicalAgeRange": "7-10",
-      "inLanguage": "es-MX",
+      "inLanguage": "de",
       "educationalUse": ["practice", "self-study"],
       "audience": {
         "@type": "EducationalAudience",
         "educationalRole": ["student"]
       },
       "isPartOf": {
-        "@id": "https://tablasdemultiplicar.online/11-20#learningresource"
+        "@id": "https://einmaleins.online/11-20#learningresource"
       }
     }
   ]
 }
 
 export const metadata = {
-  title: '19 Tabla de Multiplicar - Juegos Divertidos y Ejercicios Prácticos',
-  description: '19 Tabla de Multiplicar con juegos divertidos y ejercicios interactivos. Ayudas visuales para niños, consejos prácticos y técnicas fáciles de memorización.',
-  keywords: '19 Tabla de Multiplicar, on dokuz Tabla de Multiplicar, 19 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
+  title: '19er-Einmaleins - Juegos Divertidos y Ejercicios Prácticos',
+  description: 'Meistere das 19er-Einmaleins. Klare ErklÃ¤rungen, Muster und praktische Ãœbungsstrategien.',
+  keywords: '19er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {
-    canonical: '/tabla/19',
+    canonical: '/einmaleins/19',
   },
 }
 

@@ -25,9 +25,9 @@ export default function Header() {
             </div>
             <div className="flex flex-col">
               <span className="text-lg md:text-xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
-                Tablas de Multiplicar
+                Einmaleins
               </span>
-              <span className="text-xs text-slate-500 hidden sm:block">Aprende, Comprende, Practica</span>
+              <span className="text-xs text-slate-500 hidden sm:block">Lernen, Verstehen, Üben</span>
             </div>
           </Link>
 
@@ -36,7 +36,7 @@ export default function Header() {
             {/* Çarpım Tablosu Dropdown */}
             <div className="relative group">
               <button className="px-4 py-2 text-slate-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-all duration-200 font-medium flex items-center gap-1">
-                Tablas de Multiplicar
+                Einmaleins Tabellen
                 <svg className="w-4 h-4 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                 </svg>
@@ -44,34 +44,34 @@ export default function Header() {
               <div className="absolute top-full left-0 mt-1 w-48 bg-white rounded-lg shadow-lg border border-slate-200 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
                 <div className="py-2">
                   <Link href="/1-10" className="block px-4 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition-colors">
-                    Tablas 1-10
+                    Tabellen 1-10
                   </Link>
                   <Link href="/11-20" className="block px-4 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition-colors">
-                    Tablas 11-20
+                    Tabellen 11-20
                   </Link>
                   <Link href="/21-30" className="block px-4 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition-colors">
-                    Tablas 21-30
+                    Tabellen 21-30
                   </Link>
                   <Link href="/31-40" className="block px-4 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition-colors">
-                    Tablas 31-40
+                    Tabellen 31-40
                   </Link>
                   <Link href="/41-50" className="block px-4 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition-colors">
-                    Tablas 41-50
+                    Tabellen 41-50
                   </Link>
                   <Link href="/51-60" className="block px-4 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition-colors">
-                    Tablas 51-60
+                    Tabellen 51-60
                   </Link>
                   <Link href="/61-70" className="block px-4 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition-colors">
-                    Tablas 61-70
+                    Tabellen 61-70
                   </Link>
                   <Link href="/71-80" className="block px-4 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition-colors">
-                    Tablas 71-80
+                    Tabellen 71-80
                   </Link>
                   <Link href="/81-90" className="block px-4 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition-colors">
-                    Tablas 81-90
+                    Tabellen 81-90
                   </Link>
                   <Link href="/91-100" className="block px-4 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition-colors">
-                    Tablas 91-100
+                    Tabellen 91-100
                   </Link>
                 </div>
               </div>
@@ -80,21 +80,21 @@ export default function Header() {
             {/* Rehberler Dropdown */}
             <div className="relative group">
               <button className="px-4 py-2 text-slate-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-all duration-200 font-medium flex items-center gap-1">
-                Guías
+                Leitfäden
                 <svg className="w-4 h-4 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                 </svg>
               </button>
               <div className="absolute top-full left-0 mt-1 w-48 bg-white rounded-lg shadow-lg border border-slate-200 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
                 <div className="py-2">
-                  <Link href="/para-estudiantes" className="block px-4 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition-colors">
-                    👨‍🎓 Para Estudiantes
+                  <Link href="/fuer-schueler" className="block px-4 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition-colors">
+                    👨‍🎓 Für Schüler
                   </Link>
-                  <Link href="/para-padres" className="block px-4 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition-colors">
-                    👨‍👩‍👧‍👦 Para Padres
+                  <Link href="/fuer-eltern" className="block px-4 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition-colors">
+                    👨‍👩‍👧‍👦 Für Eltern
                   </Link>
-                  <Link href="/para-profesores" className="block px-4 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition-colors">
-                    👩‍🏫 Para Profesores
+                  <Link href="/fuer-lehrer" className="block px-4 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition-colors">
+                    👩‍🏫 Für Lehrer
                   </Link>
                 </div>
               </div>
@@ -104,19 +104,19 @@ export default function Header() {
               href="/#pdf-exercises" 
               className="px-4 py-2 text-slate-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-all duration-200 font-medium"
             >
-              Ejercicios PDF
+              Übungen PDF
             </Link>
             <Link 
               href="/#games" 
               className="px-4 py-2 text-slate-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-all duration-200 font-medium"
             >
-              Juegos Interactivos
+              Interaktive Spiele
             </Link>
             <Link 
               href="/#learning-paths" 
               className="ml-2 px-6 py-2.5 bg-gradient-to-r from-blue-500 to-indigo-600 text-white font-semibold rounded-xl hover:shadow-lg hover:scale-105 transition-all duration-200"
             >
-              Comenzar Ahora 🚀
+              Jetzt Starten 🚀
             </Link>
           </div>
 
@@ -149,38 +149,38 @@ export default function Header() {
           {/* Çarpım Tablosu Section */}
           <div className="py-2">
             <h3 className="px-4 py-2 text-sm font-semibold text-slate-900 border-b border-slate-200">
-              📚 Tablas de Multiplicar
+              📚 Einmaleins Tabellen
             </h3>
             <div className="mt-2 space-y-1">
               <Link href="/1-10" onClick={closeMobileMenu} className="block px-6 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg transition-colors">
-                Tablas 1-10
+                Tabellen 1-10
               </Link>
               <Link href="/11-20" onClick={closeMobileMenu} className="block px-6 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg transition-colors">
-                Tablas 11-20
+                Tabellen 11-20
               </Link>
               <Link href="/21-30" onClick={closeMobileMenu} className="block px-6 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg transition-colors">
-                Tablas 21-30
+                Tabellen 21-30
               </Link>
               <Link href="/31-40" onClick={closeMobileMenu} className="block px-6 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg transition-colors">
-                Tablas 31-40
+                Tabellen 31-40
               </Link>
               <Link href="/41-50" onClick={closeMobileMenu} className="block px-6 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg transition-colors">
-                Tablas 41-50
+                Tabellen 41-50
               </Link>
               <Link href="/51-60" onClick={closeMobileMenu} className="block px-6 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg transition-colors">
-                Tablas 51-60
+                Tabellen 51-60
               </Link>
               <Link href="/61-70" onClick={closeMobileMenu} className="block px-6 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg transition-colors">
-                Tablas 61-70
+                Tabellen 61-70
               </Link>
               <Link href="/71-80" onClick={closeMobileMenu} className="block px-6 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg transition-colors">
-                Tablas 71-80
+                Tabellen 71-80
               </Link>
               <Link href="/81-90" onClick={closeMobileMenu} className="block px-6 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg transition-colors">
-                Tablas 81-90
+                Tabellen 81-90
               </Link>
               <Link href="/91-100" onClick={closeMobileMenu} className="block px-6 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg transition-colors">
-                Tablas 91-100
+                Tabellen 91-100
               </Link>
             </div>
           </div>
@@ -188,17 +188,17 @@ export default function Header() {
           {/* Rehberler Section */}
           <div className="py-2 border-t border-slate-200">
             <h3 className="px-4 py-2 text-sm font-semibold text-slate-900">
-              📖 Guías
+              📖 Leitfäden
             </h3>
             <div className="mt-2 space-y-1">
-              <Link href="/para-estudiantes" onClick={closeMobileMenu} className="block px-6 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg transition-colors">
-                👨‍🎓 Para Estudiantes
+              <Link href="/fuer-schueler" onClick={closeMobileMenu} className="block px-6 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg transition-colors">
+                👨‍🎓 Für Schüler
               </Link>
-              <Link href="/para-padres" onClick={closeMobileMenu} className="block px-6 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg transition-colors">
-                👨‍👩‍👧‍👦 Para Padres
+              <Link href="/fuer-eltern" onClick={closeMobileMenu} className="block px-6 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg transition-colors">
+                👨‍👩‍👧‍👦 Für Eltern
               </Link>
-              <Link href="/para-profesores" onClick={closeMobileMenu} className="block px-6 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg transition-colors">
-                👩‍🏫 Para Profesores
+              <Link href="/fuer-lehrer" onClick={closeMobileMenu} className="block px-6 py-2 text-sm text-slate-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg transition-colors">
+                👩‍🏫 Für Lehrer
               </Link>
             </div>
           </div>
@@ -210,21 +210,21 @@ export default function Header() {
               onClick={closeMobileMenu}
               className="block px-4 py-3 text-slate-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-all font-medium"
             >
-              📄 Ejercicios PDF
+              📄 Übungen PDF
             </Link>
             <Link 
               href="/#games" 
               onClick={closeMobileMenu}
               className="block px-4 py-3 text-slate-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-all font-medium"
             >
-              🎮 Juegos Interactivos
+              🎮 Interaktive Spiele
             </Link>
             <Link 
               href="/#learning-paths" 
               onClick={closeMobileMenu}
               className="block px-4 py-3 bg-gradient-to-r from-blue-500 to-indigo-600 text-white font-semibold rounded-lg text-center hover:shadow-lg transition-all"
             >
-              Comenzar Ahora 🚀
+              Jetzt Starten 🚀
             </Link>
           </div>
         </div>

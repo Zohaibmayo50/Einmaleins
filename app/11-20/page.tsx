@@ -5,28 +5,28 @@ const schemaData = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://tablasdemultiplicar.online/11-20#webpage",
-      "url": "https://tablasdemultiplicar.online/11-20",
-      "name": "Tablas de Multiplicar del 11 al 20 - Nivel Intermedio",
-      "description": "Aprende las tablas de multiplicar del 11 al 20. Ejercicios interactivos y juegos para la multiplicación con números de dos dígitos.",
+      "@id": "https://einmaleins.online/11-20#webpage",
+      "url": "https://einmaleins.online/11-20",
+      "name": "Einmaleins-Tabellen von 11 bis 20 - Mittleres Level",
+      "description": "Lerne die Einmaleins-Tabellen von 11 bis 20. Interaktive Übungen und Spiele für die Multiplikation mit zweistelligen Zahlen.",
       "isPartOf": {
-        "@id": "https://tablasdemultiplicar.online/#website"
+        "@id": "https://einmaleins.online/#website"
       },
       "about": {
-        "@id": "https://tablasdemultiplicar.online/11-20#learningresource"
+        "@id": "https://einmaleins.online/11-20#learningresource"
       },
-      "inLanguage": "es"
+      "inLanguage": "de"
     },
     {
       "@type": "LearningResource",
-      "@id": "https://tablasdemultiplicar.online/11-20#learningresource",
-      "name": "Recurso de Aprendizaje Tablas del 11 al 20",
-      "description": "Multiplicación con números de dos dígitos: Aprende las tablas de multiplicar de los números del 11 al 20 con ejercicios prácticos y juegos interactivos.",
+      "@id": "https://einmaleins.online/11-20#learningresource",
+      "name": "Lernressource Einmaleins-Tabellen von 11 bis 20",
+      "description": "Multiplikation mit zweistelligen Zahlen: Lerne die Einmaleins-Tabellen der Zahlen von 11 bis 20 mit praktischen Übungen und interaktiven Spielen.",
       "educationalLevel": "Intermediate",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "Habilidades para comprender y aplicar las tablas de multiplicar del 11, 12, 13, 14, 15, 16, 17, 18, 19, 20",
+      "teaches": "Fähigkeiten zum Verstehen und Anwenden der Einmaleins-Tabellen von 11, 12, 13, 14, 15, 16, 17, 18, 19, 20",
       "typicalAgeRange": "7-10",
-      "inLanguage": "es",
+      "inLanguage": "de",
       "educationalUse": ["practice", "self-study", "homework"],
       "audience": {
         "@type": "EducationalAudience",
@@ -38,9 +38,9 @@ const schemaData = {
 
 
 export const metadata = {
-  title: 'Tablas de Multiplicar del 11 al 20 | Números de Dos Dígitos',
-  description: 'Aprende las tablas de multiplicar del 11, 12, 13, 14, 15, 16, 17, 18, 19, 20. Domina las operaciones de multiplicación con números de dos dígitos.',
-  keywords: 'tablas de multiplicar del 11 al 20, tablas de multiplicar, multiplicación, aprendizaje de matemáticas',
+  title: 'Einmaleins-Tabellen von 11 bis 20 | Zweistellige Zahlen',
+  description: 'Lerne die Einmaleins-Tabellen von 11, 12, 13, 14, 15, 16, 17, 18, 19, 20. Beherrsche Multiplikationsoperationen mit zweistelligen Zahlen.',
+  keywords: 'einmaleins tabellen von 11 bis 20, einmaleins tabellen, multiplikation, mathematik lernen, großes einmaleins',
   alternates: {
     canonical: '/11-20',
   },

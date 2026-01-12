@@ -5,79 +5,79 @@ const schemaData = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://tablasdemultiplicar.online/tabla/21#webpage",
-      "url": "https://tablasdemultiplicar.online/tabla/21",
-      "name": "21 Tabla de Multiplicar - Yirmili Sistemler",
-      "description": "21 Tabla de Multiplicar ile yirmili sayı sistemini keşfedin. 3×7 ilişkisi ve iki basamaklı sayı desenleri.",
+      "@id": "https://einmaleins.online/einmaleins/21#webpage",
+      "url": "https://einmaleins.online/einmaleins/21",
+      "name": "21er-Einmaleins - Yirmili Sistemler",
+      "description": "21er-Einmaleins ile yirmili sayı sistemini keşfedin. 3×7 ilişkisi ve iki basamaklı sayı desenleri.",
       "isPartOf": {
-        "@id": "https://tablasdemultiplicar.online/#website"
+        "@id": "https://einmaleins.online/#website"
       },
       "about": {
-        "@id": "https://tablasdemultiplicar.online/tabla/21#learningresource"
+        "@id": "https://einmaleins.online/einmaleins/21#learningresource"
       },
       "breadcrumb": {
-        "@id": "https://tablasdemultiplicar.online/tabla/21#breadcrumb"
+        "@id": "https://einmaleins.online/einmaleins/21#breadcrumb"
       },
-      "inLanguage": "es-MX"
+      "inLanguage": "de"
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://tablasdemultiplicar.online/tabla/21#breadcrumb",
+      "@id": "https://einmaleins.online/einmaleins/21#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
           "position": 1,
           "item": {
-            "@id": "https://tablasdemultiplicar.online/",
-            "name": "Inicio"
+            "@id": "https://einmaleins.online/",
+            "name": "Startseite"
           }
         },
         {
           "@type": "ListItem",
           "position": 2,
           "item": {
-            "@id": "https://tablasdemultiplicar.online/21-30",
-            "name": "21-30 Tabla de Multiplicar"
+            "@id": "https://einmaleins.online/21-30",
+            "name": "Einmaleins 21-30"
           }
         },
         {
           "@type": "ListItem",
           "position": 3,
           "item": {
-            "@id": "https://tablasdemultiplicar.online/tabla/21",
-            "name": "21 Tabla de Multiplicar"
+            "@id": "https://einmaleins.online/einmaleins/21",
+            "name": "21er-Einmaleins"
           }
         }
       ]
     },
     {
       "@type": "LearningResource",
-      "@id": "https://tablasdemultiplicar.online/tabla/21#learningresource",
-      "name": "21 Tabla de Multiplicar Recurso de Aprendizaje",
-      "description": "21 Multiplicar por: 3 ve 7 tablolarının birleşimi (3×7=21), yirmili sistem ve orta seviye çarpma becerileri.",
+      "@id": "https://einmaleins.online/einmaleins/21#learningresource",
+      "name": "21er-Einmaleins Recurso de Aprendizaje",
+      "description": "21 Multiplikation por: 3 ve 7 tablolarının birleşimi (3×7=21), yirmili sistem ve orta seviye çarpma becerileri.",
       "educationalLevel": "Intermediate",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "21 Tabla de Multiplicar, 3×7 ilişkisi, iki basamaklı çarpma",
+      "teaches": "21er-Einmaleins, 3×7 ilişkisi, iki basamaklı çarpma",
       "typicalAgeRange": "8-11",
-      "inLanguage": "es-MX",
+      "inLanguage": "de",
       "educationalUse": ["practice", "self-study"],
       "audience": {
         "@type": "EducationalAudience",
         "educationalRole": ["student"]
       },
       "isPartOf": {
-        "@id": "https://tablasdemultiplicar.online/21-30#learningresource"
+        "@id": "https://einmaleins.online/21-30#learningresource"
       }
     }
   ]
 }
 
 export const metadata = {
-  title: '21 Tabla de Multiplicar - Juegos Divertidos y Ejercicios Prácticos',
-  description: '21 Tabla de Multiplicar con juegos divertidos y ejercicios interactivos. Ayudas visuales para niños, consejos prácticos y técnicas fáciles de memorización.',
-  keywords: '21 Tabla de Multiplicar, yirmi bir Tabla de Multiplicar, 21 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
+  title: '21er-Einmaleins | Lerne Multiplikation mit 21',
+  description: 'Meistere das 21er-Einmaleins. Klare ErklÃ¤rungen, Muster und praktische Ãœbungsstrategien.',
+  keywords: '21er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {
-    canonical: '/tabla/21',
+    canonical: '/einmaleins/21',
   },
 }
 

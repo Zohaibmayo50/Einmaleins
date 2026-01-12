@@ -5,79 +5,79 @@ const schemaData = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://tablasdemultiplicar.online/tabla/50#webpage",
-      "url": "https://tablasdemultiplicar.online/tabla/50",
-      "name": "50 Tabla de Multiplicar - Yarım ve Yüzde Kavramı",
-      "description": "50 Tabla de Multiplicar ile yarım (1/2) kavramı ve yüzde hesaplamalarını öğrenin. 100'ün yarısı olarak pratik hesaplama yöntemleri.",
+      "@id": "https://einmaleins.online/einmaleins/50#webpage",
+      "url": "https://einmaleins.online/einmaleins/50",
+      "name": "50er-Einmaleins - Yarım ve Yüzde Kavramı",
+      "description": "50er-Einmaleins ile yarım (1/2) kavramı ve yüzde hesaplamalarını öğrenin. 100'ün yarısı olarak pratik hesaplama yöntemleri.",
       "isPartOf": {
-        "@id": "https://tablasdemultiplicar.online/#website"
+        "@id": "https://einmaleins.online/#website"
       },
       "about": {
-        "@id": "https://tablasdemultiplicar.online/tabla/50#learningresource"
+        "@id": "https://einmaleins.online/einmaleins/50#learningresource"
       },
       "breadcrumb": {
-        "@id": "https://tablasdemultiplicar.online/tabla/50#breadcrumb"
+        "@id": "https://einmaleins.online/einmaleins/50#breadcrumb"
       },
-      "inLanguage": "es-MX"
+      "inLanguage": "de"
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://tablasdemultiplicar.online/tabla/50#breadcrumb",
+      "@id": "https://einmaleins.online/einmaleins/50#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
           "position": 1,
           "item": {
-            "@id": "https://tablasdemultiplicar.online/",
-            "name": "Inicio"
+            "@id": "https://einmaleins.online/",
+            "name": "Startseite"
           }
         },
         {
           "@type": "ListItem",
           "position": 2,
           "item": {
-            "@id": "https://tablasdemultiplicar.online/41-50",
-            "name": "41-50 Tabla de Multiplicar"
+            "@id": "https://einmaleins.online/41-50",
+            "name": "Einmaleins 41-50"
           }
         },
         {
           "@type": "ListItem",
           "position": 3,
           "item": {
-            "@id": "https://tablasdemultiplicar.online/tabla/50",
-            "name": "50 Tabla de Multiplicar"
+            "@id": "https://einmaleins.online/einmaleins/50",
+            "name": "50er-Einmaleins"
           }
         }
       ]
     },
     {
       "@type": "LearningResource",
-      "@id": "https://tablasdemultiplicar.online/tabla/50#learningresource",
-      "name": "50 Tabla de Multiplicar Recurso de Aprendizaje",
-      "description": "50 Multiplicar por: Yarım (1/2) kavramı, yüzde hesaplamaları (50%=1/2), 100'ün yarısı stratejisi ve 5×10 ilişkisi.",
+      "@id": "https://einmaleins.online/einmaleins/50#learningresource",
+      "name": "50er-Einmaleins Recurso de Aprendizaje",
+      "description": "50 Multiplikation por: Yarım (1/2) kavramı, yüzde hesaplamaları (50%=1/2), 100'ün yarısı stratejisi ve 5×10 ilişkisi.",
       "educationalLevel": "Intermediate",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "50 Tabla de Multiplicar, yarım kavramı, yüzde hesaplama, 5×10 ilişkisi",
+      "teaches": "50er-Einmaleins, yarım kavramı, yüzde hesaplama, 5×10 ilişkisi",
       "typicalAgeRange": "8-11",
-      "inLanguage": "es-MX",
+      "inLanguage": "de",
       "educationalUse": ["practice", "self-study", "real-world application"],
       "audience": {
         "@type": "EducationalAudience",
         "educationalRole": ["student"]
       },
       "isPartOf": {
-        "@id": "https://tablasdemultiplicar.online/41-50#learningresource"
+        "@id": "https://einmaleins.online/41-50#learningresource"
       }
     }
   ]
 }
 
 export const metadata = {
-  title: '50 Tabla de Multiplicar - Juegos Divertidos y Ejercicios Prácticos',
-  description: '50 Tabla de Multiplicar con juegos divertidos y ejercicios interactivos. Ayudas visuales para niños, consejos prácticos y técnicas fáciles de memorización.',
-  keywords: '50 Tabla de Multiplicar, elli Tabla de Multiplicar, 50 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
+  title: '50er-Einmaleins | Lerne Multiplikation mit 50',
+  description: 'Meistere das 50er-Einmaleins. Klare ErklÃ¤rungen, Muster und praktische Ãœbungsstrategien.',
+  keywords: '50er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {
-    canonical: '/tabla/50',
+    canonical: '/einmaleins/50',
   },
 }
 

@@ -5,28 +5,28 @@ const schemaData = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://tablasdemultiplicar.online/31-40#webpage",
-      "url": "https://tablasdemultiplicar.online/31-40",
-      "name": "Tablas de Multiplicar del 31 al 40 - Nivel Intermedio",
-      "description": "Aprende las tablas de multiplicar del 31 al 40. Recursos interactivos para desarrollar habilidades matemáticas de nivel intermedio.",
+      "@id": "https://einmaleins.online/31-40#webpage",
+      "url": "https://einmaleins.online/31-40",
+      "name": "Einmaleins-Tabellen von 31 bis 40 - Mittleres Level",
+      "description": "Lerne die Einmaleins-Tabellen von 31 bis 40. Interaktive Ressourcen zur Entwicklung mathematischer Fähigkeiten auf mittlerem Level.",
       "isPartOf": {
-        "@id": "https://tablasdemultiplicar.online/#website"
+        "@id": "https://einmaleins.online/#website"
       },
       "about": {
-        "@id": "https://tablasdemultiplicar.online/31-40#learningresource"
+        "@id": "https://einmaleins.online/31-40#learningresource"
       },
-      "inLanguage": "es"
+      "inLanguage": "de"
     },
     {
       "@type": "LearningResource",
-      "@id": "https://tablasdemultiplicar.online/31-40#learningresource",
-      "name": "Recurso de Aprendizaje Tablas del 31 al 40",
-      "description": "Tablas de multiplicar nivel intermedio: Aprende las tablas de multiplicar de los números del 31 al 40 con ejercicios prácticos.",
+      "@id": "https://einmaleins.online/31-40#learningresource",
+      "name": "Lernressource Einmaleins-Tabellen von 31 bis 40",
+      "description": "Einmaleins-Tabellen mittleres Level: Lerne die Einmaleins-Tabellen der Zahlen von 31 bis 40 mit praktischen Übungen.",
       "educationalLevel": "Intermediate",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "Habilidades para comprender y aplicar las tablas de multiplicar del 31 al 40",
+      "teaches": "Fähigkeiten zum Verstehen und Anwenden der Einmaleins-Tabellen von 31 bis 40",
       "typicalAgeRange": "8-10",
-      "inLanguage": "es",
+      "inLanguage": "de",
       "educationalUse": ["practice", "self-study", "homework"],
       "audience": {
         "@type": "EducationalAudience",
@@ -38,9 +38,9 @@ const schemaData = {
 
 
 export const metadata = {
-  title: 'Tablas de Multiplicar del 31 al 40 | Multiplicación Avanzada',
-  description: 'Aprende las tablas de multiplicar del 31, 32, 33, 34, 35, 36, 37, 38, 39, 40. Materiales educativos completos para habilidades de multiplicación avanzadas.',
-  keywords: 'tablas de multiplicar del 31 al 40, tablas de multiplicar, multiplicación, aprendizaje de matemáticas',
+  title: 'Einmaleins-Tabellen von 31 bis 40 | Fortgeschrittene Multiplikation',
+  description: 'Lerne die Einmaleins-Tabellen von 31, 32, 33, 34, 35, 36, 37, 38, 39, 40. Umfassende Lernmaterialien für fortgeschrittene Multiplikationsfähigkeiten.',
+  keywords: 'einmaleins tabellen von 31 bis 40, einmaleins tabellen, multiplikation, mathematik lernen, großes einmaleins',
   alternates: {
     canonical: '/31-40',
   },

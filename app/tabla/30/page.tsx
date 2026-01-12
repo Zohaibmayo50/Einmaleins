@@ -5,47 +5,47 @@ const schemaData = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://tablasdemultiplicar.online/tabla/30#webpage",
-      "url": "https://tablasdemultiplicar.online/tabla/30",
-      "name": "30 Tabla de Multiplicar - Yarım Saat Kavramı",
-      "description": "30 Tabla de Multiplicar ile yarım saat (30 dakika) ve ay kavramlarını öğrenin. 3×10, 5×6 ilişkileri.",
-      "isPartOf": {"@id": "https://tablasdemultiplicar.online/#website"},
-      "about": {"@id": "https://tablasdemultiplicar.online/tabla/30#learningresource"},
-      "breadcrumb": {"@id": "https://tablasdemultiplicar.online/tabla/30#breadcrumb"},
-      "inLanguage": "es-MX"
+      "@id": "https://einmaleins.online/einmaleins/30#webpage",
+      "url": "https://einmaleins.online/einmaleins/30",
+      "name": "30er-Einmaleins - Yarım Saat Kavramı",
+      "description": "30er-Einmaleins ile yarım saat (30 dakika) ve ay kavramlarını öğrenin. 3×10, 5×6 ilişkileri.",
+      "isPartOf": {"@id": "https://einmaleins.online/#website"},
+      "about": {"@id": "https://einmaleins.online/einmaleins/30#learningresource"},
+      "breadcrumb": {"@id": "https://einmaleins.online/einmaleins/30#breadcrumb"},
+      "inLanguage": "de"
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://tablasdemultiplicar.online/tabla/30#breadcrumb",
+      "@id": "https://einmaleins.online/einmaleins/30#breadcrumb",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "item": {"@id": "https://tablasdemultiplicar.online/", "name": "Inicio"}},
-        {"@type": "ListItem", "position": 2, "item": {"@id": "https://tablasdemultiplicar.online/21-30", "name": "21-30 Tabla de Multiplicar"}},
-        {"@type": "ListItem", "position": 3, "item": {"@id": "https://tablasdemultiplicar.online/tabla/30", "name": "30 Tabla de Multiplicar"}}
+        {"@type": "ListItem", "position": 1, "item": {"@id": "https://einmaleins.online/", "name": "Startseite"}},
+        {"@type": "ListItem", "position": 2, "item": {"@id": "https://einmaleins.online/21-30", "name": "Einmaleins 21-30"}},
+        {"@type": "ListItem", "position": 3, "item": {"@id": "https://einmaleins.online/einmaleins/30", "name": "30er-Einmaleins"}}
       ]
     },
     {
       "@type": "LearningResource",
-      "@id": "https://tablasdemultiplicar.online/tabla/30#learningresource",
-      "name": "30 Tabla de Multiplicar Recurso de Aprendizaje",
-      "description": "30 Multiplicar por: Yarım saat (30 dakika), ay günleri (~30 gün), 3×10 ve 5×6 çarpan ilişkileri.",
+      "@id": "https://einmaleins.online/einmaleins/30#learningresource",
+      "name": "30er-Einmaleins Recurso de Aprendizaje",
+      "description": "30 Multiplikation por: Yarım saat (30 dakika), ay günleri (~30 gün), 3×10 ve 5×6 çarpan ilişkileri.",
       "educationalLevel": "Intermediate",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "30 Tabla de Multiplicar, yarım saat kavramı, 3×10 ve 5×6 ilişkisi",
+      "teaches": "30er-Einmaleins, yarım saat kavramı, 3×10 ve 5×6 ilişkisi",
       "typicalAgeRange": "8-11",
-      "inLanguage": "es-MX",
+      "inLanguage": "de",
       "educationalUse": ["practice", "self-study", "real-world application"],
       "audience": {"@type": "EducationalAudience", "educationalRole": ["student"]},
-      "isPartOf": {"@id": "https://tablasdemultiplicar.online/21-30#learningresource"}
+      "isPartOf": {"@id": "https://einmaleins.online/21-30#learningresource"}
     }
   ]
 }
 
 export const metadata = {
-  title: '30 Tabla de Multiplicar - Juegos Divertidos y Ejercicios Prácticos',
-  description: '30 Tabla de Multiplicar con juegos divertidos y ejercicios interactivos. Ayudas visuales para niños, consejos prácticos y técnicas fáciles de memorización.',
-  keywords: '30 Tabla de Multiplicar, otuz Tabla de Multiplicar, 30 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
+  title: '30er-Einmaleins | Lerne Multiplikation mit 30',
+  description: 'Meistere das 30er-Einmaleins. Klare ErklÃ¤rungen, Muster und praktische Ãœbungsstrategien.',
+  keywords: '30er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {
-    canonical: '/tabla/30',
+    canonical: '/einmaleins/30',
   },
 }
 

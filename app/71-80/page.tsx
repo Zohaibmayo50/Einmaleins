@@ -5,28 +5,28 @@ const schemaData = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://tablasdemultiplicar.online/71-80#webpage",
-      "url": "https://tablasdemultiplicar.online/71-80",
-      "name": "Tabla del 71 al 80 - Nivel Avanzado",
-      "description": "Aprende las tablas de multiplicar del 71 al 80. Recursos completos para habilidades de multiplicación de nivel avanzado con números grandes.",
+      "@id": "https://einmaleins.online/71-80#webpage",
+      "url": "https://einmaleins.online/71-80",
+      "name": "Einmaleins-Tabellen von 71 bis 80 - Fortgeschrittenes Level",
+      "description": "Lerne die Einmaleins-Tabellen von 71 bis 80. Umfassende Ressourcen für fortgeschrittene Multiplikationsfähigkeiten mit großen Zahlen.",
       "isPartOf": {
-        "@id": "https://tablasdemultiplicar.online/#website"
+        "@id": "https://einmaleins.online/#website"
       },
       "about": {
-        "@id": "https://tablasdemultiplicar.online/71-80#learningresource"
+        "@id": "https://einmaleins.online/71-80#learningresource"
       },
-      "inLanguage": "es"
+      "inLanguage": "de"
     },
     {
       "@type": "LearningResource",
-      "@id": "https://tablasdemultiplicar.online/71-80#learningresource",
-      "name": "Recurso de Aprendizaje Tablas del 71 al 80",
-      "description": "Tablas de multiplicar de nivel avanzado: aprende las tablas del 71 al 80 con ejercicios prácticos.",
+      "@id": "https://einmaleins.online/71-80#learningresource",
+      "name": "Lernressource Einmaleins-Tabellen von 71 bis 80",
+      "description": "Einmaleins-Tabellen fortgeschrittenes Level: Lerne die Einmaleins-Tabellen von 71 bis 80 mit praktischen Übungen.",
       "educationalLevel": "Advanced",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "Comprensión y aplicación de las tablas de multiplicar del 71 al 80",
+      "teaches": "Verstehen und Anwenden der Einmaleins-Tabellen von 71 bis 80",
       "typicalAgeRange": "10-12",
-      "inLanguage": "es",
+      "inLanguage": "de",
       "educationalUse": ["practice", "self-study", "homework"],
       "audience": {
         "@type": "EducationalAudience",
@@ -38,9 +38,9 @@ const schemaData = {
 
 
 export const metadata = {
-  title: 'Tabla del 71 al 80 | Multiplicación Nivel Avanzado',
-  description: 'Aprende las tablas de multiplicar del 71, 72, 73, 74, 75, 76, 77, 78, 79, 80. Desarrolla habilidades matemáticas de nivel avanzado.',
-  keywords: 'tablas de multiplicar del 71 al 80, tablas de multiplicar, multiplicación, aprender matemáticas',
+  title: 'Einmaleins-Tabellen von 71 bis 80 | Multiplikation Fortgeschrittenes Level',
+  description: 'Lerne die Einmaleins-Tabellen von 71, 72, 73, 74, 75, 76, 77, 78, 79, 80. Entwickle mathematische Fähigkeiten auf fortgeschrittenem Level.',
+  keywords: 'einmaleins tabellen von 71 bis 80, einmaleins tabellen, multiplikation, mathematik lernen, großes einmaleins',
   alternates: {
     canonical: '/71-80',
   },

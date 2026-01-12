@@ -5,79 +5,79 @@ const schemaData = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://tablasdemultiplicar.online/tabla/26#webpage",
-      "url": "https://tablasdemultiplicar.online/tabla/26",
-      "name": "26 Tabla de Multiplicar - İki Kat 13",
-      "description": "26 Tabla de Multiplicar ile 2×13 ilişkisini ve çift sayı desenlerini öğrenin. Orta seviye çarpma becerileri.",
+      "@id": "https://einmaleins.online/einmaleins/26#webpage",
+      "url": "https://einmaleins.online/einmaleins/26",
+      "name": "26er-Einmaleins - İki Kat 13",
+      "description": "26er-Einmaleins ile 2×13 ilişkisini ve çift sayı desenlerini öğrenin. Orta seviye çarpma becerileri.",
       "isPartOf": {
-        "@id": "https://tablasdemultiplicar.online/#website"
+        "@id": "https://einmaleins.online/#website"
       },
       "about": {
-        "@id": "https://tablasdemultiplicar.online/tabla/26#learningresource"
+        "@id": "https://einmaleins.online/einmaleins/26#learningresource"
       },
       "breadcrumb": {
-        "@id": "https://tablasdemultiplicar.online/tabla/26#breadcrumb"
+        "@id": "https://einmaleins.online/einmaleins/26#breadcrumb"
       },
-      "inLanguage": "es-MX"
+      "inLanguage": "de"
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://tablasdemultiplicar.online/tabla/26#breadcrumb",
+      "@id": "https://einmaleins.online/einmaleins/26#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
           "position": 1,
           "item": {
-            "@id": "https://tablasdemultiplicar.online/",
-            "name": "Inicio"
+            "@id": "https://einmaleins.online/",
+            "name": "Startseite"
           }
         },
         {
           "@type": "ListItem",
           "position": 2,
           "item": {
-            "@id": "https://tablasdemultiplicar.online/21-30",
-            "name": "21-30 Tabla de Multiplicar"
+            "@id": "https://einmaleins.online/21-30",
+            "name": "Einmaleins 21-30"
           }
         },
         {
           "@type": "ListItem",
           "position": 3,
           "item": {
-            "@id": "https://tablasdemultiplicar.online/tabla/26",
-            "name": "26 Tabla de Multiplicar"
+            "@id": "https://einmaleins.online/einmaleins/26",
+            "name": "26er-Einmaleins"
           }
         }
       ]
     },
     {
       "@type": "LearningResource",
-      "@id": "https://tablasdemultiplicar.online/tabla/26#learningresource",
-      "name": "26 Tabla de Multiplicar Recurso de Aprendizaje",
-      "description": "26 Multiplicar por: 2 ve 13 tablolarının birleşimi (2×13=26), çift sayı desenleri.",
+      "@id": "https://einmaleins.online/einmaleins/26#learningresource",
+      "name": "26er-Einmaleins Recurso de Aprendizaje",
+      "description": "26 Multiplikation por: 2 ve 13 tablolarının birleşimi (2×13=26), çift sayı desenleri.",
       "educationalLevel": "Intermediate",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "26 Tabla de Multiplicar, 2×13 ilişkisi, çift sayılar",
+      "teaches": "26er-Einmaleins, 2×13 ilişkisi, çift sayılar",
       "typicalAgeRange": "8-11",
-      "inLanguage": "es-MX",
+      "inLanguage": "de",
       "educationalUse": ["practice", "self-study"],
       "audience": {
         "@type": "EducationalAudience",
         "educationalRole": ["student"]
       },
       "isPartOf": {
-        "@id": "https://tablasdemultiplicar.online/21-30#learningresource"
+        "@id": "https://einmaleins.online/21-30#learningresource"
       }
     }
   ]
 }
 
 export const metadata = {
-  title: '26 Tabla de Multiplicar - Juegos Divertidos y Ejercicios Prácticos',
-  description: '26 Tabla de Multiplicar con juegos divertidos y ejercicios interactivos. Ayudas visuales para niños, consejos prácticos y técnicas fáciles de memorización.',
-  keywords: '26 Tabla de Multiplicar, yirmi altı Tabla de Multiplicar, 26 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
+  title: '26er-Einmaleins | Lerne Multiplikation mit 26',
+  description: 'Meistere das 26er-Einmaleins. Klare ErklÃ¤rungen, Muster und praktische Ãœbungsstrategien.',
+  keywords: '26er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {
-    canonical: '/tabla/26',
+    canonical: '/einmaleins/26',
   },
 }
 

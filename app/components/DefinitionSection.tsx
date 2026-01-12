@@ -3,38 +3,37 @@ export default function DefinitionSection() {
     <section id="definition" className="section-container bg-white">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-slate-900 mb-8 text-center">
-          ¿Qué son las Tablas de Multiplicar?
+          Was ist das Einmaleins?
         </h2>
         
         <div className="space-y-6 text-slate-700">
           <p>
-            Las tablas de multiplicar son una herramienta matemática que muestra de forma 
-            ordenada los resultados de multiplicar dos números entre sí. Generalmente incluyen 
-            las multiplicaciones de los números del 1 al 10, aunque en el aprendizaje avanzado 
-            pueden extenderse hasta el 100.
+            Das Einmaleins ist ein mathematisches Werkzeug, das die Ergebnisse der 
+            Multiplikation zweier Zahlen geordnet darstellt. Üblicherweise umfasst es 
+            die Multiplikationen der Zahlen von 1 bis 10, kann aber beim fortgeschrittenen 
+            Lernen bis 100 erweitert werden.
           </p>
           
           <p>
-            Por ejemplo, 3 × 4 = 12 es parte de las tablas de multiplicar. 
-            Esta expresión significa "el número 3 sumado 4 veces" o "el número 4 sumado 3 veces". 
-            Las tablas de multiplicar nos permiten realizar este tipo de operaciones de manera 
-            rápida y práctica.
+            Zum Beispiel ist 3 × 4 = 12 Teil des Einmaleins. 
+            Dieser Ausdruck bedeutet "die Zahl 3 viermal addiert" oder "die Zahl 4 dreimal addiert". 
+            Das Einmaleins ermöglicht es uns, solche Berechnungen schnell und praktisch durchzuführen.
           </p>
           
           <p>
-            Las tablas de multiplicar no son solo una herramienta de cálculo, sino también un 
-            sistema de aprendizaje que nos ayuda a comprender los patrones y relaciones entre 
-            los números. Cada número tiene un orden y una lógica específica en su tabla de multiplicar.
+            Das Einmaleins ist nicht nur ein Rechenwerkzeug, sondern auch ein 
+            Lernsystem, das uns hilft, die Muster und Beziehungen zwischen 
+            Zahlen zu verstehen. Jede Zahl hat eine bestimmte Ordnung und Logik in ihrer Multiplikationstabelle.
           </p>
           
           <div className="bg-primary-50 border-l-4 border-primary-500 p-6 rounded-r-lg mt-8">
             <p className="font-medium text-slate-900">
-              Definición Fundamental:
+              Grundlegende Definition:
             </p>
             <p className="mt-2">
-              Las tablas de multiplicar son una herramienta educativa fundamental que muestra 
-              sistemáticamente los resultados de las operaciones de multiplicación, desarrolla 
-              las habilidades de matemática mental de los estudiantes y apoya el pensamiento matemático.
+              Das Einmaleins ist ein grundlegendes Lernwerkzeug, das systematisch 
+              die Ergebnisse von Multiplikationsoperationen zeigt, die mathematischen 
+              Denkfähigkeiten der Schüler entwickelt und das mathematische Denken unterstützt.
             </p>
           </div>
         </div>

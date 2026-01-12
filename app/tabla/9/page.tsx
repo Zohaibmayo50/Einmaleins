@@ -5,79 +5,79 @@ const schemaData = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://tablasdemultiplicar.online/tabla/9#webpage",
-      "url": "https://tablasdemultiplicar.online/tabla/9",
-      "name": "Tabla del 9 - Patrones Mágicos de Nueve",
-      "description": "Aprende trucos de dedos y reglas mágicas de suma de dígitos con la tabla del 9. Descubre los patrones de tabla de multiplicar más divertidos.",
+      "@id": "https://einmaleins.online/einmaleins/9#webpage",
+      "url": "https://einmaleins.online/einmaleins/9",
+      "name": "9er-Einmaleins - Patrones Mágicos de Nueve",
+      "description": "Lerne trucos de dedos y reglas mágicas de suma de dígitos con la 9er-Einmaleins. Descubre los patrones de tabla de multiplicar más divertidos.",
       "isPartOf": {
-        "@id": "https://tablasdemultiplicar.online/#website"
+        "@id": "https://einmaleins.online/#website"
       },
       "about": {
-        "@id": "https://tablasdemultiplicar.online/tabla/9#learningresource"
+        "@id": "https://einmaleins.online/einmaleins/9#learningresource"
       },
       "breadcrumb": {
-        "@id": "https://tablasdemultiplicar.online/tabla/9#breadcrumb"
+        "@id": "https://einmaleins.online/einmaleins/9#breadcrumb"
       },
-      "inLanguage": "es-MX"
+      "inLanguage": "de"
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://tablasdemultiplicar.online/tabla/9#breadcrumb",
+      "@id": "https://einmaleins.online/einmaleins/9#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
           "position": 1,
           "item": {
-            "@id": "https://tablasdemultiplicar.online/",
-            "name": "Inicio"
+            "@id": "https://einmaleins.online/",
+            "name": "Startseite"
           }
         },
         {
           "@type": "ListItem",
           "position": 2,
           "item": {
-            "@id": "https://tablasdemultiplicar.online/1-10",
-            "name": "1-10 Tabla de Multiplicar"
+            "@id": "https://einmaleins.online/1-10",
+            "name": "Einmaleins 1-10"
           }
         },
         {
           "@type": "ListItem",
           "position": 3,
           "item": {
-            "@id": "https://tablasdemultiplicar.online/tabla/9",
-            "name": "9 Tabla de Multiplicar"
+            "@id": "https://einmaleins.online/einmaleins/9",
+            "name": "9er-Einmaleins"
           }
         }
       ]
     },
     {
       "@type": "LearningResource",
-      "@id": "https://tablasdemultiplicar.online/tabla/9#learningresource",
-      "name": "9 Tabla de Multiplicar Recurso de Aprendizaje",
+      "@id": "https://einmaleins.online/einmaleins/9#learningresource",
+      "name": "9er-Einmaleins Recurso de Aprendizaje",
       "description": "9 Multiplicar por: Parmak trikleri, basamak toplama kuralı (sonuçların rakamları toplamı=9), 10-1 ilişkisi ve sihirli desenler.",
       "educationalLevel": "Beginner",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "9 Tabla de Multiplicar, parmak trikeri, basamak toplama kuralı, 3²=9",
+      "teaches": "9er-Einmaleins, parmak trikeri, basamak toplama kuralı, 3²=9",
       "typicalAgeRange": "6-9",
-      "inLanguage": "es-MX",
+      "inLanguage": "de",
       "educationalUse": ["practice", "self-study"],
       "audience": {
         "@type": "EducationalAudience",
         "educationalRole": ["student"]
       },
       "isPartOf": {
-        "@id": "https://tablasdemultiplicar.online/1-10#learningresource"
+        "@id": "https://einmaleins.online/1-10#learningresource"
       }
     }
   ]
 }
 
 export const metadata = {
-  title: 'Tabla del 9 - Juegos Divertidos y Ejercicios Prácticos',
-  description: 'Aprende la tabla del 9 con juegos divertidos, ejercicios interactivos y hojas de trabajo imprimibles. Descubre herramientas de práctica gratuitas.',
-  keywords: 'tabla del 9, tabla de multiplicar del nueve, juegos de matemáticas, ejercicios de multiplicación',
+  title: '9er-Einmaleins - Juegos Divertidos y Ejercicios Prácticos',
+  description: 'Meistere das 9er-Einmaleins. Klare ErklÃ¤rungen, Muster und praktische Ãœbungsstrategien.',
+  keywords: '9er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {
-    canonical: '/tabla/9',
+    canonical: '/einmaleins/9',
   },
 }
 

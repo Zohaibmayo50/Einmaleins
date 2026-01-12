@@ -5,79 +5,79 @@ const schemaData = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://tablasdemultiplicar.online/tabla/10#webpage",
-      "url": "https://tablasdemultiplicar.online/tabla/10",
-      "name": "Tabla del 10 - Base del Sistema Decimal",
-      "description": "Aprende el concepto de sistema decimal y valor posicional con la tabla del 10. Comprende la base de las matemáticas con la tabla de multiplicar más fácil.",
+      "@id": "https://einmaleins.online/einmaleins/10#webpage",
+      "url": "https://einmaleins.online/einmaleins/10",
+      "name": "10er-Einmaleins - Base del Sistema Decimal",
+      "description": "Lerne el concepto de sistema decimal y valor posicional con la 10er-Einmaleins. Comprende la base de las matemáticas con la tabla de multiplicar más fácil.",
       "isPartOf": {
-        "@id": "https://tablasdemultiplicar.online/#website"
+        "@id": "https://einmaleins.online/#website"
       },
       "about": {
-        "@id": "https://tablasdemultiplicar.online/tabla/10#learningresource"
+        "@id": "https://einmaleins.online/einmaleins/10#learningresource"
       },
       "breadcrumb": {
-        "@id": "https://tablasdemultiplicar.online/tabla/10#breadcrumb"
+        "@id": "https://einmaleins.online/einmaleins/10#breadcrumb"
       },
-      "inLanguage": "es-MX"
+      "inLanguage": "de"
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://tablasdemultiplicar.online/tabla/10#breadcrumb",
+      "@id": "https://einmaleins.online/einmaleins/10#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
           "position": 1,
           "item": {
-            "@id": "https://tablasdemultiplicar.online/",
-            "name": "Inicio"
+            "@id": "https://einmaleins.online/",
+            "name": "Startseite"
           }
         },
         {
           "@type": "ListItem",
           "position": 2,
           "item": {
-            "@id": "https://tablasdemultiplicar.online/1-10",
-            "name": "1-10 Tabla de Multiplicar"
+            "@id": "https://einmaleins.online/1-10",
+            "name": "Einmaleins 1-10"
           }
         },
         {
           "@type": "ListItem",
           "position": 3,
           "item": {
-            "@id": "https://tablasdemultiplicar.online/tabla/10",
-            "name": "10 Tabla de Multiplicar"
+            "@id": "https://einmaleins.online/einmaleins/10",
+            "name": "10er-Einmaleins"
           }
         }
       ]
     },
     {
       "@type": "LearningResource",
-      "@id": "https://tablasdemultiplicar.online/tabla/10#learningresource",
-      "name": "10 Tabla de Multiplicar Recurso de Aprendizaje",
+      "@id": "https://einmaleins.online/einmaleins/10#learningresource",
+      "name": "10er-Einmaleins Recurso de Aprendizaje",
       "description": "10 Multiplicar por: Onluk sistem temeli, yer değeri kavramı ve sonuna sıfır ekleme kuralı ile en kolay Tabla de Multiplicar.",
       "educationalLevel": "Beginner",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "10 Tabla de Multiplicar, onluk sistem, yer değeri, sıfır ekleme kuralı",
+      "teaches": "10er-Einmaleins, onluk sistem, yer değeri, sıfır ekleme kuralı",
       "typicalAgeRange": "6-9",
-      "inLanguage": "es-MX",
+      "inLanguage": "de",
       "educationalUse": ["practice", "self-study", "foundational concept"],
       "audience": {
         "@type": "EducationalAudience",
         "educationalRole": ["student"]
       },
       "isPartOf": {
-        "@id": "https://tablasdemultiplicar.online/1-10#learningresource"
+        "@id": "https://einmaleins.online/1-10#learningresource"
       }
     }
   ]
 }
 
 export const metadata = {
-  title: 'Tabla del 10 - Juegos Divertidos y Ejercicios Prácticos',
-  description: 'Aprende la tabla del 10 con juegos divertidos, ejercicios interactivos y hojas de trabajo imprimibles. Descubre herramientas de práctica gratuitas.',
-  keywords: 'tabla del 10, tabla de multiplicar del diez, juegos de matemáticas, ejercicios de multiplicación',
+  title: '10er-Einmaleins - Juegos Divertidos y Ejercicios Prácticos',
+  description: 'Meistere das 10er-Einmaleins. Klare ErklÃ¤rungen, Muster und praktische Ãœbungsstrategien.',
+  keywords: '10er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {
-    canonical: '/tabla/10',
+    canonical: '/einmaleins/10',
   },
 }
 

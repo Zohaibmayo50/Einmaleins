@@ -5,79 +5,79 @@ const schemaData = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://tablasdemultiplicar.online/tabla/24#webpage",
-      "url": "https://tablasdemultiplicar.online/tabla/24",
-      "name": "24 Tabla de Multiplicar - 24 Saat Sistemi",
-      "description": "24 Tabla de Multiplicar ile 24 saat sistemi ve günlük zaman hesaplamalarını öğrenin. 3×8, 4×6, 2×12 ilişkilerini keşfedin.",
+      "@id": "https://einmaleins.online/einmaleins/24#webpage",
+      "url": "https://einmaleins.online/einmaleins/24",
+      "name": "24er-Einmaleins - 24 Saat Sistemi",
+      "description": "24er-Einmaleins ile 24 saat sistemi ve günlük zaman hesaplamalarını öğrenin. 3×8, 4×6, 2×12 ilişkilerini keşfedin.",
       "isPartOf": {
-        "@id": "https://tablasdemultiplicar.online/#website"
+        "@id": "https://einmaleins.online/#website"
       },
       "about": {
-        "@id": "https://tablasdemultiplicar.online/tabla/24#learningresource"
+        "@id": "https://einmaleins.online/einmaleins/24#learningresource"
       },
       "breadcrumb": {
-        "@id": "https://tablasdemultiplicar.online/tabla/24#breadcrumb"
+        "@id": "https://einmaleins.online/einmaleins/24#breadcrumb"
       },
-      "inLanguage": "es-MX"
+      "inLanguage": "de"
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://tablasdemultiplicar.online/tabla/24#breadcrumb",
+      "@id": "https://einmaleins.online/einmaleins/24#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
           "position": 1,
           "item": {
-            "@id": "https://tablasdemultiplicar.online/",
-            "name": "Inicio"
+            "@id": "https://einmaleins.online/",
+            "name": "Startseite"
           }
         },
         {
           "@type": "ListItem",
           "position": 2,
           "item": {
-            "@id": "https://tablasdemultiplicar.online/21-30",
-            "name": "21-30 Tabla de Multiplicar"
+            "@id": "https://einmaleins.online/21-30",
+            "name": "Einmaleins 21-30"
           }
         },
         {
           "@type": "ListItem",
           "position": 3,
           "item": {
-            "@id": "https://tablasdemultiplicar.online/tabla/24",
-            "name": "24 Tabla de Multiplicar"
+            "@id": "https://einmaleins.online/einmaleins/24",
+            "name": "24er-Einmaleins"
           }
         }
       ]
     },
     {
       "@type": "LearningResource",
-      "@id": "https://tablasdemultiplicar.online/tabla/24#learningresource",
-      "name": "24 Tabla de Multiplicar Recurso de Aprendizaje",
-      "description": "24 Multiplicar por: 24 saat gün sistemi, 3×8, 4×6, 2×12 çarpan ilişkileri ve zaman hesaplama.",
+      "@id": "https://einmaleins.online/einmaleins/24#learningresource",
+      "name": "24er-Einmaleins Recurso de Aprendizaje",
+      "description": "24 Multiplikation por: 24 saat gün sistemi, 3×8, 4×6, 2×12 çarpan ilişkileri ve zaman hesaplama.",
       "educationalLevel": "Intermediate",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "24 Tabla de Multiplicar, 24 saat sistemi, çoklu çarpan ilişkileri",
+      "teaches": "24er-Einmaleins, 24 saat sistemi, çoklu çarpan ilişkileri",
       "typicalAgeRange": "8-11",
-      "inLanguage": "es-MX",
+      "inLanguage": "de",
       "educationalUse": ["practice", "self-study", "real-world application"],
       "audience": {
         "@type": "EducationalAudience",
         "educationalRole": ["student"]
       },
       "isPartOf": {
-        "@id": "https://tablasdemultiplicar.online/21-30#learningresource"
+        "@id": "https://einmaleins.online/21-30#learningresource"
       }
     }
   ]
 }
 
 export const metadata = {
-  title: '24 Tabla de Multiplicar - Juegos Divertidos y Ejercicios Prácticos',
-  description: '24 Tabla de Multiplicar con juegos divertidos y ejercicios interactivos. Ayudas visuales para niños, consejos prácticos y técnicas fáciles de memorización.',
-  keywords: '24 Tabla de Multiplicar, yirmi dört Tabla de Multiplicar, 24 Multiplicar por, Tabla de Multiplicar aprendizaje de tablas de multiplicar, juegos de matemáticas',
+  title: '24er-Einmaleins | Lerne Multiplikation mit 24',
+  description: 'Meistere das 24er-Einmaleins. Klare ErklÃ¤rungen, Muster und praktische Ãœbungsstrategien.',
+  keywords: '24er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {
-    canonical: '/tabla/24',
+    canonical: '/einmaleins/24',
   },
 }
 
