@@ -8,7 +8,7 @@ const schemaData = {
       "@id": "https://einmaleins.online/einmaleins/6#webpage",
       "url": "https://einmaleins.online/einmaleins/6",
       "name": "6er-Einmaleins - Zählen in Sechserschritten",
-      "description": "Lerne a Zählen in Sechserschritten con la 6er-Einmaleins. Descubre las relaciones 2�3 y 3�2 con patrones geom�tricos.",
+      "description": "Lerne a Zählen in Sechserschritten mit dem 6er-Einmaleins. Entdecke las Beziehunges 2\u00d73 y 3\u00d72 con geometrische Muster.",
       "isPartOf": {
         "@id": "https://einmaleins.online/#website"
       },
@@ -73,7 +73,7 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: '6er-Einmaleins - Juegos Divertidos y Ejercicios Pr�cticos',
+  title: '6er-Einmaleins - Lustige Spiele und Praktische \u00dcbungen',
   description: 'Meistere das 6er-Einmaleins. Klare Erklärungen, Muster und praktische Übungsstrategien.',
   keywords: '6er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {

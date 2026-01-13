@@ -73,7 +73,7 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: '12er-Einmaleins - Juegos Divertidos y Ejercicios Pr�cticos',
+  title: '12er-Einmaleins - Lustige Spiele und Praktische \u00dcbungen',
   description: 'Meistere das 12er-Einmaleins. Klare Erklärungen, Muster und praktische Übungsstrategien.',
   keywords: '12er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {

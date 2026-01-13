@@ -239,10 +239,10 @@ export default function NumberGames({ number }: NumberGamesProps) {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-8">
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-            🎮 Juegos de la Tabla del {number}
+            🎮 {number}er-Einmaleins Spiele
           </h2>
           <p className="text-lg text-slate-700">
-            ¡Refuerza la tabla del {number} con juegos animados y divertidos!
+            Übe das {number}er-Einmaleins mit lustigen und interaktiven Spielen!
           </p>
         </div>
 

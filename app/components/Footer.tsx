@@ -20,7 +20,7 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* Tablas de Multiplicar Section */}
+          {/* Einmaleins Tabellen Bereich */}
           <div>
             <h3 className="text-lg font-semibold mb-4 text-blue-400">Einmaleins Tabellen</h3>
             <ul className="space-y-2 text-sm">
@@ -106,7 +106,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Práctica Section */}
+          {/* Übung und Spiele Bereich */}
           <div>
             <h3 className="text-lg font-semibold mb-4 text-emerald-400">Übung und Spiele</h3>
             <ul className="space-y-2 text-sm">

@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://einmaleins.online/einmaleins/9#webpage",
       "url": "https://einmaleins.online/einmaleins/9",
-      "name": "9er-Einmaleins - Patrones M�gicos de Nueve",
-      "description": "Lerne Fingertricks y reglas m�gicas de suma de d�gitos con la 9er-Einmaleins. Descubre los patrones de tabla de multiplicar m�s divertidos.",
+      "name": "9er-Einmaleins - Magische Neuner-Muster",
+      "description": "Lerne Fingertricks und magische Ziffernadditionsregeln mit dem 9er-Einmaleins. Entdecke die unterhaltsamsten Einmaleins-Muster.",
       "isPartOf": {
         "@id": "https://einmaleins.online/#website"
       },
@@ -57,7 +57,7 @@ const schemaData = {
       "description": "Multiplikation mit 9 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Beginner",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "9er-Einmaleins, Fingertricks, Stellen Addition Regel, 3�=9",
+      "teaches": "9er-Einmaleins, Fingertricks, Stellen Addition Regel, 3²=9",
       "typicalAgeRange": "6-9",
       "inLanguage": "de",
       "educationalUse": ["practice", "self-study"],
@@ -73,7 +73,7 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: '9er-Einmaleins - Juegos Divertidos y Ejercicios Pr�cticos',
+  title: '9er-Einmaleins - Lustige Spiele und Praktische Übungen',
   description: 'Meistere das 9er-Einmaleins. Klare Erklärungen, Muster und praktische Übungsstrategien.',
   keywords: '9er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {

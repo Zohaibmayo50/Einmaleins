@@ -152,7 +152,7 @@ export default function PracticePreview({ rangeStart = 1, rangeEnd = 10 }: Pract
                   : 'text-slate-600 hover:text-slate-900'
               }`}
             >
-              ⚡ Práctica Rápida
+              ⚡ Schnelle Übung
             </button>
             <button
               onClick={() => setActiveTab('exercises')}
@@ -162,7 +162,7 @@ export default function PracticePreview({ rangeStart = 1, rangeEnd = 10 }: Pract
                   : 'text-slate-600 hover:text-slate-900'
               }`}
             >
-              📝 Ejercicios
+              📝 Übungsaufgaben
             </button>
           </div>
         </div>
@@ -280,7 +280,7 @@ export default function PracticePreview({ rangeStart = 1, rangeEnd = 10 }: Pract
           <div className="max-w-3xl mx-auto">
             <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-200">
               <div className="flex justify-between items-center mb-6">
-                <h3 className="text-2xl font-bold text-blue-600">📝 Ejercicio</h3>
+                <h3 className="text-2xl font-bold text-blue-600">📝 Übungsaufgabe</h3>
                 <button onClick={() => setActiveExercise(null)} className="text-slate-500 hover:text-slate-700">✕</button>
               </div>
 
@@ -336,7 +336,7 @@ export default function PracticePreview({ rangeStart = 1, rangeEnd = 10 }: Pract
                 <div className="text-6xl mb-4">
                   {(exerciseQuestions.filter(q => q.correct).length / exerciseQuestions.length) >= 0.8 ? '🎉' : '👍'}
                 </div>
-                <h3 className="text-3xl font-bold text-slate-900 mb-4">¡Ejercicio Completado!</h3>
+                <h3 className="text-3xl font-bold text-slate-900 mb-4">Übung Abgeschlossen!</h3>
                 
                 <div className="grid grid-cols-3 gap-4 max-w-xl mx-auto mb-8">
                   <div className="bg-green-50 rounded-lg p-4">
@@ -407,13 +407,13 @@ export default function PracticePreview({ rangeStart = 1, rangeEnd = 10 }: Pract
             </svg>
             <div>
               <h4 className="font-semibold text-slate-900 mb-2">
-                💡 Consejos al Practicar
+                💡 Tipps zum Üben
               </h4>
               <p className="text-slate-700">
-                Practicar no es solo para ganar velocidad. Piensa cuidadosamente en cada pregunta, 
-                analiza tus respuestas incorrectas e identifica qué tablas de multiplicar 
-                te resultan difíciles. La práctica regular de 10-15 minutos al día es el 
-                método más efectivo para el aprendizaje a largo plazo.
+                Üben bedeutet nicht nur Geschwindigkeit. Denke sorgfältig über jede Frage nach, 
+                analysiere deine falschen Antworten und erkenne, welche Einmaleins-Tabellen 
+                dir schwer fallen. Regelmäßiges Üben von 10-15 Minuten pro Tag ist die 
+                effektivste Methode für langfristiges Lernen.
               </p>
             </div>
           </div>

@@ -73,7 +73,7 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: '15er-Einmaleins - Juegos Divertidos y Ejercicios Pr�cticos',
+  title: '15er-Einmaleins - Lustige Spiele und Praktische \u00dcbungen',
   description: 'Meistere das 15er-Einmaleins. Klare Erklärungen, Muster und praktische Übungsstrategien.',
   keywords: '15er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {

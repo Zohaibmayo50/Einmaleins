@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://einmaleins.online/einmaleins/10#webpage",
       "url": "https://einmaleins.online/einmaleins/10",
-      "name": "10er-Einmaleins - Base del Systema Decimal",
-      "description": "Lerne el concepto de Systema decimal y valor posicional con la 10er-Einmaleins. Comprende la base de las matem�ticas con la tabla de multiplicar m�s f�cil.",
+      "name": "10er-Einmaleins - Base del Dezimalsystem",
+      "description": "Lerne das Dezimalsystem-Konzept und Stellenwert mit dem 10er-Einmaleins. Verstehe die Grundlage der Mathematik mit der einfachsten Einmaleins-Tabelle.",
       "isPartOf": {
         "@id": "https://einmaleins.online/#website"
       },
@@ -73,7 +73,7 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: '10er-Einmaleins - Juegos Divertidos y Ejercicios Pr�cticos',
+  title: '10er-Einmaleins - Lustige Spiele und Praktische \u00dcbungen',
   description: 'Meistere das 10er-Einmaleins. Klare Erklärungen, Muster und praktische Übungsstrategien.',
   keywords: '10er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {

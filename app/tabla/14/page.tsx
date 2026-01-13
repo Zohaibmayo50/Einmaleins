@@ -73,7 +73,7 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: '14er-Einmaleins - Juegos Divertidos y Ejercicios Pr�cticos',
+  title: '14er-Einmaleins - Lustige Spiele und Praktische \u00dcbungen',
   description: 'Meistere das 14er-Einmaleins. Klare Erklärungen, Muster und praktische Übungsstrategien.',
   keywords: '14er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {

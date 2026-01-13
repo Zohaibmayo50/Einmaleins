@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://einmaleins.online/einmaleins/7#webpage",
       "url": "https://einmaleins.online/einmaleins/7",
-      "name": "7er-Einmaleins - Systemas de Siete",
-      "description": "Lerne patrones de conteo de siete con la 7er-Einmaleins. Aplicaciones pr�cticas con d�as de la semana y patrones peri�dicos.",
+      "name": "7er-Einmaleins - Systeam meisten de Siete",
+      "description": "Lerne patrones de conteo de siete mit dem 7er-Einmaleins. Aplicaciones praktische con d�as de la semana y patrones peri�dicos.",
       "isPartOf": {
         "@id": "https://einmaleins.online/#website"
       },
@@ -73,7 +73,7 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: '7er-Einmaleins - Juegos Divertidos y Ejercicios Pr�cticos',
+  title: '7er-Einmaleins - Lustige Spiele und Praktische \u00dcbungen',
   description: 'Meistere das 7er-Einmaleins. Klare Erklärungen, Muster und praktische Übungsstrategien.',
   keywords: '7er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {

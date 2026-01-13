@@ -8,7 +8,7 @@ const schemaData = {
       "@id": "https://einmaleins.online/einmaleins/8#webpage",
       "url": "https://einmaleins.online/einmaleins/8",
       "name": "8er-Einmaleins - Patrones de Ocho",
-      "description": "Lerne t�cnicas de duplicaci�n y cuadruplicaci�n con la 8er-Einmaleins. Descubre la relaci�n 2�2�2 y el concepto de oct�gono.",
+      "description": "Lerne Verdopplungs- und Vervierfachungstechniken mit dem 8er-Einmaleins. Entdecke die 2\u00d72\u00d72 Beziehung und das Achteck-Konzept.",
       "isPartOf": {
         "@id": "https://einmaleins.online/#website"
       },
@@ -73,7 +73,7 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: '8er-Einmaleins - Juegos Divertidos y Ejercicios Pr�cticos',
+  title: '8er-Einmaleins - Lustige Spiele und Praktische \u00dcbungen',
   description: 'Meistere das 8er-Einmaleins. Klare Erklärungen, Muster und praktische Übungsstrategien.',
   keywords: '8er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {

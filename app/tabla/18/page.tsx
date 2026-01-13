@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://einmaleins.online/einmaleins/18#webpage",
       "url": "https://einmaleins.online/einmaleins/18",
-      "name": "18er-Einmaleins - Resitlik Yasi",
-      "description": "18er-Einmaleins Multiplicar por Fähigkeiteninizi g��lendirin. 9�2 und 6�3 Beziehungen Multiplikation mit 18 - Fortgeschrittene Rechenmethoden",
+      "name": "18er-Einmaleins - Volljährigkeitsalter",
+      "description": "Stärke deine 18er-Einmaleins-Fähigkeiten. 9×2 und 6×3 Beziehungen - Fortgeschrittene Rechenmethoden für die Multiplikation mit 18",
       "isPartOf": {
         "@id": "https://einmaleins.online/#website"
       },
@@ -57,7 +57,7 @@ const schemaData = {
       "description": "Multiplikation mit 18 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Beginner",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "18er-Einmaleins, 9 und 6 Tabellen Beziehung, 9'un katlari Regel",
+      "teaches": "18er-Einmaleins, 9 und 6 Tabellen Beziehung, 9er-Vielfache Regel",
       "typicalAgeRange": "7-10",
       "inLanguage": "de",
       "educationalUse": ["practice", "self-study"],
@@ -73,7 +73,7 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: '18er-Einmaleins - Juegos Divertidos y Ejercicios Pr�cticos',
+  title: '18er-Einmaleins - Lustige Spiele und Praktische Übungen',
   description: 'Meistere das 18er-Einmaleins. Klare Erklärungen, Muster und praktische Übungsstrategien.',
   keywords: '18er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {

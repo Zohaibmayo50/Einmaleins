@@ -73,7 +73,7 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: '16er-Einmaleins - Juegos Divertidos y Ejercicios Pr�cticos',
+  title: '16er-Einmaleins - Lustige Spiele und Praktische \u00dcbungen',
   description: 'Meistere das 16er-Einmaleins. Klare Erklärungen, Muster und praktische Übungsstrategien.',
   keywords: '16er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {

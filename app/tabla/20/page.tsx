@@ -73,7 +73,7 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: '20er-Einmaleins - Juegos Divertidos y Ejercicios Pr�cticos',
+  title: '20er-Einmaleins - Lustige Spiele und Praktische \u00dcbungen',
   description: 'Meistere das 20er-Einmaleins. Klare Erklärungen, Muster und praktische Übungsstrategien.',
   keywords: '20er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {

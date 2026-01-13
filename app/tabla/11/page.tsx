@@ -8,7 +8,7 @@ const schemaData = {
       "@id": "https://einmaleins.online/einmaleins/11#webpage",
       "url": "https://einmaleins.online/einmaleins/11",
       "name": "11er-Einmaleins - Introducci�n a N�meros de Dos D�gitos",
-      "description": "11er-Einmaleins y transiciona a n�meros de dos d�gitos. Con patrones y estrategias f�ciles, Lerne a Multiplikation mit Multiplikation mit 11 - Fortgeschrittene Rechenmethoden",
+      "description": "11er-Einmaleins y transiciona a n�meros de dos d�gitos. Con patrones y estrategias einfaches, Lerne a Multiplikation mit Multiplikation mit 11 - Fortgeschrittene Rechenmethoden",
       "isPartOf": {
         "@id": "https://einmaleins.online/#website"
       },
@@ -73,7 +73,7 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: '11er-Einmaleins - Juegos Divertidos y Ejercicios Pr�cticos',
+  title: '11er-Einmaleins - Lustige Spiele und Praktische \u00dcbungen',
   description: 'Meistere das 11er-Einmaleins. Klare Erklärungen, Muster und praktische Übungsstrategien.',
   keywords: '11er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {

@@ -8,7 +8,7 @@ const schemaData = {
       "@id": "https://einmaleins.online/einmaleins/3#webpage",
       "url": "https://einmaleins.online/einmaleins/3",
       "name": "3er-Einmaleins - Multiplikation mit 3",
-      "description": "Lerne el concepto bÃ¡sico de Multiplikation mit 3. Propiedad de identidad, patrones y estrategias prÃ¡cticas para comprender las multiplicaciones por 1.",
+      "description": "Lerne el concepto bÃ¡sico de Multiplikation mit 3. Identit\u00e4tseigenschaft, patrones y estrategias prÃ¡cticas para comprender las multiplicaciones por 1.",
       "isPartOf": {
         "@id": "https://einmaleins.online/#website"
       },
@@ -54,10 +54,10 @@ const schemaData = {
       "@type": "LearningResource",
       "@id": "https://einmaleins.online/einmaleins/3#learningresource",
       "name": "Lernressource: 3er-Einmaleins",
-      "description": "Multiplikation mit 3 (propiedad de identidad): cualquier nÃºmero multiplicado por 1 es el mismo nÃºmero. Lerne las reglas bÃ¡sicas de la multiplicaciÃ³n.",
+      "description": "Multiplikation mit 3 (Identit\u00e4tseigenschaft): cualquier nÃºmero multiplicado por 1 es el mismo nÃºmero. Lerne las reglas bÃ¡sicas de la multiplicaciÃ³n.",
       "educationalLevel": "Beginner",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "3er-Einmaleins, propiedad de identidad, conceptos bÃ¡sicos de multiplicaciÃ³n",
+      "teaches": "3er-Einmaleins, Identit\u00e4tseigenschaft, conceptos bÃ¡sicos de multiplicaciÃ³n",
       "typicalAgeRange": "6-8",
       "inLanguage": "de",
       "educationalUse": ["practice", "self-study"],
@@ -74,7 +74,7 @@ const schemaData = {
 
 export const metadata = {
   title: '3er-Einmaleins | Lerne a Multiplikation mit 3',
-  description: 'Meistere das 3er-Einmaleins. Klare ErklÃ¤rungen, Muster und praktische Ãœbungsstrategien.',
+  description: 'Meistere das 3er-Einmaleins. Klare Erkl\u00e4rungen, Muster und praktische \u00dcbungsstrategien.',
   alternates: {
     canonical: '/einmaleins/3',
   },
