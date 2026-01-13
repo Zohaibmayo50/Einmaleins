@@ -8,7 +8,7 @@ const schemaData = {
       "@id": "https://einmaleins.online/einmaleins/5#webpage",
       "url": "https://einmaleins.online/einmaleins/5",
       "name": "5er-Einmaleins - Multiplikation mit 5",
-      "description": "Lerne el concepto bÃ¡sico de Multiplikation mit 5. Identit\u00e4tseigenschaft, patrones y estrategias prÃ¡cticas para comprender las multiplicaciones por 1.",
+      "description": "Lerne das grundlegende Konzept der Multiplikation mit 5. Identitätseigenschaft, Muster und praktische Strategien zum Verständnis der Multiplikation mit 5.",
       "isPartOf": {
         "@id": "https://einmaleins.online/#website"
       },

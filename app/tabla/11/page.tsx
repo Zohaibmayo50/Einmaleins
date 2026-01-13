@@ -8,7 +8,7 @@ const schemaData = {
       "@id": "https://einmaleins.online/einmaleins/11#webpage",
       "url": "https://einmaleins.online/einmaleins/11",
       "name": "11er-Einmaleins - Introducci�n a N�meros de Dos D�gitos",
-      "description": "11er-Einmaleins y transiciona a n�meros de dos d�gitos. Con patrones y estrategias einfaches, Lerne a Multiplikation mit Multiplikation mit 11 - Fortgeschrittene Rechenmethoden",
+      "description": "11er-Einmaleins und der Übergang zu zweistelligen Zahlen. Mit einfachen Mustern und Strategien - Fortgeschrittene Rechenmethoden für die Multiplikation mit 11",
       "isPartOf": {
         "@id": "https://einmaleins.online/#website"
       },
