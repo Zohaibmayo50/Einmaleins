@@ -29,7 +29,7 @@ const schemaData = {
       "name": "34er-Einmaleins Lernressource",
       "description": "Multiplikation mit 34 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Intermediate",
-      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
       "teaches": "34er-Einmaleins, 2�17 Beziehung, �ift Zahllar",
       "typicalAgeRange": "8-11",
       "inLanguage": "de",

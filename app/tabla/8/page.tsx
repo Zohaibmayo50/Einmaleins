@@ -56,7 +56,7 @@ const schemaData = {
       "name": "8er-Einmaleins Lernressource",
       "description": "Multiplikation mit 8 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Beginner",
-      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
       "teaches": "8er-Einmaleins, Achter Zählen, Verdopplung, 2� von Potenzen",
       "typicalAgeRange": "6-9",
       "inLanguage": "de",

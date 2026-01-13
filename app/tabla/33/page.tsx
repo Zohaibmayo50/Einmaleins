@@ -29,7 +29,7 @@ const schemaData = {
       "name": "33er-Einmaleins Lernressource",
       "description": "Multiplikation mit 33 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Intermediate",
-      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
       "teaches": "33er-Einmaleins, 3�11 Beziehung, Stellen Muster",
       "typicalAgeRange": "8-11",
       "inLanguage": "de",

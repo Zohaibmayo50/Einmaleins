@@ -56,7 +56,7 @@ const schemaData = {
       "name": "20er-Einmaleins Lernressource",
       "description": "Multiplikation mit 20 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Beginner",
-      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
       "teaches": "20er-Einmaleins, Zwanziger System, 10 tablosunun katlari, Geldrechnung",
       "typicalAgeRange": "7-10",
       "inLanguage": "de",

@@ -56,7 +56,7 @@ const schemaData = {
       "name": "16er-Einmaleins Lernressource",
       "description": "Multiplikation mit 16 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Beginner",
-      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
       "teaches": "16er-Einmaleins, Quadratzahllar, 4 tablosunun katlari",
       "typicalAgeRange": "7-10",
       "inLanguage": "de",

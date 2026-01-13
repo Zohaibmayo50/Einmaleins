@@ -29,7 +29,7 @@ const schemaData = {
       "name": "28er-Einmaleins Lernressource",
       "description": "Multiplikation mit 28 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Intermediate",
-      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
       "teaches": "28er-Einmaleins, 4�7 Beziehung, ay und hafta Konzept",
       "typicalAgeRange": "8-11",
       "inLanguage": "de",

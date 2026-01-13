@@ -56,7 +56,7 @@ const schemaData = {
       "name": "17er-Einmaleins Lernressource",
       "description": "Multiplikation mit 17 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Beginner",
-      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
       "teaches": "17er-Einmaleins, Primzahllar, Kopfrechnen",
       "typicalAgeRange": "7-10",
       "inLanguage": "de",

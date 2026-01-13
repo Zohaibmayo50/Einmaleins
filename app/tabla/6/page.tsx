@@ -56,7 +56,7 @@ const schemaData = {
       "name": "6er-Einmaleins Lernressource",
       "description": "Multiplikation mit 6 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Beginner",
-      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
       "teaches": "6er-Einmaleins, Sechser Zählen, 2 und 3 Tabellen Beziehung",
       "typicalAgeRange": "6-9",
       "inLanguage": "de",

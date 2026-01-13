@@ -29,7 +29,7 @@ const schemaData = {
       "name": "32er-Einmaleins Lernressource",
       "description": "Multiplikation mit 32 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Intermediate",
-      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
       "teaches": "32er-Einmaleins, 25 Konzept, von Zwei Potenzen",
       "typicalAgeRange": "8-11",
       "inLanguage": "de",

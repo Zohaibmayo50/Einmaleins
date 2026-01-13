@@ -56,7 +56,7 @@ const schemaData = {
       "name": "13er-Einmaleins Lernressource",
       "description": "Multiplikation mit 13 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Beginner",
-      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
       "teaches": "13er-Einmaleins, Primzahllar, Kopfrechnen",
       "typicalAgeRange": "7-10",
       "inLanguage": "de",

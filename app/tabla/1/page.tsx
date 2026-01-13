@@ -56,7 +56,7 @@ const schemaData = {
       "name": "Lernressource: 1er-Einmaleins",
       "description": "Multiplikation mit 1 (Identitätseigenschaft): Jede Zahl multipliziert mit 1 ergibt die gleiche Zahl. Lerne die grundlegenden Regeln der Multiplikation.",
       "educationalLevel": "Beginner",
-      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
       "teaches": "1er-Einmaleins, Identitätseigenschaft, grundlegende Multiplikationskonzepte",
       "typicalAgeRange": "6-8",
       "inLanguage": "de",

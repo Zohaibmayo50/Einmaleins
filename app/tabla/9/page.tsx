@@ -56,7 +56,7 @@ const schemaData = {
       "name": "9er-Einmaleins Lernressource",
       "description": "Multiplikation mit 9 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Beginner",
-      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
       "teaches": "9er-Einmaleins, Fingertricks, Stellen Addition Regel, 3�=9",
       "typicalAgeRange": "6-9",
       "inLanguage": "de",

@@ -56,7 +56,7 @@ const schemaData = {
       "name": "24er-Einmaleins Lernressource",
       "description": "Multiplikation mit 24 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Intermediate",
-      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
       "teaches": "24er-Einmaleins, 24 Stundensystem, �oklu �arpan Beziehungen",
       "typicalAgeRange": "8-11",
       "inLanguage": "de",

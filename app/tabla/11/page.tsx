@@ -56,7 +56,7 @@ const schemaData = {
       "name": "11er-Einmaleins Lernressource",
       "description": "Multiplikation mit 11 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Beginner",
-      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
       "teaches": "11er-Einmaleins, n�meros de dos d�gitos, patrones de d�gitos",
       "typicalAgeRange": "7-10",
       "inLanguage": "de",

@@ -56,7 +56,7 @@ const schemaData = {
       "name": "14er-Einmaleins Lernressource",
       "description": "Multiplikation mit 14 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Beginner",
-      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
       "teaches": "14er-Einmaleins, hafta hesaplama, 7 tablosunun katlari",
       "typicalAgeRange": "7-10",
       "inLanguage": "de",

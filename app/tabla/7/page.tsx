@@ -56,7 +56,7 @@ const schemaData = {
       "name": "7er-Einmaleins Lernressource",
       "description": "Multiplikation mit 7 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Beginner",
-      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
       "teaches": "7er-Einmaleins, Siebener Zählen, hafta g�nleri Konzept",
       "typicalAgeRange": "6-9",
       "inLanguage": "de",

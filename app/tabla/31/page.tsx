@@ -29,7 +29,7 @@ const schemaData = {
       "name": "31er-Einmaleins Lernressource",
       "description": "Multiplikation mit 31 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Intermediate",
-      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
       "teaches": "31er-Einmaleins, ay g�nleri Konzept, Primzahl",
       "typicalAgeRange": "8-11",
       "inLanguage": "de",

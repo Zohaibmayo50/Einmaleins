@@ -29,7 +29,7 @@ const schemaData = {
       "name": "27er-Einmaleins Lernressource",
       "description": "Multiplikation mit 27 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Intermediate",
-      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
       "teaches": "27er-Einmaleins, 3 k�p Konzept, 3�9 Beziehung",
       "typicalAgeRange": "8-11",
       "inLanguage": "de",

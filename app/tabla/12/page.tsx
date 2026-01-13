@@ -56,7 +56,7 @@ const schemaData = {
       "name": "12er-Einmaleins Lernressource",
       "description": "Multiplikation mit 12 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Intermediate",
-      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
       "teaches": "12er-Einmaleins, d�zine Konzept, Stunde okuma, 3 und 4 Tabellen Beziehung",
       "typicalAgeRange": "7-10",
       "inLanguage": "de",

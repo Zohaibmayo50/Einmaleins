@@ -29,7 +29,7 @@ const schemaData = {
       "name": "29er-Einmaleins Lernressource",
       "description": "Multiplikation mit 29 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Intermediate",
-      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
       "teaches": "29er-Einmaleins, Primzahl Konzept, ileri �arpma",
       "typicalAgeRange": "8-11",
       "inLanguage": "de",

@@ -57,7 +57,7 @@ const schemaData = {
       "name": "100er-Einmaleins Lernressource",
       "description": "Multiplikation mit 100 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Advanced",
-      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
       "teaches": "100er-Einmaleins, onluk System, yer degeri, y�zde hesaplama, 10'un Quadrat",
       "typicalAgeRange": "9-12",
       "inLanguage": "de",

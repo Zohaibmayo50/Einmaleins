@@ -56,7 +56,7 @@ const schemaData = {
       "name": "50er-Einmaleins Lernressource",
       "description": "Multiplikation mit 50 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Intermediate",
-      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
       "teaches": "50er-Einmaleins, Hälfte Konzept, y�zde hesaplama, 5�10 Beziehung",
       "typicalAgeRange": "8-11",
       "inLanguage": "de",

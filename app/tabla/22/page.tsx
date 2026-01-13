@@ -56,7 +56,7 @@ const schemaData = {
       "name": "22er-Einmaleins Lernressource",
       "description": "Multiplikation mit 22 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Intermediate",
-      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
       "teaches": "22er-Einmaleins, 2�11 Beziehung, �ift Zahllar",
       "typicalAgeRange": "8-11",
       "inLanguage": "de",

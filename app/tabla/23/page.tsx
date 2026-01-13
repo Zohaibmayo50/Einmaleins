@@ -56,7 +56,7 @@ const schemaData = {
       "name": "23er-Einmaleins Lernressource",
       "description": "Multiplikation mit 23 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Intermediate",
-      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
       "teaches": "23er-Einmaleins, Primzahl Konzept, ileri �arpma",
       "typicalAgeRange": "8-11",
       "inLanguage": "de",

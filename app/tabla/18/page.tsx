@@ -56,7 +56,7 @@ const schemaData = {
       "name": "18er-Einmaleins Lernressource",
       "description": "Multiplikation mit 18 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Beginner",
-      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
       "teaches": "18er-Einmaleins, 9 und 6 Tabellen Beziehung, 9'un katlari Regel",
       "typicalAgeRange": "7-10",
       "inLanguage": "de",

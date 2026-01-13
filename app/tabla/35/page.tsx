@@ -29,7 +29,7 @@ const schemaData = {
       "name": "35er-Einmaleins Lernressource",
       "description": "Multiplikation mit 35 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Intermediate",
-      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
       "teaches": "35er-Einmaleins, 5�7 Beziehung, hafta-Fünfer baglantisi",
       "typicalAgeRange": "8-11",
       "inLanguage": "de",

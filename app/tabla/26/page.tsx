@@ -56,7 +56,7 @@ const schemaData = {
       "name": "26er-Einmaleins Lernressource",
       "description": "Multiplikation mit 26 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Intermediate",
-      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
       "teaches": "26er-Einmaleins, 2�13 Beziehung, �ift Zahllar",
       "typicalAgeRange": "8-11",
       "inLanguage": "de",

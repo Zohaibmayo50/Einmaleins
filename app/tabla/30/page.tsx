@@ -29,7 +29,7 @@ const schemaData = {
       "name": "30er-Einmaleins Lernressource",
       "description": "Multiplikation mit 30 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Intermediate",
-      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
       "teaches": "30er-Einmaleins, Hälfte Stunde Konzept, 3�10 und 5�6 Beziehung",
       "typicalAgeRange": "8-11",
       "inLanguage": "de",

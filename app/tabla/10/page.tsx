@@ -56,7 +56,7 @@ const schemaData = {
       "name": "10er-Einmaleins Lernressource",
       "description": "Multiplikation mit 10 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Beginner",
-      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
       "teaches": "10er-Einmaleins, onluk System, yer degeri, sifir Anhängen Regel",
       "typicalAgeRange": "6-9",
       "inLanguage": "de",

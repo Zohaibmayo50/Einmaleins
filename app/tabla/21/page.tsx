@@ -56,7 +56,7 @@ const schemaData = {
       "name": "21er-Einmaleins Lernressource",
       "description": "Multiplikation mit 21 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Intermediate",
-      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
       "teaches": "21er-Einmaleins, 3�7 Beziehung, zwei Stellenli �arpma",
       "typicalAgeRange": "8-11",
       "inLanguage": "de",

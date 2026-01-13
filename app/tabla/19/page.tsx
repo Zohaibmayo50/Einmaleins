@@ -56,7 +56,7 @@ const schemaData = {
       "name": "19er-Einmaleins Lernressource",
       "description": "Multiplikation mit 19 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Beginner",
-      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
       "teaches": "19er-Einmaleins, Primzahllar, 20-1 �ikarma Strategie",
       "typicalAgeRange": "7-10",
       "inLanguage": "de",

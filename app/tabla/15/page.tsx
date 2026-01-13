@@ -56,7 +56,7 @@ const schemaData = {
       "name": "15er-Einmaleins Lernressource",
       "description": "Multiplikation mit 15 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Beginner",
-      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
       "teaches": "15er-Einmaleins, �eyrek Stunde Konzept, Stunde okuma, 3 und 5 Tabellen Beziehung",
       "typicalAgeRange": "7-10",
       "inLanguage": "de",
