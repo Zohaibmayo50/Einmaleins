@@ -84,7 +84,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Guías Section */}
+          {/* Leitfäden Section */}
           <div>
             <h3 className="text-lg font-semibold mb-4 text-purple-400">Leitfäden</h3>
             <ul className="space-y-2 text-sm">
