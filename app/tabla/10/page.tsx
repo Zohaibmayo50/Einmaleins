@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://einmaleins.online/einmaleins/10#webpage",
       "url": "https://einmaleins.online/einmaleins/10",
-      "name": "10er-Einmaleins - Base del Sistema Decimal",
-      "description": "Lerne el concepto de sistema decimal y valor posicional con la 10er-Einmaleins. Comprende la base de las matemáticas con la tabla de multiplicar más fácil.",
+      "name": "10er-Einmaleins - Base del Systema Decimal",
+      "description": "Lerne el concepto de Systema decimal y valor posicional con la 10er-Einmaleins. Comprende la base de las matem�ticas con la tabla de multiplicar m�s f�cil.",
       "isPartOf": {
         "@id": "https://einmaleins.online/#website"
       },
@@ -53,11 +53,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://einmaleins.online/einmaleins/10#learningresource",
-      "name": "10er-Einmaleins Recurso de Aprendizaje",
-      "description": "10 Multiplicar por: Onluk sistem temeli, yer değeri kavramı ve sonuna sıfır ekleme kuralı ile en kolay Tabla de Multiplicar.",
+      "name": "10er-Einmaleins Lernressource",
+      "description": "Multiplikation mit 10 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Beginner",
-      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "10er-Einmaleins, onluk sistem, yer değeri, sıfır ekleme kuralı",
+      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "teaches": "10er-Einmaleins, onluk System, yer degeri, sifir Anhängen Regel",
       "typicalAgeRange": "6-9",
       "inLanguage": "de",
       "educationalUse": ["practice", "self-study", "foundational concept"],
@@ -73,8 +73,8 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: '10er-Einmaleins - Juegos Divertidos y Ejercicios Prácticos',
-  description: 'Meistere das 10er-Einmaleins. Klare ErklÃ¤rungen, Muster und praktische Ãœbungsstrategien.',
+  title: '10er-Einmaleins - Juegos Divertidos y Ejercicios Pr�cticos',
+  description: 'Meistere das 10er-Einmaleins. Klare Erklärungen, Muster und praktische Übungsstrategien.',
   keywords: '10er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {
     canonical: '/einmaleins/10',

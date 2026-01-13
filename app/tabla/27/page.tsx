@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://einmaleins.online/einmaleins/27#webpage",
       "url": "https://einmaleins.online/einmaleins/27",
-      "name": "27er-Einmaleins - 3 Küp Kavramı",
-      "description": "27er-Einmaleins ile 3³=27 küp kavramını öğrenin. 3×9 ilişkisi ve geometrik desenler.",
+      "name": "27er-Einmaleins - 3 K�p Konzept",
+      "description": "27er-Einmaleins: 3�=27 k�p Konzept �lernen. 3�9 Beziehung und geometrische Muster.",
       "isPartOf": {"@id": "https://einmaleins.online/#website"},
       "about": {"@id": "https://einmaleins.online/einmaleins/27#learningresource"},
       "breadcrumb": {"@id": "https://einmaleins.online/einmaleins/27#breadcrumb"},
@@ -26,11 +26,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://einmaleins.online/einmaleins/27#learningresource",
-      "name": "27er-Einmaleins Recurso de Aprendizaje",
-      "description": "27 Multiplikation por: 3 küp (3³=27), 3×9 ilişkisi ve ileri seviye çarpma becerileri.",
+      "name": "27er-Einmaleins Lernressource",
+      "description": "Multiplikation mit 27 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Intermediate",
-      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "27er-Einmaleins, 3 küp kavramı, 3×9 ilişkisi",
+      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "teaches": "27er-Einmaleins, 3 k�p Konzept, 3�9 Beziehung",
       "typicalAgeRange": "8-11",
       "inLanguage": "de",
       "educationalUse": ["practice", "self-study"],
@@ -42,7 +42,7 @@ const schemaData = {
 
 export const metadata = {
   title: '27er-Einmaleins | Lerne Multiplikation mit 27',
-  description: 'Meistere das 27er-Einmaleins. Klare ErklÃ¤rungen, Muster und praktische Ãœbungsstrategien.',
+  description: 'Meistere das 27er-Einmaleins. Klare Erklärungen, Muster und praktische Übungsstrategien.',
   keywords: '27er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {
     canonical: '/einmaleins/27',

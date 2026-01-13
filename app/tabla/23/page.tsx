@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://einmaleins.online/einmaleins/23#webpage",
       "url": "https://einmaleins.online/einmaleins/23",
-      "name": "23er-Einmaleins - Asal Sayı Desenleri",
-      "description": "23er-Einmaleins ile asal sayı desenleri ve ileri düzeyde çarpma becerilerini geliştirin.",
+      "name": "23er-Einmaleins - Primzahl Muster",
+      "description": "23er-Einmaleins: Primzahl Muster und ileri d�zeyde �arpma Fähigkeiteni entwickeln.",
       "isPartOf": {
         "@id": "https://einmaleins.online/#website"
       },
@@ -53,11 +53,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://einmaleins.online/einmaleins/23#learningresource",
-      "name": "23er-Einmaleins Recurso de Aprendizaje",
-      "description": "23 Multiplikation por: Asal sayı özellikleri ve orta-ileri seviye çarpma pratikleri.",
+      "name": "23er-Einmaleins Lernressource",
+      "description": "Multiplikation mit 23 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Intermediate",
-      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "23er-Einmaleins, asal sayı kavramı, ileri çarpma",
+      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "teaches": "23er-Einmaleins, Primzahl Konzept, ileri �arpma",
       "typicalAgeRange": "8-11",
       "inLanguage": "de",
       "educationalUse": ["practice", "self-study"],
@@ -74,7 +74,7 @@ const schemaData = {
 
 export const metadata = {
   title: '23er-Einmaleins | Lerne Multiplikation mit 23',
-  description: 'Meistere das 23er-Einmaleins. Klare ErklÃ¤rungen, Muster und praktische Ãœbungsstrategien.',
+  description: 'Meistere das 23er-Einmaleins. Klare Erklärungen, Muster und praktische Übungsstrategien.',
   keywords: '23er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {
     canonical: '/einmaleins/23',

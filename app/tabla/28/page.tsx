@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://einmaleins.online/einmaleins/28#webpage",
       "url": "https://einmaleins.online/einmaleins/28",
-      "name": "28er-Einmaleins - 4×7 İlişkisi",
-      "description": "28er-Einmaleins ile 4×7 ilişkisini öğrenin. Hafta günleri ve ay kavramları ile pratik uygulamalar.",
+      "name": "28er-Einmaleins - 4�7 Beziehung",
+      "description": "28er-Einmaleins: 4�7 Beziehung �lernen. Hafta g�nleri und ay Konzepte praktische Anwendungen.",
       "isPartOf": {"@id": "https://einmaleins.online/#website"},
       "about": {"@id": "https://einmaleins.online/einmaleins/28#learningresource"},
       "breadcrumb": {"@id": "https://einmaleins.online/einmaleins/28#breadcrumb"},
@@ -26,11 +26,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://einmaleins.online/einmaleins/28#learningresource",
-      "name": "28er-Einmaleins Recurso de Aprendizaje",
-      "description": "28 Multiplikation por: 4 hafta=28 gün, 4×7 ilişkisi ve zaman hesaplama becerileri.",
+      "name": "28er-Einmaleins Lernressource",
+      "description": "Multiplikation mit 28 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Intermediate",
-      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "28er-Einmaleins, 4×7 ilişkisi, ay ve hafta kavramı",
+      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "teaches": "28er-Einmaleins, 4�7 Beziehung, ay und hafta Konzept",
       "typicalAgeRange": "8-11",
       "inLanguage": "de",
       "educationalUse": ["practice", "self-study", "real-world application"],
@@ -42,7 +42,7 @@ const schemaData = {
 
 export const metadata = {
   title: '28er-Einmaleins | Lerne Multiplikation mit 28',
-  description: 'Meistere das 28er-Einmaleins. Klare ErklÃ¤rungen, Muster und praktische Ãœbungsstrategien.',
+  description: 'Meistere das 28er-Einmaleins. Klare Erklärungen, Muster und praktische Übungsstrategien.',
   keywords: '28er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {
     canonical: '/einmaleins/28',

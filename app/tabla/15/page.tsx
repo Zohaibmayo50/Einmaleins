@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://einmaleins.online/einmaleins/15#webpage",
       "url": "https://einmaleins.online/einmaleins/15",
-      "name": "15er-Einmaleins - Çeyrek Saat Kavramı",
-      "description": "15er-Einmaleins ile çeyrek saat ve zaman okumasını öğrenin. 3×5 ilişkisi ve pratik stratejilerle 15 Multiplicar por.",
+      "name": "15er-Einmaleins - �eyrek Stunde Konzept",
+      "description": "15er-Einmaleins: �eyrek Stunde und zaman okumasi �lernen. 3�5 Beziehung und pratik stratejilerle Multiplikation mit 15 - Fortgeschrittene Rechenmethoden",
       "isPartOf": {
         "@id": "https://einmaleins.online/#website"
       },
@@ -37,7 +37,7 @@ const schemaData = {
           "position": 2,
           "item": {
             "@id": "https://einmaleins.online/11-20",
-            "name": "11-20 Tabla de Multiplicar"
+            "name": "Einmaleins 11-20"
           }
         },
         {
@@ -53,11 +53,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://einmaleins.online/einmaleins/15#learningresource",
-      "name": "15er-Einmaleins Recurso de Aprendizaje",
-      "description": "15 Multiplicar por: Çeyrek saat (15 dakika), 3×5 ilişkisi, 5'in son rakam deseni (5-0-5-0) ve saat okuma uygulamaları.",
+      "name": "15er-Einmaleins Lernressource",
+      "description": "Multiplikation mit 15 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Beginner",
-      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "15er-Einmaleins, çeyrek saat kavramı, saat okuma, 3 ve 5 tablolarının ilişkisi",
+      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "teaches": "15er-Einmaleins, �eyrek Stunde Konzept, Stunde okuma, 3 und 5 Tabellen Beziehung",
       "typicalAgeRange": "7-10",
       "inLanguage": "de",
       "educationalUse": ["practice", "self-study", "real-world application"],
@@ -73,8 +73,8 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: '15er-Einmaleins - Juegos Divertidos y Ejercicios Prácticos',
-  description: 'Meistere das 15er-Einmaleins. Klare ErklÃ¤rungen, Muster und praktische Ãœbungsstrategien.',
+  title: '15er-Einmaleins - Juegos Divertidos y Ejercicios Pr�cticos',
+  description: 'Meistere das 15er-Einmaleins. Klare Erklärungen, Muster und praktische Übungsstrategien.',
   keywords: '15er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {
     canonical: '/einmaleins/15',

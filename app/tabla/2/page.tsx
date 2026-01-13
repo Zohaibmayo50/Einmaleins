@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://tablasdemultiplicar.online/tabla/2#webpage",
       "url": "https://tablasdemultiplicar.online/tabla/2",
-      "name": "Tabla del 2 - Multiplicar por 1",
-      "description": "Aprende el concepto bÃ¡sico de multiplicar por 1. Propiedad de identidad, patrones y estrategias prÃ¡cticas para comprender las multiplicaciones por 1.",
+      "name": "2er-Einmaleins - Grundlagen der Multiplikation",
+      "description": "Lerne die Grundlagen der Multiplikation mit 2. Gerade Zahlen, Verdoppelungsmuster und praktische Strategien.",
       "isPartOf": {
         "@id": "https://tablasdemultiplicar.online/#website"
       },
@@ -45,7 +45,7 @@ const schemaData = {
           "position": 3,
           "item": {
             "@id": "https://tablasdemultiplicar.online/tabla/2",
-            "name": "Tabla del 2"
+            "name": "2er-Einmaleins"
           }
         }
       ]
@@ -54,9 +54,9 @@ const schemaData = {
       "@type": "LearningResource",
       "@id": "https://einmaleins.online/einmaleins/2#learningresource",
       "name": "Lernressource: 2er-Einmaleins",
-      "description": "Multiplikation mit 2 (Verdopplung): Lerne das Verdopplungsmuster und grundlegende Multiplikationsfähigkeiten.",
+      "description": "Multiplikation mit 2 (Verdopplung): Lerne das Verdopplungsmuster und grundlegende Multiplikationsf�higkeiten.",
       "educationalLevel": "Beginner",
-      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
+      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
       "teaches": "2er-Einmaleins, Verdopplung, grundlegende Multiplikationskonzepte",
       "typicalAgeRange": "6-8",
       "inLanguage": "de",
@@ -74,7 +74,7 @@ const schemaData = {
 
 export const metadata = {
   title: '2er-Einmaleins | Lerne Multiplikation mit 2',
-  description: 'Meistere das 2er-Einmaleins. Klare Erklärungen, Verdopplungsmuster und praktische Strategien zum Verständnis der Multiplikation mit 2.',
+  description: 'Meistere das 2er-Einmaleins. Klare Erkl�rungen, Verdopplungsmuster und praktische Strategien zum Verst�ndnis der Multiplikation mit 2.',
   alternates: {
     canonical: '/einmaleins/2',
   },

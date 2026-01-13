@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://einmaleins.online/einmaleins/50#webpage",
       "url": "https://einmaleins.online/einmaleins/50",
-      "name": "50er-Einmaleins - Yarım ve Yüzde Kavramı",
-      "description": "50er-Einmaleins ile yarım (1/2) kavramı ve yüzde hesaplamalarını öğrenin. 100'ün yarısı olarak pratik hesaplama yöntemleri.",
+      "name": "50er-Einmaleins - Hälfte und Y�zde Konzept",
+      "description": "50er-Einmaleins: Hälfte (1/2) Konzept und y�zde hesaplamalari �lernen. 100'�n yarisi olarak pratik hesaplama y�ntemleri.",
       "isPartOf": {
         "@id": "https://einmaleins.online/#website"
       },
@@ -53,11 +53,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://einmaleins.online/einmaleins/50#learningresource",
-      "name": "50er-Einmaleins Recurso de Aprendizaje",
-      "description": "50 Multiplikation por: Yarım (1/2) kavramı, yüzde hesaplamaları (50%=1/2), 100'ün yarısı stratejisi ve 5×10 ilişkisi.",
+      "name": "50er-Einmaleins Lernressource",
+      "description": "Multiplikation mit 50 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Intermediate",
-      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "50er-Einmaleins, yarım kavramı, yüzde hesaplama, 5×10 ilişkisi",
+      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "teaches": "50er-Einmaleins, Hälfte Konzept, y�zde hesaplama, 5�10 Beziehung",
       "typicalAgeRange": "8-11",
       "inLanguage": "de",
       "educationalUse": ["practice", "self-study", "real-world application"],
@@ -74,7 +74,7 @@ const schemaData = {
 
 export const metadata = {
   title: '50er-Einmaleins | Lerne Multiplikation mit 50',
-  description: 'Meistere das 50er-Einmaleins. Klare ErklÃ¤rungen, Muster und praktische Ãœbungsstrategien.',
+  description: 'Meistere das 50er-Einmaleins. Klare Erklärungen, Muster und praktische Übungsstrategien.',
   keywords: '50er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {
     canonical: '/einmaleins/50',

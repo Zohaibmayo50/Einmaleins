@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://einmaleins.online/einmaleins/7#webpage",
       "url": "https://einmaleins.online/einmaleins/7",
-      "name": "7er-Einmaleins - Sistemas de Siete",
-      "description": "Lerne patrones de conteo de siete con la 7er-Einmaleins. Aplicaciones prácticas con días de la semana y patrones periódicos.",
+      "name": "7er-Einmaleins - Systemas de Siete",
+      "description": "Lerne patrones de conteo de siete con la 7er-Einmaleins. Aplicaciones pr�cticas con d�as de la semana y patrones peri�dicos.",
       "isPartOf": {
         "@id": "https://einmaleins.online/#website"
       },
@@ -53,11 +53,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://einmaleins.online/einmaleins/7#learningresource",
-      "name": "7er-Einmaleins Recurso de Aprendizaje",
-      "description": "7 Multiplicar por: Yedili sayma, hafta günleri ilişkisi ve zorlayıcı ama düzenli desenleri ile 7 tablosunu keşfedin.",
+      "name": "7er-Einmaleins Lernressource",
+      "description": "Multiplikation mit 7 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Beginner",
-      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "7er-Einmaleins, yedili sayma, hafta günleri kavramı",
+      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "teaches": "7er-Einmaleins, Siebener Zählen, hafta g�nleri Konzept",
       "typicalAgeRange": "6-9",
       "inLanguage": "de",
       "educationalUse": ["practice", "self-study"],
@@ -73,8 +73,8 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: '7er-Einmaleins - Juegos Divertidos y Ejercicios Prácticos',
-  description: 'Meistere das 7er-Einmaleins. Klare ErklÃ¤rungen, Muster und praktische Ãœbungsstrategien.',
+  title: '7er-Einmaleins - Juegos Divertidos y Ejercicios Pr�cticos',
+  description: 'Meistere das 7er-Einmaleins. Klare Erklärungen, Muster und praktische Übungsstrategien.',
   keywords: '7er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {
     canonical: '/einmaleins/7',

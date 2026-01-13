@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://einmaleins.online/einmaleins/9#webpage",
       "url": "https://einmaleins.online/einmaleins/9",
-      "name": "9er-Einmaleins - Patrones Mágicos de Nueve",
-      "description": "Lerne trucos de dedos y reglas mágicas de suma de dígitos con la 9er-Einmaleins. Descubre los patrones de tabla de multiplicar más divertidos.",
+      "name": "9er-Einmaleins - Patrones M�gicos de Nueve",
+      "description": "Lerne Fingertricks y reglas m�gicas de suma de d�gitos con la 9er-Einmaleins. Descubre los patrones de tabla de multiplicar m�s divertidos.",
       "isPartOf": {
         "@id": "https://einmaleins.online/#website"
       },
@@ -53,11 +53,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://einmaleins.online/einmaleins/9#learningresource",
-      "name": "9er-Einmaleins Recurso de Aprendizaje",
-      "description": "9 Multiplicar por: Parmak trikleri, basamak toplama kuralı (sonuçların rakamları toplamı=9), 10-1 ilişkisi ve sihirli desenler.",
+      "name": "9er-Einmaleins Lernressource",
+      "description": "Multiplikation mit 9 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Beginner",
-      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "9er-Einmaleins, parmak trikeri, basamak toplama kuralı, 3²=9",
+      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "teaches": "9er-Einmaleins, Fingertricks, Stellen Addition Regel, 3�=9",
       "typicalAgeRange": "6-9",
       "inLanguage": "de",
       "educationalUse": ["practice", "self-study"],
@@ -73,8 +73,8 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: '9er-Einmaleins - Juegos Divertidos y Ejercicios Prácticos',
-  description: 'Meistere das 9er-Einmaleins. Klare ErklÃ¤rungen, Muster und praktische Ãœbungsstrategien.',
+  title: '9er-Einmaleins - Juegos Divertidos y Ejercicios Pr�cticos',
+  description: 'Meistere das 9er-Einmaleins. Klare Erklärungen, Muster und praktische Übungsstrategien.',
   keywords: '9er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {
     canonical: '/einmaleins/9',

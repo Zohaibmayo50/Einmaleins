@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://einmaleins.online/einmaleins/34#webpage",
       "url": "https://einmaleins.online/einmaleins/34",
-      "name": "34er-Einmaleins - 2×17 İlişkisi",
-      "description": "34er-Einmaleins ile 2×17 ilişkisini öğrenin. Çift sayı desenleri ve çarpma becerileri.",
+      "name": "34er-Einmaleins - 2�17 Beziehung",
+      "description": "34er-Einmaleins: 2�17 Beziehung �lernen. �ift Zahl Muster und �arpma Multiplikationsf�higkeiten.",
       "isPartOf": {"@id": "https://einmaleins.online/#website"},
       "about": {"@id": "https://einmaleins.online/einmaleins/34#learningresource"},
       "breadcrumb": {"@id": "https://einmaleins.online/einmaleins/34#breadcrumb"},
@@ -26,11 +26,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://einmaleins.online/einmaleins/34#learningresource",
-      "name": "34er-Einmaleins Recurso de Aprendizaje",
-      "description": "34 Multiplikation por: 2×17 ilişkisi, çift sayı özellikleri ve ikiye katlama.",
+      "name": "34er-Einmaleins Lernressource",
+      "description": "Multiplikation mit 34 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Intermediate",
-      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "34er-Einmaleins, 2×17 ilişkisi, çift sayılar",
+      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "teaches": "34er-Einmaleins, 2�17 Beziehung, �ift Zahllar",
       "typicalAgeRange": "8-11",
       "inLanguage": "de",
       "educationalUse": ["practice", "self-study"],
@@ -42,7 +42,7 @@ const schemaData = {
 
 export const metadata = {
   title: '34er-Einmaleins | Lerne Multiplikation mit 34',
-  description: 'Meistere das 34er-Einmaleins. Klare ErklÃ¤rungen, Muster und praktische Ãœbungsstrategien.',
+  description: 'Meistere das 34er-Einmaleins. Klare Erklärungen, Muster und praktische Übungsstrategien.',
   keywords: '34er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {
     canonical: '/einmaleins/34',

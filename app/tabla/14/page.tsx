@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://einmaleins.online/einmaleins/14#webpage",
       "url": "https://einmaleins.online/einmaleins/14",
-      "name": "14er-Einmaleins - İki Haftalık Döngü",
-      "description": "14er-Einmaleins ile hafta ve zaman kavramlarını öğrenin. 7×2 ilişkisi ve pratik stratejilerle 14 Multiplicar por.",
+      "name": "14er-Einmaleins - zwei Haftalik D�ng�",
+      "description": "14er-Einmaleins: hafta und zaman Konzepte �lernen. 7�2 Beziehung und pratik stratejilerle Multiplikation mit 14 - Fortgeschrittene Rechenmethoden",
       "isPartOf": {
         "@id": "https://einmaleins.online/#website"
       },
@@ -37,7 +37,7 @@ const schemaData = {
           "position": 2,
           "item": {
             "@id": "https://einmaleins.online/11-20",
-            "name": "11-20 Tabla de Multiplicar"
+            "name": "Einmaleins 11-20"
           }
         },
         {
@@ -53,11 +53,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://einmaleins.online/einmaleins/14#learningresource",
-      "name": "14er-Einmaleins Recurso de Aprendizaje",
-      "description": "14 Multiplicar por: İki hafta (14 gün), 7×2 ilişkisi, çift sayı desenleri ve günlük hayat uygulamaları.",
+      "name": "14er-Einmaleins Lernressource",
+      "description": "Multiplikation mit 14 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Beginner",
-      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "14er-Einmaleins, hafta hesaplama, 7 tablosunun katları",
+      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "teaches": "14er-Einmaleins, hafta hesaplama, 7 tablosunun katlari",
       "typicalAgeRange": "7-10",
       "inLanguage": "de",
       "educationalUse": ["practice", "self-study", "real-world application"],
@@ -73,8 +73,8 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: '14er-Einmaleins - Juegos Divertidos y Ejercicios Prácticos',
-  description: 'Meistere das 14er-Einmaleins. Klare ErklÃ¤rungen, Muster und praktische Ãœbungsstrategien.',
+  title: '14er-Einmaleins - Juegos Divertidos y Ejercicios Pr�cticos',
+  description: 'Meistere das 14er-Einmaleins. Klare Erklärungen, Muster und praktische Übungsstrategien.',
   keywords: '14er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {
     canonical: '/einmaleins/14',

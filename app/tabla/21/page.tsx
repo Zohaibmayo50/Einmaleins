@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://einmaleins.online/einmaleins/21#webpage",
       "url": "https://einmaleins.online/einmaleins/21",
-      "name": "21er-Einmaleins - Yirmili Sistemler",
-      "description": "21er-Einmaleins ile yirmili sayı sistemini keşfedin. 3×7 ilişkisi ve iki basamaklı sayı desenleri.",
+      "name": "21er-Einmaleins - Zwanziger Systemler",
+      "description": "21er-Einmaleins: Zwanziger Zahl Systemi entdecken. 3�7 Beziehung und zwei Stellenli Zahl Muster.",
       "isPartOf": {
         "@id": "https://einmaleins.online/#website"
       },
@@ -53,11 +53,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://einmaleins.online/einmaleins/21#learningresource",
-      "name": "21er-Einmaleins Recurso de Aprendizaje",
-      "description": "21 Multiplikation por: 3 ve 7 tablolarının birleşimi (3×7=21), yirmili sistem ve orta seviye çarpma becerileri.",
+      "name": "21er-Einmaleins Lernressource",
+      "description": "Multiplikation mit 21 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Intermediate",
-      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "21er-Einmaleins, 3×7 ilişkisi, iki basamaklı çarpma",
+      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "teaches": "21er-Einmaleins, 3�7 Beziehung, zwei Stellenli �arpma",
       "typicalAgeRange": "8-11",
       "inLanguage": "de",
       "educationalUse": ["practice", "self-study"],
@@ -74,7 +74,7 @@ const schemaData = {
 
 export const metadata = {
   title: '21er-Einmaleins | Lerne Multiplikation mit 21',
-  description: 'Meistere das 21er-Einmaleins. Klare ErklÃ¤rungen, Muster und praktische Ãœbungsstrategien.',
+  description: 'Meistere das 21er-Einmaleins. Klare Erklärungen, Muster und praktische Übungsstrategien.',
   keywords: '21er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {
     canonical: '/einmaleins/21',

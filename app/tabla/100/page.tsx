@@ -8,8 +8,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://einmaleins.online/einmaleins/100#webpage",
       "url": "https://einmaleins.online/einmaleins/100",
-      "name": "100er-Einmaleins - Onluk Sistemin Ustası",
-      "description": "100er-Einmaleins ile onluk sistem, yüzde hesaplamaları ve yer değeri kavramında ustalaşın. En önemli çarpım tablolarından biri.",
+      "name": "100er-Einmaleins - Onluk Systemin Ustasi",
+      "description": "100er-Einmaleins: onluk System, y�zde hesaplamalari und yer degeri Konzeptnda meistern. En �nemli �arpim tablolarindan biri.",
       "isPartOf": {
         "@id": "https://einmaleins.online/#website"
       },
@@ -54,11 +54,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://einmaleins.online/einmaleins/100#learningresource",
-      "name": "100er-Einmaleins Recurso de Aprendizaje",
-      "description": "100 Multiplikation por: Onluk sistemin temeli, yer değeri kavramı, yüzde hesaplamaları (100%=tam), sonuna iki sıfır ekleme kuralı. En kullanışlı çarpım tablolarından biri.",
+      "name": "100er-Einmaleins Lernressource",
+      "description": "Multiplikation mit 100 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Advanced",
-      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "100er-Einmaleins, onluk sistem, yer değeri, yüzde hesaplama, 10'un karesi",
+      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "teaches": "100er-Einmaleins, onluk System, yer degeri, y�zde hesaplama, 10'un Quadrat",
       "typicalAgeRange": "9-12",
       "inLanguage": "de",
       "educationalUse": ["practice", "self-study", "real-world application", "foundational concept"],
@@ -75,7 +75,7 @@ const schemaData = {
 
 export const metadata: Metadata = {
   title: '100er-Einmaleins | Lerne Multiplikation mit 100',
-  description: 'Meistere das 100er-Einmaleins. Klare ErklÃ¤rungen, Muster und praktische Ãœbungsstrategien.',
+  description: 'Meistere das 100er-Einmaleins. Klare Erklärungen, Muster und praktische Übungsstrategien.',
   keywords: '100er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {
     canonical: '/einmaleins/100',

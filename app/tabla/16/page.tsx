@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://einmaleins.online/einmaleins/16#webpage",
       "url": "https://einmaleins.online/einmaleins/16",
-      "name": "16er-Einmaleins - Kare Sayı İlişkisi",
-      "description": "16er-Einmaleins ile kare sayı kavramını öğrenin. 4×4=16 ilişkisi ve kolay stratejilerle 16 Multiplicar por.",
+      "name": "16er-Einmaleins - Quadratzahl Beziehung",
+      "description": "16er-Einmaleins: Quadratzahl Konzept �lernen. 4�4=16 Beziehung und einfache stratejilerle Multiplikation mit 16 - Fortgeschrittene Rechenmethoden",
       "isPartOf": {
         "@id": "https://einmaleins.online/#website"
       },
@@ -37,7 +37,7 @@ const schemaData = {
           "position": 2,
           "item": {
             "@id": "https://einmaleins.online/11-20",
-            "name": "11-20 Tabla de Multiplicar"
+            "name": "Einmaleins 11-20"
           }
         },
         {
@@ -53,11 +53,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://einmaleins.online/einmaleins/16#learningresource",
-      "name": "16er-Einmaleins Recurso de Aprendizaje",
-      "description": "16 Multiplicar por: 4'ün karesi (4×4=16), ikili katlar (8×2), çift sayı desenleri ve geometrik uygulamalar.",
+      "name": "16er-Einmaleins Lernressource",
+      "description": "Multiplikation mit 16 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Beginner",
-      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "16er-Einmaleins, kare sayılar, 4 tablosunun katları",
+      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "teaches": "16er-Einmaleins, Quadratzahllar, 4 tablosunun katlari",
       "typicalAgeRange": "7-10",
       "inLanguage": "de",
       "educationalUse": ["practice", "self-study"],
@@ -73,8 +73,8 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: '16er-Einmaleins - Juegos Divertidos y Ejercicios Prácticos',
-  description: 'Meistere das 16er-Einmaleins. Klare ErklÃ¤rungen, Muster und praktische Ãœbungsstrategien.',
+  title: '16er-Einmaleins - Juegos Divertidos y Ejercicios Pr�cticos',
+  description: 'Meistere das 16er-Einmaleins. Klare Erklärungen, Muster und praktische Übungsstrategien.',
   keywords: '16er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {
     canonical: '/einmaleins/16',

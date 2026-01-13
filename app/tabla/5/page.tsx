@@ -56,7 +56,7 @@ const schemaData = {
       "name": "Lernressource: 5er-Einmaleins",
       "description": "Multiplikation mit 5 (propiedad de identidad): cualquier nÃºmero multiplicado por 1 es el mismo nÃºmero. Lerne las reglas bÃ¡sicas de la multiplicaciÃ³n.",
       "educationalLevel": "Beginner",
-      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
+      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
       "teaches": "5er-Einmaleins, propiedad de identidad, conceptos bÃ¡sicos de multiplicaciÃ³n",
       "typicalAgeRange": "6-8",
       "inLanguage": "de",

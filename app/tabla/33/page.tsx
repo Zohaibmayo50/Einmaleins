@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://einmaleins.online/einmaleins/33#webpage",
       "url": "https://einmaleins.online/einmaleins/33",
-      "name": "33er-Einmaleins - 3×11 İlişkisi",
-      "description": "33er-Einmaleins ile 3×11 ilişkisini öğrenin. Basamak desenleri ve çarpma stratejileri.",
+      "name": "33er-Einmaleins - 3�11 Beziehung",
+      "description": "33er-Einmaleins: 3�11 Beziehung �lernen. Stellen Muster und �arpma Strategien.",
       "isPartOf": {"@id": "https://einmaleins.online/#website"},
       "about": {"@id": "https://einmaleins.online/einmaleins/33#learningresource"},
       "breadcrumb": {"@id": "https://einmaleins.online/einmaleins/33#breadcrumb"},
@@ -26,11 +26,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://einmaleins.online/einmaleins/33#learningresource",
-      "name": "33er-Einmaleins Recurso de Aprendizaje",
-      "description": "33 Multiplikation por: 3 ve 11 tablolarının birleşimi (3×11=33), çift basamak desenleri.",
+      "name": "33er-Einmaleins Lernressource",
+      "description": "Multiplikation mit 33 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Intermediate",
-      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "33er-Einmaleins, 3×11 ilişkisi, basamak desenleri",
+      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "teaches": "33er-Einmaleins, 3�11 Beziehung, Stellen Muster",
       "typicalAgeRange": "8-11",
       "inLanguage": "de",
       "educationalUse": ["practice", "self-study"],
@@ -42,7 +42,7 @@ const schemaData = {
 
 export const metadata = {
   title: '33er-Einmaleins | Lerne Multiplikation mit 33',
-  description: 'Meistere das 33er-Einmaleins. Klare ErklÃ¤rungen, Muster und praktische Ãœbungsstrategien.',
+  description: 'Meistere das 33er-Einmaleins. Klare Erklärungen, Muster und praktische Übungsstrategien.',
   keywords: '33er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {
     canonical: '/einmaleins/33',

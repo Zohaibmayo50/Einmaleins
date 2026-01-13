@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://einmaleins.online/einmaleins/25#webpage",
       "url": "https://einmaleins.online/einmaleins/25",
-      "name": "25er-Einmaleins - Çeyrek ve Yüzde Kavramı",
-      "description": "25er-Einmaleins ile çeyrek kavramı ve yüzde hesaplamalarını öğrenin. Para hesaplama için kritik öneme sahip desenleri keşfedin.",
+      "name": "25er-Einmaleins - �eyrek und Y�zde Konzept",
+      "description": "25er-Einmaleins: �eyrek Konzept und y�zde hesaplamalari �lernen. Geldrechnung i�in kritik �neme sahip Muster entdecken.",
       "isPartOf": {
         "@id": "https://einmaleins.online/#website"
       },
@@ -53,11 +53,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://einmaleins.online/einmaleins/25#learningresource",
-      "name": "25er-Einmaleins Recurso de Aprendizaje",
-      "description": "25 Multiplikation por: Çeyrek (1/4) kavramı, yüzde hesaplamaları (25%=1/4), para hesaplama ve 25-50-75-00 son rakam deseni.",
+      "name": "25er-Einmaleins Lernressource",
+      "description": "Multiplikation mit 25 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Intermediate",
-      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "25er-Einmaleins, çeyrek kavramı, yüzde hesaplama, para hesaplama, 5'in karesi",
+      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "teaches": "25er-Einmaleins, �eyrek Konzept, y�zde hesaplama, Geldrechnung, 5'in Quadrat",
       "typicalAgeRange": "8-11",
       "inLanguage": "de",
       "educationalUse": ["practice", "self-study", "real-world application"],
@@ -74,7 +74,7 @@ const schemaData = {
 
 export const metadata = {
   title: '25er-Einmaleins | Lerne Multiplikation mit 25',
-  description: 'Meistere das 25er-Einmaleins. Klare ErklÃ¤rungen, Muster und praktische Ãœbungsstrategien.',
+  description: 'Meistere das 25er-Einmaleins. Klare Erklärungen, Muster und praktische Übungsstrategien.',
   keywords: '25er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {
     canonical: '/einmaleins/25',

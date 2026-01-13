@@ -8,7 +8,7 @@ const schemaData = {
       "@id": "https://einmaleins.online/einmaleins/8#webpage",
       "url": "https://einmaleins.online/einmaleins/8",
       "name": "8er-Einmaleins - Patrones de Ocho",
-      "description": "Lerne técnicas de duplicación y cuadruplicación con la 8er-Einmaleins. Descubre la relación 2×2×2 y el concepto de octágono.",
+      "description": "Lerne t�cnicas de duplicaci�n y cuadruplicaci�n con la 8er-Einmaleins. Descubre la relaci�n 2�2�2 y el concepto de oct�gono.",
       "isPartOf": {
         "@id": "https://einmaleins.online/#website"
       },
@@ -53,11 +53,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://einmaleins.online/einmaleins/8#learningresource",
-      "name": "8er-Einmaleins Recurso de Aprendizaje",
-      "description": "8 Multiplicar por: 4 tablosunu ikiye katlama (4×2=8), sekizli sayma ve 2ün kuvvetleri (2³=8).",
+      "name": "8er-Einmaleins Lernressource",
+      "description": "Multiplikation mit 8 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Beginner",
-      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "8er-Einmaleins, sekizli sayma, ikiye katlama, 2’nin kuvvetleri",
+      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "teaches": "8er-Einmaleins, Achter Zählen, Verdopplung, 2� von Potenzen",
       "typicalAgeRange": "6-9",
       "inLanguage": "de",
       "educationalUse": ["practice", "self-study"],
@@ -73,8 +73,8 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: '8er-Einmaleins - Juegos Divertidos y Ejercicios Prácticos',
-  description: 'Meistere das 8er-Einmaleins. Klare ErklÃ¤rungen, Muster und praktische Ãœbungsstrategien.',
+  title: '8er-Einmaleins - Juegos Divertidos y Ejercicios Pr�cticos',
+  description: 'Meistere das 8er-Einmaleins. Klare Erklärungen, Muster und praktische Übungsstrategien.',
   keywords: '8er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {
     canonical: '/einmaleins/8',

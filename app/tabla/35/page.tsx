@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://einmaleins.online/einmaleins/35#webpage",
       "url": "https://einmaleins.online/einmaleins/35",
-      "name": "35er-Einmaleins - 5×7 İlişkisi",
-      "description": "35er-Einmaleins ile 5×7 ilişkisini öğrenin. Hafta ve beşlik sistem bağlantıları.",
+      "name": "35er-Einmaleins - 5�7 Beziehung",
+      "description": "35er-Einmaleins: 5�7 Beziehung �lernen. Hafta und Fünfer System Verbindungen.",
       "isPartOf": {"@id": "https://einmaleins.online/#website"},
       "about": {"@id": "https://einmaleins.online/einmaleins/35#learningresource"},
       "breadcrumb": {"@id": "https://einmaleins.online/einmaleins/35#breadcrumb"},
@@ -26,11 +26,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://einmaleins.online/einmaleins/35#learningresource",
-      "name": "35er-Einmaleins Recurso de Aprendizaje",
-      "description": "35 Multiplikation por: 5×7 ilişkisi, beşlik ve yedilik sistem bağlantıları, pratik uygulamalar.",
+      "name": "35er-Einmaleins Lernressource",
+      "description": "Multiplikation mit 35 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Intermediate",
-      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "35er-Einmaleins, 5×7 ilişkisi, hafta-beşlik bağlantısı",
+      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "teaches": "35er-Einmaleins, 5�7 Beziehung, hafta-Fünfer baglantisi",
       "typicalAgeRange": "8-11",
       "inLanguage": "de",
       "educationalUse": ["practice", "self-study"],
@@ -42,7 +42,7 @@ const schemaData = {
 
 export const metadata = {
   title: '35er-Einmaleins | Lerne Multiplikation mit 35',
-  description: 'Meistere das 35er-Einmaleins. Klare ErklÃ¤rungen, Muster und praktische Ãœbungsstrategien.',
+  description: 'Meistere das 35er-Einmaleins. Klare Erklärungen, Muster und praktische Übungsstrategien.',
   keywords: '35er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {
     canonical: '/einmaleins/35',

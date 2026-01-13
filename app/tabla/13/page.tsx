@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://einmaleins.online/einmaleins/13#webpage",
       "url": "https://einmaleins.online/einmaleins/13",
-      "name": "13er-Einmaleins - Uğurlu Sayı Desenleri",
-      "description": "13er-Einmaleins ile matematik becerilerinizi geliştirin. Desenler ve kolay stratejilerle 13 Multiplicar por işleminde ustalaşın.",
+      "name": "13er-Einmaleins - Ugurlu Zahl Muster",
+      "description": "13er-Einmaleins: matematik Fähigkeiteninizi entwickeln. Desenler und einfache stratejilerle Multiplikation mit 13 - Fortgeschrittene Rechenmethoden",
       "isPartOf": {
         "@id": "https://einmaleins.online/#website"
       },
@@ -37,7 +37,7 @@ const schemaData = {
           "position": 2,
           "item": {
             "@id": "https://einmaleins.online/11-20",
-            "name": "11-20 Tabla de Multiplicar"
+            "name": "Einmaleins 11-20"
           }
         },
         {
@@ -53,11 +53,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://einmaleins.online/einmaleins/13#learningresource",
-      "name": "13er-Einmaleins Recurso de Aprendizaje",
-      "description": "13 Multiplicar por: Asal sayı özellikleri, zihinsel matematik stratejileri, 10+3 ayrıştırma yöntemi.",
+      "name": "13er-Einmaleins Lernressource",
+      "description": "Multiplikation mit 13 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Beginner",
-      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "13er-Einmaleins, asal sayılar, zihinsel matematik",
+      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "teaches": "13er-Einmaleins, Primzahllar, Kopfrechnen",
       "typicalAgeRange": "7-10",
       "inLanguage": "de",
       "educationalUse": ["practice", "self-study"],
@@ -73,8 +73,8 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: '13er-Einmaleins - Juegos Divertidos y Ejercicios Prácticos',
-  description: 'Meistere das 13er-Einmaleins. Klare ErklÃ¤rungen, Muster und praktische Ãœbungsstrategien.',
+  title: '13er-Einmaleins - Juegos Divertidos y Ejercicios Pr�cticos',
+  description: 'Meistere das 13er-Einmaleins. Klare Erklärungen, Muster und praktische Übungsstrategien.',
   keywords: '13er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {
     canonical: '/einmaleins/13',

@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://einmaleins.online/einmaleins/6#webpage",
       "url": "https://einmaleins.online/einmaleins/6",
-      "name": "6er-Einmaleins - Contar de Seis en Seis",
-      "description": "Lerne a contar de seis en seis con la 6er-Einmaleins. Descubre las relaciones 2×3 y 3×2 con patrones geométricos.",
+      "name": "6er-Einmaleins - Zählen in Sechserschritten",
+      "description": "Lerne a Zählen in Sechserschritten con la 6er-Einmaleins. Descubre las relaciones 2�3 y 3�2 con patrones geom�tricos.",
       "isPartOf": {
         "@id": "https://einmaleins.online/#website"
       },
@@ -53,11 +53,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://einmaleins.online/einmaleins/6#learningresource",
-      "name": "6er-Einmaleins Recurso de Aprendizaje",
-      "description": "6 Multiplicar por: 2 ve 3 tablolarının birleşimi (2×3), altışar sayma ve çift sayı desenleri.",
+      "name": "6er-Einmaleins Lernressource",
+      "description": "Multiplikation mit 6 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Beginner",
-      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "6er-Einmaleins, altışar sayma, 2 ve 3 tablolarının ilişkisi",
+      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "teaches": "6er-Einmaleins, Sechser Zählen, 2 und 3 Tabellen Beziehung",
       "typicalAgeRange": "6-9",
       "inLanguage": "de",
       "educationalUse": ["practice", "self-study"],
@@ -73,8 +73,8 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: '6er-Einmaleins - Juegos Divertidos y Ejercicios Prácticos',
-  description: 'Meistere das 6er-Einmaleins. Klare ErklÃ¤rungen, Muster und praktische Ãœbungsstrategien.',
+  title: '6er-Einmaleins - Juegos Divertidos y Ejercicios Pr�cticos',
+  description: 'Meistere das 6er-Einmaleins. Klare Erklärungen, Muster und praktische Übungsstrategien.',
   keywords: '6er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {
     canonical: '/einmaleins/6',

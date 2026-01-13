@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://einmaleins.online/einmaleins/22#webpage",
       "url": "https://einmaleins.online/einmaleins/22",
-      "name": "22er-Einmaleins - Çift Sayı Desenleri",
-      "description": "22er-Einmaleins ile 2 ve 11 tablolarının ilişkisini öğrenin. Çift sayı desenleri ve kolay çarpma stratejileri.",
+      "name": "22er-Einmaleins - �ift Zahl Muster",
+      "description": "22er-Einmaleins: 2 und 11 Tabellen Beziehung �lernen. �ift Zahl Muster und einfache �arpma Strategien.",
       "isPartOf": {
         "@id": "https://einmaleins.online/#website"
       },
@@ -53,11 +53,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://einmaleins.online/einmaleins/22#learningresource",
-      "name": "22er-Einmaleins Recurso de Aprendizaje",
-      "description": "22 Multiplikation por: 2 ve 11 tablolarının birleşimi (2×11=22), çift sayı desenleri ve ikiye katlama.",
+      "name": "22er-Einmaleins Lernressource",
+      "description": "Multiplikation mit 22 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Intermediate",
-      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "22er-Einmaleins, 2×11 ilişkisi, çift sayılar",
+      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "teaches": "22er-Einmaleins, 2�11 Beziehung, �ift Zahllar",
       "typicalAgeRange": "8-11",
       "inLanguage": "de",
       "educationalUse": ["practice", "self-study"],
@@ -74,7 +74,7 @@ const schemaData = {
 
 export const metadata = {
   title: '22er-Einmaleins | Lerne Multiplikation mit 22',
-  description: 'Meistere das 22er-Einmaleins. Klare ErklÃ¤rungen, Muster und praktische Ãœbungsstrategien.',
+  description: 'Meistere das 22er-Einmaleins. Klare Erklärungen, Muster und praktische Übungsstrategien.',
   keywords: '22er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {
     canonical: '/einmaleins/22',

@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://einmaleins.online/einmaleins/26#webpage",
       "url": "https://einmaleins.online/einmaleins/26",
-      "name": "26er-Einmaleins - İki Kat 13",
-      "description": "26er-Einmaleins ile 2×13 ilişkisini ve çift sayı desenlerini öğrenin. Orta seviye çarpma becerileri.",
+      "name": "26er-Einmaleins - zwei Kat 13",
+      "description": "26er-Einmaleins: 2�13 Beziehung und �ift Zahl Muster �lernen. mittlere Stufe �arpma Multiplikationsf�higkeiten.",
       "isPartOf": {
         "@id": "https://einmaleins.online/#website"
       },
@@ -53,11 +53,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://einmaleins.online/einmaleins/26#learningresource",
-      "name": "26er-Einmaleins Recurso de Aprendizaje",
-      "description": "26 Multiplikation por: 2 ve 13 tablolarının birleşimi (2×13=26), çift sayı desenleri.",
+      "name": "26er-Einmaleins Lernressource",
+      "description": "Multiplikation mit 26 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Intermediate",
-      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "26er-Einmaleins, 2×13 ilişkisi, çift sayılar",
+      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "teaches": "26er-Einmaleins, 2�13 Beziehung, �ift Zahllar",
       "typicalAgeRange": "8-11",
       "inLanguage": "de",
       "educationalUse": ["practice", "self-study"],
@@ -74,7 +74,7 @@ const schemaData = {
 
 export const metadata = {
   title: '26er-Einmaleins | Lerne Multiplikation mit 26',
-  description: 'Meistere das 26er-Einmaleins. Klare ErklÃ¤rungen, Muster und praktische Ãœbungsstrategien.',
+  description: 'Meistere das 26er-Einmaleins. Klare Erklärungen, Muster und praktische Übungsstrategien.',
   keywords: '26er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {
     canonical: '/einmaleins/26',

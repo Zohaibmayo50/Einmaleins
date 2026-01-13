@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://einmaleins.online/einmaleins/24#webpage",
       "url": "https://einmaleins.online/einmaleins/24",
-      "name": "24er-Einmaleins - 24 Saat Sistemi",
-      "description": "24er-Einmaleins ile 24 saat sistemi ve günlük zaman hesaplamalarını öğrenin. 3×8, 4×6, 2×12 ilişkilerini keşfedin.",
+      "name": "24er-Einmaleins - 24 Stundensystem",
+      "description": "24er-Einmaleins: 24 Stundensystem und g�nl�k Zeitberechnunglari �lernen. 3�8, 4�6, 2�12 Beziehungen entdecken.",
       "isPartOf": {
         "@id": "https://einmaleins.online/#website"
       },
@@ -53,11 +53,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://einmaleins.online/einmaleins/24#learningresource",
-      "name": "24er-Einmaleins Recurso de Aprendizaje",
-      "description": "24 Multiplikation por: 24 saat gün sistemi, 3×8, 4×6, 2×12 çarpan ilişkileri ve zaman hesaplama.",
+      "name": "24er-Einmaleins Lernressource",
+      "description": "Multiplikation mit 24 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Intermediate",
-      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "24er-Einmaleins, 24 saat sistemi, çoklu çarpan ilişkileri",
+      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "teaches": "24er-Einmaleins, 24 Stundensystem, �oklu �arpan Beziehungen",
       "typicalAgeRange": "8-11",
       "inLanguage": "de",
       "educationalUse": ["practice", "self-study", "real-world application"],
@@ -74,7 +74,7 @@ const schemaData = {
 
 export const metadata = {
   title: '24er-Einmaleins | Lerne Multiplikation mit 24',
-  description: 'Meistere das 24er-Einmaleins. Klare ErklÃ¤rungen, Muster und praktische Ãœbungsstrategien.',
+  description: 'Meistere das 24er-Einmaleins. Klare Erklärungen, Muster und praktische Übungsstrategien.',
   keywords: '24er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {
     canonical: '/einmaleins/24',

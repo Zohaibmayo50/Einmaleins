@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://einmaleins.online/einmaleins/19#webpage",
       "url": "https://einmaleins.online/einmaleins/19",
-      "name": "19er-Einmaleins - Asal Sayı Ustası",
-      "description": "19er-Einmaleins ile asal sayılarda ustalaşın. 20-1 stratejisi ve zihinsel matematik teknikleri.",
+      "name": "19er-Einmaleins - Primzahl Ustasi",
+      "description": "19er-Einmaleins: Primzahllarda meistern. 20-1 Strategie und Kopfrechnen Techniken.",
       "isPartOf": {
         "@id": "https://einmaleins.online/#website"
       },
@@ -37,7 +37,7 @@ const schemaData = {
           "position": 2,
           "item": {
             "@id": "https://einmaleins.online/11-20",
-            "name": "11-20 Tabla de Multiplicar"
+            "name": "Einmaleins 11-20"
           }
         },
         {
@@ -53,11 +53,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://einmaleins.online/einmaleins/19#learningresource",
-      "name": "19er-Einmaleins Recurso de Aprendizaje",
-      "description": "19 Multiplicar por: Asal sayı özellikleri, 20-1 yaklaşım stratejisi, ileri düzey zihinsel matematik.",
+      "name": "19er-Einmaleins Lernressource",
+      "description": "Multiplikation mit 19 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Beginner",
-      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "19er-Einmaleins, asal sayılar, 20-1 çıkarma stratejisi",
+      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "teaches": "19er-Einmaleins, Primzahllar, 20-1 �ikarma Strategie",
       "typicalAgeRange": "7-10",
       "inLanguage": "de",
       "educationalUse": ["practice", "self-study"],
@@ -73,8 +73,8 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: '19er-Einmaleins - Juegos Divertidos y Ejercicios Prácticos',
-  description: 'Meistere das 19er-Einmaleins. Klare ErklÃ¤rungen, Muster und praktische Ãœbungsstrategien.',
+  title: '19er-Einmaleins - Juegos Divertidos y Ejercicios Pr�cticos',
+  description: 'Meistere das 19er-Einmaleins. Klare Erklärungen, Muster und praktische Übungsstrategien.',
   keywords: '19er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {
     canonical: '/einmaleins/19',

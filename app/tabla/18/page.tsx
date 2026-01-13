@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://einmaleins.online/einmaleins/18#webpage",
       "url": "https://einmaleins.online/einmaleins/18",
-      "name": "18er-Einmaleins - Reşitlik Yaşı",
-      "description": "18er-Einmaleins Multiplicar por becerilerinizi güçlendirin. 9×2 ve 6×3 ilişkileri ile 18 Multiplicar por stratejileri.",
+      "name": "18er-Einmaleins - Resitlik Yasi",
+      "description": "18er-Einmaleins Multiplicar por Fähigkeiteninizi g��lendirin. 9�2 und 6�3 Beziehungen Multiplikation mit 18 - Fortgeschrittene Rechenmethoden",
       "isPartOf": {
         "@id": "https://einmaleins.online/#website"
       },
@@ -37,7 +37,7 @@ const schemaData = {
           "position": 2,
           "item": {
             "@id": "https://einmaleins.online/11-20",
-            "name": "11-20 Tabla de Multiplicar"
+            "name": "Einmaleins 11-20"
           }
         },
         {
@@ -53,11 +53,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://einmaleins.online/einmaleins/18#learningresource",
-      "name": "18er-Einmaleins Recurso de Aprendizaje",
-      "description": "18 Multiplicar por: 9×2 ve 6×3 ilişkisi, çift sayı desenleri, rakamlar toplamı 9'un katı kuralı.",
+      "name": "18er-Einmaleins Lernressource",
+      "description": "Multiplikation mit 18 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Beginner",
-      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "18er-Einmaleins, 9 ve 6 tablolarının ilişkisi, 9'un katları kuralı",
+      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "teaches": "18er-Einmaleins, 9 und 6 Tabellen Beziehung, 9'un katlari Regel",
       "typicalAgeRange": "7-10",
       "inLanguage": "de",
       "educationalUse": ["practice", "self-study"],
@@ -73,8 +73,8 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: '18er-Einmaleins - Juegos Divertidos y Ejercicios Prácticos',
-  description: 'Meistere das 18er-Einmaleins. Klare ErklÃ¤rungen, Muster und praktische Ãœbungsstrategien.',
+  title: '18er-Einmaleins - Juegos Divertidos y Ejercicios Pr�cticos',
+  description: 'Meistere das 18er-Einmaleins. Klare Erklärungen, Muster und praktische Übungsstrategien.',
   keywords: '18er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {
     canonical: '/einmaleins/18',

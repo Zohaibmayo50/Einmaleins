@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://einmaleins.online/einmaleins/29#webpage",
       "url": "https://einmaleins.online/einmaleins/29",
-      "name": "29er-Einmaleins - Asal Sayı Desenleri",
-      "description": "29er-Einmaleins ile asal sayı özelliklerini keşfedin. İleri seviye çarpma becerileri geliştirin.",
+      "name": "29er-Einmaleins - Primzahl Muster",
+      "description": "29er-Einmaleins: Primzahl �zellikleri entdecken. fortgeschrittene Stufe �arpma Fähigkeite entwickeln.",
       "isPartOf": {"@id": "https://einmaleins.online/#website"},
       "about": {"@id": "https://einmaleins.online/einmaleins/29#learningresource"},
       "breadcrumb": {"@id": "https://einmaleins.online/einmaleins/29#breadcrumb"},
@@ -26,11 +26,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://einmaleins.online/einmaleins/29#learningresource",
-      "name": "29er-Einmaleins Recurso de Aprendizaje",
-      "description": "29 Multiplikation por: Asal sayı özellikleri ve ileri düzey çarpma pratikleri.",
+      "name": "29er-Einmaleins Lernressource",
+      "description": "Multiplikation mit 29 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Intermediate",
-      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "29er-Einmaleins, asal sayı kavramı, ileri çarpma",
+      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "teaches": "29er-Einmaleins, Primzahl Konzept, ileri �arpma",
       "typicalAgeRange": "8-11",
       "inLanguage": "de",
       "educationalUse": ["practice", "self-study"],
@@ -42,7 +42,7 @@ const schemaData = {
 
 export const metadata = {
   title: '29er-Einmaleins | Lerne Multiplikation mit 29',
-  description: 'Meistere das 29er-Einmaleins. Klare ErklÃ¤rungen, Muster und praktische Ãœbungsstrategien.',
+  description: 'Meistere das 29er-Einmaleins. Klare Erklärungen, Muster und praktische Übungsstrategien.',
   keywords: '29er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {
     canonical: '/einmaleins/29',

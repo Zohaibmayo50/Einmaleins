@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://einmaleins.online/einmaleins/20#webpage",
       "url": "https://einmaleins.online/einmaleins/20",
-      "name": "20er-Einmaleins - Yirmili Sistem",
-      "description": "20er-Einmaleins ile yirmili sayma sistemini öğrenin. Kolay 0 ekleme stratejisi ve pratik uygulamalar.",
+      "name": "20er-Einmaleins - Zwanziger-System",
+      "description": "20er-Einmaleins: Zwanziger Zählen Systemi �lernen. einfache 0 Anhängen Strategie und praktische Anwendungen.",
       "isPartOf": {
         "@id": "https://einmaleins.online/#website"
       },
@@ -53,11 +53,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://einmaleins.online/einmaleins/20#learningresource",
-      "name": "20er-Einmaleins Recurso de Aprendizaje",
-      "description": "20 Multiplicar por: Yirmili sayma sistemi, 2×10 ilişkisi, sonu 0 ile biten sayı deseni, para hesaplama (20 TL).",
+      "name": "20er-Einmaleins Lernressource",
+      "description": "Multiplikation mit 20 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Beginner",
-      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "20er-Einmaleins, yirmili sistem, 10 tablosunun katları, para hesaplama",
+      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "teaches": "20er-Einmaleins, Zwanziger System, 10 tablosunun katlari, Geldrechnung",
       "typicalAgeRange": "7-10",
       "inLanguage": "de",
       "educationalUse": ["practice", "self-study", "real-world application"],
@@ -73,8 +73,8 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: '20er-Einmaleins - Juegos Divertidos y Ejercicios Prácticos',
-  description: 'Meistere das 20er-Einmaleins. Klare ErklÃ¤rungen, Muster und praktische Ãœbungsstrategien.',
+  title: '20er-Einmaleins - Juegos Divertidos y Ejercicios Pr�cticos',
+  description: 'Meistere das 20er-Einmaleins. Klare Erklärungen, Muster und praktische Übungsstrategien.',
   keywords: '20er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {
     canonical: '/einmaleins/20',

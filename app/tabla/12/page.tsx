@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://einmaleins.online/einmaleins/12#webpage",
       "url": "https://einmaleins.online/einmaleins/12",
-      "name": "12er-Einmaleins - Düzine Kavramı",
-      "description": "12er-Einmaleins ile düzine kavramını öğrenin. Saat sistemi ve günlük hayatta sıkça kullanılan 12 tablosunda ustalaşın.",
+      "name": "12er-Einmaleins - D�zine Konzept",
+      "description": "12er-Einmaleins: d�zine Konzept �lernen. Stundensystem und g�nl�k hayatta sik�a kullanilan 12 tablosunda meistern.",
       "isPartOf": {
         "@id": "https://einmaleins.online/#website"
       },
@@ -37,7 +37,7 @@ const schemaData = {
           "position": 2,
           "item": {
             "@id": "https://einmaleins.online/11-20",
-            "name": "11-20 Tabla de Multiplicar"
+            "name": "Einmaleins 11-20"
           }
         },
         {
@@ -53,11 +53,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://einmaleins.online/einmaleins/12#learningresource",
-      "name": "12er-Einmaleins Recurso de Aprendizaje",
-      "description": "12 Multiplicar por: Düzine kavramı, saat sistemi (12 saat), 3×4 ilişkisi ve günlük hayat uygulamaları.",
+      "name": "12er-Einmaleins Lernressource",
+      "description": "Multiplikation mit 12 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Intermediate",
-      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "12er-Einmaleins, düzine kavramı, saat okuma, 3 ve 4 tablolarının ilişkisi",
+      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "teaches": "12er-Einmaleins, d�zine Konzept, Stunde okuma, 3 und 4 Tabellen Beziehung",
       "typicalAgeRange": "7-10",
       "inLanguage": "de",
       "educationalUse": ["practice", "self-study", "real-world application"],
@@ -73,8 +73,8 @@ const schemaData = {
 }
 
 export const metadata = {
-  title: '12er-Einmaleins - Juegos Divertidos y Ejercicios Prácticos',
-  description: 'Meistere das 12er-Einmaleins. Klare ErklÃ¤rungen, Muster und praktische Ãœbungsstrategien.',
+  title: '12er-Einmaleins - Juegos Divertidos y Ejercicios Pr�cticos',
+  description: 'Meistere das 12er-Einmaleins. Klare Erklärungen, Muster und praktische Übungsstrategien.',
   keywords: '12er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {
     canonical: '/einmaleins/12',

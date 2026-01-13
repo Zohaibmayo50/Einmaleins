@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://einmaleins.online/einmaleins/32#webpage",
       "url": "https://einmaleins.online/einmaleins/32",
-      "name": "32er-Einmaleins - 2 Üssü 5",
-      "description": "32er-Einmaleins ile 2⁵=32 kavramını öğrenin. İkinin kuvvetleri ve geometrik desenler.",
+      "name": "32er-Einmaleins - 2 �ss� 5",
+      "description": "32er-Einmaleins: 25=32 Konzept �lernen. von Zwei Potenzen und geometrische Muster.",
       "isPartOf": {"@id": "https://einmaleins.online/#website"},
       "about": {"@id": "https://einmaleins.online/einmaleins/32#learningresource"},
       "breadcrumb": {"@id": "https://einmaleins.online/einmaleins/32#breadcrumb"},
@@ -26,11 +26,11 @@ const schemaData = {
     {
       "@type": "LearningResource",
       "@id": "https://einmaleins.online/einmaleins/32#learningresource",
-      "name": "32er-Einmaleins Recurso de Aprendizaje",
-      "description": "32 Multiplikation por: 2 üssü 5 (2⁵=32), ikinin kuvvetleri ve 4×8 ilişkisi.",
+      "name": "32er-Einmaleins Lernressource",
+      "description": "Multiplikation mit 32 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Intermediate",
-      "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "32er-Einmaleins, 2⁵ kavramı, ikinin kuvvetleri",
+      "learningResourceType": ["Interactiund Resource", "Practice Material", "Educational Game"],
+      "teaches": "32er-Einmaleins, 25 Konzept, von Zwei Potenzen",
       "typicalAgeRange": "8-11",
       "inLanguage": "de",
       "educationalUse": ["practice", "self-study"],
@@ -42,7 +42,7 @@ const schemaData = {
 
 export const metadata = {
   title: '32er-Einmaleins | Lerne Multiplikation mit 32',
-  description: 'Meistere das 32er-Einmaleins. Klare ErklÃ¤rungen, Muster und praktische Ãœbungsstrategien.',
+  description: 'Meistere das 32er-Einmaleins. Klare Erklärungen, Muster und praktische Übungsstrategien.',
   keywords: '32er einmaleins, einmaleins tabelle, multiplikation, mathematik lernen',
   alternates: {
     canonical: '/einmaleins/32',
