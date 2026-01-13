@@ -57,28 +57,28 @@ export default function FuerLehrerPage() {
                 <div className="w-12 h-12 bg-blue-500 rounded-lg flex items-center justify-center mr-4">
                   <span className="text-2xl">👁️</span>
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900">Visualización</h3>
+                <h3 className="text-2xl font-bold text-gray-900">Visualisierung</h3>
               </div>
               <p className="text-gray-700 mb-4">
-                Use representaciones visuales para ayudar a los SchÃ¼ler a comprender 
-                la multiplicación como grupos repetidos.
+                Verwenden Sie visuelle Darstellungen, um Schülern zu helfen, 
+                die Multiplikation als wiederholte Gruppen zu verstehen.
               </p>
               <ul className="space-y-2 text-gray-700">
                 <li className="flex items-start">
                   <span className="text-blue-500 mr-2">•</span>
-                  <span>Arreglos rectangulares (ej: 3×4 como 3 filas de 4 objetos)</span>
+                  <span>Rechteckige Anordnungen (z.B.: 3×4 als 3 Reihen von 4 Objekten)</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-500 mr-2">•</span>
-                  <span>Modelos de área usando papel cuadriculado</span>
+                  <span>Flächenmodelle mit Karopapier</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-500 mr-2">•</span>
-                  <span>Diagramas de saltos en la recta numérica</span>
+                  <span>Sprungdiagramme auf dem Zahlenstrahl</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-500 mr-2">•</span>
-                  <span>Manipulativos concretos (bloques, fichas, cubos)</span>
+                  <span>Konkrete Manipulativa (Blöcke, Chips, Würfel)</span>
                 </li>
               </ul>
             </div>
@@ -89,11 +89,11 @@ export default function FuerLehrerPage() {
                 <div className="w-12 h-12 bg-green-500 rounded-lg flex items-center justify-center mr-4">
                   <span className="text-2xl">🧩</span>
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900">Descomposición</h3>
+                <h3 className="text-2xl font-bold text-gray-900">Zerlegung</h3>
               </div>
               <p className="text-gray-700 mb-4">
-                Enseñe a los SchÃ¼ler a descomponer multiplicaciones difíciles 
-                en operaciones más simples.
+                Lehren Sie Schüler, schwierige Multiplikationen 
+                in einfachere Operationen zu zerlegen.
               </p>
               <ul className="space-y-2 text-gray-700">
                 <li className="flex items-start">
@@ -106,11 +106,11 @@ export default function FuerLehrerPage() {
                 </li>
                 <li className="flex items-start">
                   <span className="text-green-500 mr-2">•</span>
-                  <span>Usar duplicación: 6×4 = 2×(3×4)</span>
+                  <span>Verdopplung verwenden: 6×4 = 2×(3×4)</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-green-500 mr-2">•</span>
-                  <span>Propiedad distributiva en acción</span>
+                  <span>Distributiveigenschaft in Aktion</span>
                 </li>
               </ul>
             </div>
@@ -124,25 +124,25 @@ export default function FuerLehrerPage() {
                 <h3 className="text-2xl font-bold text-gray-900">Muster</h3>
               </div>
               <p className="text-gray-700 mb-4">
-                Ayude a los SchÃ¼ler a descubrir y usar Muster para facilitar 
-                el aprendizaje y la memorización.
+                Helfen Sie Schülern, Muster zu entdecken und zu nutzen, um 
+                das Lernen und Auswendiglernen zu erleichtern.
               </p>
               <ul className="space-y-2 text-gray-700">
                 <li className="flex items-start">
                   <span className="text-purple-500 mr-2">•</span>
-                  <span>Tabla del 2: todos los números pares</span>
+                  <span>2er-Reihe: alle geraden Zahlen</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-purple-500 mr-2">•</span>
-                  <span>Tabla del 5: terminan en 0 o 5</span>
+                  <span>5er-Reihe: enden auf 0 oder 5</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-purple-500 mr-2">•</span>
-                  <span>Tabla del 9: suma de dígitos = 9, patrón descendente</span>
+                  <span>9er-Reihe: Quersumme = 9, absteigendes Muster</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-purple-500 mr-2">•</span>
-                  <span>Propiedad conmutativa: 3×7 = 7×3</span>
+                  <span>Kommutativeigenschaft: 3×7 = 7×3</span>
                 </li>
               </ul>
             </div>
@@ -156,25 +156,25 @@ export default function FuerLehrerPage() {
                 <h3 className="text-2xl font-bold text-gray-900">Reale Anwendungen</h3>
               </div>
               <p className="text-gray-700 mb-4">
-                Conecte la multiplicación con situaciones cotidianas para dar 
-                significado y contexto al aprendizaje.
+                Verknüpfen Sie die Multiplikation mit alltäglichen Situationen, um 
+                dem Lernen Bedeutung und Kontext zu geben.
               </p>
               <ul className="space-y-2 text-gray-700">
                 <li className="flex items-start">
                   <span className="text-orange-500 mr-2">•</span>
-                  <span>Problemas de compras y dinero</span>
+                  <span>Einkaufs- und Geldprobleme</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-orange-500 mr-2">•</span>
-                  <span>Organización de objetos en filas y columnas</span>
+                  <span>Anordnung von Objekten in Reihen und Spalten</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-orange-500 mr-2">•</span>
-                  <span>Recetas de cocina y medidas</span>
+                  <span>Kochrezepte und Messungen</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-orange-500 mr-2">•</span>
-                  <span>Deportes, juegos y actividades grupales</span>
+                  <span>Sport, Spiele und Gruppenaktivitäten</span>
                 </li>
               </ul>
             </div>
@@ -186,7 +186,7 @@ export default function FuerLehrerPage() {
       <section className="py-12 px-4 bg-white/50">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-            AktivitÃ¤ten fÃ¼r das Klassenzimmer
+            Aktivitäten für das Klassenzimmer
           </h2>
           
           <div className="grid md:grid-cols-3 gap-6">
@@ -194,15 +194,15 @@ export default function FuerLehrerPage() {
             <div className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow">
               <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center">
                 <span className="text-2xl mr-2">🎯</span>
-                Bingo de Multiplicación
+                Einmaleins-Bingo
               </h3>
               <p className="text-gray-700 mb-3">
-                Los SchÃ¼ler crean tarjetas de bingo con productos. 
-                Llame multiplicaciones y los SchÃ¼ler marcan las respuestas.
+                Schüler erstellen Bingo-Karten mit Produkten. 
+                Rufen Sie Multiplikationen auf und Schüler markieren die Antworten.
               </p>
               <div className="bg-blue-50 rounded-lg p-3 text-sm text-gray-700">
-                <strong>Nivel:</strong> AnfÃ¤nger a Fortgeschrittene<br/>
-                <strong>Tiempo:</strong> 15-20 minutos
+                <strong>Niveau:</strong> Anfänger bis Fortgeschrittene<br/>
+                <strong>Zeit:</strong> 15-20 Minuten
               </div>
             </div>
 
@@ -210,15 +210,15 @@ export default function FuerLehrerPage() {
             <div className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow">
               <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center">
                 <span className="text-2xl mr-2">🏃</span>
-                Carreras de Multiplicación
+                Einmaleins-Rennen
               </h3>
               <p className="text-gray-700 mb-3">
-                Equipos compiten respondiendo problemas de multiplicación 
-                en un formato de relevos en el pizarrón.
+                Teams treten gegeneinander an, indem sie Multiplikationsaufgaben 
+                in einem Staffelformat an der Tafel lösen.
               </p>
               <div className="bg-green-50 rounded-lg p-3 text-sm text-gray-700">
-                <strong>Nivel:</strong> Todos los niveles<br/>
-                <strong>Tiempo:</strong> 10-15 minutos
+                <strong>Niveau:</strong> Alle Niveaus<br/>
+                <strong>Zeit:</strong> 10-15 Minuten
               </div>
             </div>
 
@@ -226,15 +226,15 @@ export default function FuerLehrerPage() {
             <div className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow">
               <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center">
                 <span className="text-2xl mr-2">🎲</span>
-                Dominó de Multiplicación
+                Einmaleins-Domino
               </h3>
               <p className="text-gray-700 mb-3">
-                Fichas de dominó modificadas donde los SchÃ¼ler emparejan 
-                multiplicaciones con sus productos.
+                Modifizierte Domino-Steine, bei denen Schüler 
+                Multiplikationen mit ihren Produkten zusammenbringen.
               </p>
               <div className="bg-purple-50 rounded-lg p-3 text-sm text-gray-700">
-                <strong>Nivel:</strong> Fortgeschrittene<br/>
-                <strong>Tiempo:</strong> 20-30 minutos
+                <strong>Niveau:</strong> Fortgeschrittene<br/>
+                <strong>Zeit:</strong> 20-30 Minuten
               </div>
             </div>
 
@@ -245,12 +245,12 @@ export default function FuerLehrerPage() {
                 Kunst mit Anordnungen
               </h3>
               <p className="text-gray-700 mb-3">
-                Los SchÃ¼ler crean diseños artísticos usando arreglos 
-                rectangulares y etiquetan las multiplicaciones correspondientes.
+                Schüler erstellen künstlerische Designs mit rechteckigen Anordnungen 
+                und beschriften die entsprechenden Multiplikationen.
               </p>
               <div className="bg-pink-50 rounded-lg p-3 text-sm text-gray-700">
-                <strong>Nivel:</strong> AnfÃ¤nger<br/>
-                <strong>Tiempo:</strong> 30-40 minutos
+                <strong>Niveau:</strong> Anfänger<br/>
+                <strong>Zeit:</strong> 30-40 Minuten
               </div>
             </div>
 
@@ -258,15 +258,15 @@ export default function FuerLehrerPage() {
             <div className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow">
               <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center">
                 <span className="text-2xl mr-2">🎪</span>
-                Estaciones de Práctica
+                Übungsstationen
               </h3>
               <p className="text-gray-700 mb-3">
-                Configure estaciones rotativas con diferentes actividades: 
-                tarjetas didácticas, juegos digitales, problemas escritos, manipulativos.
+                Richten Sie rotierende Stationen mit verschiedenen Aktivitäten ein: 
+                Lernkarten, digitale Spiele, schriftliche Aufgaben, Manipulativa.
               </p>
               <div className="bg-orange-50 rounded-lg p-3 text-sm text-gray-700">
-                <strong>Nivel:</strong> Todos los niveles<br/>
-                <strong>Tiempo:</strong> 40-50 minutos
+                <strong>Niveau:</strong> Alle Niveaus<br/>
+                <strong>Zeit:</strong> 40-50 Minuten
               </div>
             </div>
 
@@ -274,15 +274,15 @@ export default function FuerLehrerPage() {
             <div className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow">
               <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center">
                 <span className="text-2xl mr-2">📖</span>
-                Historias de Multiplicación
+                Einmaleins-Geschichten
               </h3>
               <p className="text-gray-700 mb-3">
-                Los SchÃ¼ler escriben e ilustran problemas de multiplicación 
-                basados en situaciones reales o imaginarias.
+                Schüler schreiben und illustrieren Multiplikationsaufgaben 
+                basierend auf realen oder imaginären Situationen.
               </p>
               <div className="bg-yellow-50 rounded-lg p-3 text-sm text-gray-700">
-                <strong>Nivel:</strong> Fortgeschrittene a Experten<br/>
-                <strong>Tiempo:</strong> 30-45 minutos
+                <strong>Niveau:</strong> Fortgeschrittene bis Experten<br/>
+                <strong>Zeit:</strong> 30-45 Minuten
               </div>
             </div>
           </div>
@@ -293,7 +293,7 @@ export default function FuerLehrerPage() {
       <section className="py-12 px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-            Instrucción Diferenciada
+            Differenzierter Unterricht
           </h2>
           
           <div className="grid md:grid-cols-3 gap-6">
@@ -301,32 +301,32 @@ export default function FuerLehrerPage() {
             <div className="bg-gradient-to-br from-green-50 to-green-100 rounded-2xl shadow-xl p-8">
               <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-center">
                 <span className="text-3xl mr-2">🌱</span>
-                SchÃ¼ler AnfÃ¤ngers
+                Anfänger-Schüler
               </h3>
               <ul className="space-y-3 text-gray-700">
                 <li className="flex items-start">
                   <span className="text-green-600 mr-2">✓</span>
-                  <span>Comenzar con tablas del 1, 2, 5 y 10</span>
+                  <span>Mit den Reihen 1, 2, 5 und 10 beginnen</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-green-600 mr-2">✓</span>
-                  <span>Usar muchos manipulativos concretos</span>
+                  <span>Viele konkrete Manipulativa verwenden</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-green-600 mr-2">✓</span>
-                  <span>Enfatizar suma repetida inicialmente</span>
+                  <span>Zunächst wiederholte Addition betonen</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-green-600 mr-2">✓</span>
-                  <span>Proporcionar tablas de referencia</span>
+                  <span>Referenztabellen bereitstellen</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-green-600 mr-2">✓</span>
-                  <span>Práctica diaria breve (5-10 minutos)</span>
+                  <span>Kurze tägliche Übung (5-10 Minuten)</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-green-600 mr-2">✓</span>
-                  <span>Celebrar pequeños logros</span>
+                  <span>Kleine Erfolge feiern</span>
                 </li>
               </ul>
             </div>
@@ -335,32 +335,32 @@ export default function FuerLehrerPage() {
             <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl shadow-xl p-8">
               <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-center">
                 <span className="text-3xl mr-2">📚</span>
-                SchÃ¼ler Fortgeschrittenes
+                Fortgeschrittene Schüler
               </h3>
               <ul className="space-y-3 text-gray-700">
                 <li className="flex items-start">
                   <span className="text-blue-600 mr-2">✓</span>
-                  <span>Introducir tablas del 3, 4, 6 y 7</span>
+                  <span>Reihen 3, 4, 6 und 7 einführen</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-600 mr-2">✓</span>
-                  <span>Enseñar estrategias de descomposición</span>
+                  <span>Zerlegungsstrategien lehren</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-600 mr-2">✓</span>
-                  <span>Practicar propiedad conmutativa</span>
+                  <span>Kommutativeigenschaft üben</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-600 mr-2">✓</span>
-                  <span>Juegos de velocidad moderada</span>
+                  <span>Geschwindigkeitsspiele mit moderatem Tempo</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-600 mr-2">✓</span>
-                  <span>Problemas de aplicación en contexto</span>
+                  <span>Kontextbezogene Anwendungsprobleme</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-600 mr-2">✓</span>
-                  <span>Trabajo en parejas y grupos pequeños</span>
+                  <span>Partner- und Kleingruppenarbeit</span>
                 </li>
               </ul>
             </div>
@@ -369,32 +369,32 @@ export default function FuerLehrerPage() {
             <div className="bg-gradient-to-br from-purple-50 to-purple-100 rounded-2xl shadow-xl p-8">
               <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-center">
                 <span className="text-3xl mr-2">🚀</span>
-                SchÃ¼ler Expertens
+                Experten-Schüler
               </h3>
               <ul className="space-y-3 text-gray-700">
                 <li className="flex items-start">
                   <span className="text-purple-600 mr-2">✓</span>
-                  <span>Tablas del 8, 9, 11 y 12</span>
+                  <span>Reihen 8, 9, 11 und 12</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-purple-600 mr-2">✓</span>
-                  <span>Problemas de múltiples pasos</span>
+                  <span>Mehrschrittige Probleme</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-purple-600 mr-2">✓</span>
-                  <span>Conexión con división y fracciones</span>
+                  <span>Verknüpfung mit Division und Brüchen</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-purple-600 mr-2">✓</span>
-                  <span>Desafíos de lógica matemática</span>
+                  <span>Mathematische Logik-Herausforderungen</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-purple-600 mr-2">✓</span>
-                  <span>Crear sus propios problemas</span>
+                  <span>Eigene Probleme erstellen</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-purple-600 mr-2">✓</span>
-                  <span>Tutorear a compañeros</span>
+                  <span>Mitschüler unterrichten</span>
                 </li>
               </ul>
             </div>
@@ -406,7 +406,7 @@ export default function FuerLehrerPage() {
       <section className="py-12 px-4 bg-white/50">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-            Estrategias de Evaluación
+            Bewertungsstrategien
           </h2>
           
           <div className="grid md:grid-cols-2 gap-8">
@@ -414,35 +414,35 @@ export default function FuerLehrerPage() {
             <div className="bg-white rounded-2xl shadow-xl p-8">
               <h3 className="text-2xl font-bold text-gray-900 mb-6 flex items-center">
                 <span className="text-3xl mr-3">📊</span>
-                Evaluación Formativa
+                Formative Bewertung
               </h3>
               <div className="space-y-4">
                 <div className="border-l-4 border-blue-500 pl-4">
-                  <h4 className="font-bold text-gray-900 mb-2">Observación Diaria</h4>
+                  <h4 className="font-bold text-gray-900 mb-2">Tägliche Beobachtung</h4>
                   <p className="text-gray-700">
-                    Observe a los SchÃ¼ler durante la práctica, tome notas sobre 
-                    estrategias usadas y errores comunes.
+                    Beobachten Sie Schüler während der Übung, machen Sie Notizen über 
+                    verwendete Strategien und häufige Fehler.
                   </p>
                 </div>
                 <div className="border-l-4 border-green-500 pl-4">
-                  <h4 className="font-bold text-gray-900 mb-2">Mini Pruebas Rápidas</h4>
+                  <h4 className="font-bold text-gray-900 mb-2">Kurze Mini-Tests</h4>
                   <p className="text-gray-700">
-                    1-2 minutos al inicio de la clase: 10 problemas para evaluar 
-                    fluidez y retención.
+                    1-2 Minuten zu Beginn des Unterrichts: 10 Aufgaben zur Bewertung 
+                    von Flüssigkeit und Merkfähigkeit.
                   </p>
                 </div>
                 <div className="border-l-4 border-purple-500 pl-4">
-                  <h4 className="font-bold text-gray-900 mb-2">Pizarras Individuales</h4>
+                  <h4 className="font-bold text-gray-900 mb-2">Einzeltafeln</h4>
                   <p className="text-gray-700">
-                    Los SchÃ¼ler muestran respuestas simultáneamente, permitiendo 
-                    verificación rápida de toda la clase.
+                    Schüler zeigen gleichzeitig Antworten, was eine schnelle 
+                    Überprüfung der ganzen Klasse ermöglicht.
                   </p>
                 </div>
                 <div className="border-l-4 border-orange-500 pl-4">
-                  <h4 className="font-bold text-gray-900 mb-2">Entrevistas Matemáticas</h4>
+                  <h4 className="font-bold text-gray-900 mb-2">Mathematik-Interviews</h4>
                   <p className="text-gray-700">
-                    Conversaciones breves uno-a-uno para entender el razonamiento 
-                    y estrategias del estudiante.
+                    Kurze Einzelgespräche, um das Denken 
+                    und die Strategien der Schüler zu verstehen.
                   </p>
                 </div>
               </div>
@@ -452,35 +452,35 @@ export default function FuerLehrerPage() {
             <div className="bg-white rounded-2xl shadow-xl p-8">
               <h3 className="text-2xl font-bold text-gray-900 mb-6 flex items-center">
                 <span className="text-3xl mr-3">📝</span>
-                Evaluación Sumativa
+                Summative Bewertung
               </h3>
               <div className="space-y-4">
                 <div className="border-l-4 border-red-500 pl-4">
-                  <h4 className="font-bold text-gray-900 mb-2">Pruebas de Fluidez</h4>
+                  <h4 className="font-bold text-gray-900 mb-2">Flüssigkeitstests</h4>
                   <p className="text-gray-700">
-                    Evaluaciones cronometradas para medir velocidad y precisión 
-                    en rangos específicos de tablas.
+                    Zeitlich begrenzte Tests zur Messung von Geschwindigkeit und Genauigkeit 
+                    bei bestimmten Einmaleins-Reihen.
                   </p>
                 </div>
                 <div className="border-l-4 border-yellow-500 pl-4">
-                  <h4 className="font-bold text-gray-900 mb-2">Proyectos Aplicados</h4>
+                  <h4 className="font-bold text-gray-900 mb-2">Angewandte Projekte</h4>
                   <p className="text-gray-700">
-                    Los SchÃ¼ler resuelven problemas del mundo real que requieren 
-                    multiplicación en varios contextos.
+                    Schüler lösen reale Probleme, die 
+                    Multiplikation in verschiedenen Kontexten erfordern.
                   </p>
                 </div>
                 <div className="border-l-4 border-pink-500 pl-4">
-                  <h4 className="font-bold text-gray-900 mb-2">Portafolios</h4>
+                  <h4 className="font-bold text-gray-900 mb-2">Portfolios</h4>
                   <p className="text-gray-700">
-                    Colección de trabajo a lo largo del tiempo mostrando progreso 
-                    y dominio creciente.
+                    Sammlung von Arbeiten im Laufe der Zeit, die Fortschritt 
+                    und wachsende Beherrschung zeigen.
                   </p>
                 </div>
                 <div className="border-l-4 border-indigo-500 pl-4">
-                  <h4 className="font-bold text-gray-900 mb-2">Autoevaluación</h4>
+                  <h4 className="font-bold text-gray-900 mb-2">Selbstbewertung</h4>
                   <p className="text-gray-700">
-                    Los SchÃ¼ler rastrean su propio progreso, identifican tablas 
-                    dominadas y establecen metas.
+                    Schüler verfolgen ihren eigenen Fortschritt, identifizieren beherrschte Reihen 
+                    und setzen Ziele.
                   </p>
                 </div>
               </div>
@@ -495,24 +495,24 @@ export default function FuerLehrerPage() {
             </h3>
             <div className="grid md:grid-cols-3 gap-6">
               <div className="bg-white/20 rounded-lg p-4">
-                <h4 className="font-bold mb-2">Gráficas de Dominio</h4>
+                <h4 className="font-bold mb-2">Beherrschungsdiagramme</h4>
                 <p className="text-sm">
-                  Los SchÃ¼ler colorean tablas dominadas en una cuadrícula visual 
-                  de 12×12 para ver su progreso.
+                  Schüler färben beherrschte Reihen in einem visuellen 
+                  12×12-Raster ein, um ihren Fortschritt zu sehen.
                 </p>
               </div>
               <div className="bg-white/20 rounded-lg p-4">
-                <h4 className="font-bold mb-2">Registro de Tiempo</h4>
+                <h4 className="font-bold mb-2">Zeiterfassung</h4>
                 <p className="text-sm">
-                  Rastrear mejoras en velocidad con gráficas que muestran 
-                  tiempos decrecientes.
+                  Verbesserungen bei der Geschwindigkeit mit Diagrammen verfolgen, die 
+                  abnehmende Zeiten zeigen.
                 </p>
               </div>
               <div className="bg-white/20 rounded-lg p-4">
-                <h4 className="font-bold mb-2">Insignias de Logro</h4>
+                <h4 className="font-bold mb-2">Erfolgsabzeichen</h4>
                 <p className="text-sm">
-                  Sistema de recompensas por dominar cada tabla, motivando 
-                  el progreso continuo.
+                  Belohnungssystem für die Beherrschung jeder Reihe, das 
+                  kontinuierlichen Fortschritt motiviert.
                 </p>
               </div>
             </div>
@@ -529,8 +529,8 @@ export default function FuerLehrerPage() {
           
           <div className="bg-white rounded-2xl shadow-xl p-8">
             <p className="text-gray-700 mb-6 text-lg">
-              Reconozca y aborde estos malentendidos frecuentes para asegurar 
-              una comprensión sólida de la multiplicación:
+              Erkennen und adressieren Sie diese häufigen Missverständnisse, um ein 
+              solides Verständnis der Multiplikation sicherzustellen:
             </p>
 
             <div className="space-y-6">
@@ -538,16 +538,16 @@ export default function FuerLehrerPage() {
               <div className="border-l-4 border-red-500 bg-red-50 rounded-r-lg p-6">
                 <h3 className="text-xl font-bold text-gray-900 mb-2 flex items-center">
                   <span className="text-2xl mr-2">❌</span>
-                  "La multiplicación siempre hace los números más grandes"
+                  "Multiplikation macht Zahlen immer größer"
                 </h3>
                 <p className="text-gray-700 mb-2">
-                  <strong>Por qué es problemático:</strong> Los SchÃ¼ler se confunden 
-                  al multiplicar por fracciones o decimales.
+                  <strong>Warum das problematisch ist:</strong> Schüler werden verwirrt, 
+                  wenn sie mit Brüchen oder Dezimalzahlen multiplizieren.
                 </p>
                 <p className="text-gray-700">
-                  <strong className="text-green-700">Cómo corregirlo:</strong> Mostrar 
-                  ejemplos como 5 × 0.5 = 2.5 o 3 × 0 = 0. Explicar que multiplicar 
-                  por números menores que 1 reduce el resultado.
+                  <strong className="text-green-700">So korrigieren Sie es:</strong> Zeigen Sie 
+                  Beispiele wie 5 × 0,5 = 2,5 oder 3 × 0 = 0. Erklären Sie, dass Multiplikation 
+                  mit Zahlen kleiner als 1 das Ergebnis verkleinert.
                 </p>
               </div>
 
@@ -555,16 +555,16 @@ export default function FuerLehrerPage() {
               <div className="border-l-4 border-red-500 bg-red-50 rounded-r-lg p-6">
                 <h3 className="text-xl font-bold text-gray-900 mb-2 flex items-center">
                   <span className="text-2xl mr-2">❌</span>
-                  "El orden no importa en los problemas verbales"
+                  "Die Reihenfolge spielt bei Textaufgaben keine Rolle"
                 </h3>
                 <p className="text-gray-700 mb-2">
-                  <strong>Por qué es problemático:</strong> Aunque 3×4 = 4×3, el significado 
-                  contextual puede ser diferente (3 grupos de 4 vs. 4 grupos de 3).
+                  <strong>Warum das problematisch ist:</strong> Obwohl 3×4 = 4×3 ist, kann die 
+                  kontextuelle Bedeutung unterschiedlich sein (3 Gruppen von 4 vs. 4 Gruppen von 3).
                 </p>
                 <p className="text-gray-700">
-                  <strong className="text-green-700">Cómo corregirlo:</strong> Discutir 
-                  la propiedad conmutativa pero enfatizar la importancia de entender 
-                  el contexto del problema.
+                  <strong className="text-green-700">So korrigieren Sie es:</strong> Besprechen Sie 
+                  die Kommutativeigenschaft, betonen Sie aber die Wichtigkeit, 
+                  den Kontext des Problems zu verstehen.
                 </p>
               </div>
 
@@ -572,16 +572,16 @@ export default function FuerLehrerPage() {
               <div className="border-l-4 border-red-500 bg-red-50 rounded-r-lg p-6">
                 <h3 className="text-xl font-bold text-gray-900 mb-2 flex items-center">
                   <span className="text-2xl mr-2">❌</span>
-                  "Multiplicar es solo memorización"
+                  "Multiplizieren ist nur Auswendiglernen"
                 </h3>
                 <p className="text-gray-700 mb-2">
-                  <strong>Por qué es problemático:</strong> Los SchÃ¼ler pueden 
-                  memorizar sin entender, dificultando la aplicación y retención.
+                  <strong>Warum das problematisch ist:</strong> Schüler können 
+                  auswendig lernen ohne zu verstehen, was die Anwendung und Merkfähigkeit erschwert.
                 </p>
                 <p className="text-gray-700">
-                  <strong className="text-green-700">Cómo corregirlo:</strong> Siempre 
-                  enseñar conceptos antes de la memorización. Usar modelos visuales 
-                  y estrategias de comprensión.
+                  <strong className="text-green-700">So korrigieren Sie es:</strong> Immer 
+                  Konzepte vor dem Auswendiglernen lehren. Visuelle Modelle 
+                  und Verständnisstrategien verwenden.
                 </p>
               </div>
 
@@ -589,16 +589,16 @@ export default function FuerLehrerPage() {
               <div className="border-l-4 border-red-500 bg-red-50 rounded-r-lg p-6">
                 <h3 className="text-xl font-bold text-gray-900 mb-2 flex items-center">
                   <span className="text-2xl mr-2">❌</span>
-                  "Los Muster siempre funcionan sin entenderlos"
+                  "Muster funktionieren immer ohne sie zu verstehen"
                 </h3>
                 <p className="text-gray-700 mb-2">
-                  <strong>Por qué es problemático:</strong> Los SchÃ¼ler aplican 
-                  Muster mecánicamente sin comprender el "por qué" matemático.
+                  <strong>Warum das problematisch ist:</strong> Schüler wenden 
+                  Muster mechanisch an, ohne das mathematische "Warum" zu verstehen.
                 </p>
                 <p className="text-gray-700">
-                  <strong className="text-green-700">Cómo corregirlo:</strong> Al enseñar 
-                  Muster (ej: tabla del 9), siempre explicar por qué funcionan 
-                  usando propiedades matemáticas.
+                  <strong className="text-green-700">So korrigieren Sie es:</strong> Beim Lehren von 
+                  Mustern (z.B. 9er-Reihe) immer erklären, warum sie funktionieren, 
+                  unter Verwendung mathematischer Eigenschaften.
                 </p>
               </div>
 
@@ -606,16 +606,16 @@ export default function FuerLehrerPage() {
               <div className="border-l-4 border-red-500 bg-red-50 rounded-r-lg p-6">
                 <h3 className="text-xl font-bold text-gray-900 mb-2 flex items-center">
                   <span className="text-2xl mr-2">❌</span>
-                  "Solo hay una manera correcta de resolver"
+                  "Es gibt nur einen richtigen Lösungsweg"
                 </h3>
                 <p className="text-gray-700 mb-2">
-                  <strong>Por qué es problemático:</strong> Limita el pensamiento 
-                  creativo y la flexibilidad numérica.
+                  <strong>Warum das problematisch ist:</strong> Begrenzt kreatives Denken 
+                  und numerische Flexibilität.
                 </p>
                 <p className="text-gray-700">
-                  <strong className="text-green-700">Cómo corregirlo:</strong> Celebrar 
-                  múltiples estrategias. Pedir a los SchÃ¼ler que compartan diferentes 
-                  métodos y discutir cuándo cada uno es más útil.
+                  <strong className="text-green-700">So korrigieren Sie es:</strong> Feiern Sie 
+                  mehrere Strategien. Bitten Sie Schüler, verschiedene 
+                  Methoden zu teilen und diskutieren Sie, wann jede am nützlichsten ist.
                 </p>
               </div>
             </div>
@@ -627,39 +627,39 @@ export default function FuerLehrerPage() {
       <section className="py-12 px-4 bg-white/50">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-            Consejos y Mejores Prácticas
+            Tipps und Best Practices
           </h2>
           
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-gradient-to-br from-yellow-50 to-orange-50 rounded-2xl shadow-xl p-8">
               <h3 className="text-2xl font-bold text-gray-900 mb-6 flex items-center">
                 <span className="text-3xl mr-3">💡</span>
-                Consejos para el Éxito
+                Tipps für Erfolg
               </h3>
               <ul className="space-y-3 text-gray-700">
                 <li className="flex items-start">
                   <span className="text-orange-500 mr-2 text-xl">✦</span>
-                  <span>Práctica corta y diaria es mejor que sesiones largas esporádicas</span>
+                  <span>Kurze tägliche Übung ist besser als lange sporadische Sitzungen</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-orange-500 mr-2 text-xl">✦</span>
-                  <span>Celebre el progreso, no solo la perfección</span>
+                  <span>Feiern Sie den Fortschritt, nicht nur die Perfektion</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-orange-500 mr-2 text-xl">✦</span>
-                  <span>Varíe los métodos de práctica para mantener el interés</span>
+                  <span>Variieren Sie die Übungsmethoden, um das Interesse aufrechtzuerhalten</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-orange-500 mr-2 text-xl">✦</span>
-                  <span>Conecte con otras áreas: arte, música, educación física</span>
+                  <span>Verknüpfen Sie mit anderen Bereichen: Kunst, Musik, Sport</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-orange-500 mr-2 text-xl">✦</span>
-                  <span>Involucre a las familias con actividades para el hogar</span>
+                  <span>Beziehen Sie Familien mit Aktivitäten für zu Hause ein</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-orange-500 mr-2 text-xl">✦</span>
-                  <span>Use tecnología como complemento, no reemplazo</span>
+                  <span>Nutzen Sie Technologie als Ergänzung, nicht als Ersatz</span>
                 </li>
               </ul>
             </div>
@@ -672,31 +672,31 @@ export default function FuerLehrerPage() {
               <div className="space-y-3">
                 <div className="flex items-center bg-white rounded-lg p-3 shadow">
                   <span className="bg-teal-500 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-3">1</span>
-                  <span className="text-gray-700">Tablas del 1, 2, 10, 5</span>
+                  <span className="text-gray-700">Reihen 1, 2, 10, 5</span>
                 </div>
                 <div className="flex items-center bg-white rounded-lg p-3 shadow">
                   <span className="bg-teal-500 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-3">2</span>
-                  <span className="text-gray-700">Propiedad conmutativa (reduce la carga)</span>
+                  <span className="text-gray-700">Kommutativeigenschaft (reduziert die Last)</span>
                 </div>
                 <div className="flex items-center bg-white rounded-lg p-3 shadow">
                   <span className="bg-teal-500 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-3">3</span>
-                  <span className="text-gray-700">Tablas del 4 (duplicar el 2)</span>
+                  <span className="text-gray-700">4er-Reihe (2er verdoppeln)</span>
                 </div>
                 <div className="flex items-center bg-white rounded-lg p-3 shadow">
                   <span className="bg-teal-500 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-3">4</span>
-                  <span className="text-gray-700">Tabla del 9 (Muster especiales)</span>
+                  <span className="text-gray-700">9er-Reihe (spezielle Muster)</span>
                 </div>
                 <div className="flex items-center bg-white rounded-lg p-3 shadow">
                   <span className="bg-teal-500 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-3">5</span>
-                  <span className="text-gray-700">Tablas del 3 y 6 (relación triple)</span>
+                  <span className="text-gray-700">3er und 6er-Reihen (Dreifachbeziehung)</span>
                 </div>
                 <div className="flex items-center bg-white rounded-lg p-3 shadow">
                   <span className="bg-teal-500 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-3">6</span>
-                  <span className="text-gray-700">Tablas del 7, 8 (más desafiantes)</span>
+                  <span className="text-gray-700">7er und 8er-Reihen (herausfordernder)</span>
                 </div>
                 <div className="flex items-center bg-white rounded-lg p-3 shadow">
                   <span className="bg-teal-500 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-3">7</span>
-                  <span className="text-gray-700">Tablas del 11, 12 (Muster Expertens)</span>
+                  <span className="text-gray-700">11er und 12er-Reihen (Experten-Muster)</span>
                 </div>
               </div>
             </div>
@@ -708,7 +708,7 @@ export default function FuerLehrerPage() {
       <section className="py-12 px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-            ZusÃ¤tzliche Ressourcen
+            Zusätzliche Ressourcen
           </h2>
           
           <div className="grid md:grid-cols-4 gap-6">
@@ -717,8 +717,8 @@ export default function FuerLehrerPage() {
               className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow text-center"
             >
               <div className="text-4xl mb-3">📘</div>
-              <h3 className="font-bold text-gray-900 mb-2">Tablas 1-10</h3>
-              <p className="text-sm text-gray-600">Recursos básicos</p>
+              <h3 className="font-bold text-gray-900 mb-2">Reihen 1-10</h3>
+              <p className="text-sm text-gray-600">Grundlegende Ressourcen</p>
             </Link>
 
             <Link 
@@ -726,17 +726,17 @@ export default function FuerLehrerPage() {
               className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow text-center"
             >
               <div className="text-4xl mb-3">📗</div>
-              <h3 className="font-bold text-gray-900 mb-2">Tablas 11-20</h3>
+              <h3 className="font-bold text-gray-900 mb-2">Reihen 11-20</h3>
               <p className="text-sm text-gray-600">Mittleres Niveau</p>
             </Link>
 
             <Link 
-              href="/para-SchÃ¼ler" 
+              href="/fuer-schueler" 
               className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow text-center"
             >
               <div className="text-4xl mb-3">👨‍🎓</div>
-              <h3 className="font-bold text-gray-900 mb-2">Para SchÃ¼ler</h3>
-              <p className="text-sm text-gray-600">Guía de aprendizaje</p>
+              <h3 className="font-bold text-gray-900 mb-2">Für Schüler</h3>
+              <p className="text-sm text-gray-600">Lernleitfaden</p>
             </Link>
 
             <Link 
@@ -744,18 +744,18 @@ export default function FuerLehrerPage() {
               className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow text-center"
             >
               <div className="text-4xl mb-3">👨‍👩‍👧</div>
-              <h3 className="font-bold text-gray-900 mb-2">FÃ¼r Eltern</h3>
-              <p className="text-sm text-gray-600">UnterstÃ¼tzung zu Hause</p>
+              <h3 className="font-bold text-gray-900 mb-2">Für Eltern</h3>
+              <p className="text-sm text-gray-600">Unterstützung zu Hause</p>
             </Link>
           </div>
 
           <div className="mt-8 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-2xl shadow-xl p-8 text-white text-center">
             <h3 className="text-2xl font-bold mb-4">
-              ¿Necesita Más Ayuda?
+              Benötigen Sie weitere Hilfe?
             </h3>
             <p className="text-lg mb-6">
-              Erkunden Sie unsere einzelnen Reihen para recursos específicos, 
-              ejercicios descargables y actividades interactivas.
+              Erkunden Sie unsere einzelnen Reihen für spezifische Ressourcen, 
+              herunterladbare Übungen und interaktive Aktivitäten.
             </p>
             <Link 
               href="/"
