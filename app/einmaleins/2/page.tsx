@@ -5,24 +5,24 @@ const schemaData = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://einmaleins.online/tabla/2#webpage",
-      "url": "https://einmaleins.online/tabla/2",
+      "@id": "https://einmaleins.online/einmaleins/2#webpage",
+      "url": "https://einmaleins.online/einmaleins/2",
       "name": "2er-Einmaleins - Grundlagen der Multiplikation",
       "description": "Lerne die Grundlagen der Multiplikation mit 2. Gerade Zahlen, Verdoppelungsmuster und praktische Strategien.",
       "isPartOf": {
         "@id": "https://einmaleins.online/#website"
       },
       "about": {
-        "@id": "https://einmaleins.online/tabla/2#learningresource"
+        "@id": "https://einmaleins.online/einmaleins/2#learningresource"
       },
       "breadcrumb": {
-        "@id": "https://einmaleins.online/tabla/2#breadcrumb"
+        "@id": "https://einmaleins.online/einmaleins/2#breadcrumb"
       },
       "inLanguage": "de"
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://einmaleins.online/tabla/2#breadcrumb",
+      "@id": "https://einmaleins.online/einmaleins/2#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -44,7 +44,7 @@ const schemaData = {
           "@type": "ListItem",
           "position": 3,
           "item": {
-            "@id": "https://einmaleins.online/tabla/2",
+            "@id": "https://einmaleins.online/einmaleins/2",
             "name": "2er-Einmaleins"
           }
         }
