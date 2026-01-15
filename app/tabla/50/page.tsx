@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://einmaleins.online/einmaleins/50#webpage",
       "url": "https://einmaleins.online/einmaleins/50",
-      "name": "50er-Einmaleins - Hälfte und Y�zde Konzept",
-      "description": "50er-Einmaleins: Hälfte (1/2) Konzept und y�zde hesaplamalari �lernen. 100'�n yarisi olarak pratik hesaplama y�ntemleri.",
+      "name": "50er-Einmaleins - Hälfte und Prozent Konzept",
+      "description": "50er-Einmaleins: Hälfte (1/2) Konzept und Prozent Berechnungen lernen. 100'�n als Hälfte von praktische Berechnung y�methoden.",
       "isPartOf": {
         "@id": "https://einmaleins.online/#website"
       },
@@ -57,7 +57,7 @@ const schemaData = {
       "description": "Multiplikation mit 50 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Intermediate",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "50er-Einmaleins, Hälfte Konzept, y�zde hesaplama, 5�10 Beziehung",
+      "teaches": "50er-Einmaleins, Hälfte Konzept, Prozent Berechnung, 5�10 Beziehung",
       "typicalAgeRange": "8-11",
       "inLanguage": "de",
       "educationalUse": ["practice", "self-study", "real-world application"],

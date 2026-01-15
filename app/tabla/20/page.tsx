@@ -8,7 +8,7 @@ const schemaData = {
       "@id": "https://einmaleins.online/einmaleins/20#webpage",
       "url": "https://einmaleins.online/einmaleins/20",
       "name": "20er-Einmaleins - Zwanziger-System",
-      "description": "20er-Einmaleins: Zwanziger Zählen Systemi �lernen. einfache 0 Anhängen Strategie und praktische Anwendungen.",
+      "description": "20er-Einmaleins: Zwanziger Zählen Systemi lernen. einfache 0 Anhängen Strategie und praktische Anwendungen.",
       "isPartOf": {
         "@id": "https://einmaleins.online/#website"
       },

@@ -8,7 +8,7 @@ const schemaData = {
       "@id": "https://einmaleins.online/einmaleins/32#webpage",
       "url": "https://einmaleins.online/einmaleins/32",
       "name": "32er-Einmaleins - 2 �ss� 5",
-      "description": "32er-Einmaleins: 25=32 Konzept �lernen. von Zwei Potenzen und geometrische Muster.",
+      "description": "32er-Einmaleins: 25=32 Konzept lernen. von Zwei Potenzen und geometrische Muster.",
       "isPartOf": {"@id": "https://einmaleins.online/#website"},
       "about": {"@id": "https://einmaleins.online/einmaleins/32#learningresource"},
       "breadcrumb": {"@id": "https://einmaleins.online/einmaleins/32#breadcrumb"},

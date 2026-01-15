@@ -8,7 +8,7 @@ const schemaData = {
       "@id": "https://einmaleins.online/einmaleins/27#webpage",
       "url": "https://einmaleins.online/einmaleins/27",
       "name": "27er-Einmaleins - 3 K�p Konzept",
-      "description": "27er-Einmaleins: 3�=27 k�p Konzept �lernen. 3�9 Beziehung und geometrische Muster.",
+      "description": "27er-Einmaleins: 3�=27 k�p Konzept lernen. 3�9 Beziehung und geometrische Muster.",
       "isPartOf": {"@id": "https://einmaleins.online/#website"},
       "about": {"@id": "https://einmaleins.online/einmaleins/27#learningresource"},
       "breadcrumb": {"@id": "https://einmaleins.online/einmaleins/27#breadcrumb"},

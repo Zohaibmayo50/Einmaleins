@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://einmaleins.online/einmaleins/25#webpage",
       "url": "https://einmaleins.online/einmaleins/25",
-      "name": "25er-Einmaleins - �eyrek und Y�zde Konzept",
-      "description": "25er-Einmaleins: �eyrek Konzept und y�zde hesaplamalari �lernen. Geldrechnung i�in kritik �neme sahip Muster entdecken.",
+      "name": "25er-Einmaleins - Viertel und Prozent Konzept",
+      "description": "25er-Einmaleins: Viertel Konzept und Prozent Berechnungen lernen. Geldrechnung für kritisch wichtige Muster entdecken.",
       "isPartOf": {
         "@id": "https://einmaleins.online/#website"
       },
@@ -57,7 +57,7 @@ const schemaData = {
       "description": "Multiplikation mit 25 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Intermediate",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "25er-Einmaleins, �eyrek Konzept, y�zde hesaplama, Geldrechnung, 5'in Quadrat",
+      "teaches": "25er-Einmaleins, Viertel Konzept, Prozent Berechnung, Geldrechnung, 5'in Quadrat",
       "typicalAgeRange": "8-11",
       "inLanguage": "de",
       "educationalUse": ["practice", "self-study", "real-world application"],

@@ -8,7 +8,7 @@ const schemaData = {
       "@id": "https://einmaleins.online/einmaleins/33#webpage",
       "url": "https://einmaleins.online/einmaleins/33",
       "name": "33er-Einmaleins - 3�11 Beziehung",
-      "description": "33er-Einmaleins: 3�11 Beziehung �lernen. Stellen Muster und �arpma Strategien.",
+      "description": "33er-Einmaleins: 3�11 Beziehung lernen. Stellen Muster und �arpma Strategien.",
       "isPartOf": {"@id": "https://einmaleins.online/#website"},
       "about": {"@id": "https://einmaleins.online/einmaleins/33#learningresource"},
       "breadcrumb": {"@id": "https://einmaleins.online/einmaleins/33#breadcrumb"},

@@ -8,7 +8,7 @@ const schemaData = {
       "@id": "https://einmaleins.online/einmaleins/14#webpage",
       "url": "https://einmaleins.online/einmaleins/14",
       "name": "14er-Einmaleins - zwei Haftalik D�ng�",
-      "description": "14er-Einmaleins: hafta und zaman Konzepte �lernen. 7�2 Beziehung und pratik stratejilerle Multiplikation mit 14 - Fortgeschrittene Rechenmethoden",
+      "description": "14er-Einmaleins: Wochen- und Zeitkonzepte lernen. 7×2 Beziehung und praktische Strategien für die Multiplikation mit 14 - Fortgeschrittene Rechenmethoden",
       "isPartOf": {
         "@id": "https://einmaleins.online/#website"
       },
@@ -57,7 +57,7 @@ const schemaData = {
       "description": "Multiplikation mit 14 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Beginner",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "14er-Einmaleins, hafta hesaplama, 7 tablosunun katlari",
+      "teaches": "14er-Einmaleins, Woche Berechnung, 7 tablosunun katlari",
       "typicalAgeRange": "7-10",
       "inLanguage": "de",
       "educationalUse": ["practice", "self-study", "real-world application"],

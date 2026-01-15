@@ -8,7 +8,7 @@ const schemaData = {
       "@id": "https://einmaleins.online/einmaleins/17#webpage",
       "url": "https://einmaleins.online/einmaleins/17",
       "name": "17er-Einmaleins - Primzahl Kesfi",
-      "description": "17er-Einmaleins: Primzahl Konzept entdecken. Kopfrechnen und pratik stratejilerle Multiplikation mit 17 - Fortgeschrittene Rechenmethoden",
+      "description": "17er-Einmaleins: Primzahl Konzept entdecken. Kopfrechnen und praktische Strategien Multiplikation mit 17 - Fortgeschrittene Rechenmethoden",
       "isPartOf": {
         "@id": "https://einmaleins.online/#website"
       },

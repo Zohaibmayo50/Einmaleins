@@ -8,7 +8,7 @@ const schemaData = {
       "@id": "https://einmaleins.online/einmaleins/34#webpage",
       "url": "https://einmaleins.online/einmaleins/34",
       "name": "34er-Einmaleins - 2�17 Beziehung",
-      "description": "34er-Einmaleins: 2�17 Beziehung �lernen. �ift Zahl Muster und �arpma Multiplikationsf�higkeiten.",
+      "description": "34er-Einmaleins: 2�17 Beziehung lernen. �ift Zahl Muster und �arpma Multiplikationsfähigkeiten.",
       "isPartOf": {"@id": "https://einmaleins.online/#website"},
       "about": {"@id": "https://einmaleins.online/einmaleins/34#learningresource"},
       "breadcrumb": {"@id": "https://einmaleins.online/einmaleins/34#breadcrumb"},

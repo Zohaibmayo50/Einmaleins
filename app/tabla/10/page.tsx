@@ -57,7 +57,7 @@ const schemaData = {
       "description": "Multiplikation mit 10 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Beginner",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "10er-Einmaleins, onluk System, yer degeri, sifir Anhängen Regel",
+      "teaches": "10er-Einmaleins, Dezimal System, Stellenwert, sifir Anhängen Regel",
       "typicalAgeRange": "6-9",
       "inLanguage": "de",
       "educationalUse": ["practice", "self-study", "foundational concept"],

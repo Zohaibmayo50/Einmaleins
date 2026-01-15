@@ -8,7 +8,7 @@ const schemaData = {
       "@id": "https://einmaleins.online/einmaleins/13#webpage",
       "url": "https://einmaleins.online/einmaleins/13",
       "name": "13er-Einmaleins - Ugurlu Zahl Muster",
-      "description": "13er-Einmaleins: matematik Fähigkeiteninizi entwickeln. Desenler und einfache stratejilerle Multiplikation mit 13 - Fortgeschrittene Rechenmethoden",
+      "description": "13er-Einmaleins: mathematische Fähigkeiteninizi entwickeln. Muster und einfache Strategien Multiplikation mit 13 - Fortgeschrittene Rechenmethoden",
       "isPartOf": {
         "@id": "https://einmaleins.online/#website"
       },

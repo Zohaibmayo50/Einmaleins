@@ -8,7 +8,7 @@ const schemaData = {
       "@id": "https://einmaleins.online/einmaleins/26#webpage",
       "url": "https://einmaleins.online/einmaleins/26",
       "name": "26er-Einmaleins - zwei Kat 13",
-      "description": "26er-Einmaleins: 2�13 Beziehung und �ift Zahl Muster �lernen. mittlere Stufe �arpma Multiplikationsf�higkeiten.",
+      "description": "26er-Einmaleins: 2�13 Beziehung und �ift Zahl Muster lernen. mittlere Stufe �arpma Multiplikationsfähigkeiten.",
       "isPartOf": {
         "@id": "https://einmaleins.online/#website"
       },

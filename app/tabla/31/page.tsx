@@ -8,7 +8,7 @@ const schemaData = {
       "@id": "https://einmaleins.online/einmaleins/31#webpage",
       "url": "https://einmaleins.online/einmaleins/31",
       "name": "31er-Einmaleins - Ay G�nleri",
-      "description": "31er-Einmaleins: ay g�nleri Konzept �lernen. Primzahl �zellikleri und Zeitberechnung.",
+      "description": "31er-Einmaleins: ay g�nleri Konzept lernen. Primzahl �zellikleri und Zeitberechnung.",
       "isPartOf": {"@id": "https://einmaleins.online/#website"},
       "about": {"@id": "https://einmaleins.online/einmaleins/31#learningresource"},
       "breadcrumb": {"@id": "https://einmaleins.online/einmaleins/31#breadcrumb"},

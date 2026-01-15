@@ -8,8 +8,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://einmaleins.online/einmaleins/100#webpage",
       "url": "https://einmaleins.online/einmaleins/100",
-      "name": "100er-Einmaleins - Onluk Systemin Ustasi",
-      "description": "100er-Einmaleins: onluk System, y�zde hesaplamalari und yer degeri Konzeptnda meistern. En �nemli �arpim tablolarindan biri.",
+      "name": "100er-Einmaleins - Meister des Dezimalsystems",
+      "description": "100er-Einmaleins: Dezimal System, Prozent Berechnungen und Stellenwert Konzept meistern. der wichtigsten Multiplikations tabellen.",
       "isPartOf": {
         "@id": "https://einmaleins.online/#website"
       },
@@ -58,7 +58,7 @@ const schemaData = {
       "description": "Multiplikation mit 100 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Advanced",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "100er-Einmaleins, onluk System, yer degeri, y�zde hesaplama, 10'un Quadrat",
+      "teaches": "100er-Einmaleins, Dezimal System, Stellenwert, Prozent Berechnung, 10'un Quadrat",
       "typicalAgeRange": "9-12",
       "inLanguage": "de",
       "educationalUse": ["practice", "self-study", "real-world application", "foundational concept"],

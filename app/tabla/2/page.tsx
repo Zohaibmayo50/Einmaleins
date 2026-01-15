@@ -54,7 +54,7 @@ const schemaData = {
       "@type": "LearningResource",
       "@id": "https://einmaleins.online/einmaleins/2#learningresource",
       "name": "Lernressource: 2er-Einmaleins",
-      "description": "Multiplikation mit 2 (Verdopplung): Lerne das Verdopplungsmuster und grundlegende Multiplikationsf�higkeiten.",
+      "description": "Multiplikation mit 2 (Verdopplung): Lerne das Verdopplungsmuster und grundlegende Multiplikationsfähigkeiten.",
       "educationalLevel": "Beginner",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
       "teaches": "2er-Einmaleins, Verdopplung, grundlegende Multiplikationskonzepte",

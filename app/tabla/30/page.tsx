@@ -8,7 +8,7 @@ const schemaData = {
       "@id": "https://einmaleins.online/einmaleins/30#webpage",
       "url": "https://einmaleins.online/einmaleins/30",
       "name": "30er-Einmaleins - Hälfte Stunde Konzept",
-      "description": "30er-Einmaleins: Hälfte Stunde (30 Minuten) und ay Konzepte �lernen. 3�10, 5�6 Beziehungen.",
+      "description": "30er-Einmaleins: Hälfte Stunde (30 Minuten) und ay Konzepte lernen. 3�10, 5�6 Beziehungen.",
       "isPartOf": {"@id": "https://einmaleins.online/#website"},
       "about": {"@id": "https://einmaleins.online/einmaleins/30#learningresource"},
       "breadcrumb": {"@id": "https://einmaleins.online/einmaleins/30#breadcrumb"},

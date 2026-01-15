@@ -8,7 +8,7 @@ const schemaData = {
       "@id": "https://einmaleins.online/einmaleins/22#webpage",
       "url": "https://einmaleins.online/einmaleins/22",
       "name": "22er-Einmaleins - �ift Zahl Muster",
-      "description": "22er-Einmaleins: 2 und 11 Tabellen Beziehung �lernen. �ift Zahl Muster und einfache �arpma Strategien.",
+      "description": "22er-Einmaleins: 2 und 11 Tabellen Beziehung lernen. �ift Zahl Muster und einfache �arpma Strategien.",
       "isPartOf": {
         "@id": "https://einmaleins.online/#website"
       },

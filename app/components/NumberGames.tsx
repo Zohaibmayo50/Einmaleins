@@ -295,9 +295,9 @@ export default function NumberGames({ number }: NumberGamesProps) {
             {!bpGameActive ? (
               <div className="flex flex-col items-center justify-center h-[350px] sm:h-[500px]">
                 <div className="text-6xl sm:text-8xl mb-4 sm:mb-6 animate-bounce">🎈</div>
-                <h3 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 px-4">Juego de Explotar Globos</h3>
+                <h3 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 px-4">Ballons platzen lassen</h3>
                 <p className="text-sm sm:text-base text-slate-700 mb-4 sm:mb-6 text-center max-w-md px-4">
-                  ¡Explota los globos que contienen la respuesta correcta! ¡No toques globos incorrectos ni dejes escapar los correctos!
+                  Lass die Ballons mit der richtigen Antwort platzen! Berühre keine falschen Ballons und lass keine richtigen entkommen!
                 </p>
                 <button
                   onClick={startBalloonGame}
@@ -362,7 +362,7 @@ export default function NumberGames({ number }: NumberGamesProps) {
           <div className="bg-white rounded-2xl p-8 shadow-xl">
             <div className="text-center mb-6">
               <h3 className="text-2xl font-bold text-blue-600 mb-2">🏎️ Juego de Carreras</h3>
-              <p className="text-slate-600">¡Gana la carrera dando respuestas correctas!</p>
+              <p className="text-slate-600">Gewinne das Rennen durch richtige Antworten!</p>
             </div>
 
             {!raceGameActive || raceCar.position >= 90 ? (
@@ -370,7 +370,7 @@ export default function NumberGames({ number }: NumberGamesProps) {
                 <div className="text-6xl sm:text-8xl mb-4 sm:mb-6">🏁</div>
                 {raceCar.position >= 90 ? (
                   <>
-                    <h3 className="text-2xl sm:text-3xl font-bold text-green-600 mb-3 sm:mb-4 px-4">🎉 ¡Felicitaciones! ¡Ganaste!</h3>
+                    <h3 className="text-2xl sm:text-3xl font-bold text-green-600 mb-3 sm:mb-4 px-4">🎉 Glückwunsch! Du hast gewonnen!</h3>
                     <div className="text-xl sm:text-2xl mb-4 sm:mb-6">
                       Puntuación Total: <span className="font-bold text-blue-600">{raceScore}</span>
                     </div>
@@ -448,14 +448,14 @@ export default function NumberGames({ number }: NumberGamesProps) {
           <div className="bg-white rounded-2xl p-8 shadow-xl">
             <div className="text-center mb-6">
               <h3 className="text-2xl font-bold text-purple-600 mb-2">🧠 Juego de Memoria</h3>
-              <p className="text-slate-600">¡Encuentra las tarjetas que coinciden!</p>
+              <p className="text-slate-600">Finde die passenden Karten!</p>
             </div>
 
             {cards.length === 0 ? (
               <div className="text-center py-8 sm:py-12">
                 <div className="text-6xl sm:text-8xl mb-4 sm:mb-6">🃏</div>
                 <h3 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 px-4">Emparejar Tarjetas</h3>
-                <p className="text-sm sm:text-base text-slate-600 mb-4 sm:mb-6 px-4">¡Empareja las multiplicaciones con sus resultados!</p>
+                <p className="text-sm sm:text-base text-slate-600 mb-4 sm:mb-6 px-4">Ordne die Multiplikationen ihren Ergebnissen zu!</p>
                 <button
                   onClick={initMemoryGame}
                   className="bg-gradient-to-r from-purple-500 to-indigo-500 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-xl font-bold text-base sm:text-lg hover:scale-105 transition-transform"

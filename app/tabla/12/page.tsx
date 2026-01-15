@@ -7,8 +7,8 @@ const schemaData = {
       "@type": "WebPage",
       "@id": "https://einmaleins.online/einmaleins/12#webpage",
       "url": "https://einmaleins.online/einmaleins/12",
-      "name": "12er-Einmaleins - D�zine Konzept",
-      "description": "12er-Einmaleins: d�zine Konzept �lernen. Stundensystem und g�nl�k hayatta sik�a kullanilan 12 tablosunda meistern.",
+      "name": "12er-Einmaleins - DDutzend Konzept",
+      "description": "12er-Einmaleins: Dutzend-Konzept lernen. Stundensystem und häufig verwendete 12er-Tabelle meistern.",
       "isPartOf": {
         "@id": "https://einmaleins.online/#website"
       },
@@ -57,7 +57,7 @@ const schemaData = {
       "description": "Multiplikation mit 12 - Fortgeschrittene Rechenmethoden",
       "educationalLevel": "Intermediate",
       "learningResourceType": ["Interactive Resource", "Practice Material", "Educational Game"],
-      "teaches": "12er-Einmaleins, d�zine Konzept, Stunde okuma, 3 und 4 Tabellen Beziehung",
+      "teaches": "12er-Einmaleins, dDutzend Konzept, Stundenlesen, 3 und 4 Tabellen Beziehung",
       "typicalAgeRange": "7-10",
       "inLanguage": "de",
       "educationalUse": ["practice", "self-study", "real-world application"],

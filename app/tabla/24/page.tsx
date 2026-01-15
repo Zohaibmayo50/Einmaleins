@@ -8,7 +8,7 @@ const schemaData = {
       "@id": "https://einmaleins.online/einmaleins/24#webpage",
       "url": "https://einmaleins.online/einmaleins/24",
       "name": "24er-Einmaleins - 24 Stundensystem",
-      "description": "24er-Einmaleins: 24 Stundensystem und g�nl�k Zeitberechnunglari �lernen. 3�8, 4�6, 2�12 Beziehungen entdecken.",
+      "description": "24er-Einmaleins: 24 Stundensystem und täglich ZeitBerechnungen lernen. 38, 46, 212 Beziehungen entdecken.",
       "isPartOf": {
         "@id": "https://einmaleins.online/#website"
       },

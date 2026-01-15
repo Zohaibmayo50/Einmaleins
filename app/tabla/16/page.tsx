@@ -8,7 +8,7 @@ const schemaData = {
       "@id": "https://einmaleins.online/einmaleins/16#webpage",
       "url": "https://einmaleins.online/einmaleins/16",
       "name": "16er-Einmaleins - Quadratzahl Beziehung",
-      "description": "16er-Einmaleins: Quadratzahl Konzept �lernen. 4�4=16 Beziehung und einfache stratejilerle Multiplikation mit 16 - Fortgeschrittene Rechenmethoden",
+      "description": "16er-Einmaleins: Quadratzahl Konzept lernen. 44=16 Beziehung und einfache Strategien Multiplikation mit 16 - Fortgeschrittene Rechenmethoden",
       "isPartOf": {
         "@id": "https://einmaleins.online/#website"
       },
