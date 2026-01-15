@@ -2049,7 +2049,7 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
                 <span className="text-slate-900">{number}</span>
                 <br className="sm:hidden" />
                 <span className="sm:inline"> </span>
-                <span className="text-slate-900">Tabla de Multiplicar</span>
+                <span className="text-slate-900">Einmaleins-Tabelle</span>
               </h1>
               <span className="text-4xl sm:text-5xl md:text-6xl animate-bounce" style={{ animationDelay: '0.2s' }}>🎨</span>
             </div>
@@ -2059,17 +2059,17 @@ export default function NumberPage({ number, rangeStart, rangeEnd }: NumberPageP
               <div className="bg-white/80 backdrop-blur-sm rounded-xl sm:rounded-2xl p-3 sm:p-4 shadow-md border-2 border-blue-100">
                 <div className="text-2xl sm:text-3xl mb-1">📊</div>
                 <div className="text-xl sm:text-2xl font-bold text-blue-600">10</div>
-                <div className="text-xs text-slate-600">Operaciones</div>
+                <div className="text-xs text-slate-600">Operationen</div>
               </div>
               <div className="bg-white/80 backdrop-blur-sm rounded-xl sm:rounded-2xl p-3 sm:p-4 shadow-md border-2 border-indigo-100">
                 <div className="text-2xl sm:text-3xl mb-1">🎮</div>
                 <div className="text-xl sm:text-2xl font-bold text-indigo-600">3</div>
-                <div className="text-xs text-slate-600">Juegos</div>
+                <div className="text-xs text-slate-600">Spiele</div>
               </div>
               <div className="bg-white/80 backdrop-blur-sm rounded-xl sm:rounded-2xl p-3 sm:p-4 shadow-md border-2 border-purple-100">
                 <div className="text-2xl sm:text-3xl mb-1">📝</div>
                 <div className="text-xl sm:text-2xl font-bold text-purple-600">∞</div>
-                <div className="text-xs text-slate-600">Práctica</div>
+                <div className="text-xs text-slate-600">Übung</div>
               </div>
             </div>
           </div>
