@@ -376,13 +376,13 @@ export default function NumberGames({ number }: NumberGamesProps) {
                     </div>
                   </>
                 ) : (
-                  <h3 className="text-xl sm:text-2xl font-bold mb-4 px-4">¿Listo para la Carrera?</h3>
+                  <h3 className="text-xl sm:text-2xl font-bold mb-4 px-4">Bereit für das Rennen?</h3>
                 )}
                 <button
                   onClick={startRaceGame}
                   className="bg-gradient-to-r from-blue-500 to-cyan-500 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-xl font-bold text-base sm:text-lg hover:scale-105 transition-transform"
                 >
-                  {raceCar.position >= 90 ? 'Jugar de Nuevo' : 'Iniciar Carrera'} 🏎️
+                  {raceCar.position >= 90 ? 'Nochmal spielen' : 'Rennen starten'} 🏎️
                 </button>
               </div>
             ) : (
@@ -499,15 +499,15 @@ export default function NumberGames({ number }: NumberGamesProps) {
 
                 {memoryScore === 6 && (
                   <div className="text-center mt-6 sm:mt-8">
-                    <h3 className="text-2xl sm:text-3xl font-bold text-green-600 mb-3 sm:mb-4">🎉 ¡Felicitaciones!</h3>
+                    <h3 className="text-2xl sm:text-3xl font-bold text-green-600 mb-3 sm:mb-4">🎉 Glückwunsch!</h3>
                     <p className="text-lg sm:text-xl mb-3 sm:mb-4">
-                      ¡Completaste en {memoryMoves} movimientos!
+                      Du hast es in {memoryMoves} Zügen geschafft!
                     </p>
                     <button
                       onClick={initMemoryGame}
                       className="bg-gradient-to-r from-purple-500 to-indigo-500 text-white px-5 sm:px-6 py-2.5 sm:py-3 rounded-xl font-bold text-base sm:text-lg hover:scale-105 transition-transform"
                     >
-                      Jugar de Nuevo
+                      Nochmal spielen
                     </button>
                   </div>
                 )}
